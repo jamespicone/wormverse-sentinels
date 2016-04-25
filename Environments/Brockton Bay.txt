@@ -1,0 +1,16 @@
+Brockton Bay (Environment)
+	x2 Civilians: Environment. "Heroes cannot use powers. At the start of the environment turn, each player may discard 1 card each to destroy this card."
+	x1 Rooftops: Environment. "Increase all damage by 1. At the end of their turn, 1 player may discard 2 cards to destroy this card."
+	x1 Attention: Environment. "Reveal the top card of every deck. If the revealed card is a target, put it into play. Otherwise, shuffle it back into its deck."
+	(4 environment cards)
+	
+	x3 PRT Squad: 5 HP. "At the end of the environment turn, this card deals the non-environment target with the lowest HP 2 projectile damage."
+	x1 Uber: 4 HP. "At the end of the environment turn, this card deals the non-environment target with the highest HP 2 melee damage. Then, if Leet is in play, Uber and Leet regain 1 HP."
+	x1 Leet: 4 HP. "At the end of the environment turn, this card deals the non-environment target with the lowest HP 2 lightning damage. If Uber is in play, increase damage dealt by Uber and Leet by 1."
+	x3 Thugs: 4 HP. "At the end of the environment turn, this card deals the non-environment target with the second highest HP X projectile damage, where X = the number of Thugs in play * 2"
+	(8 targets)
+	
+	x1 The Boardwalk: Suburb. "When this card enters play, destroy all other Suburb cards. Reduce damage dealt to environment targets by 1."
+	x1 The Docks: Suburb. "When this card enters play, destroy all other Suburb cards. Increase damage dealt by environment targets by 1."
+	x1 The Outskirts: Suburb. "When this card enters play, destroy all other Suburb cards. At the end of the environment turn, play the top card of the environment deck."
+	(3 suburbs)
