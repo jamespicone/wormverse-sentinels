@@ -1,0 +1,146 @@
+AZ
+	29 HP, 1 cold or fire damage to self
+	25 HP, Until end of next turn, +2 damage dealt/taken
+	27 HP, 2 cold damage to 1 non-hero
+	
+	39 cards
+	15 One-shot
+	8 Ongoing
+	4 Ongoing, Limited
+	12 Equipment, Limited
+	
+	9 x2
+	3 x3
+	3 x4
+
+Bunker
+	28 HP, draw 1 card
+	27 HP, 1 target takes irreducible damage until next turn
+	26 HP, destroy 1 ongoing or equipment, then play 1 card, draw 1 card, use a power (any order)
+	27 HP, discard a mode card to destroy an ongoing card
+	
+	40 cards
+	9 one-shot
+	9 ongoing
+	3 ongoing, limited
+	6 equipment
+	13 equipment, limited
+	
+	2 x2
+	12 x3
+	
+Fanatic
+	30 HP, 1 melee and 1 radiant to 1 target
+	31 HP, regain 1 hp. Draw 1 card
+	29 HP, take 3 radiant damage, play deck's top card, one hero may use a power
+	
+	40 cards
+	21 one-shot
+	6 ongoing
+	8 ongoing, limited
+	5 equipment, limited
+	
+	1 x1
+	12 x2
+	5 x3
+	
+Haka
+	34 HP, 2 melee damage 1 target
+	35 HP, play a card. If it's a haka card, select one target to get the benefits of discarding
+	33 HP, draw 1 card. You may discard a 'haka' card to draw 2 cards.
+	
+	40 cards
+	18 one-shot
+	8 ongoing
+	8 ongoing, limited
+	6 equipment, limited
+	
+	2 x2
+	12 x3
+	
+Legacy
+	32 HP, all hero targets +1 damage until start of next turn
+	30 HP, 1 hero regains 1 HP and may use a power
+	30 HP, 3 energy damage to 1 target
+	
+	40 cards
+	10 one-shot
+	11 ongoing
+	17 ongoing, limited
+	2 equipment, limited
+	
+	5 x2
+	10 x3
+	
+Ra
+	30 HP, 2 fire damage to 1 target
+	29 HP, draw 3 cards, discard 2 cards
+	
+	40 cards
+	18 one-shot
+	12 ongoing
+	6 ongoing, limited
+	4 equipment, limited
+	
+	7 x2
+	6 x3
+	2 x4
+	
+Tachyon
+	27 HP, reveal deck top, may discard it.
+	28 HP, each player draws 1 card
+	26 HP, reveal bottom two cards of a deck. If they share a keyword, play them. Otherwise, discard them.
+	
+	40 cards
+	29 one-shot
+	5 ongoing
+	3 ongoing, limited
+	3 equipment, limited
+	
+	5 x2
+	10 x3
+	
+Tempest
+	26 HP, 1 projectile damage to all non-hero targets
+	25 HP, Destroy 1 card to draw 3 cards.
+	27 HP, Play up to 3 cards, take 3 lightning damage from the environment each time.
+	
+	40 cards
+	18 one-shot
+	7 ongoing
+	11 ongoing, limited
+	4 equipment, limited
+	
+	8 x2
+	8 x3
+
+The Visionary
+	26 HP, 1 player draws 2 cards, discards 1 card
+	25 HP, reveal top 2 cards of a deck, put 1 on top, 1 on bottom
+	
+	40 cards
+	21 one-shot
+	6 ongoing
+	10 ongoing, limited
+	3 targets, limited
+	
+	6 x2
+	8 x3
+	1 x4
+	
+The Wraith
+	26 HP, reduce next damage wraith takes by 2.
+	27 HP, reveal the top card of the environment deck, either discard it or play it.
+	29 HP, 1 melee damage to up to 2 targets
+	
+	40 cards
+	15 one-shot
+	2 ongoing, limited
+	9 equipment
+	14 equipment, limited
+	
+	5 x2
+	10 x3
+	
+Unity
+	18 targets
