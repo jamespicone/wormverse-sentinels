@@ -1,0 +1,13 @@
+Slaughterhouse Nine (Villain)
+	Has several targets (Jack, Mannequin, Bonesaw, Siberian, Crawler, Burnscar, Shatterbird, Cherish. Maybe Murder Rat and Hatchet Face). Plays a bunch of targets as setup, plays more as you go through, reduce targets to zero to win.
+	Jack: Hits you if you use powers, buffs to others?
+	Bonesaw: Heals villains at end of turn, hurts people?
+	Crawler: Hurts people at end of turn, adapts to damage types
+	Burnscar: Does fire damage, fucks with environment? (destroy environment for more damage?)
+	Mannequin: Destroys equipment/ongoings, armour
+	Shatterbird: Hits all hero targets, destroys equipment?
+	Siberian: Makes other villain targets immune.
+	Cherish: Force discards, retaliatory psychic damage
+	
+	Murder Rat?: Damage?
+	Hatchet Face?: Prevents power use?
