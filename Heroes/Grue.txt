@@ -1,0 +1,26 @@
+Grue
+	30 HP.
+		Power: Darkness: Select a target. Until the start of your next turn, reduce damage dealt to that target and to yourself by 1.
+		Back: * Reduce the next damage dealt to a target by 1. * Deal 2 melee damage to a target. * Destroy one ongoing card.
+	
+	x4 Blinding: One-shot. "Deal 2 melee damage to a non-hero target. If you deal damage in this way, destroy 1 ongoing card."
+	x3 Canny Combatant: One-shot. "Deal X melee damage to a non-hero target, where X = 2 + the number of Ongoing cards you have in play"
+	x3 Hide and Recover: One-shot. "Each player may draw a card."
+	x3 Hand-to-Hand Assault: One-shot. "Deal 2 melee damage to a non-hero target. If you used your character card power last turn, deal that target 2 melee damage."
+	x3 Darken the Area: One-shot. "Environment cards cannot be played until the start of your next turn"
+	x3 Snatch and Grab: One-shot. "Destroy up to 2 Ongoing cards."
+	x4 Cover the Getaway: One-shot. "Destroy all Environment cards."
+	(23 one-shot)
+	
+	x3 Skull Helmet: Equipment, Limited. "Whenever a non-hero target enters play, Grue may deal it 1 psychic damage."
+	x3 Leathers: Equipment, Limited. "Reduce non-psychic damage dealt to Grue by 1."
+	(6 equipment)
+	
+	x1 Second Trigger: Ongoing, Limited. "Increase damage dealt to Grue by 1. Power: One player may use power now. This card is indestructible."
+	x3 Leadership: Ongoing, Limited. "Increase damage dealt by hero targets by 1."
+	x2 Stillness: Ongoing, Limited. "Reduce all fire, sonic, and lightning damage by 1."
+	x2 Martial Talent: Ongoing, Limited. "Increase melee damage dealt by Grue by 1."
+	x3 Spew Darkness: Ongoing. "When this card enters play, Grue deals himself 3 psychic damage. Hero targets are immune to damage dealt by villain or environment cards. At the start of your turn, destroy this card."
+	(11 ongoing)
+	
+	40 cards.

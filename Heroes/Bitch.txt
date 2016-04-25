@@ -1,0 +1,32 @@
+Bitch
+	30 HP
+		Power: Attack!: Each Dog in play may deal 2 melee damage to 1 target.
+		Back: * One target regains 2 HP. * One player may take a card from their trash into their hand. * Reduce damage dealt by environment targets by 2 until the start of your next turn.
+	
+	x4 Come!: One-shot. Order. "Reveal cards from either your deck or your trash until you reveal a Dog. Put the Dog into play, and return the other cards to the pile they came from. If you revealed cards from your deck, shuffle your deck. Draw a card."
+	x2 Find!: One-shot. Order. "Reveal the top X cards of a deck, where X = the number of Dog cards in play. For each target revealed in this way, either discard it or play it. Shuffle the other revealed cards back into the deck."
+	x3 Guard!: One-shot. Order. "Select X targets, where X = the number of Dog cards in play. Reduce damage dealt to those targets by 2 until the start of your next turn."
+	x3 Hold!: One-shot. Order. "Destroy 1 target with up to X HP, where X = the number of Dog cards in play."
+	x3 Kill!: One-shot. Order. "Deal 1 target X damage, where X = the number of Dog cards in play * 2"
+	x2 Fetch!: One-shot. Order. "Reveal the top X cards of a deck, where X = the number of Dog cards in play. For each equipment card revealed in this way, either discard it or play it. Shuffle the other revealed cards back into the deck."
+	x4 Veterinary Care: One-shot. "Restore all Dog cards to maximum HP. You may draw 1 card. You may play 1 card."
+	(21 one-shot)
+	
+	x3 Whistle: Equipment, Limited. "At the end of your turn you may play an Order card."
+	(3 equipment)
+	
+	x3 The Hunt: Ongoing, Limited. "At the start of your turn, each Dog in play may deal 1 melee damage to 1 target."
+	x3 Have A Ride: Ongoing, Limited. "Reduce damage dealt to hero targets by environment cards by 1."
+	(6 ongoing)
+
+	x1 Judas: Dog. 6 HP. "At the end of your turn, this card deals itself 1 psychic damage"
+	x1 Angelica: Dog. 6 HP. "At the end of your turn, this card deals itself 1 psychic damage"
+	x1 Brutus: Dog. 6 HP. "At the end of your turn, this card deals itself 1 psychic damage"
+	x1 Kuro: Dog. 6 HP. "At the end of your turn, this card deals itself 1 psychic damage"
+	x1 Bullet: Dog. 6 HP. "At the end of your turn, this card deals itself 1 psychic damage"
+	x1 Ginger: Dog. 6 HP. "At the end of your turn, this card deals itself 1 psychic damage"
+	x1 Axel: Dog. 6 HP. "At the end of your turn, this card deals itself 1 psychic damage"
+	x1 Milk: Dog. 6 HP. "At the end of your turn, this card deals itself 1 psychic damage"
+	x1 Stumpy: Dog. 6 HP. "At the end of your turn, this card deals itself 1 psychic damage"
+	x1 Bastard: Dog. 8 HP. ""
+	(10 targets)
