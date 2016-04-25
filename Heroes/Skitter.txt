@@ -4,7 +4,7 @@ Skitter
 		Back: * One player may use a power now. * Deal 1 melee and 1 toxic damage to a target. * One player may search their trash for an Equipment card and put it in their hand.
 	(Variant: Constant number of tokens in bug pool, some other power? Make people use powers?)
 	
-	x4 Surveying: One-shot. "Look at the top 3 cards of the environment deck. Put 1 on top of the environment deck, and 2 on the bottom of the environment deck"
+	x4 Surveying: One-shot. "Reveal the top 3 cards of the environment deck. Put 1 on top of the environment deck, and 2 on the bottom of the environment deck"
 	x3 Regroup: One-shot. "Add the HP of each Bug card you control to your bug pool. Return each Bug card you control to your hand. Draw a card. Play a card."
 	x3 Bees!: One-shot, Bug. "Remove any number of tokens from your bug pool. Deal 2 melee and 2 toxic damage to X targets, where X = the number of tokens you removed."
 	x3 Delivery: One-shot, Bug. "Remove any number of tokens from your bug pool. Draw that many cards."
