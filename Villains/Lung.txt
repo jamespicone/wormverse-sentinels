@@ -1,0 +1,57 @@
+Lung (Villain)
+	Does fire and melee damage, has armour, regains HP, all based on trash count. If he runs out of cards, instead of reshuffling deck, flips to a really nasty side that doesn't play villain cards, just fucks you up. Some ongoing/equipment destruction, but not much.
+	
+	Villain.
+	Front side:
+		Gang Leader. 90 HP.
+		Nemesis: Skitter
+		SETUP: At the start of the game Lung enters play Gang Leader side up.
+		GAMEPLAY:
+			When the villain trash is shuffled into the villain deck, Lung flips.
+			
+			If there are 10 or more cards in the villain trash, reduce damage dealt to Lung by 1.
+			
+			At the end of the villain turn:
+				- Play the top card of the villain deck then,
+				- Lung deals X melee damage to all hero targets, where X = 1 + the number of cards in the villain trash / 5 then,
+				- If there are 5 or more cards in the villain trash, Lung regains 1 HP then,
+				- If there are 15 or more cards in the villain trash, Lung regains 1 HP.
+				
+		ADVANCED:
+			At the end of the villain turn, discard the top 3 cards of the villain deck.
+
+	Back side:
+		Dragon Awoken. 90 HP.
+		Nemesis: Skitter
+		GAMEPLAY:
+			When flipped to this side, destroy all villain cards in play and put all cards in the villain deck into the villain trash.
+			
+			Villain cards cannot be played.
+			
+			Reduce damage dealt to Lung by 2.
+			
+			Lung is immune to damage dealt by Environment cards.
+			
+			At the end of the villain turn:
+				- Lung deals 6 melee and 2 irreducible fire damage to all hero targets then,
+				- Lung regains 3 HP then,
+				- Destroy H hero ongoing or equipment cards.
+			
+		ADVANCED:
+			When flipped to this side, the heroes lose the game.
+		
+	x4 Burst of Flame: One-shot. "Lung deals the hero target with the highest HP X fire damage, where X = 1 + the number of cards in the villain trash / 2"
+	x2 Growing Anger: One-shot. "Discard the top 3 cards of the villain deck. Play the top card of the villain deck."
+	x4 Smash: One-shot. "Lung deals the hero target with the lowest HP 2 melee damage. Destroy 1 hero ongoing or equipment card."
+	(10 one-shot)
+	
+	x1 Bakuda: 6 HP. "At the start of the villain turn, reveal the top card of the villain deck. If it is a one-shot, Bakuda deals 5 fire damage to all non-villain targets. If it is an ongoing, each hero discards 1 card. If it is a target, the hero with the most cards in play destroys all of them."
+	x1 Oni Lee: 3 HP. "At the end of the villain turn, Oni Lee deals the hero target with the lowest HP 3 melee damage. Whenever Oni Lee would take damage, reveal the top card of the villain deck. If it is a one-shot prevent the damage. Shuffle the revealed card back into the villain deck."
+	x3 ABB Thugs: 4 HP. "At the end of the villain turn, ABB Thugs deal the hero target with the lowest HP 2 projectile damage."
+	(5 targets)
+		
+	x2 Wings: Ongoing. "Lung is immune to damage from Environment cards."
+	x3 Terrible Burns: Ongoing. "Whenever a hero is dealt fire damage by Lung, destroy 1 hero ongoing or equipment card. At the end of the villain turn, Lung deals the hero target with the highest HP H - 2 fire damage."
+	x3 Pyrokinesis: Ongoing. "Whenever Lung deals melee damage to a target, Lung deals 2 fire damage to that target."
+	x2 White-Hot Flame: Ongoing. "Fire damage dealt by Lung is irreducible."
+	(10 ongoing)
