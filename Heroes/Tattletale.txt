@@ -15,7 +15,7 @@ Tattletale
 	x3 Constant Smile: Ongoing, Limited. "At the start of your turn, Tattletale deals each non-hero target 1 psychic damage."
 	x3 Confidence: Ongoing, Limited. "At the start of your turn, each hero regains 1 HP."
 	x2 Follows All the Threads: Ongoing, Limited. "Play with the top card of all decks face-up. At the start of your turn, Tattletale deals herself 1 psychic damage. Power: Destroy this card."
-	x2 Quick Insight: Ongoing, Limited. "Whenever a target enters play, Tattletale may reveal the bottom card of a deck, then either put it on the top of the bottom of that deck. If you do, Tattletale deals herself 1 psychic damage."
+	x2 Quick Insight: Ongoing, Limited. "Whenever a target enters play, Tattletale may reveal the bottom card of a deck, then either put it on the top or the bottom of that deck. If you do, Tattletale deals herself 1 psychic damage."
 	x3 Reading: Ongoing. "Power: Reveal the top 3 cards of a deck. Put 1 on the top and 2 on the bottom. Tattletale deals herself 1 psychic damage."
 	x3 My Eye On You: Ongoing. "Power: 1 hero target regains 2 HP. Tattletale deals herself 1 psychic damage."
 	x3 Need some Help?: Ongoing. "Power: Tattletale deals herself up to 5 psychic damage. 1 player draws X cards, where X = the amount of psychic damage Tattletale dealt herself in this way."

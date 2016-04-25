@@ -1,6 +1,6 @@
 Regent
 	28 HP
-		PowerL Control: Regent deals 1 target 2 psychic damage.
+		Power: Control: Regent deals 1 target 2 psychic damage.
 		Back: * 1 target deals itself 1 psychic damage. * Destroy 1 environment card. * Select a target. Reduce damage dealt by that target by 1 until the start of your next turn.
 	
 	x3 Backlash: One-shot. "You may use Regent's 'Control' power twice this turn."
