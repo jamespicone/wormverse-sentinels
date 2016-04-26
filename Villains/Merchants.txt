@@ -1,0 +1,48 @@
+Basic idea: It's a token deck. Has a card it places tokens on, like Kaagra Warfang. The token-card can take damage; it loses tokens equivalent to damage dealt. Win condition is reducing tokens to zero, lose condition is too many tokens. Gain tokens continually, cards do stuff with the number of tokens present - more damage, whatever.
+
+Main villain Skidmark. Have Squealer/Mush/Scrub as cards in his deck. Power difficult to represent; kind of a shaker thing, so either a mass effect or something affecting the environment? Pushing things in a particular direction? Armour.
+
+Main villain: Skidmark
+	"Superpowered Drug Dealer"
+	SETUP
+		Place Skidmark in play, "Superpowered Drug Dealer" side up. Place the Merchant Influence card into play. Put 3*H tokens on it.
+		
+	GAMEPLAY
+		If there are ever 0 tokens on the Merchant Influence card, the heroes win the game.
+		If there are ever more than 5 * H tokens on the Merchant Influence card, the heroes lose the game.
+		
+		At the start of the villain turn, add H - 1 tokens to the Merchant Influence card.
+		
+		All villain targets take 1 less damage.
+		
+		When this target is destroyed, flip it instead
+		
+	ADVANCED
+		?
+		
+	"Defeated Drug Dealer"
+	GAMEPLAY
+		If there are ever 0 tokens on the Merchant Influence card, the heroes win the game.
+		If there are ever more than 5 * H tokens on the Merchant Influence card, the heroes lose the game.
+		
+		At the start of the villain turn, add 1 token to the Merchant Influence card.
+		
+	ADVANCED
+		?
+		
+Merchant Influence:
+	This card is indestructable.
+	
+	This card is a target, with 1 HP. Whenever this card would take damage, prevent the damage and remove X tokens, where X is the amount of damage it would have taken.
+	
+	x3 Festival of Blood, Ongoing. "All villain targets do 1 more damage"
+	x3 Festival of Excess, Ongoing. "All villain targets take 1 less damage"
+	x3 Festival of Love, Ongoing. "At the start of the villain turn, add H - 2 tokens to the Merchant Influence card"
+	(9 ongoing)
+	
+	Squealer
+	Mush
+	Scrub
+	Damage based on tokens
+	Gain tokens
+	
