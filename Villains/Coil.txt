@@ -1,28 +1,56 @@
 Thought: Add advanced text to regular text, make advanced text "At the end of each turn" instead
 
 Villain card:
-	Nemesis: Tattletale
+	SETUP:
+		Put Coil: Scheming and Coil: Acting into play, "Evil Mastermind" side up.
+		Put Underground Base into play.
+		
+		Note that Coil: Scheming activates before Coil: Acting.
+		
 	GAMEPLAY:
-		Put Coil: Scheming, Coil: Acting and Underground Base into play.
-
-	GAMEPLAY:
-		If neither Coil: Scheming nor Coil: Acting are in play, the heroes win the game.
+		(blank)
 	
 Coil: Scheming
+	"Evil Mastermind"
+
+	Nemesis: Tattletale
 	50 HP
+	
+	When flipped to this side, set this card's HP to Coil: Acting's HP.
+	
 	At the start of the villain turn, play the top card of the environment deck
 	At the end of the villain turn, all villain targets regain 2 HP
+	
+	When this card would be destroyed, flip it instead.
 	ADVANCED:
-		At the end of the villain turn, if Coil: Acting is in the trash, put it into play with the same HP as this card.
 		At the end of the villain turn, if Coil: Acting has more HP than this card, set this card's HP to Coil: Acting's HP.
+		
+	"Defeated"
+	If Coil: Acting is flipped to the "Defeated" side, the heroes win the game.
+	
+	ADVANCED:
+		At the end of the villain turn, flip this card.
 	
 Coil: Acting
+	"Evil Mastermind"
+	
+	Nemesis: Tattletale
 	50 HP
+	
+	When flipped to this side, set this card's HP to Coil: Scheming's HP.
+	
 	At the start of the villain turn, reveal cards from the top of the villain deck until you reveal a Parahuman. Put it into play, then shuffle the other revealed cards back into the villain deck.
 	At the end of the villain turn, deal H energy damage to the hero target with the highest HP.
+	
+	When this card would be destroyed, flip it instead
 	ADVANCED:
-		At the end of the villain turn, if Coil: Scheming is in the trash, put it into play with the same HP as this card.
 		At the end of the villain turn, if Coil: Scheming has more HP than this card, set this card's HP to Coil: Scheming's HP.
+		
+	"Defeated"
+	If Coil: Scheming is flipped to the "Defeated" side, the heroes win the game.
+	
+	ADVANCED:
+		At the end of the villain turn, flip this card.
 
 x3 Mercenaries, 6 HP, "At the end of the villain turn, this card deals H - 1 energy damage to the two hero targets with the highest HP"
 x1 Sundancer, Parahuman, 10 HP, "This card is immune to fire damage. At the end of the villain turn, this card deals 2 fire damage to all hero targets"
@@ -40,10 +68,10 @@ x2 Let's Try Something Else, One-Shot: "Put the villain trash on top of the vill
 x2 A Backup For Every Asset, One-Shot: "Take all Ongoing cards out of the villain trash and put them into play."
 (8 one-shot)
 
-x2 Teleporter: Device. "At the start of the villain turn, reveal cards from the top of the villain deck until you have revealed H targets. Put the revealed targets into play, shuffle the rest of the revealed cards back into the villain deck."
+x2 Teleporter: Device. 8 HP. "At the start of the villain turn, reveal cards from the top of the villain deck until you have revealed H targets. Put the revealed targets into play, shuffle the rest of the revealed cards back into the villain deck."
 (2 devices)
 		
-x1 Coil's Base: Ongoing. "Villain targets are immune to environmental damage."
+x1 Underground Base: Ongoing. "Villain targets are immune to environmental damage."
 x2 Two Bites at Every Cherry: Ongoing. "Increase damage dealt by villain targets by 1. Damage dealt by villain cards is irreducible"
 x2 Plans Within Plans: Ongoing. "Reduce damage dealt to villain targets by 2"
 (5 ongoing)

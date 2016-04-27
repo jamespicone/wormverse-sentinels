@@ -31,7 +31,7 @@ Main villain: Skidmark
 		?
 		
 Merchant Influence:
-	This card is indestructable.
+	This card is indestructable. This card is immune to environmental damage.
 	
 	This card is a target, with 1 HP. Whenever this card would take damage, prevent the damage and remove X tokens, where X is the amount of damage it would have taken.
 	
@@ -40,9 +40,18 @@ Merchant Influence:
 	x3 Festival of Love, Ongoing. "At the start of the villain turn, add H - 2 tokens to the Merchant Influence card"
 	(9 ongoing)
 	
-	Squealer
-	Mush
-	Scrub
-	Damage based on tokens
-	Gain tokens
+	x1 Squealer, Parahuman, 8 HP. "Ignore villain targets when determining targeting for damage from environmental cards. At the start of the villain turn, play the top card in the environment deck."
+	x1 Mush, Parahuman. 10 HP. "This card is immune to melee and projectile damage. At the end of the villain turn, Mush deals 1 melee damage to all hero targets."
+	x1 Scrub, Parahuman, 6 HP. "At the end of the villain turn, Scrub deals 5 energy damage to all targets (except himself) with a HP evenly divisible by 3."
+	x1 Helicopter, Device, 16 HP. "Skidmark is immune to melee damage. At the end of the villain turn, add 1 token to the Merchant Influence card."
+	(4 targets)
+	
+	x2 The Scum of Society, Ongoing. "Whenever a non-hero target is destroyed, add 1 token to the Merchant Influence card."
+	x2 Not Exactly Sanitary, Ongoing. "Whenever a villain target deals non-toxic damage to another target, the villain target deals 1 toxic damage to that target."
+	x2 A Wall of Bodies, Ongoing. "Reduce damage dealt to villain targets other than the Merchant Influence card by 1 for every H tokens on the Merchant Influence card."
+	(6 ongoing)
+	
+	x4 Riot, One-Shot. "Merchant Influence deals X melee damage to all hero targets, where X = the number of tokens on the Merchant Influence card / H (round up)"
+	x2 The Animal Beneath, One-Shot. "Merchant Influence deals H psychic damage to the hero target with the highest HP" 
+	(6 one-shot)
 	
