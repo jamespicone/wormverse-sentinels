@@ -11,15 +11,17 @@
 		<tr>
 			<td>
 				<xsl:value-of select="$count" />
-				<xsl:if test="quantity != 1">-<xsl:value-of select="$nextcount" /></xsl:if>
+				<xsl:if test="quantity != 1">-<xsl:value-of select="$nextcount - 1" /></xsl:if>
 			</td>
 			<td>
 				<strong><xsl:value-of select="name" />: <xsl:for-each select="hp"><xsl:value-of select="." /> HP</xsl:for-each><br/></strong>
 				
 				<xsl:for-each select="class | type">
+					<em>
 					<xsl:value-of select="." />
 					<xsl:if test="position()!=last()">, </xsl:if>
 					<xsl:if test="position()=last()"><br/></xsl:if>
+					</em>
 				</xsl:for-each>
 				
 				<xsl:for-each select="nemesis"><strong>Nemesis</strong>: <xsl:value-of select="." /><br/><br/></xsl:for-each>
@@ -73,9 +75,9 @@
 						V <xsl:if test="name()='front'">(front)</xsl:if><xsl:if test="name()='back'">(back)</xsl:if>
 					</td>
 					<td>
-						<strong><xsl:value-of select="../name" /></strong><br /><br/>
-						<xsl:for-each select="hp"><strong><xsl:value-of select="." /> HP</strong><br/><br /></xsl:for-each>
-						<xsl:for-each select="title">"<xsl:value-of select="." />"<br/><br/></xsl:for-each>
+						<strong><xsl:value-of select="../name" />: <xsl:for-each select="hp"><xsl:value-of select="." /> HP</xsl:for-each></strong><br />
+						<xsl:for-each select="title">"<xsl:value-of select="." />"<br/></xsl:for-each><br/>
+						
 						<xsl:for-each select="nemesis"><strong>Nemesis</strong>: <xsl:value-of select="." /><br/><br/></xsl:for-each>
 						<xsl:for-each select="setup"><strong>SETUP</strong>:<br/><xsl:value-of select="." /><br/><br/></xsl:for-each>
 						<xsl:for-each select="gameplay"><strong>GAMEPLAY</strong>:<br/><xsl:value-of select="." /><br/><br/></xsl:for-each>
@@ -89,9 +91,9 @@
 						S<xsl:number count="/deck/specialcard/front" level="any"/><xsl:if test="name()='front'"> (front)</xsl:if><xsl:if test="name()='back'"> (back)</xsl:if>
 					</td>
 					<td>
-						<strong><xsl:value-of select="../name" /></strong><br /><br/>
-						<xsl:for-each select="hp"><strong><xsl:value-of select="." /> HP</strong><br/><br /></xsl:for-each>
-						<xsl:for-each select="title">"<xsl:value-of select="." />"<br/><br/></xsl:for-each>
+						<strong><xsl:value-of select="../name" />: <xsl:for-each select="hp"><xsl:value-of select="." /> HP</xsl:for-each></strong><br />
+						<xsl:for-each select="title">"<xsl:value-of select="." />"<br/></xsl:for-each><br/>
+						
 						<xsl:for-each select="nemesis"><strong>Nemesis</strong>: <xsl:value-of select="." /><br/><br/></xsl:for-each>
 						<xsl:for-each select="text"><strong>TEXT</strong>:<br/><xsl:value-of select="." /><br/><br/></xsl:for-each>
 						<xsl:for-each select="advanced"><strong>ADVANCED</strong>:<br/><xsl:value-of select="." /><br/><br/></xsl:for-each>
