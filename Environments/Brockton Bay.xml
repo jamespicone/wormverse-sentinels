@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="environment_convert.xslt"?>
+
+<deck>
+	<name>Brockton Bay</name>
+	<card>
+		<name>Civilians</name>
+		<quantity>2</quantity>
+		<text>Heroes cannot use powers. At the start of the environment turn, each player may discard 1 card each to destroy this card</text>
+	</card>
+	<card>
+		<name>Rooftops</name>
+		<quantity>1</quantity>
+		<text>Increase all damage by 1. At the end of their turn, 1 player may discard 2 cards to destroy this card</text>
+	</card>
+	<card>
+		<name>Attention</name>
+		<quantity>1</quantity>
+		<text>At the end of the environment turn, Reveal the top card of every deck. If the revealed card is a target, put it into play. Otherwise, shuffle it back into its deck. Then, destroy this card</text>
+	</card>
+	<card>
+		<name>The Boardwalk</name>
+		<quantity>1</quantity>
+		<text>When this card enters play, destroy all other Suburb cards. Reduce damage dealt to environment targets by 1</text>
+		<type>Suburb</type>
+	</card>
+	<card>
+		<name>The Docks</name>
+		<quantity>1</quantity>
+		<text>When this card enters play, destroy all other Suburb cards. Increase damage dealt by environment targets by 1</text>
+		<type>Suburb</type>
+	</card>
+	<card>
+		<name>The Outskirts</name>
+		<quantity>1</quantity>
+		<text>When this card enters play, destroy all other Suburb cards. At the end of the environment turn, play the top card of the environment deck</text>
+		<type>Suburb</type>
+	</card>
+	<card>
+		<name>PRT Squad</name>
+		<quantity>3</quantity>
+		<hp>5</hp>
+		<text>At the end of the environment turn, this card deals the non-environment target with the lowest HP 2 projectile damage</text>
+	</card>
+	<card>
+		<name>Thugs</name>
+		<quantity>3</quantity>
+		<hp>4</hp>
+		<text>At the end of the environment turn, this card deals the non-environment target with the second highest HP X projectile damage, where X = the number of Thugs in play * 2</text>
+		<type>Thugs</type>
+	</card>
+	<card>
+		<name>Uber</name>
+		<quantity>1</quantity>
+		<hp>4</hp>
+		<text>At the end of the environment turn, this card deals the non-environment target with the highest HP 2 melee damage. Then, if Leet is in play, Uber and Leet regain 1 HP</text>
+	</card>
+	<card>
+		<name>Leet</name>
+		<quantity>1</quantity>
+		<hp>4</hp>
+		<text>At the end of the environment turn, this card deals the non-environment target with the highest HP 2 melee damage. Then, if Leet is in play, Uber and Leet regain 1 HP</text>
+	</card>
+	
+</deck>
