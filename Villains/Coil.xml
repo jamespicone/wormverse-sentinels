@@ -55,6 +55,12 @@ When this card would be destroyed, flip it instead.</text>
 		</back>
 	</specialcard>
 	<card>
+		<name>Underground Base</name>
+		<class>Ongoing</class>
+		<text>Villain targets are immune to environmental damage</text>
+		<quantity>1</quantity>
+	</card>
+	<card>
 		<name>Mercenaries</name>
 		<hp>6</hp>
 		<quantity>3</quantity>
@@ -74,29 +80,82 @@ When this card would be destroyed, flip it instead.</text>
 		<quantity>1</quantity>
 		<text>The first time Trickster would be dealt damage each round, redirect it to the hero target with the lowest HP. At the end of the villain turn, the hero with most cards in play destroys 1 card</text>
 	</card>
+	<card>
+		<name>Genesis</name>
+		<type>Parahuman</type>
+		<hp>8</hp>
+		<quantity>1</quantity>
+		<text>When this card is destroyed, shuffle it back into the villain deck. At the end of the villain turn, this card deals 2 poison damage to H hero targets</text>
+	</card>
+	<card>
+		<name>Ballistic</name>
+		<type>Parahuman</type>
+		<hp>10</hp>
+		<quantity>1</quantity>
+		<text>Whenever a hero card is dealt damage by this card, that hero must destroy one of their cards. At the end of the villain turn, this card deals H + 1 projectile damage to the hero target with the highest HP</text>
+	</card>
+	<card>
+		<name>Dinah</name>
+		<type>Parahuman</type>
+		<hp>5</hp>
+		<quantity>1</quantity>
+		<text>Coil: Scheming and Coil: Acting cannot be damaged. Whenever this card is dealt damage during a hero's turn, that hero must discard a card</text>
+	</card>
+	<card>
+		<name>Circus</name>
+		<type>Parahuman</type>
+		<hp>4</hp>
+		<quantity>1</quantity>
+		<text>Whenever a hero plays a card, this card deals that hero 1 projectile damage</text>
+	</card>
+	<card>
+		<name>Trainwreck</name>
+		<type>Parahuman</type>
+		<hp>12</hp>
+		<quantity>1</quantity>
+		<text>Whenever a non-villain target would damage a villain target other than Trainwreck, redirect the damage to Trainwreck. At the start of the villain turn, Trainwreck regains H HP</text>
+	</card>
+	<card>
+		<name>I Know All Your Tricks</name>
+		<class>One-Shot</class>
+		<text>Destroy all hero ongoings</text>
+		<quantity>2</quantity>
+	</card>
+	<card>
+		<name>Trickery and Deceit</name>
+		<class>One-Shot</class>
+		<text>Destroy all hero equipment</text>
+		<quantity>2</quantity>
+	</card>
+	<card>
+		<name>Let's Try Something Else</name>
+		<class>One-Shot</class>
+		<text>Put the villain trash on top of the villain deck. Shuffle the villain deck. Play the top card of the villain deck</text>
+		<quantity>2</quantity>
+	</card>
+	<card>
+		<name>A Backup For Every Asset</name>
+		<class>One-Shot</class>
+		<text>Take all Ongoing cards out of the villain trash and put them into play</text>
+		<quantity>2</quantity>
+	</card>
+	<card>
+		<name>Teleporter</name>
+		<hp>8</hp>
+		<type>Device</type>
+		<text>At the start of the villain turn, reveal cards from the top of the villain deck until you have revealed H targets. Put the revealed targets into play, shuffle the rest of the revealed cards back into the villain deck</text>
+		<quantity>2</quantity>
+	</card>
+	<card>
+		<name>Two Bites at Every Cherry</name>
+		<class>Ongoing</class>
+		<text>Increase damage dealt by villain targets by 1. Damage dealt by villain cards is irreducible</text>
+		<quantity>2</quantity>
+	</card>
+	<card>
+		<name>Plans Within Plans</name>
+		<class>Ongoing</class>
+		<text>Reduce damage dealt to villain targets by 2</text>
+		<quantity>2</quantity>
+	</card>
 </deck>
-
-<!--
-x3 Mercenaries, 6 HP, "At the end of the villain turn, this card deals H - 1 energy damage to the two hero targets with the highest HP"
-x1 Sundancer, Parahuman, 10 HP, "This card is immune to fire damage. At the end of the villain turn, this card deals 2 fire damage to all hero targets"
-x1 Trickster, Parahuman, 6 HP, "The first time Trickster would be dealt damage each round, redirect it to the hero target with the lowest HP. At the end of the villain turn, the hero with most cards in play destroys 1 card."
-x1 Genesis, Parahuman, 8 HP, "When this card is destroyed, shuffle it back into the villain deck. At the end of the villain turn, this card deals 2 poison damage to H hero targets"
-x1 Ballistic, Parahuman, 10 HP, "Whenever a hero card is dealt damage by this card, that hero must destroy one of their cards. At the end of the villain turn, this card deals H + 1 projectile damage to the hero target with the highest HP."
-x1 Dinah, Parahuman, 5 HP. "Coil: Scheming and Coil: Acting cannot be damaged. Whenever this card is dealt damage during a hero's turn, that hero must discard a card."
-x1 Circus, Parahuman, 4 HP, "Whenever a hero plays a card, this card deals that hero 1 projectile damage"
-x1 Trainwreck, Parahuman, 12 HP, "Whenever a non-villain target would damage a villain target other than Trainwreck, redirect the damage to Trainwreck. At the start of the villain turn, Trainwreck regains H HP"
-(10 targets)
-		
-x2 I Know All Your Tricks, One-Shot: "Destroy all hero ongoings."
-x2 Trickery and Deceit, One-Shot: "Destroy all hero equipment."
-x2 Let's Try Something Else, One-Shot: "Put the villain trash on top of the villain deck. Shuffle the villain deck. Play the top card of the villain deck."
-x2 A Backup For Every Asset, One-Shot: "Take all Ongoing cards out of the villain trash and put them into play."
-(8 one-shot)
-
-x2 Teleporter: Device. 8 HP. "At the start of the villain turn, reveal cards from the top of the villain deck until you have revealed H targets. Put the revealed targets into play, shuffle the rest of the revealed cards back into the villain deck."
-(2 devices)
-		
-x1 Underground Base: Ongoing. "Villain targets are immune to environmental damage."
-x2 Two Bites at Every Cherry: Ongoing. "Increase damage dealt by villain targets by 1. Damage dealt by villain cards is irreducible"
-x2 Plans Within Plans: Ongoing. "Reduce damage dealt to villain targets by 2"
-(5 ongoing) -->
