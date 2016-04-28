@@ -7,10 +7,11 @@
 	<villain>
 		<name>Coil</name>
 		<front>
-			<setup>Put Coil: Scheming and Coil: Acting into play, "Evil Mastermind" side up.
-			Put Underground Base into play.
-			
-			Note that Coil: Scheming activates before Coil: Acting.</setup>
+			<setup>
+				Put Coil: Scheming and Coil: Acting into play, "Evil Mastermind" side up.<br/><br/>
+				Put Underground Base into play.<br/><br/>
+				Note that Coil: Scheming activates before Coil: Acting.
+			</setup>
 		</front>
 	</villain>
 	
@@ -20,10 +21,10 @@
 			<title>Evil Mastermind</title>
 			<nemesis>Tattletale</nemesis>
 			<hp>50</hp>
-			<text>When flipped to this side, set this card's HP to Coil: Acting's HP.
+			<text>When flipped to this side, set this card's HP to Coil: Acting's HP.<br/><br/>
 
-At the start of the villain turn, play the top card of the environment deck
-At the end of the villain turn, all villain targets regain 2 HP
+At the start of the villain turn, play the top card of the environment deck<br/>
+At the end of the villain turn, all villain targets regain 2 HP<br/><br/>
 
 When this card would be destroyed, flip it instead.</text>
 			<advanced>At the end of the villain turn, if Coil: Acting has more HP than this card, set this card's HP to Coil: Acting's HP.</advanced>
@@ -40,10 +41,10 @@ When this card would be destroyed, flip it instead.</text>
 			<title>Evil Mastermind</title>
 			<nemesis>Tattletale</nemesis>
 			<hp>50</hp>
-			<text>When flipped to this side, set this card's HP to Coil: Scheming's HP.
+			<text>When flipped to this side, set this card's HP to Coil: Scheming's HP.<br/><br/>
 
-At the start of the villain turn, reveal cards from the top of the villain deck until you reveal a Parahuman. Put it into play, then shuffle the other revealed cards back into the villain deck.
-At the end of the villain turn, deal H energy damage to the hero target with the highest HP.
+At the start of the villain turn, reveal cards from the top of the villain deck until you reveal a Parahuman. Put it into play, then shuffle the other revealed cards back into the villain deck.<br/>
+At the end of the villain turn, deal H energy damage to the hero target with the highest HP.<br/><br/>
 
 When this card would be destroyed, flip it instead.</text>
 			<advanced>At the end of the villain turn, if Coil: Scheming has more HP than this card, set this card's HP to Coil: Scheming's HP.</advanced>
