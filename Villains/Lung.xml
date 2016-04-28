@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="villain_convert.xslt"?>
+
+<deck>
+	<name>Lung</name>
+	<villain>
+		<name>Lung</name>
+		<front>
+			<title>Gang Leader</title>
+			<hp>90</hp>
+			<nemesis>Skitter</nemesis>
+			<setup>At the start of the game Lung enters play Gang Leader side up.</setup>
+			<gameplay>
+				When the villain trash is shuffled into the villain deck, Lung flips.<br/><br/>
+				
+				If there are 10 or more cards in the villain trash, reduce damage dealt to Lung by 1.<br/><br/>
+				
+				At the end of the villain turn:
+				<ul>
+					<li>Play the top card of the villain deck then,</li>
+					<li>Lung deals X melee damage to all hero targets, where X = 1 + the number of cards in the villain trash / 5 then,</li>
+					<li>If there are 5 or more cards in the villain trash, Lung regains 1 HP then,</li>
+					<li>If there are 15 or more cards in the villain trash, Lung regains 1 HP.</li>
+				</ul>
+			</gameplay>
+			<advanced>At the end of the villain turn, discard the top 3 cards of the villain deck</advanced>
+		</front>
+		<back>
+			<title>Dragon Awoken</title>
+			<hp>90</hp>
+			<nemesis>Skitter</nemesis>
+			<gameplay>
+				When flipped to this side, destroy all villain cards in play and put all cards in the villain deck into the villain trash.<br/><br/>
+				
+				Villain cards cannot be played.<br/><br/>
+				
+				Reduce damage dealt to Lung by 2.<br/><br/>
+				
+				Lung is immune to damage dealt by Environment cards.<br/><br/>
+				
+				At the end of the villain turn:
+				<ul>
+					<li>Lung deals 6 melee and 2 irreducible fire damage to all hero targets then,</li>
+					<li>Lung regains 3 HP then,</li>
+					<li>Destroy H hero ongoing or equipment cards.</li>
+				</ul>
+			</gameplay>
+			<advanced>When flipped to this side, the heroes lose the game.</advanced>
+		</back>
+	</villain>
+	<card>
+		<name>Burst of Flame</name>
+		<type>One-Shot</type>
+		<quantity>4</quantity>
+		<text>Lung deals the hero target with the highest HP X fire damage, where X = 1 + the number of cards in the villain trash / 2</text>
+	</card>
+	<card>
+		<name>Smash</name>
+		<type>One-Shot</type>
+		<quantity>4</quantity>
+		<text>Lung deals the hero target with the lowest HP 2 melee damage. Destroy 1 hero ongoing or equipment card</text>
+	</card>
+	<card>
+		<name>Growing Anger</name>
+		<type>One-Shot</type>
+		<quantity>2</quantity>
+		<text>Discard the top 3 cards of the villain deck. Play the top card of the villain deck</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<type>Ongoing</type>
+		<name>Wings</name>
+		<text>Lung is immune to damage from Environment cards</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<type>Ongoing</type>
+		<name>White-Hot Flame</name>
+		<text>Fire damage dealt by Lung is irreducible</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<type>Ongoing</type>
+		<name>Pyrokinesis</name>
+		<text>Whenever Lung deals melee damage to a target, Lung deals 2 fire damage to that target</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<type>Ongoing</type>
+		<name>Terrible Burns</name>
+		<text>Whenever a hero is dealt fire damage by Lung, destroy 1 hero ongoing or equipment card. At the end of the villain turn, Lung deals the hero target with the highest HP H - 2 fire damage</text>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<name>Bakuda</name>
+		<type>Parahuman</type>
+		<hp>6</hp>
+		<text>At the start of the villain turn, reveal the top card of the villain deck. If it is a one-shot, Bakuda deals 5 fire damage to all non-villain targets. If it is an ongoing, each hero discards 1 card. If it is a target, the hero with the most cards in play destroys all of them</text>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<name>Oni Lee</name>
+		<type>Parahuman</type>
+		<hp>3</hp>
+		<text>At the end of the villain turn, Oni Lee deals the hero target with the lowest HP 3 melee damage. Whenever Oni Lee would take damage, reveal the top card of the villain deck. If it is a one-shot prevent the damage. Shuffle the revealed card back into the villain deck</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<name>ABB Thugs</name>
+		<type>Thug</type>
+		<hp>4</hp>
+		<text>At the end of the villain turn, ABB Thugs deal the hero target with the lowest HP 2 projectile damage</text>
+	</card>	
+</deck>
