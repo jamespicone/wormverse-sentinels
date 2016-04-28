@@ -47,7 +47,7 @@ Lung (Villain)
 	
 	x1 Bakuda: 6 HP. "At the start of the villain turn, reveal the top card of the villain deck. If it is a one-shot, Bakuda deals 5 fire damage to all non-villain targets. If it is an ongoing, each hero discards 1 card. If it is a target, the hero with the most cards in play destroys all of them."
 	x1 Oni Lee: 3 HP. "At the end of the villain turn, Oni Lee deals the hero target with the lowest HP 3 melee damage. Whenever Oni Lee would take damage, reveal the top card of the villain deck. If it is a one-shot prevent the damage. Shuffle the revealed card back into the villain deck."
-	x3 ABB Thugs: 4 HP. "At the end of the villain turn, ABB Thugs deal the hero target with the lowest HP 2 projectile damage."
+	x3 ABB Thugs: Thug. 4 HP. "At the end of the villain turn, ABB Thugs deal the hero target with the lowest HP 2 projectile damage."
 	(5 targets)
 		
 	x2 Wings: Ongoing. "Lung is immune to damage from Environment cards."
