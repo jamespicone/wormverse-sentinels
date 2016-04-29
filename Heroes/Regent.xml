@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="hero_convert.xslt"?>
+
+<deck>
+	<name>Regent</name>
+	<charactercard>
+		<name>Regent</name>
+		<front>
+			<hp>28</hp>
+			<power>
+				<name>Control</name>
+				<text>Regent deals 1 target 2 psychic damage</text>
+			</power>
+		</front>
+		<back>
+			<text>
+			<ul>
+				<li>1 target deals itself 1 psychic damage</li>
+				<li>Destroy 1 environment card</li>
+				<li>Select a target. Reduce damage dealt by that target by 1 until the start of your next turn</li>
+			</ul>
+			</text>
+		</back>
+	</charactercard>
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<name>Backlash</name>
+		<text>You may use Regent's 'Control' power twice this turn</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Gut-Zap</name>
+		<text>Regent deals 1 target 2 psychic damage. The target dealt damage in this way cannot deal damage until the start of your next turn</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Seize</name>
+		<text>Destroy a target with 4 or less HP. If you do, Regent may deal a target 3 projectile damage</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Zap</name>
+		<text>Regent deals 1 target 4 psychic damage. Destroy up to 2 ongoing cards</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>One-Shot</class>
+		<name>Drop That</name>
+		<text>Regent deals 1 target 2 psychic damage. Reveal the top card of the villain deck. You may choose to discard that card or return it to the top of the villain deck</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>A Life Of Leisure</name>
+		<text>Draw 5 cards. Immediately end your turn</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Equipment</class>
+		<class>Limited</class>
+		<name>Scepter-Taser</name>
+		<text>After Regent uses his 'Control' power on a target, Regent deals that target 1 lightning damage</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Equipment</class>
+		<class>Limited</class>
+		<name>Crown</name>
+		<text>Reduce melee and projectile damage dealt to Regent by 1</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<name>Growing Control</name>
+		<text>After Regent uses his 'Control' power on a target, place a token next to that target. Increase the damage Regent deals with his 'Control' power by 1 when the target has a token next to them. When this card is destroyed, remove all tokens that have been placed in this way</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<name>My Little Army</name>
+		<text>Whenever Regent destroys a target, other than a character card, you may put it under this card. At the start of Regent's turn, this card deals X projectile damage to a target, where X = the number of cards under this card</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<name>Reactive Zap</name>
+		<text>Play this card next to a non-hero target. Once a turn, when that target would deal damage, Regent may use a power</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<name>Over Here</name>
+		<text>Whenever a hero target would be dealt damage by a villain card, you may redirect that damage to another hero target</text>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<name>Mine</name>
+		<text>Play this card next to a non-hero target other than a character card. Whenever that target deals damage, you may redirect that damage to another target. You may prevent any effects caused by the target next to this card</text>
+	</card>
+</deck>
