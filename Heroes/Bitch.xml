@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="hero_convert.xslt"?>
+
+<deck>
+	<name>Bitch</name>
+	<charactercard>
+		<name>Bitch</name>
+		<front>
+			<hp>30</hp>
+			<power>
+				<name>Attack!</name>
+				<text>Each Dog in play may deal 2 melee damage to 1 target</text>
+			</power>
+		</front>
+		<back>
+			<text>
+			<ul>
+				<li>One target regains 2 HP</li>
+				<li>One player may take a card from their trash into their hand</li>
+				<li>Reduce damage dealt by environment targets by 2 until the start of your next turn</li>
+			</ul>
+			</text>
+		</back>
+	</charactercard>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<type>Order</type>
+		<name>Come!</name>
+		<text>Select either your deck or your trash. Reveal cards from the top of the pile you selected until you reveal a Dog. Put the Dog into play, and return the other revealed cards to the selected pile. If you selected your deck, shuffle it. Draw a card</text>
+	</card>	
+	<card>
+		<quantity>2</quantity>
+		<class>One-Shot</class>
+		<type>Order</type>
+		<name>Find!</name>
+		<text>Reveal the top X cards of a deck, where X = the number of Dog cards in play. For each target revealed in this way, either discard it or put it into play. Shuffle the other revealed cards back into the deck</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<type>Order</type>
+		<name>Guard!</name>
+		<text>Select X targets, where X = the number of Dog cards in play. Reduce damage dealt to those targets by 2 until the start of your next turn</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<type>Order</type>
+		<name>Hold!</name>
+		<text>Destroy 1 target with up to X HP, where X = the number of Dog cards in play</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<type>Order</type>
+		<name>Kill!</name>
+		<text>Deal 1 target X damage, where X = the number of Dog cards in play * 2</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>One-Shot</class>
+		<type>Order</type>
+		<name>Fetch!</name>
+		<text>Reveal the top X cards of a deck, where X = the number of Dog cards in play. For each equipment or device card revealed in this way, either discard it or put it into play. Shuffle the other revealed cards back into the deck</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Veterinary Care</name>
+		<text>Restore all Dog cards to maximum HP. You may draw 1 card. You may play 1 card</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Equipment</class>
+		<class>Limited</class>
+		<name>Whistle</name>
+		<text>At the end of your turn you may play an Order card</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<name>The Hunt</name>
+		<text>At the start of your turn, each Dog in play may deal 1 melee damage to 1 target</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<name>Have a Ride</name>
+		<text>Reduce damage dealt to hero targets by environment cards by 1</text>
+	</card>
+	<card>
+		<quantity>9</quantity>
+		<type>Dog</type>
+		<hp>6</hp>
+		<name>Judas, Angelica, Brutus, Kuro, Bullet, Ginger, Axel, Milk, Stumpy</name>
+		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<type>Dog</type>
+		<hp>8</hp>
+		<name>Bastard</name>
+	</card>
+</deck>
