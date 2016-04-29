@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="hero_convert.xslt"?>
+
+<deck>
+	<name>Tattletale</name>
+	<charactercard>
+		<name>Tattletale</name>
+		<front>
+			<hp>26</hp>
+			<power>
+				<name>Insight</name>
+				<text>1 player draws 2 cards, then discards 1 card</text>
+			</power>
+		</front>
+		<back>
+			<text>
+			<ul>
+				<li>1 player draws 1 card</li>
+				<li>1 player plays 1 card</li>
+				<li>Destroy 1 ongoing card</li>
+			</ul>
+			</text>
+		</back>
+	</charactercard>
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<name>Information Overload</name>
+		<text>Tattletale may use any number of powers this turn. Increase psychic damage dealt to Tattletale by 1 this turn</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<name>It's Always in the First Place I Look</name>
+		<text>Each player may search their deck for 1 card and put it into their hand. If they search their deck, shuffle their deck</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>The Reason You Suck</name>
+		<text>Tattletale deals 1 target 4 psychic damage</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Out of Commission</name>
+		<text>Tattletale regains 5 HP. Immediately end your turn</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>Equipment</class>
+		<class>Limited</class>
+		<name>Domino Mask</name>
+		<text>Reduce psychic damage dealt to Tattletale by 1</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<name>Constant Smile</name>
+		<text>At the start of your turn, Tattletale deals each non-hero target 1 psychic damage</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<name>Confidence</name>
+		<text>At the start of your turn, each hero regains 1 HP</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<name>Follows All the Threads</name>
+		<text>Play with the top card of all decks face-up. At the start of your turn, Tattletale deals herself 1 psychic damage. <strong>Power:</strong> Destroy this card</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<name>Quick Insight</name>
+		<text>Whenever a target enters play, Tattletale may reveal the bottom card of a deck, then either put it on the top or the bottom of that deck. If you do, Tattletale deals herself 1 psychic damage</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<name>Taking a Risk</name>
+		<text><strong>Power:</strong> Play the top card of a deck</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<name>Reading</name>
+		<text><strong>Power:</strong> Reveal the top 3 cards of a deck. Put 1 on the top and 2 on the bottom. Tattletale deals herself 1 psychic damage</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<name>My Eye On You</name>
+		<text><strong>Power:</strong> 1 hero target regains 2 HP. Tattletale deals herself 1 psychic damage</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<name>Need some Help?</name>
+		<text><strong>Power:</strong> Tattletale deals herself up to 5 psychic damage. 1 player draws X cards, where X = the amount of psychic damage Tattletale dealt herself in this way</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<name>Spot the Flaw</name>
+		<text>When this card enters play, Tattletale deals herself 2 psychic damage. Damage dealt by hero targets is irreducible. At the start of your turn, destroy this card</text>
+	</card>
+</deck>
