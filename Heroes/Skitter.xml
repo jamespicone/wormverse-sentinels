@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="hero_convert.xslt"?>
+
+<deck>
+	<name>Skitter</name>
+	<charactercard>
+		<name>Skitter</name>
+		<front>
+			<hp>26</hp>
+			<power>
+				<name>Administrate</name>
+				<text>Add 2 tokens to your bug pool. You may play any number of Bug cards</text>
+			</power>
+		</front>
+		<back>
+			<text>
+			<ul>
+				<li>One player may use a power now.</li>
+				<li>Deal 1 melee and 1 toxic damage to a target.</li>
+				<li>One player may search their trash for an Equipment card and put it in their hand.</li>
+			</ul>
+			</text>
+		</back>
+	</charactercard>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Surveying</name>
+		<text>Reveal the top 3 cards of the environment deck. Put 1 on top of the environment deck, and 2 on the bottom of the environment deck</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<name>Regroup</name>
+		<text>Add the HP of each Bug card you control to your bug pool. Return each Bug card you control to your hand. Draw a card. Play a card</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<type>Bug</type>
+		<name>Bees!</name>
+		<text>Remove any number of tokens from your bug pool. Deal 2 melee and 2 toxic damage to X targets, where X = the number of tokens you removed</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<type>Bug</type>
+		<name>Delivery</name>
+		<text>Remove any number of tokens from your bug pool. Draw that many cards</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<name>Situational Awareness</name>
+		<text>Whenever a hero target would be dealt 5 or more damage from a single source, reduce that damage by 2</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<name>Always Planning</name>
+		<text>Whenever a hero is dealt 5 or more damage from a single source, you may search your deck for a card and put it into your hand. If you searched your deck, shuffle it</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Equipment</class>
+		<class>Limited</class>
+		<name>Silk Armour</name>
+		<text>Reduce damage dealt to Skitter by 1</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Equipment</class>
+		<class>Limited</class>
+		<name>Prepared Threads</name>
+		<text>Power: Destroy an Environment or Ongoing card</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<type>Bug</type>
+		<name>Bug Decoy</name>
+		<hp>*</hp>
+		 <text>When you play this card, remove any number of tokens from your bug pool. This card has that much HP. Whenever a non-hero target deals damage to a hero target, redirect the damage to this card</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<type>Bug</type>
+		<name>Swarm</name>
+		<hp>*</hp>
+		 <text>When you play this card, remove any number of tokens from your bug pool. This card has that much HP. At the end of your turn, this card deals 1 melee and 1 toxic damage to up to X targets, where X = this target's HP</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<type>Bug</type>
+		<name>Spiders</name>
+		<hp>*</hp>
+		 <text>When you play this card, remove any number of tokens from your bug pool. This card has that much HP. At the end of your turn, this target deals X toxic damage to 1 target, where X = this target's HP - 1</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<type>Bug</type>
+		<name>Relay Bugs</name>
+		<hp>*</hp>
+		 <text>When you play this card, remove any number of tokens from your bug pool. This card has that much HP. At the end of your turn, add 1 token to your bug pool</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<type>Bug</type>
+		<name>Tracking Bugs</name>
+		<hp>*</hp>
+		 <text>When you play this card, remove any number of tokens from your bug pool. This card has that much HP. Whenever a non-hero target enters play, this target deals it 1 melee and 1 toxic damage, and then deals itself 1 melee damage</text>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<type>Bug</type>
+		<name>Atlas</name>
+		<hp>5</hp>
+		 <text>Skitter is immune to damage from environment cards. At the end of your turn, draw 1 card. At the end of your turn, this card deals itself 1 psychic damage</text>
+	</card>
+</deck>
