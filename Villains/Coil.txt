@@ -1,77 +1,9 @@
 Thought: Add advanced text to regular text, make advanced text "At the end of each turn" instead
 
-Villain card:
-	SETUP:
-		Put Coil: Scheming and Coil: Acting into play, "Evil Mastermind" side up.
-		Put Underground Base into play.
-		
-		Note that Coil: Scheming activates before Coil: Acting.
-		
-	GAMEPLAY:
-		(blank)
-	
-Coil: Scheming
-	"Evil Mastermind"
+Flipping a parahuman each turn might be too dangerous - the parahumans are all really unpleasant. Consider Coil: Acting doing something else and setup playing a number of parahumans at game start. Play the top card of the villain deck, so he still plays two villain cards a turn? Reveal something else?
 
-	Nemesis: Tattletale
-	50 HP
-	
-	When flipped to this side, set this card's HP to Coil: Acting's HP.
-	
-	At the start of the villain turn, play the top card of the environment deck
-	At the end of the villain turn, all villain targets regain 2 HP
-	
-	When this card would be destroyed, flip it instead.
-	ADVANCED:
-		At the end of the villain turn, if Coil: Acting has more HP than this card, set this card's HP to Coil: Acting's HP.
-		
-	"Defeated"
-	If Coil: Acting is flipped to the "Defeated" side, the heroes win the game.
-	
-	ADVANCED:
-		At the end of the villain turn, flip this card.
-	
-Coil: Acting
-	"Evil Mastermind"
-	
-	Nemesis: Tattletale
-	50 HP
-	
-	When flipped to this side, set this card's HP to Coil: Scheming's HP.
-	
-	At the start of the villain turn, reveal cards from the top of the villain deck until you reveal a Parahuman. Put it into play, then shuffle the other revealed cards back into the villain deck.
-	At the end of the villain turn, deal H energy damage to the hero target with the highest HP.
-	
-	When this card would be destroyed, flip it instead
-	ADVANCED:
-		At the end of the villain turn, if Coil: Scheming has more HP than this card, set this card's HP to Coil: Scheming's HP.
-		
-	"Defeated"
-	If Coil: Scheming is flipped to the "Defeated" side, the heroes win the game.
-	
-	ADVANCED:
-		At the end of the villain turn, flip this card.
+Maybe more mercs, reveal until mercs come out?
 
-x3 Mercenaries, 6 HP, "At the end of the villain turn, this card deals H - 1 energy damage to the two hero targets with the highest HP"
-x1 Sundancer, Parahuman, 10 HP, "This card is immune to fire damage. At the end of the villain turn, this card deals 2 fire damage to all hero targets"
-x1 Trickster, Parahuman, 6 HP, "The first time Trickster would be dealt damage each round, redirect it to the hero target with the lowest HP. At the end of the villain turn, the hero with most cards in play destroys 1 card."
-x1 Genesis, Parahuman, 8 HP, "When this card is destroyed, shuffle it back into the villain deck. At the end of the villain turn, this card deals 2 poison damage to H hero targets"
-x1 Ballistic, Parahuman, 10 HP, "Whenever a hero card is dealt damage by this card, that hero must destroy one of their cards. At the end of the villain turn, this card deals H + 1 projectile damage to the hero target with the highest HP."
-x1 Dinah, Parahuman, 5 HP. "Coil: Scheming and Coil: Acting cannot be damaged. Whenever this card is dealt damage during a hero's turn, that hero must discard a card."
-x1 Circus, Parahuman, 4 HP, "Whenever a hero plays a card, this card deals that hero 1 projectile damage"
-x1 Trainwreck, Parahuman, 12 HP, "Whenever a non-villain target would damage a villain target other than Trainwreck, redirect the damage to Trainwreck. At the start of the villain turn, Trainwreck regains H HP"
-(10 targets)
-		
-x2 I Know All Your Tricks, One-Shot: "Destroy all hero ongoings."
-x2 Trickery and Deceit, One-Shot: "Destroy all hero equipment."
-x2 Let's Try Something Else, One-Shot: "Put the villain trash on top of the villain deck. Shuffle the villain deck. Play the top card of the villain deck."
-x2 A Backup For Every Asset, One-Shot: "Take all Ongoing cards out of the villain trash and put them into play."
-(8 one-shot)
+Maybe more parahumans that are less threatening, reveal until parahumans come out?
 
-x2 Teleporter: Device. 8 HP. "At the start of the villain turn, reveal cards from the top of the villain deck until you have revealed H targets. Put the revealed targets into play, shuffle the rest of the revealed cards back into the villain deck."
-(2 devices)
-		
-x1 Underground Base: Ongoing. "Villain targets are immune to environmental damage."
-x2 Two Bites at Every Cherry: Ongoing. "Increase damage dealt by villain targets by 1. Damage dealt by villain cards is irreducible"
-x2 Plans Within Plans: Ongoing. "Reduce damage dealt to villain targets by 2"
-(5 ongoing)
+Ongoing/Equipment destruction very unpleasant, maybe make it less absolute, more conditional in some way?
