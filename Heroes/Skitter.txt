@@ -1,29 +1,9 @@
-Skitter
-	26 HP.
-		Power: Administrate: Add 2 tokens to your bug pool. You may play any number of Bug cards.
-		Back: * One player may use a power now. * Deal 1 melee and 1 toxic damage to a target. * One player may search their trash for an Equipment card and put it in their hand.
-	(Variant: Constant number of tokens in bug pool, some other power? Make people use powers?)
-	
-	x4 Surveying: One-shot. "Reveal the top 3 cards of the environment deck. Put 1 on top of the environment deck, and 2 on the bottom of the environment deck"
-	x3 Regroup: One-shot. "Add the HP of each Bug card you control to your bug pool. Return each Bug card you control to your hand. Draw a card. Play a card."
-	x3 Bees!: One-shot, Bug. "Remove any number of tokens from your bug pool. Deal 2 melee and 2 toxic damage to X targets, where X = the number of tokens you removed."
-	x3 Delivery: One-shot, Bug. "Remove any number of tokens from your bug pool. Draw that many cards."
-	(13 one-shots)
-	
-	x3 Situational Awareness: Ongoing, Limited. "Whenever a hero target would be dealt 5 or more damage from a single source, reduce that damage by 2"
-	x3 Always Planning: Ongoing, Limited. "Whenever a hero is dealt 5 or more damage from a single source, you may search your deck for a card and put it into your hand. If you searched your deck, shuffle it."
-	(6 ongoing)
+Skitter: She has real problems with playing cards. Thoughts:
+- Either make her bug counter a /supply limit/ instead of a resource that gets expended when playing bugs, give her stuff that increases her supply limit.
+- or, more bang for her buck, ways of accelerating her bug gain, ways of acting without bugs (make the bug counter gravy, not her fundamental way of acting)
 
-	x3 Silk Armour: Equipment, Limited. "Reduce damage dealt to Skitter by 1.
-	x3 Prepared Threads: Equipment, Limited. "Power: Destroy an Environment or Ongoing card."
-	(6 equipment)
-	
-	x3 Bug Decoy: Bug. * HP. "When you play this card, remove any number of tokens from your bug pool. This card has that much HP. Whenever a non-hero target deals damage to a hero target, redirect the damage to this card."
-	x4 Swarm: Bug. * HP. "When you play this card, remove any number of tokens from your bug pool. This card has that much HP. At the end of your turn, this card deals 1 melee and 1 toxic damage to up to X targets, where X = this target's HP"
-	x3 Spiders: Bug. * HP. "When you play this card, remove any number of tokens from your bug pool. This card has that much HP. At the end of your turn, this target deals X toxic damage to 1 target, where X = this target's HP - 1"
-	x2 Relay Bugs: Bug. * HP. "When you play this card, remove any number of tokens from your bug pool. This card has that much HP. At the end of your turn, add 1 token to your bug pool."
-	x2 Tracking Bugs: Bug. * HP. "When you play this card, remove any number of tokens from your bug pool. This card has that much HP. Whenever a non-hero target enters play, this target deals it 1 melee and 1 toxic damage, and then deals itself 1 melee damage"
-	x1 Atlas: Bug. 5 HP. "Skitter is immune to damage from environment cards. At the end of your turn, draw 1 card. At the end of your turn, this card deals itself 1 psychic damage."
-	(15 targets)
-	
-	40 cards
+Tracking bugs suck. Spiders are not amazing. Delivery sucks. Ongoings probably alright. Decoy is nice.
+
+Keep the way bug cards work when you play them, but when they die, add maximum HP back to bug counter. Have ongoings/equipment that add X to maximum bug counter.
+
+Change power to "Play a Bug card".
