@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="environment_convert.xslt"?>
+
+<deck>
+	<name>Coil's Base</name>
+	<card>
+		<quantity>1</quantity>
+		<name>Blast Doors</name>
+		<type>Structure</type>
+		<hp>10</hp>
+		<text>Reduce all fire and projectile damage by 2</text>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<name>Ablative Cladding</name>
+		<type>Structure</type>
+		<hp>10</hp>
+		<text>Reduce all toxic and melee damage by 2</text>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<name>Earthing</name>
+		<type>Structure</type>
+		<hp>10</hp>
+		<text>Reduce all cold and lightning damage by 2</text>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<name>Pinned Down</name>
+		<text>Heroes cannot play Ongoing or Equipment cards</text>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<name>Sealed Chamber</name>
+		<type>Structure</type>
+		<hp>20</hp>
+		<text>If destroyed, the heroes lose the game. At the start of their turn, a hero may skip the rest of their turn. If they do, this structure regains 5 HP</text>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<name>Trapped Chamber</name>
+		<type>Structure</type>
+		<hp>14</hp>
+		<text>Heroes cannot use powers</text>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<name>Cover</name>
+		<type>Structure</type>
+		<hp>8</hp>
+		<text>Whenever a villain or environment target would be damaged by a hero card, redirect that damage to this card</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<name>Repair Crew</name>
+		<hp>5</hp>
+		<text>At the end of the environment turn, all structures regain 3 HP</text>
+	</card>
+	<card>
+		<name>Mercenaries</name>
+		<hp>6</hp>
+		<quantity>3</quantity>
+		<text>At the end of the villain turn, this card deals H - 1 energy damage to the two hero targets with the highest HP</text>
+	</card>
+	<card>
+		<name>Construction Work</name>
+		<quantity>1</quantity>
+		<text>At the end of the environnment turn, reveal cards from the top of the environment deck until you reveal three Structure cards. Put them into play and shuffle the other revealed cards back into the deck. Then, destroy this card</text>
+	</card>
+	<card>
+		<name>Laser Rifles</name>
+		<quantity>1</quantity>
+		<text>Villain targets deal 1 more damage. Change all villain target damage to Energy</text>
+	</card>
+	<card>
+		<name>Stranger and Master Protocols</name>
+		<quantity>1</quantity>
+		<text>Heroes cannot cause other heroes to draw cards, search their deck, regain HP, use a power, or play a card</text>
+	</card>
+</deck>
