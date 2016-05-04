@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/xsl" href="environment_convert.xslt"?>
 
 <deck>
-	<name>PRT Base</name>
+	<name>PRT HQ</name>
 	<card>
 		<quantity>2</quantity>
 		<type>Drone</type><type>Device</type>
