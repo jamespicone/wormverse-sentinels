@@ -27,7 +27,7 @@
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<type>Order</type>
-		<name>Come!</name>
+		<name>Heel!</name>
 		<text>Select either your deck or your trash. Reveal cards from the top of the pile you selected until you reveal a Dog. Put the Dog into play, and return the other revealed cards to the selected pile. If you selected your deck, shuffle it. Draw a card</text>
 	</card>	
 	<card>
@@ -35,21 +35,21 @@
 		<class>One-Shot</class>
 		<type>Order</type>
 		<name>Find!</name>
-		<text>Reveal the top X cards of a deck, where X = the number of Dog cards in play. For each target revealed in this way, either discard it or put it into play. Shuffle the other revealed cards back into the deck</text>
+		<text>Reveal the top X cards of a deck, where X = the number of Dog cards in play + 2. For each target revealed in this way, either discard it or put it into play. Shuffle the other revealed cards back into the deck</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<type>Order</type>
 		<name>Guard!</name>
-		<text>Select X targets, where X = the number of Dog cards in play. Reduce damage dealt to those targets by 2 until the start of your next turn</text>
+		<text>Select X targets, where X = the number of Dog cards in play. Reduce damage dealt to those targets by 2 until the start of your next turn. Draw a card</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<type>Order</type>
 		<name>Hold!</name>
-		<text>Destroy 1 target with up to X HP, where X = the number of Dog cards in play</text>
+		<text>Destroy 1 target with up to X HP, where X = the number of Dog cards in play * 2. Draw a card.</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -63,7 +63,7 @@
 		<class>One-Shot</class>
 		<type>Order</type>
 		<name>Fetch!</name>
-		<text>Reveal the top X cards of a deck, where X = the number of Dog cards in play. For each equipment or device card revealed in this way, either discard it or put it into play. Shuffle the other revealed cards back into the deck</text>
+		<text>Reveal the top X cards of a deck, where X = the number of Dog cards in play + 2. For each equipment or device card revealed in this way, either discard it or put it into play. Shuffle the other revealed cards back into the deck</text>
 	</card>
 	<card>
 		<quantity>4</quantity>
