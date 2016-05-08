@@ -27,7 +27,7 @@
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Information Overload</name>
-		<text>Tattletale may use any number of powers this turn. Increase psychic damage dealt to Tattletale by 1 this turn</text>
+		<text>Tattletale may use any number of powers this turn. Every time Tattletale uses a power this turn, she deals herself 1 psychic damage</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -52,7 +52,7 @@
 		<class>Equipment</class>
 		<class>Limited</class>
 		<name>Domino Mask</name>
-		<text>Reduce psychic damage dealt to Tattletale by 1</text>
+		<text>You may use an additional power in your power phase</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -92,19 +92,19 @@
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>Reading</name>
-		<text><strong>Power:</strong> Reveal the top 3 cards of a deck. Put 1 on the top and 2 on the bottom. Tattletale deals herself 1 psychic damage</text>
+		<text><strong>Power:</strong> Reveal the top 3 cards of a deck. Put 1 on the top and 2 on the bottom</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>My Eye On You</name>
-		<text><strong>Power:</strong> 1 hero target regains 2 HP. Tattletale deals herself 1 psychic damage</text>
+		<text><strong>Power:</strong> 1 hero target regains 3 HP</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>Ongoing</class>
-		<name>Need some Help?</name>
-		<text><strong>Power:</strong> Tattletale deals herself up to 5 psychic damage. 1 player draws X cards, where X = the amount of psychic damage Tattletale dealt herself in this way</text>
+		<name>Witty Deflection</name>
+		<text><strong>Power:</strong> Select a hero target. Until the start of your next turn, whenever that target would be dealt damage, you may redirect that damage to another hero target</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
