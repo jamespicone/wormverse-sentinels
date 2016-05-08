@@ -10,8 +10,9 @@
 			<hp>26</hp>
 			<power>
 				<name>Administrate</name>
-				<text>Add 2 tokens to your bug pool. You may play any number of Bug cards</text>
+				<text>Play a Bug card</text>
 			</power>
+			<text>At the start of the game, put 4 tokens in Skitter's bug pool</text>
 		</front>
 		<back>
 			<text>
@@ -33,21 +34,21 @@
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Regroup</name>
-		<text>Add the HP of each Bug card you control to your bug pool. Return each Bug card you control to your hand. Draw a card. Play a card</text>
+		<text>Return each Bug card you control to your hand. Draw a card. Play a card</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<type>Bug</type>
 		<name>Bees!</name>
-		<text>Remove any number of tokens from your bug pool. Deal 2 melee and 2 toxic damage to X targets, where X = the number of tokens you removed</text>
+		<text>Deal 2 melee and 2 toxic damage to X targets, where X = the number of tokens in your bug pool</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<type>Bug</type>
 		<name>Delivery</name>
-		<text>Remove any number of tokens from your bug pool. Draw that many cards</text>
+		<text>Draw X cards, where X = the number of cards in your bug pool</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -82,41 +83,41 @@
 		<type>Bug</type>
 		<name>Bug Decoy</name>
 		<hp>*</hp>
-		 <text>When you play this card, remove any number of tokens from your bug pool. This card has that much HP. Whenever a non-hero target deals damage to a hero target, redirect the damage to this card</text>
+		<text>When you play this card, remove any number of tokens from your bug pool. This card has that much HP. Whenever a non-hero target deals damage to a hero target, redirect the damage to this card, When this card is destroyed or returned to your hand, return the tokens spent on it to your bug pool</text>
 	</card>
 	<card>
 		<quantity>4</quantity>
 		<type>Bug</type>
 		<name>Swarm</name>
 		<hp>*</hp>
-		 <text>When you play this card, remove any number of tokens from your bug pool. This card has that much HP. At the end of your turn, this card deals 1 melee and 1 toxic damage to up to X targets, where X = this target's HP</text>
+		 <text>When you play this card, remove any number of tokens from your bug pool. This card has that much HP. At the end of your turn, this card deals 1 melee and 1 toxic damage to up to X targets, where X = this target's HP. When this card is destroyed or returned to your hand, return the tokens spent on it to your bug pool</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<type>Bug</type>
 		<name>Spiders</name>
 		<hp>*</hp>
-		 <text>When you play this card, remove any number of tokens from your bug pool. This card has that much HP. At the end of your turn, this target deals X toxic damage to 1 target, where X = this target's HP - 1</text>
+		 <text>When you play this card, remove any number of tokens from your bug pool. This card has that much HP. At the end of your turn, this target deals X toxic damage to 1 target, where X = this target's HP - 1. When this card is destroyed or returned to your hand, return the tokens spent on it to your bug pool</text>
 	</card>
 	<card>
 		<quantity>2</quantity>
 		<type>Bug</type>
 		<name>Relay Bugs</name>
 		<hp>*</hp>
-		 <text>When you play this card, remove any number of tokens from your bug pool. This card has that much HP. At the end of your turn, add 1 token to your bug pool</text>
+		 <text>When you play this card, remove any number of tokens from your bug pool. This card has that much HP. At the end of your turn, add 1 token to your bug pool. When this card is destroyed or returned to your hand, return the tokens spent on it to your bug pool</text>
 	</card>
 	<card>
 		<quantity>2</quantity>
 		<type>Bug</type>
 		<name>Tracking Bugs</name>
 		<hp>*</hp>
-		 <text>When you play this card, remove any number of tokens from your bug pool. This card has that much HP. Whenever a non-hero target enters play, this target deals it 1 melee and 1 toxic damage, and then deals itself 1 melee damage</text>
+		 <text>When you play this card, remove any number of tokens from your bug pool. This card has that much HP. Whenever a non-hero target enters play, this target deals it 1 melee and 1 toxic damage, and then deals itself 1 melee damage. When this card is destroyed or returned to your hand, return the tokens spent on it to your bug pool</text>
 	</card>
 	<card>
 		<quantity>1</quantity>
-		<type>Bug</type>
 		<name>Atlas</name>
+		<type>Bug</type>
 		<hp>5</hp>
-		 <text>Skitter is immune to damage from environment cards. At the end of your turn, draw 1 card. At the end of your turn, this card deals itself 1 psychic damage</text>
+		<text>Skitter is immune to damage from environment cards. At the end of your turn, draw 1 card. At the end of your turn, this card deals itself 1 psychic damage</text>
 	</card>
 </deck>
