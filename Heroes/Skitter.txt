@@ -7,3 +7,5 @@ Tracking bugs suck. Spiders are not amazing. Delivery sucks. Ongoings probably a
 Keep the way bug cards work when you play them, but when they die, add maximum HP back to bug counter. Have ongoings/equipment that add X to maximum bug counter.
 
 Change power to "Play a Bug card".
+
+THOUGHT: Do the tokens by having her put the tokens next to bugs, then return them to pool when bug destroyed, rather than keying off of bug HP. Allows for things like Atlas being a bug, makes increment/decrement bug counter easier, more resistant to bug HP changing
