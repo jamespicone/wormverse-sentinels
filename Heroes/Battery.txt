@@ -9,14 +9,15 @@ Cards:
 	AoE lightning damage (chain lightning?), more hits if charged? x4
 	single target lightning damage + stun if charged x3
 	Either play more cards or draw more cards, depending on character card state x2
+	Play a card and use a power after this turn + self damage x3
+	Melee damage to target, or put them on top of deck and melee damage to someone else if charged. x3
+	Lightning damage based on equipment/devices in play (more damage if charged?) x3
+	Everyone draws a card + play a card if charged x3
+	
 	Ongoing: When you destroy a target, draw a card and may play a card x2
 	Power: Visionary's ongoing play/remove thing, but for equipment/devices x3
 	Equipment: 2 damage reduction if charged x2
 	Ongoing: When charged, 2 lightning damage at start of turn (single target? multiple targets?) x3
-	Melee damage to target, or put them on top of deck and melee damage to someone else if charged. x3
-	Everyone draws a card + play a card if charged x3
-	Lightning damage based on equipment/devices in play (more damage if charged?) x3
-	Play a card and use a power after this turn + self damage x3
 	
 	4+4+4+2+2+2+3+3+3+3 + 3
 	12+12+6 + 3 = 33
