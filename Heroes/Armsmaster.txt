@@ -1,1 +1,20 @@
-Plays Halberds, then attaches up to two modules to them with varying effects. Power activates all text on a halberd. Modules have A/B text, a halberd can get 1 of each (or when activating, you can use 1 A & 1 B?). Varying effects.
+Plays Halberds, then attaches up to two modules to them with varying effects. Power activates all text on a halberd. Modules have A/B text, a halberd can get 1 of each (or when activating, you can use 1 A & 1 B?). Varying effects. Compare to Argent Adept
+
+Tinker: Active a Halberd
+
+	Halberd x4 (different effects. Melee damage? Draw card? Play card? Irreducible projectile damage?)
+	Search for Halberd x4
+	Search for Equipment x4
+	Modules, various effects (equipment too) x? 20?
+		Draw cards
+		Make somebody's damage irreducible
+		Search for things
+		Damage of various types
+		Destroy cards of particular types
+		Regain HP
+		Damage reduction
+		Removing targets
+		Messing with villain deck
+		
+	Activate a halberd
+	Protect stuff from equipment destruction
