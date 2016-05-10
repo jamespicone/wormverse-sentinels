@@ -52,7 +52,7 @@
 		<text>Deal 2 lightning damage to a target that isn't a character card. If Battery is charged and you deal damage in this way, treat that target as if it had no card text until your next turn</text>
 	</card>
 	<card>
-		<quantity>2</quantity>
+		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Pushing the Limits</name>
 		<text>If Battery is charged, play 2 cards. If Battery is not charged, draw 3 cards.</text>
