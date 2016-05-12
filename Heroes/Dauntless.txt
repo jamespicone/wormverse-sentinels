@@ -1,2 +1,16 @@
 Plays indestructible but weak cards that slowly build him up?
 Plays equipment and then plays improvements to that equipment?
+
+Power: Arclance: Deal X energy damage to a target, where X = 1 + the number of Charge cards next to Dauntless / 2 (round down)
+
+x4 Charge: Ongoing, Charge. "When you play this card, either place it next to Dauntless or next to a Relic. This card is indestructible."
+x1 Arcshield: Relic, Equipment. "This card is indestructible. Power: Until the end of your next turn, reduce damage dealt to Dauntless by X, where X = 1 + the number of Charge cards next to this card / 2 (round down)"
+x1 Arcstep: Relic, Equipment. "This card is indestructible. Power: Draw X cards, where X = 1 + the number of Charge cards next to this card / 2 (round down)"
+x4 To Me!: One-Shot. "Search your deck for a Relic and put it into play. Draw a card. Play a card."
+(10)
+
+
+x3 Plasma Core, Ongoing, Charge. "When you play this card, either place it next to Dauntless or next to a Relic, but only if they do not already have a card with the same name next to them. If next to Dauntless, his Arclance does irreducible damage. If next to the Arcshield, whenever a non-hero target deal damage to Dauntless and it is reduced by the Arcshield's power, Dauntless deals that target 1 energy damage. If next to the Arcstep, Dauntless regains 1 HP whenever he uses the Arcstep's power"
+x3 Matter to Energy, Ongoing, Charge. "When you play this card, either place it next to Dauntless or next to a Relic, but only if they do not already have a card with the same name next to them. . If next to Dauntless, you may choose what damage type his Arclance does when it is used. If next to the Arcshield, when its power is used, pick an energy type. Until the end of your next turn, reduce all damage of that type by 1. If next to the Arcstep, when its power is used, Dauntless deals up to 3 targets 1 energy damage"
+(6)
+
