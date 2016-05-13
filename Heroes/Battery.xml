@@ -79,7 +79,7 @@
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Rapid Recon</name>
-		<text>All heroes may draw a card. If Battery is charged, you may play a card</text>
+		<text>If Battery is not charged, all heroes may draw a card.<br/><br/> Draw a card. Play a card</text>
 	</card>
 	<card>
 		<quantity>2</quantity>
@@ -91,7 +91,7 @@
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>Magnetism</name>
-		<power>Choose one: Destroy an equipment or device card, or choose an equipment card from a heroes trash and put it into play</power>
+		<power>If Battery is charged, destroy an equipment or device card. <br/><br/>If Battery is not charged, choose an equipment card from a hero's trash and put it into play</power>
 	</card>
 	<card>
 		<quantity>3</quantity>
