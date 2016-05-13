@@ -1,19 +1,16 @@
-Basic idea: It's a token deck. Has a card it places tokens on, like Kaagra Warfang. The token-card can take damage; it loses tokens equivalent to damage dealt. Win condition is reducing tokens to zero, lose condition is too many tokens. Gain tokens continually, cards do stuff with the number of tokens present - more damage, whatever.
-
-Main villain Skidmark. Have Squealer/Mush/Scrub as cards in his deck. Power difficult to represent; kind of a shaker thing, so either a mass effect or something affecting the environment? Pushing things in a particular direction? Armour.
+Scratch that idea. Have a deck of Thugs, put separate at the start of play. Play several Thugs from that deck at the end of turn; thugs attack people and maybe have some effects. Thugs return to the Thug deck when destroyed or removed. Lots of cards that put thugs on the field or do things with thugs.
 
 Main villain: Skidmark
 	"Superpowered Drug Dealer"
 	SETUP
-		Place Skidmark in play, "Superpowered Drug Dealer" side up. Place the Merchant Influence card into play. Put 3*H tokens on it.
+		Place Skidmark in play, "Superpowered Drug Dealer" side up. Search the villain deck for all Thug cards; put them aside as the 'Thug deck'.
 		
 	GAMEPLAY
-		If there are ever 0 tokens on the Merchant Influence card, the heroes win the game.
-		If there are ever more than 5 * H tokens on the Merchant Influence card, the heroes lose the game.
-		
-		At the start of the villain turn, add H - 1 tokens to the Merchant Influence card.
+		If the Thug deck is empty at the start of the villain turn, the heroes lose the game.
 		
 		All villain targets take 1 less damage.
+		
+		At the end of the villain turn, play H - 1 Thugs from the top of the Thug deck.
 		
 		When this target is destroyed, flip it instead
 		
@@ -22,10 +19,11 @@ Main villain: Skidmark
 		
 	"Defeated Drug Dealer"
 	GAMEPLAY
-		If there are ever 0 tokens on the Merchant Influence card, the heroes win the game.
-		If there are ever more than 5 * H tokens on the Merchant Influence card, the heroes lose the game.
+		If the Thug deck is empty at the start of the villain turn, the heroes lose the game.
 		
-		At the start of the villain turn, add 1 token to the Merchant Influence card.
+		At the end of the villain turn, play 1 Thug from the top of the Thug deck.
+		
+		If there are no villain targets in play, the heroes win the game.
 		
 	ADVANCED
 		?
