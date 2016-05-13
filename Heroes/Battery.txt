@@ -3,22 +3,4 @@ Alternates between drawing more cards and playing more cards. Melee damage, elec
 Power: Charge character card and draw a card
 Power: If card charged, lose charge and play a card
 
-Cards:
-	Melee damage to a target + more if charged x4
-	Melee damage to a target + AoE melee damage if charged x4
-	AoE lightning damage (chain lightning?), more hits if charged? x4
-	single target lightning damage + stun if charged x3
-	Either play more cards or draw more cards, depending on character card state x3
-	Play a card and use a power after this turn + self damage x3
-	Melee damage to target, or put them on top of deck and melee damage to someone else if charged. x3
-	Lightning damage based on equipment/devices in play (more damage if charged?) x3
-	Everyone draws a card + play a card if charged x3
-	
-	Ongoing: When you destroy a target, draw a card and may play a card x2
-	Power: Visionary's ongoing play/remove thing, but for equipment/devices x3
-	Ongoing: When charged, 2 lightning damage at start of turn (single target? multiple targets?) x3
-	Equipment: 2 damage reduction if charged x2
-	
-	4*3 + 6*3 + 2*2 + 2*3
-	12 + 18 + 4 + 6
-	
+Might be too good. Have to give people a reason to actually spend your charge using your character power; there's a pretty strong incentive to just stay charged and use the card benefits.
