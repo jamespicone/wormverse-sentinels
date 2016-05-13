@@ -9,33 +9,24 @@
 		<front>
 			<title>Superpowered Drug Dealer</title>
 			<hp>70</hp>
-			<setup>Place Skidmark in play, "Superpowered Drug Dealer" side up. Place the Merchant Influence card into play. Put 3 * H tokens on it.</setup>
-			<gameplay>If there are ever 0 tokens on the Merchant Influence card, the heroes win the game.<br/>
-If there are ever more than 5 * H tokens on the Merchant Influence card, the heroes lose the game.<br/><br/>
-
-At the start of the villain turn, add H - 1 tokens to the Merchant Influence card.<br/><br/>
-
-Reduce damage dealt to villain targets by 1<br/><br/>
-
-When this target is destroyed, flip it instead</gameplay>
+			<setup>Place Skidmark in play, "Superpowered Drug Dealer" side up. Search the villain deck for all Thug cards; put them aside as the 'Thug deck'.</setup>
+			<gameplay>If the Thug deck is empty at the start of the villain turn, the heroes lose the game.<br/><br/>
+		
+		All villain targets take 1 less damage.<br/><br/>
+		
+		At the end of the villain turn, play H - 1 Thugs from the top of the Thug deck.<br/><br/>
+		
+		When this target is destroyed, flip it instead</gameplay>
 		</front>
 		<back>
 			<title>Defeated Drug Dealer</title>
-			<gameplay>If there are ever 0 tokens on the Merchant Influence card, the heroes win the game.<br/>
-If there are ever more than 5 * H tokens on the Merchant Influence card, the heroes lose the game.<br/><br/>
-
-At the start of the villain turn, add 1 token to the Merchant Influence card</gameplay>
+			<gameplay>If the Thug deck is empty at the start of the villain turn, the heroes lose the game.<br/><br/>
+		
+		At the end of the villain turn, play 1 Thug from the top of the Thug deck.<br/><br/>
+		
+		If there are no villain targets in play, the heroes win the game</gameplay>
 		</back>
 	</villain>
-	<specialcard>
-		<name>Merchant Influence</name>
-		<front>
-			<hp>1</hp>
-			<text>This card is indestructible. This card is immune to environmental damage.<br/><br/>
-	
-Whenever this card would take damage, prevent the damage and remove X tokens, where X = the amount of damage it would have taken</text>
-		</front>
-	</specialcard>
 	<card>
 		<name>Festival of Blood</name>
 		<class>Ongoing</class>
@@ -51,37 +42,13 @@ Whenever this card would take damage, prevent the damage and remove X tokens, wh
 	<card>
 		<name>Festival of Love</name>
 		<class>Ongoing</class>
-		<text>At the start of the villain turn, add H - 2 tokens to the Merchant Influence card</text>
+		<text>At the start of the villain turn, play the top card of the Thug deck</text>
 		<quantity>3</quantity>
-	</card>
-	<card>
-		<name>The Scum of Society</name>
-		<class>Ongoing</class>
-		<text>Whenever a non-hero target is destroyed, add 1 token to the Merchant Influence card</text>
-		<quantity>2</quantity>
 	</card>
 	<card>
 		<name>Not Exactly Sanitary</name>
 		<class>Ongoing</class>
 		<text>Whenever a villain target deals non-toxic damage to another target, the villain target deals 1 toxic damage to that target</text>
-		<quantity>2</quantity>
-	</card>
-	<card>
-		<name>A Wall of Bodies</name>
-		<class>Ongoing</class>
-		<text>Reduce damage dealt to villain targets other than the Merchant Influence card by 1 for every H tokens on the Merchant Influence card</text>
-		<quantity>2</quantity>
-	</card>
-	<card>
-		<name>Riot</name>
-		<class>One-Shot</class>
-		<text>Merchant Influence deals X melee damage to all hero targets, where X = the number of tokens on the Merchant Influence card / H (round up)</text>
-		<quantity>4</quantity>
-	</card>
-	<card>
-		<name>The Animal Beneath</name>
-		<class>One-Shot</class>
-		<text>Merchant Influence deals H psychic damage to the hero target with the highest HP</text>
 		<quantity>2</quantity>
 	</card>
 	<card>
@@ -101,23 +68,37 @@ Whenever this card would take damage, prevent the damage and remove X tokens, wh
 	<card>
 		<name>Scrub</name>
 		<type>Parahuman</type>
-		<hp>6</hp>
-		<text>At the end of the villain turn, Scrub deals 5 energy damage to all targets (except himself) with a HP evenly divisible by 3</text>
+		<hp>10</hp>
+		<text>At the start of the villain turn, Scrub deals 5 energy damage to all targets (except himself) with a HP evenly divisible by 3</text>
 		<quantity>1</quantity>
 	</card>
 	<card>
 		<name>Helicopter</name>
 		<type>Device</type>
 		<hp>16</hp>
-		<text>Skidmark is immune to melee damage. At the end of the villain turn, add 1 token to the Merchant Influence card</text>
+		<text>Skidmark is immune to melee damage. At the end of the villain turn, play the top card of the Thug deck</text>
 		<quantity>1</quantity>
 	</card>
+	
+	<card>
+		<name>Reveller</name>
+		<hp>4</hp>
+		<type>Thug</type>
+		<quantity>4</quantity>
+		<text>When this card would be placed in the villain trash or the villain deck, shuffle it into the Thug deck instead.<br/><br/>At the end of the villain turn, this card deals 1 melee damage to the hero target with the highest HP</text>
+	</card>
+	<card>
+		<name>Tough</name>
+		<hp>4</hp>
+		<type>Thug</type>
+		<quantity>4</quantity>
+		<text>When this card would be placed in the villain trash or the villain deck, shuffle it into the Thug deck instead.<br/><br/>At the end of the villain turn, this card deals 2 melee damage to the 2 hero targets with the highest HP</text>
+	</card>
+	<card>
+		<name>Sadist</name>
+		<hp>4</hp>
+		<type>Thug</type>
+		<quantity>2</quantity>
+		<text>When this card would be placed in the villain trash or the villain deck, shuffle it into the Thug deck instead.<br/><br/>At the end of the villain turn, this card deals 2 melee damage to the hero target with the lowest HP</text>
+	</card>
 </deck>
-
-<!--
-	x1 Squealer, Parahuman, 8 HP. "Ignore villain targets when determining targeting for damage from environmental cards. At the start of the villain turn, play the top card in the environment deck."
-	x1 Mush, Parahuman. 10 HP. "This card is immune to melee and projectile damage. At the end of the villain turn, Mush deals 1 melee damage to all hero targets."
-	x1 Scrub, Parahuman, 6 HP. "At the end of the villain turn, Scrub deals 5 energy damage to all targets (except himself) with a HP evenly divisible by 3."
-	x1 Helicopter, Device, 16 HP. "Skidmark is immune to melee damage. At the end of the villain turn, add 1 token to the Merchant Influence card."
-	(4 targets)
--->
