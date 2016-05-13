@@ -4,6 +4,7 @@
 
 <deck>
 	<name>Tattletale</name>
+	<version>1.0</version>
 	<charactercard>
 		<name>Tattletale</name>
 		<front>
@@ -73,7 +74,7 @@
 		<class>Ongoing</class>
 		<class>Limited</class>
 		<name>Follows All the Threads</name>
-		<text>Play with the top card of all decks face-up. At the start of your turn, Tattletale deals herself 1 psychic damage. <strong>Power:</strong> Destroy this card</text>
+		<text>Play with the top card of all decks face-up. At the start of your turn, Tattletale deals herself 1 psychic damage.</text><power>Destroy this card</power>
 	</card>
 	<card>
 		<quantity>2</quantity>
@@ -86,25 +87,25 @@
 		<quantity>2</quantity>
 		<class>Ongoing</class>
 		<name>Taking a Risk</name>
-		<text><strong>Power:</strong> Play the top card of a deck</text>
+		<power>Play the top card of a deck</power>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>Reading</name>
-		<text><strong>Power:</strong> Reveal the top 3 cards of a deck. Put 1 on the top and 2 on the bottom</text>
+		<power>Reveal the top 3 cards of a deck. Put 1 on the top and 2 on the bottom</power>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>My Eye On You</name>
-		<text><strong>Power:</strong> 1 hero target regains 3 HP</text>
+		<power>1 hero target regains 3 HP</power>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>Witty Deflection</name>
-		<text><strong>Power:</strong> Select a hero target. Until the start of your next turn, whenever that target would be dealt damage, you may redirect that damage to another hero target</text>
+		<power>Select a hero target. Until the start of your next turn, whenever that target would be dealt damage, you may redirect that damage to another hero target</power>
 	</card>
 	<card>
 		<quantity>3</quantity>

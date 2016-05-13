@@ -4,6 +4,7 @@
 
 <deck>
 	<name>Skitter</name>
+	<version>1.0</version>
 	<charactercard>
 		<name>Skitter</name>
 		<front>
@@ -76,7 +77,7 @@
 		<class>Equipment</class>
 		<class>Limited</class>
 		<name>Prepared Threads</name>
-		<text>Power: Destroy an Environment or Ongoing card</text>
+		<power>Destroy an Environment or Ongoing card</power>
 	</card>
 	<card>
 		<quantity>3</quantity>

@@ -4,6 +4,7 @@
 
 <deck>
 	<name>Grue</name>
+	<version>1.0</version>
 	<charactercard>
 		<name>Grue</name>
 		<front>
@@ -84,7 +85,7 @@
 		<class>Ongoing</class>
 		<class>Limited</class>
 		<name>Second Trigger</name>
-		<text>Increase damage dealt to Grue by 1. Power: One player may use power now. This card is indestructible</text>
+		<text>Increase damage dealt to Grue by 1.</text><power>One player may use power now. This card is indestructible</power>
 	</card>
 	<card>
 		<quantity>3</quantity>
