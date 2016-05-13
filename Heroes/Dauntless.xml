@@ -57,7 +57,7 @@
 		<class>Ongoing</class>
 		<type>Charge</type>
 		<name>Matter to Energy</name>
-		<text>When you play this card, either place it next to Dauntless or next to a Relic, but only if they do not already have a card with the same name next to them.<br/>If next to Dauntless, you may choose what damage type his Arclance does when it is used.<br/>If next to the Arcshield, when its power is used, pick an energy type.<br/>If next to the Arcstep, when its power is used, Dauntless deals up to 3 targets 1 energy damage</text>
+		<text>When you play this card, either place it next to Dauntless or next to a Relic, but only if they do not already have a card with the same name next to them.<br/>If next to Dauntless, you may choose what damage type his Arclance does when it is used.<br/>If next to the Arcshield, when its power is used, pick an energy type. Until the end of your next turn, reduce all damage of that type by 1.<br/>If next to the Arcstep, when its power is used, Dauntless deals up to 3 targets 1 energy damage</text>
 	</card>
 	<card>
 		<quantity>4</quantity>
@@ -69,7 +69,7 @@
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Outfitting</name>
-		<text>Select a hero. That hero reveals cards from the top of their deck until they reveal an Equipment card. They may put that card into play or into their hand</text>
+		<text>Select a hero. That hero reveals cards from the top of their deck until they reveal an Equipment card. They may put that card into play or into their hand. Shuffle the other revealed cards back into their deck</text>
 	</card>
 	<card>
 		<quantity>4</quantity>
