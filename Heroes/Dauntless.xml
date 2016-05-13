@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="hero_convert.xslt"?>
+
+<deck>
+	<name>Dauntless</name>
+	<charactercard>
+		<name>Dauntless</name>
+		<front>
+			<hp>28</hp>
+			<power>
+				<name>Arclance</name>
+				<text>Deal X energy damage to a target, where X = 1 + the number of Charge cards next to Dauntless / 2 (round down)</text>
+			</power>
+		</front>
+		<back>
+			<text>
+			<ul>
+				<li>One player may draw a card now</li>
+				<li>Reduce all energy damage dealt to hero targets by 1 until your next turn</li>
+				<li>Select an equipment card. Until your next turn, it is indestructible</li>
+			</ul>
+			</text>
+		</back>
+	</charactercard>
+	<card>
+		<quantity>1</quantity>
+		<class>Equipment</class><type>Relic</type>
+		<name>Arcshield</name>
+		<text>This card is indestructible</text>
+		<power>Until the end of your next turn, reduce damage dealt to Dauntless by X, where X = 1 + the number of Charge cards next to this card / 2 (round down)</power>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<class>Equipment</class><type>Relic</type>
+		<name>Arcstep</name>
+		<text>This card is indestructible</text>
+		<power>Draw X cards, where X = 1 + the number of Charge cards next to this card / 2 (round down)</power>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>Ongoing</class>
+		<type>Charge</type>
+		<name>Charge</name>
+		<text>When you play this card, either place it next to Dauntless or next to a Relic. This card is indestructible</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<type>Charge</type>
+		<name>Plasma Core</name>
+		<text>When you play this card, either place it next to Dauntless or next to a Relic, but only if they do not already have a card with the same name next to them.<br/>If next to Dauntless, his Arclance does irreducible damage.<br/>If next to the Arcshield, whenever a non-hero target deal damage to Dauntless and it is reduced by the Arcshield's power, Dauntless deals that target 1 energy damage.<br/>If next to the Arcstep, Dauntless regains 1 HP whenever he uses the Arcstep's power</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<type>Charge</type>
+		<name>Matter to Energy</name>
+		<text>When you play this card, either place it next to Dauntless or next to a Relic, but only if they do not already have a card with the same name next to them.<br/>If next to Dauntless, you may choose what damage type his Arclance does when it is used.<br/>If next to the Arcshield, when its power is used, pick an energy type.<br/>If next to the Arcstep, when its power is used, Dauntless deals up to 3 targets 1 energy damage</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>To Me!</name>
+		<text>Search your deck for a Relic and put it into play. Draw a card. Play a card</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Outfitting</name>
+		<text>Select a hero. That hero reveals cards from the top of their deck until they reveal an Equipment card. They may put that card into play or into their hand</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Resolve</name>
+		<text>Reveal cards from the top of your trash until you reveal a Charge card. You may put it into play or into your hand</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Your Opponent Is Me</name>
+		<text>Dauntless deals 2 energy damage to up to 2 targets. Until the start of your next turn, whenever those targets would deal damage, redirect that damage to Dauntless</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>Ongoing</class>
+		<name>Heroic Image</name>
+		<text>Whenever Dauntless would be dealt exactly 1 damage, prevent that damage. Whenever one of Dauntless' cards would be destroyed, Dauntless may destroy this card instead</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<name>Glorious Stand</name>
+		<text>Whenever a hero target would be damaged, redirect the damage to Dauntless. At the start of your turn, destroy this card</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<name>Crackling Corona</name>
+		<text>Whenever a non-hero target causes a hero to discard cards, Dauntless may destroy this card to prevent that hero discarding any cards</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<name>Carry the Charge</name>
+		<text>Whenever Dauntless is dealt energy damage, he may play a card</text>
+	</card>
+</deck>
