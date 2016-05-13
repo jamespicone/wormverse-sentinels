@@ -25,6 +25,7 @@
 				</xsl:for-each>
 				
 				<xsl:for-each select="text"><xsl:copy-of select="node()" /></xsl:for-each>
+				<xsl:for-each select="power"><br/><strong>Power: </strong><xsl:copy-of select="node()" /></xsl:for-each>
 			</td>
 		</tr>
 		
@@ -49,6 +50,7 @@
 	</head>
 	<body>
 		<h1 class="center"><xsl:value-of select="/deck/name" /></h1>
+		<h2 class="center"><xsl:value-of select="/deck/version" /></h2>
 		<table>
 			<tr>
 				<th>#</th><th>Card</th>
