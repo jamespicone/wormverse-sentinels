@@ -4,6 +4,7 @@
 
 <deck>
 	<name>Brockton Bay</name>
+	<version>1.0</version>
 	<card>
 		<name>Civilians</name>
 		<quantity>2</quantity>

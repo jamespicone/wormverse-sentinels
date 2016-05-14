@@ -4,6 +4,7 @@
 
 <deck>
 	<name>PRT HQ</name>
+	<version>1.0</version>
 	<card>
 		<quantity>2</quantity>
 		<type>Drone</type><type>Device</type>
