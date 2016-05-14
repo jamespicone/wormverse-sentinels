@@ -1,0 +1,3 @@
+Reacts to things. Based around triggering off of attacks or card plays or whatever. Cards that work better as a reaction.
+
+Power: The next time a villain card enters play, you may play a card.
