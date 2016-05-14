@@ -35,7 +35,7 @@
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Regroup</name>
-		<text>Return each Bug card you control to your hand. Draw a card. Play a card</text>
+		<text>Return each Bug card you control to your hand. Add a token to your bug pool. Play any number of Bug cards</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -49,7 +49,7 @@
 		<class>One-Shot</class>
 		<type>Bug</type>
 		<name>Delivery</name>
-		<text>Draw X cards, where X = the number of cards in your bug pool</text>
+		<text>Draw X cards, where X = the number of tokens in your bug pool</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
