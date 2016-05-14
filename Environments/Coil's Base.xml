@@ -4,6 +4,7 @@
 
 <deck>
 	<name>Coil's Base</name>
+	<version>1.0</version>
 	<card>
 		<quantity>1</quantity>
 		<name>Blast Doors</name>
