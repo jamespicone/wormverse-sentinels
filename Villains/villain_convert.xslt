@@ -51,6 +51,7 @@
 	</head>
 	<body>
 		<h1 class="center"><xsl:value-of select="/deck/name" /></h1>
+		<h2 class="center"><xsl:value-of select="/deck/version" /></h2>
 		<table>
 			<tr>
 				<th>#</th><th>Card</th>
