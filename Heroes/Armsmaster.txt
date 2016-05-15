@@ -5,7 +5,7 @@ Tinker: Active a Halberd
 	Halberd x4 (different effects. Melee damage? Draw card? Play card? Irreducible projectile damage?)
 	Search for Halberd x4
 	Search for Equipment x4
-	Modules, various effects (equipment too) x? 20?
+	Modules, various effects (equipment too) x? 20? in groups of 2
 		Draw cards
 		Make somebody's damage irreducible
 		Search for things
@@ -18,3 +18,21 @@ Tinker: Active a Halberd
 		
 	Activate a halberd
 	Protect stuff from equipment destruction
+	
+Original Halberd: When activated, Armsmaster deals 2 melee damage to a target. Then activate the primary text of the module on the left of this Halberd, and the secondary text of the module on the right of this Halberd.
+Survey Halberd: When activated, draw a card. Then activate the primary text of the module on the left of this Halberd, and the secondary text of the module on the right of this Halberd.
+Experimental Halberd: When activated, Armsmaster deals 1 irreducible energy damage to a target. Then activate the primary text of the module on the left of this Halberd, and the secondary text of the module on the right of this Halberd.
+Grapple Halberd: When activated, destroy an environment card. Then activate the primary text of the module on the left of this Halberd, and the secondary text of the module on the right of this Halberd.
+
+x4 Return in a Flash: Reveal cards from the top of your deck or your trash until you reveal a Halberd. Either put it into play or into your hand. If you searched your deck, shuffle the other revealed cards back into your deck.
+x4 Hardware Stash: Search your deck for an Equipment card and either put it into play or into your hand. Shuffle your deck.
+x4 Dual-Wielding: Activate a Halberd
+x4 Safeties: Ongoing. "Whenever one of your equipment cards would be destroyed, you may destroy this card instead
+
+MODULES x10 x2
+"Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side". Equipment, Module.
+Flamethrower: Primary: Deal 2 fire damage to a non-hero target. Secondary: Destroy an environment card
+Combat Prediction: Primary: Reveal the top 3 cards of the villain deck, and put them back in any order. Secondary: Until the start of your next turn, reduce damage dealt to Armsmaster by villain cards by 1
+Recycler: Primary: Draw a card. Secondary: Activate the secondary text of the card to the left of the Halberd this card is next to
+Medicator: Primary: All hero targets regain 1 HP. Secondary: Armsmaster regains 2 HP
+Grappling Hook: Primary: Deal 1 projectile damage to up to 2 non-hero targets. Secondary: Destroy an Ongoing card
