@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="hero_convert.xslt"?>
+
+<deck>
+	<name>Miss Militia</name>
+	<version>1.0</version>
+	<charactercard>
+		<name>Miss Militia</name>
+		<front>
+			<hp>26</hp>
+			<power>
+				<name>Armory</name>
+				<text>Reveal the top 2 cards of your deck. Put any Weapons revealed into play. Discard the other revealed cards</text>
+			</power>
+		</front>
+		<back>
+			<text>
+			<ul>
+				<li>Deal 2 projectile damage to a target</li>
+				<li>Destroy an Equipment card. If you do, deal 4 projectile damage to a target</li>
+				<li>Another hero plays a card</li>
+			</ul>
+			</text>
+		</back>
+	</charactercard>
+	<card>
+		<quantity>3</quantity>
+		<class>Equipment</class>
+		<type>Weapon</type>
+		<name>Machete</name>
+		<power>Deal 2 melee damage to a non-hero target. If you have used the Machete power since the start of your last turn, deal 2 melee damage to the same target</power>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Equipment</class>
+		<type>Weapon</type>
+		<name>Pistol</name>
+		<power>Deal 2 projectile damage to a non-hero target. If you have used the Submachine Gun power since the start of your last turn, play a card</power>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Equipment</class>
+		<type>Weapon</type>
+		<name>Pistol</name>
+		<power>Deal 1 projectile damage to up to 3 non-hero targets. If you have used the Machete power since the start of your last turn, destroy an Environment card</power>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Equipment</class>
+		<type>Weapon</type>
+		<name>Pistol</name>
+		<power>Deal 4 projectile damage to a non-hero target. If you have used the Pistol power since the start of your last turn, draw a card</power>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>One-Shot</class>
+		<name>Overdrive</name>
+		<text>You may use as many powers this turn as you have Weapons. At the end of your turn, destroy every Weapon card you have in play</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Cover Fire</name>
+		<text>Deal 2 projectile damage to a non-hero target. 1 hero target regains 2 HP</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<name>Grenade</name>
+		<text>Deal 2 fire damage and 2 melee damage to a non-hero target. If you deal any damage in this way, destroy an Ongoing card</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<name>I Have More</name>
+		<text>Destroy a Weapon card. Destroy up to 2 Ongoing or Environment cards</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Hail of Bullets</name>
+		<text>Deal 2 projectile damage to all non-hero targets</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>Equipment</class>
+		<class>Limited</class>
+		<name>Armour</name>
+		<text>The next time Miss Militia would be dealt 5 or more damage from a single source, prevent the damage and destroy this card</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<name>I Don't Sleep</name>
+		<text>At the end of your turn, draw a card</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<name>Nonlethal Measures</name>
+		<text>Whenever you destroy a target, you may put the destroyed target on the bottom of its deck and destroy this card instead</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Weaponry</name>
+		<text>
+		If you have used the Machete power since the start of your last turn, deal 1 irreducible melee damage to a non-hero target<br/>
+	If you have used the Pistol power since the start of your last turn, draw a card<br/>
+	If you have used the Submachine Gun power since the start of your last turn, until the end of your turn, increase damage you deal by 1<br/>
+	If you have used the Sniper Rifle power since the start of your last turn, destroy a non-hero, non-character-card target
+	</text>
+	</card>
+</deck>
