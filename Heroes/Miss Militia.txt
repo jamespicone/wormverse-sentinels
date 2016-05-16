@@ -1,2 +1,27 @@
-Works like the Naturalist, but with different weapons?
-Expatriette, but good?
+Turns power uses into damage, power comboes where if you used power X last turn, bonus Y
+
+Power cards are weapons - machete, pistol, sniper rifle, submachine gun
+Basic power deals damage? Searches for weapon?
+
+Armory: Reveal the top 2 cards of your deck. Put any Weapons revealed into play. Discard the other revealed cards.
+
+(3 each, not limited, equipment)
+Machete: Deal 2 melee damage to a non-hero target. If you have used the Machete power since the start of your last turn, deal 2 melee damage to the same target.
+Pistol: Deal 2 projectile damage to a non-hero target. If you have used the Submachine Gun power since the start of your last turn, play a card
+Submachine Gun: Deal 1 projectile damage to up to 3 non-hero targets. If you have used the Machete power since the start of your last turn, destroy an Environment card
+Sniper Rifle: Deal 4 projectile damage to a non-hero target. If you have used the Pistol power since the start of your last turn, draw a card.
+
+x2 Overdrive: You may use as many powers this turn as you have Weapons. At the end of your turn, destroy every Weapon card you have in play
+x4 Cover Fire: Deal 2 projectile damage to a non-hero target. 1 hero target regains 2 HP
+x3 Grenade: Deal 2 fire damage and 2 melee damage to a non-hero target. If you deal any damage in this way, destroy an ongoing card
+x3 I Have More: Destroy a Weapon card. Destroy up to 2 Ongoing or Environment cards.
+x4 Hail of Bullets: Deal 2 projectile damage to all non-hero targets
+x4 Weaponry:
+	If you have used the Machete power since the start of your last turn, deal 1 irreducible melee damage to a non-hero target
+	If you have used the Pistol power since the start of your last turn, draw a card
+	If you have used the Submachine Gun power since the start of your last turn, until the end of your turn, increase damage you deal by 1
+	If you have used the Sniper Rifle power since the start of your last turn, destroy a non-hero, non-character-card target
+
+x2 Armour (limited, equip): The next time Miss Militia would be dealt 5 or more damage from a single source, prevent the damage and destroy this card
+x3 I Don't Sleep (limited, ongoing): At the end of your turn, draw a card
+x3 Nonlethal Measures (ongoing): Whenever you destroy a target, you may put the destroyed target on the bottom of its deck and destroy this card instead
