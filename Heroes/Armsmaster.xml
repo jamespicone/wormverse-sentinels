@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="hero_convert.xslt"?>
+                     
+<deck>
+	<name>Armsmaster</name>
+	<version>1.0</version>
+	<charactercard>
+		<name>Armsmaster</name>
+		<front>
+			<hp>30</hp>
+			<power>
+				<name>Tinker</name>
+				<text>Activate a Halberd</text>
+			</power>
+		</front>
+		<back>
+			<text>
+			<ul>
+				<li>One hero regains 2 HP.</li>
+				<li>Deal 1 irreducible melee damage to a target.</li>
+				<li>One player may search their trash for an Equipment card and put it in their hand.</li>
+			</ul>
+			</text>
+		</back>
+	</charactercard>
+	<card>
+		<quantity>1</quantity>
+		<class>Equipment</class>
+		<type>Halberd</type>
+		<name>Original Halberd</name>
+		<text>When activated, Armsmaster deals 2 melee damage to a target. Then activate the primary text of the module on the left of this Halberd, and the secondary text of the module on the right of this Halberd</text>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<class>Equipment</class>
+		<type>Halberd</type>
+		<name>Survey Halberd</name>
+		<text>When activated, draw a card. Then activate the primary text of the module on the left of this Halberd, and the secondary text of the module on the right of this Halberd</text>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<class>Equipment</class>
+		<type>Halberd</type>
+		<name>Experimental Halberd</name>
+		<text>When activated, Armsmaster deals 1 irreducible energy damage to a target. Then activate the primary text of the module on the left of this Halberd, and the secondary text of the module on the right of this Halberd</text>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<class>Equipment</class>
+		<type>Halberd</type>
+		<name>Grapple Halberd</name>
+		<text>When activated, destroy an environment card. Then activate the primary text of the module on the left of this Halberd, and the secondary text of the module on the right of this Halberd</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Return in a Flash</name>
+		<text>Reveal cards from the top of your deck or your trash until you reveal a Halberd. Either put it into play or into your hand. If you searched your deck, shuffle the other revealed cards back into your deck</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Equipment Stash</name>
+		<text>Search your deck for an Equipment card and either put it into play or into your hand. Shuffle your deck</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Dual-Wielding</name>
+		<text>Activate a Halberd</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>Ongoing</class>
+		<name>Safeties</name>
+		<text>Whenever one of your equipment cards would be destroyed, you may destroy this card instead</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>Equipment</class>
+		<type>Module</type>
+		<name>Flamethrower</name>
+		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.<br/>
+		<strong>Primary:</strong> Deal 2 fire damage to a non-hero target.<br/>
+		<strong>Secondary:</strong> Destroy an environment card
+		</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>Equipment</class>
+		<type>Module</type>
+		<name>Combat Prediction Array</name>
+		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.<br/>
+		<strong>Primary:</strong> Reveal the top 3 cards of the villain deck, and put them back in any order.<br/>
+		<strong>Secondary:</strong> Until the start of your next turn, reduce damage dealt to Armsmaster by villain cards by 1
+		</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>Equipment</class>
+		<type>Module</type>
+		<name>Recycler</name>
+		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.<br/>
+		<strong>Primary:</strong> Draw a card.<br/>
+		<strong>Secondary:</strong> Activate the secondary text of the card to the left of the Halberd this card is next to
+		</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>Equipment</class>
+		<type>Module</type>
+		<name>Medicator</name>
+		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.<br/>
+		<strong>Primary:</strong> All hero targets regain 1 HP.<br/>
+		<strong>Secondary:</strong> Armsmaster regains 2 HP
+		</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>Equipment</class>
+		<type>Module</type>
+		<name>Grappling Hook</name>
+		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.<br/>
+		<strong>Primary:</strong> Deal 1 projectile damage to up to 2 non-hero targets.<br/>
+		<strong>Secondary:</strong> Destroy an Ongoing card
+		</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>Equipment</class>
+		<type>Module</type>
+		<name>Accelerator</name>
+		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.<br/>
+		<strong>Primary:</strong> All heroes may draw a card.<br/>
+		<strong>Secondary:</strong> A hero other than Armsmaster may play a card
+		</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>Equipment</class>
+		<type>Module</type>
+		<name>Stasis Effector</name>
+		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.<br/>
+		<strong>Primary:</strong> Discard 2 cards. If you do, the next time a villain card would be played, put it in the villain trash instead<br/>
+		<strong>Secondary:</strong> Destroy a target with 4 HP or less
+		</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>Equipment</class>
+		<type>Module</type>
+		<name>Targeting Computer</name>
+		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.<br/>
+		<strong>Primary:</strong> Select a hero target. The next time that hero target deals damage, increase the damage by 1 and make the damage irreducible.<br/>
+		<strong>Secondary:</strong> Choose a target. At the start of your next turn, you deal that target 4 projectile damage
+		</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>Equipment</class>
+		<type>Module</type>
+		<name>Static Field Generator</name>
+		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.<br/>
+		<strong>Primary:</strong> Deal 2 lightning damage to a target<br/>
+		<strong>Secondary:</strong> Deal 1 lightning damage to all targets with 2 or less HP
+		</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>Equipment</class>
+		<type>Module</type>
+		<name>Communicator</name>
+		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.<br/>
+		<strong>Primary:</strong> A hero other than Armsmaster may use a power<br/>
+		<strong>Secondary:</strong> A hero other than Armsmaster may play a card
+		</text>
+	</card>
+</deck>
