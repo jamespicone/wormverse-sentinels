@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="hero_convert.xslt"?>
+
+<deck>
+	<name>Assault</name>
+	<version>1.0</version>
+	<charactercard>
+		<name>Assault</name>
+		<front>
+			<hp>28</hp>
+			<power>
+				<name>Reflexes</name>
+				<text>The next time a villain card enters play, you may play a card</text>
+			</power>
+		</front>
+		<back>
+			<text>
+			<ul>
+				<li>The next time a hero target would be dealt damage, redirect the damage to a hero target of your choice</li>
+				<li>Deal 2 melee damage to a target</li>
+				<li>One player may use a power</li>
+			</ul>
+			</text>
+		</back>
+	</charactercard>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Smack!</name>
+		<text>Deal 1 melee damage to a target. If it is not your turn, deal 2 melee damage to the same target</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Zoom!</name>
+		<text>Deal 2 melee damage to a target. If it is not your turn, deal 1 melee damage to a second target</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Biff!</name>
+		<text>Deal 1 melee damage to a target. If it is not your turn, deal 1 melee damage to up to 2 additional targets</text>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<name>A Change of Pace</name>
+		<class>One-Shot</class>
+		<text>Discard any number of cards. Draw X cards, where X = 1 + the number of cards you discarded in this way</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<name>Preparation</name>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<text>Whenever a hero card would deal damage to a non-hero target, deal 1 melee damage to that target</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<name>Redirection</name>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<text>The next time a villain card would deal damage, redirect that damage to a target of your choice, then destroy this card</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<name>Reaction</name>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<text>Increase damage you deal by 1 when it is not your turn</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<name>Insult to Injury</name>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<text>Whenever a hero card deals 4 or more damage to a non-hero target, you may play a card</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<name>Snap Decision</name>
+		<class>Ongoing</class>
+		<text>The next time an environment card enters play, destroy it and deal 3 projectile damage to a target</text>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<name>Agility</name>
+		<class>Ongoing</class>
+		<power>Deal 1 melee damage to a non-hero target. Draw a card</power>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<name>Madcap Antics</name>
+		<class>Ongoing</class>
+		<text>You may play cards and use powers, even if another card says you can't</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<name>Heroism</name>
+		<class>Ongoing</class>
+		<text>Whenever a hero target would be dealt damage, redirect that damage to Assault. At the start of your turn, destroy this card</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<name>Transformer</name>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<text>Whenever damage is redirected, you may choose to either increase it by 1, reduce it by 1, or leave it unchanged</text>
+	</card>
+</deck>
