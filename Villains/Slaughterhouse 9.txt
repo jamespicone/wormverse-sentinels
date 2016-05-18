@@ -11,3 +11,40 @@ Slaughterhouse Nine (Villain)
 	
 	Murder Rat?: Damage?
 	Hatchet Face?: Prevents power use?
+	
+Slaughterhouse 9
+	"Parahuman Murder Squad"
+	SETUP:
+		Search the Villain deck for all Nine cards, shuffle them, and put them aside as the Nine deck.
+		
+		Put the top H - 1 cards from the Nine deck into play
+		
+	GAMEPLAY:
+		If no Nine cards are in play, the heroes win the game
+		
+Parahuman, Nine:
+Jack Slash: Parahuman, Nine, 12 "Whenever a hero uses a power, this card deals them 2 melee damage. Increase damage dealt by villain targets by 1. Nemesis: Skitter"
+Bonesaw: 10 "At the end of the villain turn, all villain targets regain 2 HP. At the end of the villain turn, Bonesaw deals 1 toxic damage to all non-villain targets" Nemesis: Grue, Guts&Glory
+Crawler: 18 "Whenever Crawler is dealt damage, he becomes immune to that damage type until the next time he takes damage. At the end of the villain turn, Crawler deals 3 melee damage to the non-villain target with the highest HP." Nemesis: Guts&Glory
+Burnscar: 12 "At the end of the villain turn, destroy up to 2 environment cards. Burnscar deals X fire damage to all non-villain targets, where X = 1 + the number of environment cards destroyed in this way" Nemesis: Labyrinth
+Mannequin: 12 HP. "Reduce damage dealt to Mannequin by 1. At the end of the villain turn, destroy 1 hero Ongoing or Equipment card" Nemesis: Armsmaster
+Shatterbird: 12 "At the end of the villain turn, Shatterbird deals 2 projectile damage to the H - 1 hero targets with the highest HP" Nemesis: Regent
+Siberian: 14 "All villain targets other than the Siberian are immune to damage" Nemesis: Bitch
+Cherish: 10 "At the end of the villain turn, the hero with the most cards in hand discards 2 cards. Whenever Cherish would be dealt damage, Cherish deals 2 psychic damage to the target damaging her." Nemesis: Regent
+(8)
+
+Parahuman:
+Hatchet Face: 8HP, "Heroes may not use powers"
+Murder Rat: 8 HP, "At the end of the villain turn, Murder Rat deals 2 melee damage to the hero target with the lowest HP"
+(2)
+
+x4 Spiderbots, 4 HP, Device, "At the end of the villain turn, deal X damage to the hero target with the lowest HP, where X = 1 + the number of Spiderbots in play" Nemesis: Battery
+
+(14 cards, 11 left)
+
+x4 Some More Friends: "Play the top card of the Nine deck"
+x2 Shall We Play a Game?: "If Jack Slash is not in play, find Jack Slash in the Nine deck or Nine trash and put him into play. Jack Slash deals 2 psychic damage to all hero targets."
+
+(20 cards, 5 left)
+x2 Change the Rules: "Shuffle all Nine cards in play and in the trash back into the Nine deck. Deal X Nine cards from the top of the Nine deck, where X = 1 + the number of Nine cards that were in play"
+x3 We Don't Take Prisoners: "Whenever a target is destroyed by a villain card, remove it from the game"
