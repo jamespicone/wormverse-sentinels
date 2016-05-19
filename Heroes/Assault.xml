@@ -80,7 +80,7 @@
 		<quantity>3</quantity>
 		<name>Snap Decision</name>
 		<class>Ongoing</class>
-		<text>The next time an environment card enters play, destroy it and deal 3 projectile damage to a target</text>
+		<text>The next time an environment card enters play, destroy it and deal 3 projectile damage to a target. Then destroy this card</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
