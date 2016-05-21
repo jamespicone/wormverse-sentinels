@@ -18,7 +18,7 @@
 	<card>
 		<name>Attention</name>
 		<quantity>1</quantity>
-		<text>At the end of the environment turn, Reveal the top card of every deck. If the revealed card is a target, put it into play. Otherwise, shuffle it back into its deck. Then, destroy this card</text>
+		<text>At the end of the environment turn, reveal the top card of every deck, starting at the villain deck and going clockwise. If the revealed card is a target, put it into play. Otherwise, shuffle it back into its deck. Then, destroy this card</text>
 	</card>
 	<card>
 		<name>The Boardwalk</name>
@@ -61,7 +61,7 @@
 		<name>Leet</name>
 		<quantity>1</quantity>
 		<hp>4</hp>
-		<text>At the end of the environment turn, this card deals the non-environment target with the highest HP 2 melee damage. Then, if Leet is in play, Uber and Leet regain 1 HP</text>
+		<text>At the end of the environment turn, this card deals the non-environment target with the lowest HP 2 lightning damage. If Uber is in play, increase damage dealt by Uber and Leet by 1</text>
 	</card>
 	
 </deck>
