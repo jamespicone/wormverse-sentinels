@@ -4,7 +4,7 @@
 
 <deck>
 	<name>The Merchants</name>
-	<version>1.0</version>
+	<version>1.1</version>
 	<villain>
 		<name>Skidmark</name>
 		<front>
@@ -12,8 +12,6 @@
 			<hp>70</hp>
 			<setup>Place Skidmark in play, "Superpowered Drug Dealer" side up. Search the villain deck for all Thug cards; put them aside as the 'Thug deck'.</setup>
 			<gameplay>If the Thug deck is empty at the start of the villain turn, the heroes lose the game.<br/><br/>
-		
-		All villain targets take 1 less damage.<br/><br/>
 		
 		At the end of the villain turn, play H - 1 Thugs from the top of the Thug deck.<br/><br/>
 		
