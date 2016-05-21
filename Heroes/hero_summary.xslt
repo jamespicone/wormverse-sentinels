@@ -24,7 +24,7 @@
 
 <xsl:for-each select="/deck/card"><xsl:text>
 x</xsl:text><xsl:value-of select="quantity" />
-<xsl:text> </xsl:text><xsl:value-of select="name" />: <xsl:for-each select="class|type"><xsl:value-of select="." /><xsl:if test="position()!=last()">,</xsl:if><xsl:text> </xsl:text></xsl:for-each>"<xsl:for-each select="text"><xsl:value-of select="." /></xsl:for-each><xsl:for-each select="power">Power: <xsl:value-of select="." /></xsl:for-each>"</xsl:for-each>
+<xsl:text> </xsl:text><xsl:value-of select="name" />: <xsl:for-each select="class|type"><xsl:value-of select="." /><xsl:if test="position()!=last()">,</xsl:if><xsl:text> </xsl:text></xsl:for-each> <xsl:for-each select="hp"><xsl:value-of select="." /> HP </xsl:for-each>"<xsl:for-each select="text"><xsl:value-of select="." /></xsl:for-each><xsl:for-each select="power">Power: <xsl:value-of select="." /></xsl:for-each>"</xsl:for-each>
 
 </xsl:template>
 
