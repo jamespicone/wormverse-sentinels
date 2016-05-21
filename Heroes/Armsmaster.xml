@@ -4,7 +4,7 @@
                      
 <deck>
 	<name>Armsmaster</name>
-	<version>1.0</version>
+	<version>1.1</version>
 	<charactercard>
 		<name>Armsmaster</name>
 		<front>
@@ -142,7 +142,7 @@
 		<type>Module</type>
 		<name>Stasis Effector</name>
 		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.<br/>
-		<strong>Primary:</strong> Discard 2 cards. If you do, the next time a villain card would be played, put it in the villain trash instead<br/>
+		<strong>Primary:</strong> Discard 2 cards. If you do, the next time a villain card would be played, put it in the villain trash instead, and until the start of your next turn all villain character cards are immune to damage<br/>
 		<strong>Secondary:</strong> Destroy a target with 4 HP or less
 		</text>
 	</card>
