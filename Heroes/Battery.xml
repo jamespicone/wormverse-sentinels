@@ -4,7 +4,7 @@
                      
 <deck>
 	<name>Battery</name>
-	<version>1.0</version>
+	<version>1.1</version>
 	<charactercard>
 		<name>Battery</name>
 		<front>
@@ -68,7 +68,7 @@
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Pow!</name>
-		<text>If Battery is charged, put a non-hero target on top of its deck and then deal 3 melee damage to a non-hero target. Otherwise, deal 2 melee damage to a non-hero target</text>
+		<text>If Battery is charged, put a non-hero target that is not a character card on top of its deck and then deal 3 melee damage to a non-hero target. Otherwise, deal 2 melee damage to a non-hero target</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -92,7 +92,7 @@
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>Magnetism</name>
-		<power>If Battery is charged, destroy an equipment or device card. <br/><br/>If Battery is not charged, choose an equipment card from a hero's trash and put it into play</power>
+		<power>If Battery is charged, destroy an equipment or device card. If Battery is not charged, choose an equipment card from a hero's trash and put it into play</power>
 	</card>
 	<card>
 		<quantity>3</quantity>
