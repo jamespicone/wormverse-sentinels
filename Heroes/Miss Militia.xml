@@ -4,7 +4,7 @@
 
 <deck>
 	<name>Miss Militia</name>
-	<version>1.0</version>
+	<version>1.1</version>
 	<charactercard>
 		<name>Miss Militia</name>
 		<front>
@@ -50,7 +50,7 @@
 		<class>Equipment</class>
 		<type>Weapon</type>
 		<name>Sniper Rifle</name>
-		<power>Deal 4 projectile damage to a non-hero target. If you have used the Pistol power since the start of your last turn, draw a card</power>
+		<power>Select a target. At the start of your next turn, deal 4 projectile damage to a non-hero target. If you have used the Pistol power since the start of your last turn, draw a card</power>
 	</card>
 	<card>
 		<quantity>2</quantity>
