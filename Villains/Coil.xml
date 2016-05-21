@@ -8,11 +8,9 @@
 	<villain>
 		<name>Coil</name>
 		<front>
-			<setup>
-				Put Coil: Scheming and Coil: Acting into play, "Evil Mastermind" side up.<br/><br/>
-				Put Underground Base into play.<br/><br/>
-				Note that Coil: Scheming activates before Coil: Acting.
-			</setup>
+			<setup>Put Coil: Scheming and Coil: Acting into play, "Evil Mastermind" side up.<br/><br/>
+Put Underground Base into play.<br/><br/>
+Note that Coil: Scheming activates before Coil: Acting.</setup>
 		</front>
 	</villain>
 	
