@@ -40,8 +40,8 @@
 		<style>
 			div {
 				height: 88mm;
-				width: 63mm;
-				padding: 5mm;
+				width: 59mm;
+				padding: 2mm;
 				border: 1px solid black;
 				page-break-inside: avoid;
 				box-sizing: border-box;
