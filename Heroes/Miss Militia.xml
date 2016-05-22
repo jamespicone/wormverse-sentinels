@@ -4,7 +4,7 @@
 
 <deck>
 	<name>Miss Militia</name>
-	<version>1.1</version>
+	<version>1.3</version>
 	<charactercard>
 		<name>Miss Militia</name>
 		<front>
@@ -106,9 +106,9 @@
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Weaponry</name>
-		<text>If you have used the Submachine Gun power since the start of your last turn, until the end of your turn, increase damage you deal by 1<br/>
+		<text><small>If you have used the Submachine Gun power since the start of your last turn, until the end of your turn, increase damage you deal by 1<br/>
 		If you have used the Machete power since the start of your last turn, deal 1 irreducible melee damage to a non-hero target<br/>
 		If you have used the Pistol power since the start of your last turn, draw a card<br/>
-		If you have used the Sniper Rifle power since the start of your last turn, destroy a non-hero, non-character-card target</text>
+		If you have used the Sniper Rifle power since the start of your last turn, destroy a non-hero, non-character-card target</small></text>
 	</card>
 </deck>
