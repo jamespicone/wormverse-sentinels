@@ -4,7 +4,7 @@
                      
 <deck>
 	<name>Armsmaster</name>
-	<version>1.1</version>
+	<version>1.2</version>
 	<charactercard>
 		<name>Armsmaster</name>
 		<front>
@@ -141,9 +141,9 @@
 		<class>Equipment</class>
 		<type>Module</type>
 		<name>Stasis Effector</name>
-		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.<br/>
+		<text><small>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.<br/>
 		<strong>Primary:</strong> Discard 2 cards. If you do, the next time a villain card would be played, put it in the villain trash instead, and until the start of your next turn all villain character cards are immune to damage<br/>
-		<strong>Secondary:</strong> Destroy a target with 4 HP or less
+		<strong>Secondary:</strong> Destroy a target with 4 HP or less</small>
 		</text>
 	</card>
 	<card>
@@ -151,10 +151,10 @@
 		<class>Equipment</class>
 		<type>Module</type>
 		<name>Targeting Computer</name>
-		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.<br/>
+		<text><small>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.<br/>
 		<strong>Primary:</strong> Select a hero target. The next time that hero target deals damage, increase the damage by 1 and make the damage irreducible.<br/>
 		<strong>Secondary:</strong> Choose a target. At the start of your next turn, you deal that target 4 projectile damage
-		</text>
+		</small></text>
 	</card>
 	<card>
 		<quantity>2</quantity>
