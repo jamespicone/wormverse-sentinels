@@ -62,6 +62,12 @@
 					</em></p>
 					</xsl:for-each>
 					
+					<xsl:for-each select="nemesis">
+					<xsl:if test="position()=1"><p><strong>Nemesis: </strong></xsl:if>
+					<xsl:value-of select="." />
+					<xsl:if test="position()=last()"></p></xsl:if>
+					</xsl:for-each>
+					
 					<p><em>
 					<xsl:for-each select="class | type">
 						<xsl:value-of select="." />
