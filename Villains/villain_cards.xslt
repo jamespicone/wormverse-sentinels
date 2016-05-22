@@ -31,13 +31,21 @@
 				float: right;
 			}
 			
+			.nemesis {
+				float: right;
+			}
+			
+			.title {
+				float: left;
+			}
+			
 			.bottext {
 				font-size: small;
 				font-weight: light;
 				
 				position: absolute;
-				bottom: 5mm;
-				right: 5mm;
+				bottom: 2mm;
+				right: 2mm;
 			}
 			
 			body {
@@ -54,19 +62,27 @@
 		<xsl:for-each select="1 to $number">
 			<xsl:for-each select="$thecard">
 				<div>
-					<span class="cardname"><xsl:value-of select="name" /><xsl:if test="name()!='card'"><xsl:value-of select="../name" /></xsl:if></span><xsl:for-each select="hp"><span class="hp"><xsl:value-of select="." /> HP</span></xsl:for-each><br/>
+					<span class="cardname"><xsl:value-of select="name" /><xsl:if test="name()!='card'"><xsl:value-of select="../name" /></xsl:if></span>
+					<xsl:for-each select="hp"><span class="hp"><xsl:value-of select="." /> HP</span></xsl:for-each>
+					<br/>
 					
+					<xsl:if test="name()!='card'">
+					<p>
+					<span class="title"><small>
 					<xsl:for-each select="title">
-					<p><em>
+					<em>
 					<xsl:value-of select="." />
-					</em></p>
+					</em>
 					</xsl:for-each>
+					</small></span>
 					
+					<small><span class="nemesis">
 					<xsl:for-each select="nemesis">
-					<xsl:if test="position()=1"><p><strong>Nemesis: </strong></xsl:if>
+					<xsl:if test="position()=1"><strong>N: </strong></xsl:if>
 					<xsl:value-of select="." />
-					<xsl:if test="position()=last()"></p></xsl:if>
+					<xsl:if test="position()=last()"></xsl:if>
 					</xsl:for-each>
+					</span></small></p><br/></xsl:if>
 					
 					<p><em>
 					<xsl:for-each select="class | type">
