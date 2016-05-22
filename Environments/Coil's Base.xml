@@ -77,6 +77,6 @@
 	<card>
 		<name>Stranger and Master Protocols</name>
 		<quantity>1</quantity>
-		<text>Heroes cannot cause other heroes to draw cards, search their deck, regain HP, use a power, or play a card</text>
+		<text>Heroes cannot cause other heroes to draw cards, search their deck, regain HP, use a power, or play a card<br/><br/>At the start of their turn, a player may skip the rest of their turn to destroy this card</text>
 	</card>
 </deck>

@@ -30,7 +30,7 @@
 		<quantity>3</quantity>
 		<hp>8</hp>
 		<text>Whenever a hero is dealt damage by this card, that hero discards a card. At the end of the environment turn, this card deals the non-environment target with the lowest HP 1 projectile damage</text>
-		<name>PRT Containment Agents</name>
+		<name>Containment Agents</name>
 	</card>
 	<card>
 		<quantity>1</quantity>
