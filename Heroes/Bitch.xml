@@ -4,7 +4,7 @@
 
 <deck>
 	<name>Bitch</name>
-	<version>1.0</version>
+	<version>1.1</version>
 	<charactercard>
 		<name>Bitch</name>
 		<front>
@@ -94,11 +94,58 @@
 		<text>Reduce damage dealt to hero targets by environment cards by 1</text>
 	</card>
 	<card>
-		<quantity>9</quantity>
+		<quantity>1</quantity>
 		<type>Dog</type>
 		<hp>6</hp>
-		<name>Judas, Angelica, Brutus, Kuro, Bullet, Ginger, Axel, Milk, Stumpy</name>
-		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
+		<name>Judas</name>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<type>Dog</type>
+		<hp>6</hp>
+		<name>Angelica</name>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<type>Dog</type>
+		<hp>6</hp>
+		<name>Brutus</name>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<type>Dog</type>
+		<hp>6</hp>
+		<name>Kuro</name>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<type>Dog</type>
+		<hp>6</hp>
+		<name>Bullet</name>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<type>Dog</type>
+		<hp>6</hp>
+		<name>Ginger</name>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<type>Dog</type>
+		<hp>6</hp>
+		<name>Axel</name>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<type>Dog</type>
+		<hp>6</hp>
+		<name>Milk</name>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<type>Dog</type>
+		<hp>6</hp>
+		<name>Stumpy</name>
 	</card>
 	<card>
 		<quantity>1</quantity>
