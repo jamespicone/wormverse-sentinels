@@ -4,7 +4,7 @@
 
 <deck>
 	<name>Coil</name>
-	<version>1.0</version>
+	<version>1.1</version>
 	<villain>
 		<name>Coil</name>
 		<front>
@@ -20,18 +20,13 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 			<title>Evil Mastermind</title>
 			<nemesis>Tattletale</nemesis>
 			<hp>50</hp>
-			<text>When flipped to this side, set this card's HP to Coil: Acting's HP.<br/><br/>
-
-At the start of the villain turn, play the top card of the environment deck<br/>
-At the end of the villain turn, all villain targets regain 2 HP<br/><br/>
-
-When this card would be destroyed, flip it instead.</text>
-			<advanced>At the end of the villain turn, if Coil: Acting has more HP than this card, set this card's HP to Coil: Acting's HP.</advanced>
+			<text><small><p>At the start of the villain turn play the top card of the environment deck. At the end of the villain turn all villain targets regain 2 HP.</p><p>When this card would be destroyed flip it instead</p></small></text>
+			<advanced><small>At the end of the villain turn, if Coil: Acting has more HP than this card, set this card's HP to its HP</small></advanced>
 		</front>
 		<back>
 			<title>Defeated</title>
 			<text>If Coil: Acting is flipped to the "Defeated" side, the heroes win the game.</text>
-			<advanced>At the end of the villain turn, flip this card.</advanced>
+			<advanced>At the end of the villain turn, flip this card and set its HP to Coil: Acting's HP</advanced>
 		</back>
 	</specialcard>
 	<specialcard>
@@ -40,18 +35,13 @@ When this card would be destroyed, flip it instead.</text>
 			<title>Evil Mastermind</title>
 			<nemesis>Tattletale</nemesis>
 			<hp>50</hp>
-			<text>When flipped to this side, set this card's HP to Coil: Scheming's HP.<br/><br/>
-
-At the start of the villain turn, reveal cards from the top of the villain deck until you reveal a Parahuman. Put it into play, then shuffle the other revealed cards back into the villain deck.<br/>
-At the end of the villain turn, deal H energy damage to the hero target with the highest HP.<br/><br/>
-
-When this card would be destroyed, flip it instead.</text>
-			<advanced>At the end of the villain turn, if Coil: Scheming has more HP than this card, set this card's HP to Coil: Scheming's HP.</advanced>
+			<text><small><p>At the start of the villain turn reveal cards from the villain deck until you reveal a Parahuman. Put it into play then shuffle the other revealed cards into the villain deck. At the end of the villain turn deal H energy damage to the hero target with the highest HP. When this card would be destroyed, flip it instead</p></small></text>
+			<advanced><small>At the end of the villain turn if Coil: Scheming has more HP than this card set this card's HP to its HP</small></advanced>
 		</front>
 		<back>
 			<title>Defeated</title>
 			<text>If Coil: Scheming is flipped to the "Defeated" side, the heroes win the game.</text>
-			<advanced>At the end of the villain turn, flip this card.</advanced>
+			<advanced>At the end of the villain turn, flip this card and set its HP to Coil: Scheming's HP.</advanced>
 		</back>
 	</specialcard>
 	<card>
