@@ -56,6 +56,11 @@
 				-webkit-columns: auto 3; /* Chrome, Safari, Opera */
 				-moz-columns: auto 3; /* Firefox */
 				columns: auto 3;
+				
+				-webkit-column-gap: 0px; /* Chrome, Safari, Opera */
+				-moz-column-gap: 0px; /* Firefox */
+				column-gap: 0px;
+	
 				margin: 0mm;
 				padding: 0mm;
 			}
