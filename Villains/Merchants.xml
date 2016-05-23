@@ -10,12 +10,10 @@
 		<front>
 			<title>Superpowered Drug Dealer</title>
 			<hp>70</hp>
-			<setup>Place Skidmark in play, "Superpowered Drug Dealer" side up. Search the villain deck for all Thug cards; put them aside as the 'Thug deck'.</setup>
-			<gameplay>If the Thug deck is empty at the start of the villain turn, the heroes lose the game.<br/><br/>
-		
-		At the end of the villain turn, play H - 1 Thugs from the top of the Thug deck.<br/><br/>
-		
-		When this target is destroyed, flip it instead</gameplay>
+			<setup><small>Place Skidmark in play, "Superpowered Drug Dealer" side up. Search the villain deck for all Thug cards; put them aside as the 'Thug deck'.</small></setup>
+			<gameplay><small>If the Thug deck is empty at the start of the villain turn, the heroes lose the game.<br/>
+		At the end of the villain turn, play H - 1 Thugs from the top of the Thug deck.<br/>
+		When this target is destroyed, flip it instead</small></gameplay>
 		</front>
 		<back>
 			<title>Defeated Drug Dealer</title>
@@ -81,21 +79,21 @@
 	
 	<card>
 		<name>Reveller</name>
-		<hp>4</hp>
+		<hp>2</hp>
 		<type>Thug</type>
 		<quantity>4</quantity>
 		<text>When this card would be placed in the villain trash or the villain deck, shuffle it into the Thug deck instead.<br/><br/>At the end of the villain turn, this card deals 1 melee damage to the hero target with the highest HP</text>
 	</card>
 	<card>
 		<name>Tough</name>
-		<hp>4</hp>
+		<hp>2</hp>
 		<type>Thug</type>
 		<quantity>4</quantity>
 		<text>When this card would be placed in the villain trash or the villain deck, shuffle it into the Thug deck instead.<br/><br/>At the end of the villain turn, this card deals 2 melee damage to the 2 hero targets with the highest HP</text>
 	</card>
 	<card>
 		<name>Sadist</name>
-		<hp>4</hp>
+		<hp>2</hp>
 		<type>Thug</type>
 		<quantity>2</quantity>
 		<text>When this card would be placed in the villain trash or the villain deck, shuffle it into the Thug deck instead.<br/><br/>At the end of the villain turn, this card deals 2 melee damage to the hero target with the lowest HP</text>
