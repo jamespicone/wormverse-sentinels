@@ -9,6 +9,7 @@
 		<name>Skidmark</name>
 		<front>
 			<title>Superpowered Drug Dealer</title>
+			<nemesis>Miss Militia</nemesis>
 			<hp>70</hp>
 			<setup><small>Place Skidmark in play, "Superpowered Drug Dealer" side up. Search the villain deck for all Thug cards; put them aside as the 'Thug deck'.</small></setup>
 			<gameplay><small>If the Thug deck is empty at the start of the villain turn, the heroes lose the game.<br/>
