@@ -11,43 +11,50 @@
 			<title>Gang Leader</title>
 			<hp>90</hp>
 			<nemesis>Skitter</nemesis>
-			<setup><small>At the start of the game Lung enters play Gang Leader side up.</small></setup>
-			<gameplay><small>When the villain trash is shuffled into the villain deck, Lung flips.<br/><br/>
-				
-				If there are 10 or more cards in the villain trash, reduce damage dealt to Lung by 1.<br/><br/>
-				
-				At the end of the villain turn:
-				<ul>
-					<li>Play the top card of the villain deck then,</li>
-					<li>Lung deals X melee damage to all hero targets, where X = 1 + the number of cards in the villain trash / 5 then,</li>
-					<li>If there are 5 or more cards in the villain trash, Lung regains 1 HP then,</li>
-					<li>If there are 15 or more cards in the villain trash, Lung regains 1 HP.</li>
-				</ul></small>
-			</gameplay>
+			<setup><small>At the start of the game Lung enters play Gang Leader side up. Put Brute into play, Gang Leader side up.</small></setup>
+			<gameplay><small>When the villain trash is shuffled into the villain deck, flip Brute, and flip Lung.</small></gameplay>
 			<advanced><small>At the end of the villain turn, discard the top 3 cards of the villain deck</small></advanced>
 		</front>
 		<back>
 			<title>Dragon Awoken</title>
 			<hp>90</hp>
 			<nemesis>Skitter</nemesis>
-			<gameplay><small>When flipped to this side, destroy all villain cards in play and put all cards in the villain deck into the villain trash.<br/><br/>
-				
-				Villain cards cannot be played.<br/><br/>
-				
-				Reduce damage dealt to Lung by 2.<br/><br/>
-				
-				Lung is immune to damage dealt by Environment cards.<br/><br/>
-				
-				At the end of the villain turn:
-				<ul>
-					<li>Lung deals 6 melee and 2 irreducible fire damage to all hero targets then,</li>
-					<li>Lung regains 3 HP then,</li>
-					<li>Destroy H hero ongoing or equipment cards.</li>
-				</ul></small>
+			<gameplay><small><p>When flipped to this side, destroy all villain cards in play and put all cards in the villain deck into the villain trash.</p>				
+				<p>Villain cards cannot be played.</p>
+				<p>Reduce damage dealt to Lung by 2.</p></small>
 			</gameplay>
 			<advanced><small>When flipped to this side, the heroes lose the game</small></advanced>
 		</back>
 	</villain>
+	<specialcard>
+		<name>Brute</name>
+		<front>
+		<title>Gang Leader</title>
+		<text><small>
+		This card is indestructible.<br/>
+		If there are 10 or more cards in the villain trash, reduce damage dealt to Lung by 1.<br/>
+		At the end of the villain turn, play the top card of the villain deck then,<br/>
+		Lung deals X melee damage to all hero targets, where X = 1 + the number of cards in the villain trash / 5 then,<br/>
+		If there are 5 or more cards in the villain trash, Lung regains 1 HP then,<br/>
+		If there are 15 or more cards in the villain trash, Lung regains 1 HP.
+		</small></text>
+		</front>
+		<back>
+		<title>Dragon Awoken</title>
+		<text><small>
+		<p>This card is indestructible</p>
+		<p>Lung is immune to damage dealt by Environment cards.</p>
+		<p>
+			At the end of the villain turn:
+				<ul>
+					<li>Lung deals 6 melee and 2 irreducible fire damage to all hero targets then,</li>
+					<li>Lung regains 3 HP then,</li>
+					<li>Destroy H hero ongoing or equipment cards.</li>
+				</ul>
+				</p>
+		</small></text>
+		</back>
+	</specialcard>
 	<card>
 		<name>Burst of Flame</name>
 		<type>One-Shot</type>

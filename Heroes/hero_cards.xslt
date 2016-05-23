@@ -56,6 +56,8 @@
 				-webkit-columns: auto 3; /* Chrome, Safari, Opera */
 				-moz-columns: auto 3; /* Firefox */
 				columns: auto 3;
+				margin: 0mm;
+				padding: 0mm;
 			}
 		</style>
 	</head>
