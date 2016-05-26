@@ -80,7 +80,6 @@ x2 Some Light Entertainment, Attack: "Each villain target in play deals 2 melee 
 x1 Legend, Ongoing, Special: "Increase damage dealt by villain targets by 1"
 x1 We're Recruiting, Attack: "The villain target with the highest HP deals 5 psychic damage to the hero target with the lowest HP. If that destroys a hero target, play the top card of the villain deck"
 x2 Less Than Human, Defence, Ongoing: "Reduce damage dealt to villain targets by 1"
-x4 Spiderbots, 4 HP, Device, "At the end of the villain turn, deal X damage to the hero target with the lowest HP, where X = 1 + the number of Spiderbots in play" Nemesis: Battery
 x2 Some More Friends: "Play the top card of the Nine deck. Play the top card of the villain deck"
 x2 Shall We Play a Game?, Special: "If Jack Slash is not in play, find Jack Slash in the Nine deck and put him into play. Jack Slash deals 2 psychic damage to all hero targets."
 x2 Change the Rules, Defence: "Shuffle all Nine cards in play and in the trash back into the Nine deck. Deal X Nine cards from the top of the Nine deck, where X = 1 + the number of Nine cards that were in play"
@@ -89,5 +88,7 @@ x2 We Don't Take Prisoners, Attack, Ongoing: "Whenever a target is destroyed by 
 Parahuman:
 x1 Hatchet Face: 8 HP, "Heroes may not use powers"
 x1 Murder Rat: 8 HP, "At the end of the villain turn, Murder Rat deals 2 melee damage to the hero target with the lowest HP"
+
+x4 Spiderbots, 4 HP, Device, "At the end of the villain turn, deal X damage to the hero target with the lowest HP, where X = 1 + the number of Spiderbots in play" Nemesis: Battery
 
 (25 cards)
