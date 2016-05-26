@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="villain_convert.xslt"?>
+
+<deck>
+	<name>Slaughterhouse 9</name>
+	<version>1.0</version>
+	<villain>
+		<name>Slaughterhouse 9</name>
+		<front>
+			<title>Parahuman Murder Squad</title>
+			<setup><small><p>Search the Villain deck for all Nine cards, shuffle them, and put them aside as the Nine deck.</p>
+		<p>Put the top H cards from the Nine deck into play</p>
+		<p>Whenever a Nine card would be destroyed, flip it instead</p></small></setup>
+		<gameplay><small>Whenever no villain targets are in play, the heroes win the game</small></gameplay>
+		</front>
+	</villain>
+	
+	<specialcard>
+		<name>Jack Slash</name>
+		<front>
+			<nemesis>Skitter</nemesis>
+			<hp>26</hp>
+			<type>Parahuman</type>
+			<type>Nine</type>
+			<text><small><p>The first time an Attack card would enter the trash each turn, this card deals X melee damage to each hero, where X = 2 * the number of powers contolled by that hero.</p><p>The first time a Special card would enter the trash each turn, play the top card of the villain deck</p></small></text>
+		</front>
+		<back>
+			<type>Parahuman</type>
+			<type>Nine</type>
+			<text>Whenever a hero uses a power, this card deals that hero 1 melee damage</text>
+		</back>
+	</specialcard>
+	<specialcard>
+		<name>Bonesaw</name>
+		<front>
+			<nemesis>Grue</nemesis>
+			<nemesis>Guts &amp; Glory</nemesis>
+			<hp>24</hp>
+			<type>Parahuman</type>
+			<type>Nine</type>
+			<text><p>The first time a Defence card would enter the trash each turn, each villain target regains 2 HP.</p><p>The first time a Special card would enter the trash each turn, this card deals 2 toxic damage to all non-villain targets</p></text>
+		</front>
+		<back>
+			<type>Parahuman</type>
+			<type>Nine</type>
+			<text>At the end of the villain turn, the villain target with the lowest HP regains 1 HP</text>
+		</back>
+	</specialcard>
+	<specialcard>
+		<name>Crawler</name>
+		<front>
+			<nemesis>Guts &amp; Glory</nemesis>
+			<hp>30</hp>
+			<type>Parahuman</type>
+			<type>Nine</type>
+			<text><small><p>Whenever Crawler is dealt damage, he becomes immune to that damage type until the next time he takes damage.</p><p>The first time an Attack card would enter the trash each turn, this card deals 2 toxic damage and 2 melee damage to the non-villain target with the highest HP.</p><p>The first time a Special card would enter the trash each turn, Crawler regains 30 HP</p></small></text>
+		</front>
+		<back>
+			<type>Parahuman</type>
+			<type>Nine</type>
+			<text>At the end of the villain turn, this card deals 2 melee damage to the hero target with the lowest HP</text>
+		</back>
+	</specialcard>
+	<specialcard>
+		<name>Burnscar</name>
+		<front>
+			<nemesis>Labyrinth</nemesis>
+			<hp>24</hp>
+			<type>Parahuman</type>
+			<type>Nine</type>
+			<text><p>The first time a Special card would enter the trash each turn, destroy all environment cards then Burnscar deals X fire damage to all non-villain targets, where X = 1 + the number of environment cards destroyed in this way</p></text>
+		</front>
+		<back>
+			<type>Parahuman</type>
+			<type>Nine</type>
+			<text>At the end of the villain turn, this card deals 1 fire damage to all non-villain targets</text>
+		</back>
+	</specialcard>
+	<specialcard>
+		<name>Mannequin</name>
+		<front>
+			<nemesis>Armsmaster</nemesis>
+			<hp>26</hp>
+			<type>Parahuman</type>
+			<type>Nine</type>
+			<text><p>Reduce damage dealt to Mannequin by 1.</p><p>The first time a Defence card would enter the trash each turn, destroy 1 hero Ongoing or Equipment card</p></text>
+		</front>
+		<back>
+			<type>Parahuman</type>
+			<type>Nine</type>
+			<text>Reduce damage dealt to the villain target with the lowest HP by 1</text>
+		</back>
+	</specialcard>
+	<specialcard>
+		<name>Shatterbird</name>
+		<front>
+			<nemesis>Regent</nemesis>
+			<hp>24</hp>
+			<type>Parahuman</type>
+			<type>Nine</type>
+			<text><p>The first time an Attack card would enter the trash each turn, Shatterbird deals 2 projectile damage to the H - 1 hero targets with the highest HP</p></text>
+		</front>
+		<back>
+			<type>Parahuman</type>
+			<type>Nine</type>
+			<text>At the end of the villain turn this card deals 1 projectile damage to all non-villain targets</text>
+		</back>
+	</specialcard>
+	<specialcard>
+		<name>Siberian</name>
+		<front>
+			<nemesis>Bitch</nemesis>
+			<hp>26</hp>
+			<type>Parahuman</type>
+			<type>Nine</type>
+			<text><p>All villain targets other than the Siberian are immune to damage</p></text>
+		</front>
+		<back>
+			<type>Parahuman</type>
+			<type>Nine</type>
+			<text>The villain target with the lowest HP is immune to melee damage</text>
+		</back>
+	</specialcard>
+	<specialcard>
+		<name>Cherish</name>
+		<front>
+			<nemesis>Regent</nemesis>
+			<hp>24</hp>
+			<type>Parahuman</type>
+			<type>Nine</type>
+			<text><p>The first time a Defence card would enter the trash each turn, the hero with the most cards in hand discards 2 cards.</p><p>Whenever Cherish would be dealt damage, Cherish deals 2 psychic damage to the target damaging her</p></text>
+		</front>
+		<back>
+			<type>Parahuman</type>
+			<type>Nine</type>
+			<text>Whenever a target is destroyed during a hero's turn, that hero deals themselves 1 psychic damage</text>
+		</back>
+	</specialcard>
+	
+	<card>
+		<name>Hatchet Face</name>
+		<type>Parahuman</type>
+		<hp>8</hp>
+		<text>Heroes may not use powers</text>
+		<quantity>1</quantity>
+	</card>
+	<card>
+		<name>Murder Rat</name>
+		<hp>8</hp>
+		<quantity>1</quantity>
+		<type>Parahuman</type>
+		<text>At the end of the villain turn, Murder Rat deals 2 melee damage to the hero target with the lowest HP</text>
+	</card>
+	<card>
+		<name>Spiderbots</name>
+		<hp>4</hp>
+		<quantity>4</quantity>
+		<type>Device</type>
+		<nemesis>Battery</nemesis>
+		<text>At the end of the villain turn, deal X damage to the hero target with the lowest HP, where X = 1 + the number of Spiderbots in play</text>
+	</card>
+
+	<card>
+		<name>They're All Better Now</name>
+		<quantity>1</quantity>
+		<class>One-Shot</class>
+		<type>Defence</type>
+		<text>Flip the most recently defeated Nine card; they have 10 HP. If no cards are flipped in this way, play the top card of the villain deck</text>
+	</card>
+	<card>
+		<name>The Scream</name>
+		<quantity>2</quantity>
+		<class>One-Shot</class>
+		<type>Attack</type>
+		<text>Each hero may destroy any number of Equipment cards. Then each hero target takes X projectile damage, where X = 2 * the number of Equipment cards in play</text>
+	</card>
+	<card>
+		<name>You've Been Anticipated</name>
+		<quantity>2</quantity>
+		<class>One-Shot</class>
+		<type>Defence</type>
+		<text>Each hero discards 2 cards</text>
+	</card>
+	<card>
+		<name>Some Light Entertainment</name>
+		<quantity>2</quantity>
+		<class>One-Shot</class>
+		<type>Attack</type>
+		<text>Each villain target in play deals 2 melee damage to the hero target with the highest HP</text>
+	</card>
+	<card>
+		<name>Legend</name>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Special</type>
+		<text>Increase damage dealt by villain targets by 1</text>
+	</card>
+	<card>
+		<name>Less Than Human</name>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<type>Defence</type>
+		<text>Reduce damage dealt to villain targets by 1</text>
+	</card>
+	<card>
+		<name>Some More Friends</name>
+		<quantity>2</quantity>
+		<class>One-Shot</class>
+		<text>Play the top card of the Nine deck. Play the top card of the villain deck</text>
+	</card>
+	<card>
+		<name>Shall We Play a Game?</name>
+		<quantity>2</quantity>
+		<class>One-Shot</class>
+		<type>Special</type>
+		<text>If Jack Slash is not in play, find Jack Slash in the Nine deck and put him into play. Jack Slash deals 2 psychic damage to all hero targets</text>
+	</card>
+	<card>
+		<name>Change the Rules</name>
+		<quantity>2</quantity>
+		<class>One-Shot</class>
+		<type>Defence</type>
+		<text>Shuffle all Nine cards in play back into the Nine deck. Deal X Nine cards from the top of the Nine deck, where X = 1 + the number of Nine cards that were in play</text>
+	</card>
+	<card>
+		<name>We Don't Take Prisoners</name>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<type>Attack</type>
+		<text>Whenever a target is destroyed by a villain card, remove it from the game</text>
+	</card>
+</deck>

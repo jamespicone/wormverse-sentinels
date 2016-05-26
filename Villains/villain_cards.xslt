@@ -87,7 +87,7 @@
 					<xsl:for-each select="nemesis">
 					<xsl:if test="position()=1"><strong>N: </strong></xsl:if>
 					<xsl:value-of select="." />
-					<xsl:if test="position()=last()"></xsl:if>
+					<xsl:if test="position()!=last()">, </xsl:if>
 					</xsl:for-each>
 					</span></small></p><br/></xsl:if>
 					
