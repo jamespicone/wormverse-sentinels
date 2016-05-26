@@ -48,3 +48,46 @@ x2 Shall We Play a Game?: "If Jack Slash is not in play, find Jack Slash in the 
 (20 cards, 5 left)
 x2 Change the Rules: "Shuffle all Nine cards in play and in the trash back into the Nine deck. Deal X Nine cards from the top of the Nine deck, where X = 1 + the number of Nine cards that were in play"
 x3 We Don't Take Prisoners: "Whenever a target is destroyed by a villain card, remove it from the game"
+
+ENNEAD VERSION:
+Slaughterhouse 9
+	"Parahuman Murder Squad"
+	SETUP:
+		Search the Villain deck for all Nine cards, shuffle them, and put them aside as the Nine deck.
+		
+		Put the top H cards from the Nine deck into play
+		
+	GAMEPLAY:
+		If no villain targets are in play, the heroes win the game
+		
+		When a Nine card would be destroyed, flip it instead
+		
+Parahuman, Nine:
+Jack Slash: Parahuman, Nine, 26 "The first time an Attack card would enter the trash each turn, this card deals X melee damage to each hero, where X = 2 * the number of powers contolled by that hero. The first time a Special card would enter the trash each turn, play the top card of the villain deck. Nemesis: Skitter. Back: Whenever a hero uses a power, this card deals that hero 1 melee damage"
+Bonesaw: 24 "The first time a Defence card would enter the trash each turn, each villain target regains 2 HP. The first time a Special card would enter the trash each turn, this card deals 2 toxic damage to all non-villain targets" Nemesis: Grue, Guts&Glory Back: At the end of the villain turn, the villain target with the lowest HP regains 1 HP
+Crawler: 30 "Whenever Crawler is dealt damage, he becomes immune to that damage type until the next time he takes damage. The first time an Attack card would enter the trash each turn, this card deals 2 toxic damage and 2 melee damage to the non-villain target with the highest HP. The first time a Special card would enter the trash each turn, Crawler regains 30 HP" Nemesis: Guts&Glory Back: At the end of the villain turn, this card deals 2 melee damage to the hero target with the lowest HP
+Burnscar: 24 "The first time a Special card would enter the trash each turn, destroy all environment cards then Burnscar deals X fire damage to all non-villain targets, where X = 1 + the number of environment cards destroyed in this way" Nemesis: Labyrinth Back: At the end of the villain turn, this card deals 1 fire damage to all non-villain targets
+Mannequin: 26 HP. "Reduce damage dealt to Mannequin by 1. The first time a Defence card would enter the trash each turn, destroy 1 hero Ongoing or Equipment card" Nemesis: Armsmaster Back: Reduce damage dealt to the villain target with the lowest HP by 1
+Shatterbird: 24 "The first time an Attack card would enter the trash each turn, Shatterbird deals 2 projectile damage to the H - 1 hero targets with the highest HP." Nemesis: Regent Back: At the end of the villain turn this card deals 1 projectile damage to all non-villain targets
+Siberian: 26 "All villain targets other than the Siberian are immune to damage." Nemesis: Bitch Back: The villain target with the lowest HP is immune to melee damage
+Cherish: 24 "The first time a Defence card would enter the trash each turn, the hero with the most cards in hand discards 2 cards. Whenever Cherish would be dealt damage, Cherish deals 2 psychic damage to the target damaging her." Nemesis: Regent Back: Whenever a target is destroyed during a hero's turn, that hero deals themselves 1 psychic damage
+(8)
+
+x1 They're All Better Now, Defence: "Flip the most recently defeated Nine card; they have 10 HP. If no cards are flipped in this way, play the top card of the villain deck."
+x2 The Scream, Attack: "Each hero may destroy any number of Equipment cards. Then, each hero target takes X projectile damage, where X = 2 * the number of Equipment cards in play"
+x2 You've Been Anticipated, Defence: "Each hero discards 2 cards"
+x2 Some Light Entertainment, Attack: "Each villain target in play deals 2 melee damage to the hero target with the highest HP"
+x1 Legend, Ongoing, Special: "Increase damage dealt by villain targets by 1"
+x1 We're Recruiting, Attack: "The villain target with the highest HP deals 5 psychic damage to the hero target with the lowest HP. If that destroys a hero target, play the top card of the villain deck"
+x2 Less Than Human, Defence, Ongoing: "Reduce damage dealt to villain targets by 1"
+x4 Spiderbots, 4 HP, Device, "At the end of the villain turn, deal X damage to the hero target with the lowest HP, where X = 1 + the number of Spiderbots in play" Nemesis: Battery
+x2 Some More Friends: "Play the top card of the Nine deck. Play the top card of the villain deck"
+x2 Shall We Play a Game?, Special: "If Jack Slash is not in play, find Jack Slash in the Nine deck and put him into play. Jack Slash deals 2 psychic damage to all hero targets."
+x2 Change the Rules, Defence: "Shuffle all Nine cards in play and in the trash back into the Nine deck. Deal X Nine cards from the top of the Nine deck, where X = 1 + the number of Nine cards that were in play"
+x2 We Don't Take Prisoners, Attack, Ongoing: "Whenever a target is destroyed by a villain card, remove it from the game"
+
+Parahuman:
+x1 Hatchet Face: 8 HP, "Heroes may not use powers"
+x1 Murder Rat: 8 HP, "At the end of the villain turn, Murder Rat deals 2 melee damage to the hero target with the lowest HP"
+
+(25 cards)
