@@ -9,8 +9,7 @@
 		<name>Slaughterhouse 9</name>
 		<front>
 			<title>Parahuman Murder Squad</title>
-			<setup><small><p>Search the Villain deck for all Nine cards, shuffle them, and put them aside as the Nine deck.</p>
-		<p>Put the top H cards from the Nine deck into play</p>
+			<setup><small><p>Search the Villain deck for all Nine cards, shuffle them, and put them aside as the Nine deck. Put the top H cards from the Nine deck into play</p>
 		</small></setup>
 		<gameplay><small><p>Whenever a Nine card would be destroyed, flip it instead. Whenever no villain targets are in play, the heroes win the game</p></small></gameplay>
 		</front>
