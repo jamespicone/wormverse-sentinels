@@ -4,12 +4,12 @@
 
 <deck>
 	<name>Slaughterhouse 9</name>
-	<version>1.0</version>
+	<version>1.1</version>
 	<villain>
 		<name>Slaughterhouse 9</name>
 		<front>
 			<title>Parahuman Murder Squad</title>
-			<setup><small><p>Search the Villain deck for all Nine cards, shuffle them, and put them aside as the Nine deck. Put the top H cards from the Nine deck into play</p>
+			<setup><small><p>Search the Villain deck for all Nine cards, shuffle them, and put them under this card as the Nine deck. Put the top H cards from the Nine deck into play</p>
 		</small></setup>
 		<gameplay><small><p>Whenever a Nine card would be destroyed, flip it instead. Whenever no villain targets are in play, the heroes win the game</p></small></gameplay>
 		</front>
@@ -157,7 +157,7 @@
 		<quantity>4</quantity>
 		<type>Device</type>
 		<nemesis>Battery</nemesis>
-		<text>At the end of the villain turn, deal X damage to the hero target with the lowest HP, where X = 1 + the number of Spiderbots in play</text>
+		<text>At the end of the villain turn, deal X melee damage to the hero target with the lowest HP, where X = 1 + the number of Spiderbots in play</text>
 	</card>
 
 	<card>
@@ -220,7 +220,7 @@
 		<quantity>2</quantity>
 		<class>One-Shot</class>
 		<type>Defence</type>
-		<text>Shuffle all Nine cards in play back into the Nine deck. Deal X Nine cards from the top of the Nine deck, where X = 1 + the number of Nine cards that were in play</text>
+		<text>Shuffle all Nine targets in play back into the Nine deck. Deal X Nine cards from the top of the Nine deck, where X = 1 + the number of Nine targets that were in play</text>
 	</card>
 	<card>
 		<name>We Don't Take Prisoners</name>
