@@ -4,7 +4,7 @@
 
 <deck>
 	<name>Dauntless</name>
-	<version>1.1</version>
+	<version>1.2</version>
 	<charactercard>
 		<name>Dauntless</name>
 		<front>
@@ -63,7 +63,7 @@
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>To Me!</name>
-		<text>Search your deck for a Relic and put it into play. Draw a card. Play a card</text>
+		<text>Search your deck for a Relic and put it into play. Shuffle your deck. Draw a card. Play a card</text>
 	</card>
 	<card>
 		<quantity>4</quantity>
