@@ -4,7 +4,7 @@
 
 <deck>
 	<name>Regent</name>
-	<version>1.0</version>
+	<version>1.1</version>
 	<charactercard>
 		<name>Regent</name>
 		<front>
@@ -98,7 +98,7 @@
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>Over Here</name>
-		<text>Whenever a hero target would be dealt damage by a villain card, you may redirect that damage to another hero target</text>
+		<text>Whenever the hero target with the lowest HP would be dealt damage by a villain card, you may redirect that damage to another hero target</text>
 	</card>
 	<card>
 		<quantity>1</quantity>
