@@ -10,26 +10,26 @@
 		<name>Blast Doors</name>
 		<type>Structure</type>
 		<hp>10</hp>
-		<text>Reduce all fire and projectile damage by 2</text>
+		<text>Reduce all fire and projectile damage by 2. At the start of their turn, a hero may skip the rest of their turn to destroy this card</text>
 	</card>
 	<card>
 		<quantity>1</quantity>
 		<name>Ablative Cladding</name>
 		<type>Structure</type>
 		<hp>10</hp>
-		<text>Reduce all toxic and melee damage by 2</text>
+		<text>Reduce all toxic and melee damage by 2. At the start of their turn, a hero may skip the rest of their turn to destroy this card</text>
 	</card>
 	<card>
 		<quantity>1</quantity>
 		<name>Earthing</name>
 		<type>Structure</type>
 		<hp>10</hp>
-		<text>Reduce all cold and lightning damage by 2</text>
+		<text>Reduce all cold and lightning damage by 2. At the start of their turn, a hero may skip the rest of their turn to destroy this card</text>
 	</card>
 	<card>
 		<quantity>1</quantity>
 		<name>Pinned Down</name>
-		<text>Heroes cannot play Ongoing or Equipment cards</text>
+		<text>Heroes cannot play Ongoing or Equipment cards. At the start of their turn, a hero may skip the rest of their turn to destroy this card</text>
 	</card>
 	<card>
 		<quantity>1</quantity>
@@ -43,14 +43,14 @@
 		<name>Trapped Chamber</name>
 		<type>Structure</type>
 		<hp>14</hp>
-		<text>Heroes cannot use powers</text>
+		<text>Heroes cannot use powers. At the start of their turn, a hero may skip the rest of their turn to destroy this card</text>
 	</card>
 	<card>
 		<quantity>1</quantity>
 		<name>Cover</name>
 		<type>Structure</type>
 		<hp>8</hp>
-		<text>Whenever a villain or environment target would be damaged by a hero card, redirect that damage to this card</text>
+		<text>Whenever a target would be damaged, redirect that damage to this card. Reduce damage dealt to this target by 1</text>
 	</card>
 	<card>
 		<quantity>2</quantity>
@@ -62,7 +62,7 @@
 		<name>Mercenaries</name>
 		<hp>6</hp>
 		<quantity>3</quantity>
-		<text>At the end of the villain turn, this card deals H - 1 energy damage to the two hero targets with the highest HP</text>
+		<text>At the end of the environment turn, this card deals H - 1 energy damage to the two hero targets with the highest HP</text>
 	</card>
 	<card>
 		<name>Construction Work</name>
