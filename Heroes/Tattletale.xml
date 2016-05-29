@@ -4,7 +4,7 @@
 
 <deck>
 	<name>Tattletale</name>
-	<version>1.0</version>
+	<version>1.2</version>
 	<charactercard>
 		<name>Tattletale</name>
 		<front>
@@ -34,7 +34,7 @@
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>It's Always in the First Place I Look</name>
-		<text>Each player may search their deck for 1 card and put it into their hand. If they search their deck, shuffle their deck</text>
+		<text>A player may search their deck for 1 card and put it into their hand, then shuffle their deck</text>
 	</card>
 	<card>
 		<quantity>4</quantity>
