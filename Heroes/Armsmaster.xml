@@ -4,7 +4,7 @@
                      
 <deck>
 	<name>Armsmaster</name>
-	<version>1.2</version>
+	<version>1.4</version>
 	<charactercard>
 		<name>Armsmaster</name>
 		<front>
@@ -73,8 +73,8 @@
 	<card>
 		<quantity>4</quantity>
 		<class>Ongoing</class>
-		<name>Safeties</name>
-		<text>Whenever one of your equipment cards would be destroyed, you may destroy this card instead</text>
+		<name>Quick Adjustment</name>
+		<power>Return a Module in play to your hand. Play a Module</power>
 	</card>
 	<card>
 		<quantity>2</quantity>
