@@ -4,7 +4,7 @@
                      
 <deck>
 	<name>Battery</name>
-	<version>1.1</version>
+	<version>1.2</version>
 	<charactercard>
 		<name>Battery</name>
 		<front>
@@ -98,12 +98,12 @@
 		<quantity>3</quantity>
 		<class>Ongoing, Limited</class>
 		<name>Static Charge</name>
-		<text>At the start of your turn, if Battery is not charged, deal 2 lightning damage to all non-hero targets</text>
+		<text>At the start of your turn, if Battery has used her Discharge power since the start of your last turn, deal 2 lightning damage to all non-hero targets</text>
 	</card>
 	<card>
 		<quantity>2</quantity>
 		<class>Equipment, Limited</class>
 		<name>Glowing Threads</name>
-		<text>When Battery is not charged, reduce damage dealt to her by 2</text>
+		<text>When Battery uses her Discharge power reduce damage dealt to her by 2 until the start of her next turn</text>
 	</card>
 </deck>
