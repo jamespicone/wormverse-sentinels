@@ -73,7 +73,6 @@
 					<xsl:for-each select="hp"><span class="hp"><xsl:value-of select="." /> HP</span></xsl:for-each>
 					<br/>
 					
-					<xsl:if test="name()!='card'">
 					<p>
 					<span class="title"><small>
 					<xsl:for-each select="title">
@@ -89,7 +88,7 @@
 					<xsl:value-of select="." />
 					<xsl:if test="position()!=last()">, </xsl:if>
 					</xsl:for-each>
-					</span></small></p><br/></xsl:if>
+					</span></small></p><br/>
 					
 					<p><em>
 					<xsl:for-each select="class | type">
