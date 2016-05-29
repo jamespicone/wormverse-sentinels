@@ -85,8 +85,8 @@
 					<p><xsl:for-each select="text"><xsl:copy-of select="node()" /></xsl:for-each></p>
 					<xsl:for-each select="power">
 						<p class="power">
-							<xsl:if test="name(..)='card'"><span class="powertitle">Power: </span><span class="powertext"><xsl:value-of select="." /></span></xsl:if>
-							<xsl:if test="name(..)!='card'"><span class="powertitle"><xsl:value-of select="name" />: </span><span class="powertext"><xsl:value-of select="text" /></span></xsl:if>
+							<xsl:if test="name(..)='card'"><span class="powertitle">Power: </span><span class="powertext"><xsl:copy-of select="node()" /></span></xsl:if>
+							<xsl:if test="name(..)!='card'"><span class="powertitle"><xsl:copy-of select="name/node()" />: </span><span class="powertext"><xsl:copy-of select="text/node()" /></span></xsl:if>
 						</p>
 					</xsl:for-each>
 					<span class="bottext"><xsl:value-of select="/deck/name" /> (<xsl:value-of select="/deck/version" />)</span>
