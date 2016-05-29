@@ -4,7 +4,7 @@
 
 <deck>
 	<name>Assault</name>
-	<version>1.1</version>
+	<version>1.2</version>
 	<charactercard>
 		<name>Assault</name>
 		<front>
@@ -53,7 +53,7 @@
 		<name>Preparation</name>
 		<class>Ongoing</class>
 		<class>Limited</class>
-		<text>The first time a hero card would deal damage to a non-hero target each turn, deal 1 melee damage to that target</text>
+		<text>The first time a villain target would deal damage to a hero target each turn, deal 1 melee damage to that villain target</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
