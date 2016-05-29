@@ -73,23 +73,29 @@
 					<xsl:for-each select="hp"><span class="hp"><xsl:value-of select="." /> HP</span></xsl:for-each>
 					<br/>
 					
-					<xsl:if test="name()!='card'">
+					<xsl:for-each select="title | nemesis">
+					<xsl:if test="position()=1">
+					<xsl:for-each select="$thecard">
 					<p>
-					<span class="title"><small>
-					<xsl:for-each select="title">
-					<em>
-					<xsl:value-of select="." />
-					</em>
+						<span class="title"><small>
+						<xsl:for-each select="title">
+						<em>
+						<xsl:value-of select="." />
+						</em>
+						</xsl:for-each>
+						</small></span>
+						
+						<small><span class="nemesis">
+						<xsl:for-each select="nemesis">
+						<xsl:if test="position()=1"><strong>N: </strong></xsl:if>
+						<xsl:value-of select="." />
+						<xsl:if test="position()!=last()">, </xsl:if>
+						</xsl:for-each>
+						</span></small>
+					</p><br/>
 					</xsl:for-each>
-					</small></span>
-					
-					<small><span class="nemesis">
-					<xsl:for-each select="nemesis">
-					<xsl:if test="position()=1"><strong>N: </strong></xsl:if>
-					<xsl:value-of select="." />
-					<xsl:if test="position()!=last()">, </xsl:if>
+					</xsl:if>
 					</xsl:for-each>
-					</span></small></p><br/></xsl:if>
 					
 					<p><em>
 					<xsl:for-each select="class | type">
@@ -98,10 +104,10 @@
 					</xsl:for-each>
 					</em></p>
 					
-					<p><xsl:for-each select="setup"><strong>SETUP:</strong><br/><xsl:copy-of select="node()" /></xsl:for-each></p>
-					<p><xsl:for-each select="text"><xsl:copy-of select="node()" /></xsl:for-each></p>
-					<p><xsl:for-each select="gameplay"><strong>GAMEPLAY:</strong><br/><xsl:copy-of select="node()" /></xsl:for-each></p>
-					<p><xsl:for-each select="advanced"><strong>ADVANCED:</strong><br/><xsl:copy-of select="node()" /></xsl:for-each></p>
+					<xsl:for-each select="setup"><p><strong>SETUP:</strong><br/><xsl:copy-of select="node()" /></p></xsl:for-each>
+					<xsl:for-each select="text"><p><xsl:copy-of select="node()" /></p></xsl:for-each>
+					<xsl:for-each select="gameplay"><p><strong>GAMEPLAY:</strong><br/><xsl:copy-of select="node()" /></p></xsl:for-each>
+					<xsl:for-each select="advanced"><p><strong>ADVANCED:</strong><br/><xsl:copy-of select="node()" /></p></xsl:for-each>
 					
 					<span class="bottext"><xsl:value-of select="/deck/name" /> (<xsl:value-of select="/deck/version" />)</span>
 				</div>
