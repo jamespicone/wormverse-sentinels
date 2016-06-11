@@ -19,7 +19,7 @@
 			<title>Citykiller Retaliates</title>
 			<hp>100</hp>
 			<nemesis>Dauntless</nemesis>
-			<gameplay>At the start of the villain turn, flip Leviathan<br/><br/>Reduce damage dealt to Leviathan by 1
+			<gameplay>At the start of the villain turn, flip Leviathan<br/><br/>Reduce damage dealt to Leviathan by 1</gameplay>
 			<advanced>Whenever Leviathan would flip, play the top card of the villain deck</advanced>
 		</back>
 	</villain>
