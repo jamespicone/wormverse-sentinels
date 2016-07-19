@@ -4,18 +4,18 @@
 
 <deck>
 	<name>The Merchants</name>
-	<version>1.1</version>
+	<version>1.2</version>
 	<villain>
 		<name>Skidmark</name>
 		<front>
 			<title>Superpowered Drug Dealer</title>
 			<nemesis>Miss Militia</nemesis>
-			<hp>70</hp>
-			<setup><small>Place Skidmark in play, "Superpowered Drug Dealer" side up. Search the villain deck for all Thug cards; put them aside as the 'Thug deck'.</small></setup>
-			<gameplay><small>If the Thug deck is empty at the start of the villain turn, the heroes lose the game.<br/>
-		At the end of the villain turn, play H - 1 Thugs from the top of the Thug deck.<br/>
-		Reduce damage dealt to villain targets by 1.<br/>
-		When this target is destroyed, flip it instead</small></gameplay>
+			<hp>45</hp>
+			<setup>Place Skidmark in play, "Superpowered Drug Dealer" side up. Search the villain deck for all Thug cards; put them aside as the 'Thug deck'.</setup>
+			<gameplay>If the Thug deck is empty at the start of the villain turn, the heroes lose the game.<br />
+			At the end of the villain turn, play H - 1 Thugs from the top of the Thug deck.<br />
+			When this target is destroyed, flip it instead</gameplay>
+			<advanced>Reduce damage dealt to villain targets by 1.</advanced>
 		</front>
 		<back>
 			<title>Defeated Drug Dealer</title>
