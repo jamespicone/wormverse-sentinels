@@ -17,16 +17,17 @@
 				overflow: hidden;
 				text-align: left;
 				position: relative;
+				font-size: 0.75em;
 			}
 			
 			.cardname {
-				font-size: large;
+				font-size: larger;
 				font-weight: bold;
 				float: left;
 			}
 			
 			.hp {
-				font-size: large;
+				font-size: larger;
 				font-weight: bold;
 				float: right;
 			}
@@ -40,7 +41,7 @@
 			}
 			
 			.bottext {
-				font-size: small;
+				font-size: smaller;
 				font-weight: light;
 				
 				position: absolute;
@@ -92,8 +93,7 @@
 						<xsl:if test="position()!=last()">, </xsl:if>
 						</xsl:for-each>
 						</span></small>
-					</p><br/>
-					</xsl:for-each>
+					</p><br/></xsl:for-each>
 					</xsl:if>
 					</xsl:for-each>
 					

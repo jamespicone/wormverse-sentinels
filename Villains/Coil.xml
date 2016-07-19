@@ -20,8 +20,8 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 			<title>Evil Mastermind</title>
 			<nemesis>Tattletale</nemesis>
 			<hp>50</hp>
-			<text><small><p>At the start of the villain turn play the top card of the environment deck. At the end of the villain turn all villain targets regain 2 HP.</p><p>When this card would be destroyed flip it instead</p></small></text>
-			<advanced><small>At the end of the villain turn, if Coil: Acting has more HP than this card, set this card's HP to its HP</small></advanced>
+			<text><p>At the start of the villain turn play the top card of the environment deck. At the end of the villain turn all villain targets regain 2 HP.</p><p>When this card would be destroyed flip it instead</p></text>
+			<advanced>At the end of the villain turn, if Coil: Acting has more HP than this card, set this card's HP to its HP</advanced>
 		</front>
 		<back>
 			<title>Defeated</title>
@@ -35,8 +35,8 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 			<title>Evil Mastermind</title>
 			<nemesis>Tattletale</nemesis>
 			<hp>50</hp>
-			<text><small><p>At the start of the villain turn reveal cards from the villain deck until you reveal a Parahuman. Put it into play then shuffle the other revealed cards into the villain deck. At the end of the villain turn deal H energy damage to the hero target with the highest HP. When this card would be destroyed, flip it instead</p></small></text>
-			<advanced><small>At the end of the villain turn if Coil: Scheming has more HP than this card set this card's HP to its HP</small></advanced>
+			<text><p>At the start of the villain turn reveal cards from the villain deck until you reveal a Parahuman. Put it into play then shuffle the other revealed cards into the villain deck. At the end of the villain turn deal H energy damage to the hero target with the highest HP. When this card would be destroyed, flip it instead</p></text>
+			<advanced>At the end of the villain turn if Coil: Scheming has more HP than this card set this card's HP to its HP</advanced>
 		</front>
 		<back>
 			<title>Defeated</title>

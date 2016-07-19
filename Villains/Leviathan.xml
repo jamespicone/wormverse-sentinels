@@ -4,14 +4,14 @@
 
 <deck>
 	<name>Leviathan</name>
-	<version>1.0</version>
+	<version>1.1</version>
 	<villain>
 		<name>Leviathan</name>
 		<front>
 			<title>Citykiller</title>
 			<hp>100</hp>
 			<nemesis>Dauntless</nemesis>
-			<setup>Put Leviathan into play "Citykiller" side up. Search Leviathan's deck for Water Shadow and put it into play</setup>
+			<setup>Put Leviathan into play "Citykiller" side up.</setup>
 			<gameplay>When flipped to this side, destroy H hero cards<br/><br/>At the end of the villain turn, Leviathan deals 2 melee damage to all hero targets.<br/>At the end of the villain turn, if Leviathan has been dealt H damage in one instance last round, flip Leviathan</gameplay>
 			<advanced>Reduce damage dealt to Leviathan by 1</advanced>
 		</front>
@@ -19,76 +19,86 @@
 			<title>Citykiller Retaliates</title>
 			<hp>100</hp>
 			<nemesis>Dauntless</nemesis>
-			<gameplay>At the start of the villain turn, flip Leviathan<br/><br/>Reduce damage dealt to Leviathan by 1</gameplay>
-			<advanced>Whenever Leviathan would flip, play the top card of the villain deck</advanced>
+			<gameplay>When flipped to this side, search the villain deck for a Tactic card and put it into play.<br/><br/>At the start of the villain turn, flip Leviathan<br/><br/>Reduce damage dealt to Leviathan by 1</gameplay>
+			<advanced>The first time Leviathan would flip each turn, play the top card of the villain deck first</advanced>
 		</back>
 	</villain>
 	
 	<card>
 		<name>Water Shadow</name>
-		<type>Ongoing</type>
+		<class>Ongoing</class>
+		<type>Tactic</type>
 		<text>Whenever Leviathan would deal damage to a target, this card deals that target 2 irreducible melee damage. This card is indestructible</text>
 		<quantity>1</quantity>
 	</card>
 	<card>
 		<name>Torrential Downpour</name>
-		<type>Ongoing</type>
-		<text>At the start of each hero turn, Leviathan deals that hero 1 cold damage</text>
-		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<type>Tactic</type>
+		<text>At the start of each hero turn, Leviathan deals that hero 1 cold damage. This card is indestructible</text>
+		<quantity>1</quantity>
 	</card>
 	<card>
 		<name>Lose the War</name>
-		<type>Ongoing</type>
-		<text>If the environment deck is ever empty, the heroes lose the game. At the end of the villain turn, remove the top card of the environment deck from the game</text>
-		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<type>Tactic</type>
+		<text>If the environment deck is ever empty, the heroes lose the game. At the end of the villain turn, remove the top card of the environment deck from the game. This card is indestructible</text>
+		<quantity>1</quantity>
 	</card>
 	<card>
 		<name>Faster Than You'd Think</name>
-		<type>Ongoing</type>
-		<text>The first time Leviathan would be dealt damage each round, prevent that damage</text>
-		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<type>Tactic</type>
+		<text>The first time Leviathan would be dealt damage each round, prevent that damage. This card is indestructible</text>
+		<quantity>1</quantity>
 	</card>
 	<card>
 		<name>Impossible Strength</name>
-		<type>Ongoing</type>
+		<class>Ongoing</class>
 		<text>Increase damage dealt by villain cards by 1</text>
 		<quantity>2</quantity>
 	</card>
 	<card>
 		<name>Impossible Toughness</name>
-		<type>Ongoing</type>
+		<class>Ongoing</class>
 		<text>Reduce damage dealt to Leviathan by 1</text>
 		<quantity>2</quantity>
+	</card>
+	<card>
+		<name>Impossible Endurance</name>
+		<class>Ongoing</class>
+		<quantity>2</quantity>
+		<text>When this card enters play, shuffle the villain trash into the villain deck.<br/><br/>Whenever a villain card would enter the villain trash, shuffle it into the villain deck instead.</text>
 	</card>
 	
 	<card>
 		<name>Tidal Wave</name>
-		<type>One-Shot</type>
+		<class>One-Shot</class>
 		<text>Destroy all environment targets. Leviathan deals X cold damage to all non-villain targets, where X = 1 + the number of cards destroyed in this way</text>
 		<quantity>3</quantity>
 	</card>
 	<card>
 		<name>Cunning</name>
-		<type>One-Shot</type>
+		<class>One-Shot</class>
 		<text>Play the top 2 cards of the villain deck</text>
 		<quantity>3</quantity>
 	</card>
 	<card>
 		<name>Anyone Can Die</name>
-		<type>One-Shot</type>
+		<class>One-Shot</class>
 		<text>Leviathan deals the hero target with the highest HP 5 irreducible melee damage</text>
 		<quantity>3</quantity>
 	</card>
 	<card>
 		<name>Guile</name>
-		<type>One-Shot</type>
-		<text>Flip Leviathan. Play the top card of the villain deck</text>
+		<class>One-Shot</class>
+		<text>Flip Leviathan</text>
 		<quantity>3</quantity>
 	</card>
 	<card>
 		<name>Whipping Tail</name>
-		<type>One-Shot</type>
-		<text>Leviathan deals 1 melee damage to the 2 hero targets with the lowest HP</text>
+		<class>One-Shot</class>
+		<text>Leviathan deals 2 melee damage to the 2 hero targets with the lowest HP</text>
 		<quantity>3</quantity>
 	</card>
 </deck>

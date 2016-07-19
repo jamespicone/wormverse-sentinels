@@ -4,15 +4,14 @@
 
 <deck>
 	<name>Slaughterhouse 9</name>
-	<version>1.3</version>
+	<version>1.4</version>
 	<villain>
 		<name>Slaughterhouse 9</name>
 		<front>
 			<title>Parahuman Murder Squad</title>
-			<setup><small><p>Search the Villain deck for all Nine cards, shuffle them, and put them under this card as the Nine deck. Put the top H cards from the Nine deck into play</p>
-		</small></setup>
-		<gameplay><small><p>Whenever a Nine card would be destroyed, flip it instead. Whenever no villain targets are in play, the heroes win the game</p></small></gameplay>
-		</front>
+			<setup>Search the Villain deck for all Nine cards, shuffle them, and put them under this card as the Nine deck. Put the top H cards from the Nine deck into play</setup>
+		<gameplay>Whenever a Nine card would be destroyed, flip it instead. Whenever no villain targets are in play, the heroes win the game</gameplay>
+		<advanced>At the end of the villain turn, put the top card of the Nine deck into play</advanced></front>
 	</villain>
 	
 	<specialcard>
@@ -22,7 +21,7 @@
 			<hp>26</hp>
 			<type>Parahuman</type>
 			<type>Nine</type>
-			<text><small><p>The first time an Attack card would enter the trash each turn, this card deals X melee damage to each hero, where X = 2 * the number of powers contolled by that hero.</p><p>The first time a Special card would enter the trash each turn, play the top card of the villain deck</p></small></text>
+			<text><p>The first time an Attack card would enter the trash each turn, this card deals X melee damage to each hero, where X = 2 * the number of powers contolled by that hero.</p><p>The first time a Special card would enter the trash each turn, play the top card of the villain deck</p></text>
 		</front>
 		<back>
 			<type>Parahuman</type>
@@ -53,7 +52,7 @@
 			<hp>30</hp>
 			<type>Parahuman</type>
 			<type>Nine</type>
-			<text><small><p>Whenever Crawler is dealt damage, he becomes immune to that damage type until the next time he takes damage.</p><p>The first time an Attack card would enter the trash each turn, this card deals 2 toxic damage and 2 melee damage to the non-villain target with the highest HP.</p><p>The first time a Special card would enter the trash each turn, Crawler regains 30 HP</p></small></text>
+			<text><p>Whenever Crawler is dealt damage, he becomes immune to that damage type until the next time he takes damage.</p><p>The first time an Attack card would enter the trash each turn, this card deals 2 toxic damage and 2 melee damage to the non-villain target with the highest HP.</p><p>The first time a Special card would enter the trash each turn, Crawler regains 30 HP</p></text>
 		</front>
 		<back>
 			<type>Parahuman</type>
@@ -68,7 +67,7 @@
 			<hp>24</hp>
 			<type>Parahuman</type>
 			<type>Nine</type>
-			<text><small><p>The first time a Special card would enter the trash each turn, destroy all environment cards then Burnscar deals X fire damage to all non-villain targets, where X = 1 + the number of environment cards destroyed in this way</p><p>The first time an Attack card would enter the trash each turn, deal 3 fire damage to the hero target with the lowest HP, and destroy a hero card</p></small></text>
+			<text><p>The first time a Special card would enter the trash each turn, destroy all environment cards then Burnscar deals X fire damage to all non-villain targets, where X = 1 + the number of environment cards destroyed in this way</p><p>The first time an Attack card would enter the trash each turn, deal 3 fire damage to the hero target with the lowest HP, and destroy a hero card</p></text>
 		</front>
 		<back>
 			<type>Parahuman</type>
