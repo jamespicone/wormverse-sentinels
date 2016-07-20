@@ -25,6 +25,49 @@
 			</text>
 		</back>
 	</charactercard>
+	
+	<charactercard>
+		<name>Weaver</name>
+		<front>
+			<hp>28</hp>
+			<power>
+				<name>Leader</name>
+				<text>Weaver deals 2 psychic damage to a hero other than Weaver. If that hero takes damage in this way, they may play a card</text>
+			</power>
+			<text>At the start of the game, put 3 tokens in Weaver's bug pool</text>
+		</front>
+		<back>
+			<text>
+			<ul>
+				<li>One player may play a card now.</li>
+				<li>Deal 2 melee damage to a target.</li>
+				<li>One player may search their deck for an Ongoing card and put it in their hand.</li>
+			</ul>
+			</text>
+		</back>
+	</charactercard>
+	
+	<charactercard>
+		<name>Khepri</name>
+		<front>
+			<hp>24</hp>
+			<power>
+				<name>Sacrifice</name>
+				<text>Destroy any number of Khepri's cards and remove them from the game. For each card destroyed in this way, a hero may use a power</text>
+			</power>
+			<text>At the start of the game, put 4 tokens in Khepri's bug pool</text>
+		</front>
+		<back>
+			<text>
+			<ul>
+				<li>Destroy an environment card. If you do, deal 2 melee damage to a target.</li>
+				<li>Destroy an Ongoing card</li>
+				<li>Deal 2 psychic damage to a hero. If they take damage in this way, they may use a power</li>
+			</ul>
+			</text>
+		</back>
+	</charactercard>
+	
 	<card>
 		<quantity>4</quantity>
 		<class>One-Shot</class>
@@ -84,35 +127,35 @@
 		<type>Bug</type>
 		<name>Bug Decoy</name>
 		<hp>*</hp>
-		<text><small>When you play this card, remove any number of tokens from your bug pool and place them next to this card. This card has that much HP. Whenever a non-hero target deals damage to a hero target, redirect the damage to this card, When this card is destroyed or returned to your hand, return the tokens next to it to your bug pool</small></text>
+		<text>When you play this card, remove any number of tokens from your bug pool and place them next to this card. This card has that much HP. Whenever a non-hero target deals damage to a hero target, redirect the damage to this card, When this card is destroyed or returned to your hand, return the tokens next to it to your bug pool</text>
 	</card>
 	<card>
 		<quantity>4</quantity>
 		<type>Bug</type>
 		<name>Swarm</name>
 		<hp>*</hp>
-		<text><small>When you play this card, remove any number of tokens from your bug pool and place them next to this card. This card has that much HP. At the end of your turn, this card deals 1 melee and 1 toxic damage to up to X targets, where X = this target's HP. When this card is destroyed or returned to your hand, return the tokens next to it to your bug pool</small></text>
+		<text>When you play this card, remove any number of tokens from your bug pool and place them next to this card. This card has that much HP. At the end of your turn, this card deals 1 melee and 1 toxic damage to up to X targets, where X = this target's HP. When this card is destroyed or returned to your hand, return the tokens next to it to your bug pool</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<type>Bug</type>
 		<name>Spiders</name>
 		<hp>*</hp>
-		<text><small>When you play this card, remove any number of tokens from your bug pool and place them next to this card. This card has that much HP. At the end of your turn, this target deals X toxic damage to 1 target, where X = this target's HP - 1. When this card is destroyed or returned to your hand, return the tokens next to it to your bug pool</small></text>
+		<text>When you play this card, remove any number of tokens from your bug pool and place them next to this card. This card has that much HP. At the end of your turn, this target deals X toxic damage to 1 target, where X = this target's HP - 1. When this card is destroyed or returned to your hand, return the tokens next to it to your bug pool</text>
 	</card>
 	<card>
 		<quantity>2</quantity>
 		<type>Bug</type>
 		<name>Relay Bugs</name>
 		<hp>*</hp>
-		<text><small>When you play this card, remove any number of tokens from your bug pool and place them next to this card. This card has that much HP. When you play this card, add 4 tokens to your bug pool. When this card is destroyed or returned to your hand, return the tokens next to it to your bug pool, and then remove 4 tokens from your bug pool or from next to other Bug cards</small></text>
+		<text>When you play this card, remove any number of tokens from your bug pool and place them next to this card. This card has that much HP. When you play this card, add 4 tokens to your bug pool. When this card is destroyed or returned to your hand, return the tokens next to it to your bug pool, and then remove 4 tokens from your bug pool or from next to other Bug cards</text>
 	</card>
 	<card>
 		<quantity>2</quantity>
 		<type>Bug</type>
 		<name>Tracking Bugs</name>
 		<hp>*</hp>
-		<text><small>When you play this card, remove any number of tokens from your bug pool and place them next to this card. This card has that much HP. Whenever a non-hero target enters play, this target deals it 1 melee and 1 toxic damage, and then deals itself 1 melee damage. When this card is destroyed or returned to your hand, return the tokens next to it to your bug pool</small></text>
+		<text>When you play this card, remove any number of tokens from your bug pool and place them next to this card. This card has that much HP. Whenever a non-hero target enters play, this target deals it 1 melee and 1 toxic damage, and then deals itself 1 melee damage. When this card is destroyed or returned to your hand, return the tokens next to it to your bug pool</text>
 	</card>
 	<card>
 		<quantity>1</quantity>
