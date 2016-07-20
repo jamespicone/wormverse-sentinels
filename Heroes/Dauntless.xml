@@ -50,14 +50,14 @@
 		<class>Ongoing</class>
 		<type>Charge</type>
 		<name>Plasma Core</name>
-		<text><small>When you play this card, either place it next to Dauntless or next to a Relic, but only if they do not already have a card with the same name next to them.<br/>If next to Dauntless, his Arclance does irreducible damage.<br/>If next to the Arcshield, whenever a non-hero target deal damage to Dauntless and it is reduced by the Arcshield's power, Dauntless deals that target 1 energy damage.<br/>If next to the Arcstep, Dauntless regains 1 HP whenever he uses the Arcstep's power</small></text>
+		<text>When you play this card, either place it next to Dauntless or next to a Relic, but only if they do not already have a card with the same name next to them.<br/>If next to Dauntless, his Arclance does irreducible damage.<br/>If next to the Arcshield, whenever a non-hero target deal damage to Dauntless and it is reduced by the Arcshield's power, Dauntless deals that target 1 energy damage.<br/>If next to the Arcstep, Dauntless regains 1 HP whenever he uses the Arcstep's power</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<type>Charge</type>
 		<name>Matter to Energy</name>
-		<text><small>When you play this card, either place it next to Dauntless or next to a Relic, but only if they do not already have a card with the same name next to them.<br/>If next to Dauntless, you may choose what damage type his Arclance does when it is used.<br/>If next to the Arcshield, when its power is used, pick an energy type. Until the end of your next turn, reduce all damage of that type by 1.<br/>If next to the Arcstep, when its power is used, Dauntless deals up to 3 targets 1 energy damage</small></text>
+		<text>When you play this card, either place it next to Dauntless or next to a Relic, but only if they do not already have a card with the same name next to them.<br/>If next to Dauntless, you may choose what damage type his Arclance does when it is used.<br/>If next to the Arcshield, when its power is used, pick an energy type. Until the end of your next turn, reduce all damage of that type by 1.<br/>If next to the Arcstep, when its power is used, Dauntless deals up to 3 targets 1 energy damage</text>
 	</card>
 	<card>
 		<quantity>4</quantity>
