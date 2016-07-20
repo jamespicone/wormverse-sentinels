@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="hero_convert.xslt"?>
+
+<deck>
+	<name>Eidolon</name>
+	<version>1.0</version>
+	<charactercard>
+		<name>Eidolon</name>
+		<front>
+			<hp>26</hp>
+			<power>
+				<name>Trump</name>
+				<text>Put a Power card into play. If you have more than 3 Power cards in play, return Power cards to your hand until you have 3 in play. You may use another power. If you do, destroy the Power card it is on and remove it from the game</text>
+			</power>
+		</front>
+		<back>
+			<text>
+			<ul>
+				<li>1 player may use a power</li>
+				<li>Destroy a target that is not a character card</li>
+				<li>Destroy all ongoing cards in play</li>
+			</ul>
+			</text>
+		</back>
+	</charactercard>
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing, Power</class>
+		<name>Dig Deep</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>Draw 3 cards</power>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing, Power</class>
+		<name>Lightning Links</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>If there are exactly 2 non-hero targets in play, deal 4 lightning damage to both of them</power>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing, Power</class>
+		<name>Danger Sense</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>Reveal the top 5 cards of the villain deck. Put any revealed One-Shot cards back on top in any order. Then put the other cards back on top in any order.</power>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing, Power</class>
+		<name>Forcefield</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>Until the start of your next turn, any time damage would be dealt to all targets of a particular type, reduce that damage by 2</power>
+	</card>
+</deck>
