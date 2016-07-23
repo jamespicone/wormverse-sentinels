@@ -18,7 +18,7 @@
 	<card>
 		<name>Attention</name>
 		<quantity>1</quantity>
-		<text>At the end of the environment turn, reveal the top card of every deck, starting at the villain deck and going clockwise. If the revealed card is a target, put it into play. Otherwise, shuffle it back into its deck. Then, destroy this card</text>
+		<text>At the end of the environment turn, reveal the top card of every deck, starting at the villain deck and going clockwise (and ignoring villain side decks). If the revealed card is a target, put it into play. Otherwise, shuffle it back into its deck. Then, destroy this card</text>
 	</card>
 	<card>
 		<name>The Boardwalk</name>
