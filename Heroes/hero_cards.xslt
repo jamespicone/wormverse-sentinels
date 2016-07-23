@@ -32,6 +32,13 @@
 				float: right;
 			}
 			
+			.quote {
+				font-size: smaller;
+				font-weight: lighter;
+				
+				float: down;
+			}
+			
 			.bottext {
 				font-size: smaller;
 				font-weight: light;
@@ -90,7 +97,8 @@
 							<xsl:if test="name(..)!='card'"><span class="powertitle"><xsl:copy-of select="name/node()" />: </span><span class="powertext"><xsl:copy-of select="text/node()" /></span></xsl:if>
 						</p>
 					</xsl:for-each>
-					<span class="bottext"><xsl:value-of select="/deck/name" /> (<xsl:value-of select="/deck/version" />)</span>
+					<span class="quote"><xsl:copy-of select="quote/node()" /></span>
+					<!--<span class="bottext"><xsl:value-of select="/deck/name" /> (<xsl:value-of select="/deck/version" />)</span>-->
 				</div>
 			</xsl:for-each>
 		</xsl:for-each>
