@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="hero_convert.xslt"?>
+
+<deck>
+	<name>Guts & Glory</name>
+	<version>1.0</version>
+	<charactercard>
+		<name>Glory Girl</name>
+		<front>
+			<hp>18</hp>
+			<power>
+				<name>Terror</name>
+				<text>Deal 1 psychic damage to up to 3 targets</text>
+			</power>
+		</front>
+		<back>
+			<text>
+			<ul>
+				<li>Deal 2 melee damage to a target</li>
+				<li>Select a hero target. Until the start of your next turn, increase damage dealt by that target by 1</li>
+				<li>Select a target. Reduce the next damage done to that target by 2</li>
+			</ul>
+			</text>
+		</back>
+	</charactercard>
+	<charactercard>
+		<name>Panacea</name>
+		<front>
+			<hp>16</hp>
+			<power>
+				<name>Healing Touch</name>
+				<text>1 target regains 2 HP</text>
+			</power>
+		</front>
+		<back>
+			<text>
+			<ul>
+				<li>Deal 1 melee damage to a target</li>
+				<li>1 target regains 1 HP</li>
+				<li>1 player searches their deck for an Ongoing or One-Shot card. Put the card into play, then shuffle the deck</li>
+			</ul>
+			</text>
+		</back>
+	</charactercard>
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<name>Untouchable</name>
+		<text>The first time Glory Girl would be dealt damage each round, prevent the damage</text>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<name>Regeneration</name>
+		<text>At the start of your turn Panacea regains 2 HP</text>
+	</card>
+	
+	<!--
+		- Panacea takes psychic damage, does lots of damage
+		- Glory Girl hits things
+		- Glory Girl buffs people's damage.
+		- Glory Girl reduces villain damage.
+		- Glory Girl retaliates against damage
+		- Panacea heals a lot
+		- Panacea pulls targets out of trash piles
+		- Panacea makes a target immune to damage until next turn
+	-->
+</deck>
