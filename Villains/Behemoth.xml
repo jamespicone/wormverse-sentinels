@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="villain_convert.xslt"?>
+
+<deck>
+	<name>Behemoth</name>
+	<version>1.0</version>
+	<villain>
+		<name>Behemoth</name>
+		<front>
+			<title>Herokiller</title>
+			<hp>100</hp>
+			<nemesis>Alexandria</nemesis>
+			<setup></setup>
+			<gameplay></gameplay>
+			<advanced></advanced>
+		</front>
+		<back>
+			<title></title>
+			<hp></hp>
+			<nemesis></nemesis>
+			<gameplay></gameplay>
+			<advanced></advanced>
+		</back>
+	</villain>
+	
+	<!--
+	
+	Does something with a damage type wheel? Rotates through damage types, do something with the damage type (that's the type of damage he does? Redirect damage of that type away from him?)
+	Very many single-target damages
+	Destroys equipment (for real?)
+	
+	-->
+</deck>
