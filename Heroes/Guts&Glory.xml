@@ -58,14 +58,100 @@
 		<text>At the start of your turn Panacea regains 2 HP</text>
 	</card>
 	
-	<!--
-		- Panacea takes psychic damage, does lots of damage
-		- Glory Girl hits things
-		- Glory Girl buffs people's damage.
-		- Glory Girl reduces villain damage.
-		- Glory Girl retaliates against damage
-		- Panacea heals a lot
-		- Panacea pulls targets out of trash piles
-		- Panacea makes a target immune to damage until next turn
-	-->
+	<card>
+		<quantity>2</quantity>
+		<class>One-Shot</class>
+		<name>I Didn't Want To Do This</name>
+		<text>If Panacea is active, Panacea deals 7 irreducible damage of a damage type of your choice. Panacea deals herself 4 irreducible psychic damage</text>
+	</card>
+	
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Flying Brick</name>
+		<text>If Glory Girl is active, Glory Girl deals 4 melee damage to a target</text>
+	</card>
+	
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<name>Glory</name>
+		<text><p>At the start of your turn, destroy this card.</p>
+		<p>Increase damage dealt by hero targets by 1</p></text>
+	</card>
+	
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<name>Morale</name>
+		<text><p>Play this card next to a hero target.</p><p>The next time that target would deal damage, you may increase the damage by 2. If you do, destroy this card</p></text>
+	</card>
+	
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<name>Horror</name>
+		<text><p>At the start of your turn, destroy this card.</p>
+		<p>Reduce damage dealt by villain targets by 1</p></text>
+	</card>
+	
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<name>Revenge</name>
+		<text>If Glory Girl is active, whenever Glory Girl or Panacea would be dealt damage by a villain target, Glory Girl may deal 1 melee damage to the villain target dealing the damage</text>
+	</card>
+	
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<name>It's My Job</name>
+		<text>If Panacea is active, one target regains 4 HP</text>
+	</card>
+	
+	<card>
+		<quantity>2</quantity>
+		<class>One-Shot</class>
+		<name>Someone I Can Save</name>
+		<text>If Panacea is active, search a trash pile for a target. Put it into play</text>
+	</card>
+	
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<name>I'll Do What I Can</name>
+		<text><p>At the start of your turn, destroy this card</p>
+		<p>Play this card next to a hero target. That target is immune to damage</p>
+		</text>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<class>One-Shot</class>
+		<name>No</name>
+		<text>If Panacea is active, flip an incapacitated hero card. Give that hero 5 HP</text>
+	</card>
+	
+	<card>
+		<quantity>2</quantity>
+		<class>One-Shot</class>
+		<name>Jailbreak</name>
+		<text>If Panacea is active, a hero may use a power. Then Panacea deals herself 2 psychic damage</text>
+	</card>
+	
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<name>Augmentation</name>
+		<text>If Panacea is active, a hero may search their deck for an Ongoing card. Put the card into play or into their hand, then shuffle their deck</text>
+	</card>
+	
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<name>Let Me Give You A Lift</name>
+		<text>If Glory Girl is active, destroy a target with 4 or less HP. Deal 3 projectile damage to a target</text>
+	</card>
 </deck>
