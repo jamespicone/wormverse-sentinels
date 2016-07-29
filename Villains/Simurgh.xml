@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="villain_convert.xslt"?>
+
+<deck>
+	<name>The Simurgh</name>
+	<version>1.0</version>
+	<villain>
+		<name>The Simurgh</name>
+		<front>
+			<title>The Strategist</title>
+			<hp>60</hp>
+			<nemesis>???</nemesis>
+			<setup></setup>
+			<gameplay></gameplay>
+			<advanced></advanced>
+		</front>
+		<back>
+			<title></title>
+			<hp></hp>
+			<nemesis></nemesis>
+			<gameplay></gameplay>
+			<advanced></advanced>
+		</back>
+	</villain>
+	
+	<!--
+	
+		Stacks her own deck. Anti-stacks hero decks somehow ("Name a card type. Reveal the top N cards of hero decks, discard all cards with that card type"?)
+		Cards that get played if they're revealed
+	
+	-->
+</deck>

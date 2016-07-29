@@ -55,4 +55,20 @@
 		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>Until the start of your next turn, any time damage would be dealt to all targets of a particular type, reduce that damage by 2</power>
 	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing, Power</class>
+		<name>Transposition</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>Select a damage type. The next time damage of that type would be dealt, redirect it to a target of your choice</power>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing, Power</class>
+		<name>Void</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>Destroy a non-character-card target. Then destroy this card</power>
+	</card>
 </deck>
