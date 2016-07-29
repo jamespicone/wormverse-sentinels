@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="hero_convert.xslt"?>
+
+<deck>
+	<name>Labyrinth</name>
+	<version>1.0</version>
+	<charactercard>
+		<name>Labyrinth</name>
+		<front>
+			<hp>26</hp>
+			<power>
+				<name>Reshape</name>
+				<text>The next time an Environment card is put into play, you may play a card instead</text>
+			</power>
+		</front>
+		<back>
+			<text>
+			<ul>
+				<li>Destroy an environment card</li>
+				<li>A player may play a card</li>
+				<li>A player may draw a card</li>
+			</ul>
+			</text>
+		</back>
+	</charactercard>
+	
+	<card>
+		<quantity>2</quantity>
+		<class>One-Shot</class>
+		<name>Clean the Slate</name>
+		<text>Destroy all Environment cards. Play X cards, where X is the number of cards you just destroyed</text>
+	</card>
+	
+	<!--
+		Mechanics:
+			- Cards that make environment cards work for the heroes?
+			- Cards that get played on environment cards and modify them?
+			- Cards that use environment cards as fuel?
+			- Cards that pull environment cards out as fuel?
+	
+	-->
+</deck>
