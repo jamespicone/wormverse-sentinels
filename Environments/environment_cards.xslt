@@ -48,22 +48,23 @@
 				overflow: hidden;
 				text-align: left;
 				position: relative;
+				font-size: 0.75em;
 			}
 			
 			.cardname {
-				font-size: large;
+				font-size: larger;
 				font-weight: bold;
 				float: left;
 			}
 			
 			.hp {
-				font-size: large;
+				font-size: larger;
 				font-weight: bold;
 				float: right;
 			}
 			
 			.bottext {
-				font-size: small;
+				font-size: smaller;
 				font-weight: light;
 				
 				position: absolute;

@@ -12,7 +12,7 @@
 			<hp>100</hp>
 			<nemesis>Dauntless</nemesis>
 			<setup>Put Leviathan into play "Citykiller" side up. Search the villain deck for a Tactic card and put it into play</setup>
-			<gameplay>When flipped to this side, destroy H hero cards<br/><br/>At the end of the villain turn, Leviathan deals 2 melee damage to all hero targets.<br/>At the end of the villain turn, if Leviathan has been dealt H damage in one instance last round, flip Leviathan</gameplay>
+			<gameplay>When flipped to this side, destroy H hero cards<br/><br/>At the end of the villain turn, Leviathan deals 2 melee damage to all hero targets.<br/>At the end of the villain turn, if Leviathan has been dealt 8 - H damage in one instance last round, flip Leviathan</gameplay>
 			<advanced>Reduce damage dealt to Leviathan by 1</advanced>
 		</front>
 		<back>
