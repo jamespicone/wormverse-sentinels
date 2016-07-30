@@ -24,6 +24,27 @@
 			</text>
 		</back>
 	</charactercard>
+	
+	<charactercard>
+		<name>Wag the Dog</name>
+		<front>
+			<hp>28</hp>
+			<power>
+				<name>Companionship</name>
+				<text><p>Each Dog in play regains 2 HP.</p>
+				<p>You may either draw a card, or have a single Dog in play deal 2 melee damage to a target</p></text>
+			</power>
+		</front>
+		<back>
+			<text>
+			<ul>
+				<li>One target regains 2 HP</li>
+				<li>One player may take a card from their trash into their hand</li>
+				<li>Reduce damage dealt by environment targets by 2 until the start of your next turn</li>
+			</ul>
+			</text>
+		</back>
+	</charactercard>
 	<card>
 		<quantity>4</quantity>
 		<class>One-Shot</class>
@@ -57,7 +78,7 @@
 		<class>One-Shot</class>
 		<type>Order</type>
 		<name>Kill!</name>
-		<text>Deal 1 target X damage, where X = the number of Dog cards in play * 2</text>
+		<text>Deal 1 target X melee damage, where X = the number of Dog cards in play * 2</text>
 	</card>
 	<card>
 		<quantity>2</quantity>
@@ -98,54 +119,63 @@
 		<type>Dog</type>
 		<hp>6</hp>
 		<name>Judas</name>
+		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
 	</card>
 	<card>
 		<quantity>1</quantity>
 		<type>Dog</type>
 		<hp>6</hp>
 		<name>Angelica</name>
+		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
 	</card>
 	<card>
 		<quantity>1</quantity>
 		<type>Dog</type>
 		<hp>6</hp>
 		<name>Brutus</name>
+		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
 	</card>
 	<card>
 		<quantity>1</quantity>
 		<type>Dog</type>
 		<hp>6</hp>
 		<name>Kuro</name>
+		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
 	</card>
 	<card>
 		<quantity>1</quantity>
 		<type>Dog</type>
 		<hp>6</hp>
 		<name>Bullet</name>
+		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
 	</card>
 	<card>
 		<quantity>1</quantity>
 		<type>Dog</type>
 		<hp>6</hp>
 		<name>Ginger</name>
+		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
 	</card>
 	<card>
 		<quantity>1</quantity>
 		<type>Dog</type>
 		<hp>6</hp>
 		<name>Axel</name>
+		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
 	</card>
 	<card>
 		<quantity>1</quantity>
 		<type>Dog</type>
 		<hp>6</hp>
 		<name>Milk</name>
+		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
 	</card>
 	<card>
 		<quantity>1</quantity>
 		<type>Dog</type>
 		<hp>6</hp>
 		<name>Stumpy</name>
+		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
 	</card>
 	<card>
 		<quantity>1</quantity>
