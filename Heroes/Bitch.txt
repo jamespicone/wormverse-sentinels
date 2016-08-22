@@ -1,3 +1,0 @@
-Add constant 2+ to a couple of cards - find/fetch etc..
-Redo "Hold!"
-Maybe change "Come!" to "Heel!".

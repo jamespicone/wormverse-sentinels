@@ -1,6 +1,0 @@
-Alternates between drawing more cards and playing more cards. Melee damage, electrical damage, some AoE.
-
-Power: Charge character card and draw a card
-Power: If card charged, lose charge and play a card
-
-Might be too good. Have to give people a reason to actually spend your charge using your character power; there's a pretty strong incentive to just stay charged and use the card benefits.
