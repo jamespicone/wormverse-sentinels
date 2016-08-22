@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/xsl" href="hero_convert.xslt"?>
 
 <deck>
-	<name>Guts & Glory</name>
+	<name>Guts &amp; Glory</name>
 	<version>1.0</version>
 	<charactercard>
 		<name>Glory Girl</name>
