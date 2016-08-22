@@ -29,24 +29,40 @@
 		<class>One-Shot</class>
 		<name>Smack!</name>
 		<text>Deal 1 melee damage to a target. If it is not your turn, deal 2 melee damage to the same target</text>
+		<quote>
+			<text>Assault kicked me before I could recover and strike my next target. The hit didn’t feel that hard, but it sent me sliding across the floor, into a trio of chairs with plastic seats.</text>
+			<source>Monarch, 16.2</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Zoom!</name>
 		<text>Deal 2 melee damage to a target. If it is not your turn, deal 1 melee damage to a second target</text>
+		<quote>
+			<text>Assault moved to kick one of the desks. It went flying into the air in the same instant I threw myself to the ground.</text>
+			<source>Monarch, 16.2</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Biff!</name>
 		<text>Deal 1 melee damage to a target. If it is not your turn, deal 1 melee damage to up to 2 additional targets</text>
+		<quote>
+			<text>When his hand passed through, he reached just a little further to grab a desk and heave it my way.</text>
+			<source>Monarch, 16.2</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>4</quantity>
 		<name>A Change of Pace</name>
 		<class>One-Shot</class>
 		<text>Discard any number of cards. Draw X cards, where X = 1 + the number of cards you discarded in this way</text>
+		<quote>
+			<text>“Felonies, sure, but I haven’t killed anyone, and that’s got to be worth something. Now, this is just a suggestion, but what if I switched sides?”</text>
+			<source>Madcap, Interlude 12.5</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -54,6 +70,10 @@
 		<class>Ongoing</class>
 		<class>Limited</class>
 		<text>The first time a villain target would deal damage to a hero target each turn, deal 1 melee damage to that villain target</text>
+		<quote>
+			<text>“We’ll be covert. I’m talking a fast, hard hitting strike. Attack is always preferable over defense."</text>
+			<source>Assault, Interlude 15</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -61,6 +81,10 @@
 		<class>Ongoing</class>
 		<class>Limited</class>
 		<text>The next time a villain card would deal damage, redirect that damage to a target of your choice, then destroy this card</text>
+		<quote>
+			<text>Assault was a kinetic energy manipulator, and could control the energies of movement, acceleration and motion much like other heroes could manipulate flame or electricity.</text>
+			<source>Tangle, 6.5</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -68,6 +92,10 @@
 		<class>Ongoing</class>
 		<class>Limited</class>
 		<text>Increase damage you deal by 1 when it is not your turn</text>
+		<quote>
+			<text>He used the energy from Battery’s kick to rocket towards us, as Battery moved around to flank.</text>
+			<source>Tangle, 6.5</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -75,30 +103,50 @@
 		<class>Ongoing</class>
 		<class>Limited</class>
 		<text>The first time a hero card from a hero other than Assault deals 4 or more damage to a non-hero target each turn, you may play a card</text>
+		<quote>
+			<text>“You’re cute. Nice body, and the costume is a nice mix of pathetic and adorable in a three-legged-puppy kind of way.  But you don’t want to try to stop me. I hit pretty damn hard.”</text>
+			<source>Madcap, Interlude 12.5</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<name>Snap Decision</name>
 		<class>Ongoing</class>
 		<text>The next time an environment card enters play, destroy it and deal 3 projectile damage to a target. Then destroy this card</text>
+		<quote>
+			<text>Madcap rebounded off of the wall as though he were made of rubber and ducked beneath her incoming kick.</text>
+			<source>Interlude 12.5</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<name>Agility</name>
 		<class>Ongoing</class>
 		<power>Deal 1 melee damage to a non-hero target. Draw a card</power>
+		<quote>
+			<text>She snapped her head to look up and saw him in the middle of a leap over her head. He’d timed it perfectly, so he would be above her when she rounded the corner.</text>
+			<source>Interlude 12.5</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>2</quantity>
 		<name>Madcap Antics</name>
 		<class>Ongoing</class>
 		<text>You may play cards and use powers, even if another card says you can't</text>
+		<quote>
+			<text>“Maybe you’ve changed me. Your good looks, your winning personality, and your diehard persistence in the face of so many defeats at my hand.”</text>
+			<source>Madcap, Interlude 12.5</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>2</quantity>
 		<name>Heroism</name>
 		<class>Ongoing</class>
 		<text>Whenever a hero target would be dealt damage, redirect that damage to Assault. At the start of your turn, destroy this card</text>
+		<quote>
+			<text>Assault leapt to meet him, open hand outstretched in some ludicrous parody of a high-five... and launched Leviathan skyward and away with a touch, sending him hundreds of feet into the air. Assault smashed back down onto… no, into the roof, cracking it with the impact</text>
+			<source>Cenotaph, Chapter 39</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>2</quantity>
@@ -106,5 +154,9 @@
 		<class>Ongoing</class>
 		<class>Limited</class>
 		<text>Whenever damage is redirected, you may choose to either increase it by 1, reduce it by 1, or leave it unchanged</text>
+		<quote>
+			<text>Grue directed a stream straight at Assault, but the first second of fire seemed to skim right off the man.</text>
+			<source>Tangle, 6.5</source>
+		</quote>
 	</card>
 </deck>
