@@ -47,22 +47,6 @@
 				float: right;
 			}
 			
-			.quote {
-				font-size: smaller;
-				
-				position: absolute;
-				bottom: 5mm;
-			}
-			
-			.quote {
-				font-size: smaller;
-				font-weight: light;
-				
-				position: absolute;
-				bottom: 5mm;
-				right: 5mm;
-			}
-			
 			.powertitle {
 				font-weight: bold;				
 			}
@@ -113,7 +97,12 @@
 						</p>
 					</xsl:for-each>
 					<xsl:for-each select="quote">
-						<div class="quotediv"><xsl:copy-of select="node()" /></div>
+						<div class="quotediv">
+							<p><xsl:for-each select="text">
+								<xsl:value-of select="node()" />
+							</xsl:for-each></p>
+							<strong>--<xsl:for-each select="source"><xsl:value-of select="node()" /></xsl:for-each></strong>
+						</div>
 					</xsl:for-each>
 					<!--<span class="bottext"><xsl:value-of select="/deck/name" /> (<xsl:value-of select="/deck/version" />)</span>-->
 				</div>
