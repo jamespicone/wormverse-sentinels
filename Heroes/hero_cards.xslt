@@ -6,72 +6,7 @@
 <html>
 	<head>
 		<title><xsl:value-of select="/deck/name" /></title>
-		<style>
-			.carddiv {
-				height: 88mm;
-				width: 59mm;
-				padding: 2mm;
-				border: 1px solid black;
-				page-break-inside: avoid;
-				box-sizing: border-box;
-				overflow: hidden;
-				text-align: left;
-				position: relative;
-				font-size: 0.75em;
-			}
-			
-			.quotediv {
-				font-size: smaller;
-						
-				position: absolute;
-				bottom: 2mm;
-				left: 2mm;
-				right: 2mm;
-				padding-left: 0.5mm;
-				padding-right: 0.5mm;
-				padding-top: 0mm;
-				
-				text-align: justified;
-				border: 1px solid black;
-			}
-			
-			.cardname {
-				font-size: larger;
-				font-weight: bold;
-				float: left;
-			}
-			
-			.hp {
-				font-size: larger;
-				font-weight: bold;
-				float: right;
-			}
-			
-			.powertitle {
-				font-weight: bold;				
-			}
-			
-			.powertext {
-			}
-		
-			.power {
-				padding-left: 10mm;
-				text-indent: -10mm;
-			}
-			
-			body {
-				-webkit-columns: auto 3; /* Chrome, Safari, Opera */
-				-moz-columns: auto 3; /* Firefox */
-				columns: auto 3;
-				
-				-webkit-column-gap: 0px; /* Chrome, Safari, Opera */
-				-moz-column-gap: 0px; /* Firefox */
-				column-gap: 0px;
-	
-				margin: 0mm;
-				padding: 0mm;
-			}
-		</style>
+		<link rel="stylesheet" type="text/css" href="../cards.css" />
 	</head>
 	<body>
 		<xsl:for-each select="/deck/card | /deck/charactercard/front | /deck/charactercard/back">
@@ -80,22 +15,29 @@
 		<xsl:for-each select="1 to $number">
 			<xsl:for-each select="$thecard">
 				<div class="carddiv">
-					<span class="cardname"><xsl:value-of select="name" /><xsl:if test="name()!='card'"><xsl:value-of select="../name" /></xsl:if></span><xsl:for-each select="hp"><span class="hp"><xsl:value-of select="." /> HP</span></xsl:for-each><br/>
+					<div class="titlediv"><span class="cardname"><xsl:value-of select="name" /><xsl:if test="name()!='card'"><xsl:value-of select="../name" /></xsl:if></span><xsl:for-each select="hp"><span class="hp"><xsl:value-of select="." /> HP</span></xsl:for-each></div>
 					
-					<p><em>
 					<xsl:for-each select="class | type">
-						<xsl:value-of select="." />
-						<xsl:if test="position()!=last()">, </xsl:if>
+						<xsl:if test="position()=last()">
+							<div class="classdiv"><em>
+							<xsl:for-each select="$thecard">
+								<xsl:for-each select="class | type">
+									<xsl:value-of select="." />
+									<xsl:if test="position()!=last()">, </xsl:if>
+								</xsl:for-each>
+							</xsl:for-each>
+							</em></div>
+						</xsl:if>
 					</xsl:for-each>
-					</em></p>
-					
-					<p><xsl:for-each select="text"><xsl:copy-of select="node()" /></xsl:for-each></p>
+								
+					<div class="textdiv"><xsl:for-each select="text"><xsl:copy-of select="node()" /></xsl:for-each></div>
 					<xsl:for-each select="power">
-						<p class="power">
-							<xsl:if test="name(..)='card'"><span class="powertitle">Power: </span><span class="powertext"><xsl:copy-of select="node()" /></span></xsl:if>
-							<xsl:if test="name(..)!='card'"><span class="powertitle"><xsl:copy-of select="name/node()" />: </span><span class="powertext"><xsl:copy-of select="text/node()" /></span></xsl:if>
-						</p>
+						<div class="power">
+							<xsl:if test="name(..)='card'"><div class="powertitle">Power:</div><div class="powertext"><xsl:copy-of select="node()" /></div></xsl:if>
+							<xsl:if test="name(..)!='card'"><div class="powertitle"><xsl:copy-of select="name/node()" />: </div><div class="powertext"><xsl:copy-of select="text/node()" /></div></xsl:if>
+						</div>
 					</xsl:for-each>
+							
 					<xsl:for-each select="quote">
 						<div class="quotediv">
 							<p><xsl:for-each select="text">
