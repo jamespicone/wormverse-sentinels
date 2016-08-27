@@ -2,6 +2,8 @@
 
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+<xsl:include href="../card.xslt" />
+
 <xsl:template name="card">
 	<xsl:param name="i" />
 	<xsl:param name="count" />
@@ -14,6 +16,9 @@
 				<xsl:if test="quantity != 1">-<xsl:value-of select="$nextcount - 1" /></xsl:if>
 			</td>
 			<td>
+				<xsl:apply-templates select="." />
+			
+				<!--
 				<strong><xsl:value-of select="name" />: <xsl:for-each select="hp"><xsl:value-of select="." /> HP</xsl:for-each><br/></strong>
 				
 				<xsl:for-each select="class | type">
@@ -25,7 +30,7 @@
 				</xsl:for-each>
 				
 				<xsl:for-each select="text"><xsl:copy-of select="node()" /></xsl:for-each>
-				<xsl:for-each select="power"><br/><strong>Power: </strong><xsl:copy-of select="node()" /></xsl:for-each>
+				<xsl:for-each select="power"><br/><strong>Power: </strong><xsl:copy-of select="node()" /></xsl:for-each>-->
 			</td>
 		</tr>
 		
@@ -40,17 +45,15 @@
 <html>
 	<head>
 		<title><xsl:value-of select="/deck/name" /></title>
+		<link rel="stylesheet" type="text/css" href="../cards.css" />
 		<style>
 			.center { margin: auto; width: 100%; text-align: center; }
 			table { width: 100%; }
 			table, th, td {  border: 1px solid black; text-align: center; }
-			td, th { padding: 5px; }
 			tr { page-break-inside: avoid; }
 		</style>
 	</head>
 	<body>
-		<h1 class="center"><xsl:value-of select="/deck/name" /></h1>
-		<h2 class="center"><xsl:value-of select="/deck/version" /></h2>
 		<table>
 			<tr>
 				<th>#</th><th>Card</th>
@@ -62,10 +65,7 @@
 						<xsl:if test="name()='front'"> (front)</xsl:if><xsl:if test="name()='back'"> (back)</xsl:if>
 					</td>
 					<td>
-						<strong><xsl:value-of select="../name" />: <xsl:for-each select="hp"><xsl:value-of select="." /> HP</xsl:for-each></strong><br />
-						
-						<xsl:for-each select="power"><strong><xsl:value-of select="name" /></strong>: <xsl:value-of select="text" /><br/><br/></xsl:for-each>
-						<xsl:for-each select="text"><xsl:copy-of select="node()" /></xsl:for-each>
+						<xsl:apply-templates select="." />
 					</td>
 				</tr>				
 			</xsl:for-each>
