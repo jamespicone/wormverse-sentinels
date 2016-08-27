@@ -39,6 +39,7 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -69,7 +70,6 @@ ul, ol {
 	border: 1px solid black;
 	page-break-inside: avoid;
 	box-sizing: border-box;
-	overflow: hidden;
 	text-align: left;
 	position: relative;
 }
@@ -127,14 +127,6 @@ ul, ol {
 }
 
 body {
-	-webkit-columns: auto 3; /* Chrome, Safari, Opera */
-	-moz-columns: auto 3; /* Firefox */
-	columns: auto 3;
-	
-	-webkit-column-gap: 0px; /* Chrome, Safari, Opera */
-	-moz-column-gap: 0px; /* Firefox */
-	column-gap: 0px;
-
 	line-height: 1.1;
 	font-family: Arial;
 	font-size: 8pt;
