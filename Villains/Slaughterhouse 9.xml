@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/xsl" href="villain_convert.xslt"?>
 
 <deck>
-	<name>Slaughterhouse 9</name>
+	<deckname>Slaughterhouse 9</deckname>
 	<version>1.4</version>
 	<villain>
 		<name>Slaughterhouse 9</name>

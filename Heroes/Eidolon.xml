@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/xsl" href="hero_convert.xslt"?>
 
 <deck>
-	<name>Eidolon</name>
+	<deckname>Eidolon</deckname>
 	<version>1.0</version>
 	<charactercard>
 		<name>Eidolon</name>

@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/xsl" href="villain_convert.xslt"?>
 
 <deck>
-	<name>Leviathan</name>
+	<deckname>Leviathan</deckname>
 	<version>1.2</version>
 	<villain>
 		<name>Leviathan</name>

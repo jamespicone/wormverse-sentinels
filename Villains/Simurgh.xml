@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/xsl" href="villain_convert.xslt"?>
 
 <deck>
-	<name>The Simurgh</name>
+	<deckname>The Simurgh</deckname>
 	<version>1.0</version>
 	<villain>
 		<name>The Simurgh</name>

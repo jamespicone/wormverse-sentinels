@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/xsl" href="environment_convert.xslt"?>
 
 <deck>
-	<name>PRT HQ</name>
+	<deckname>PRT HQ</deckname>
 	<version>1.0</version>
 	<card>
 		<quantity>2</quantity>

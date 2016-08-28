@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/xsl" href="hero_cards.xslt"?>
                      
 <deck>
-	<name>Armsmaster</name>
+	<deckname>Armsmaster</deckname>
 	<version>1.4</version>
 	<charactercard>
 		<name>Armsmaster</name>
