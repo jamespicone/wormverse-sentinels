@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/xsl" href="hero_convert.xslt"?>
 
 <deck>
-	<name>Regent</name>
+	<deckname>Regent</deckname>
 	<version>1.1</version>
 	<charactercard>
 		<name>Regent</name>

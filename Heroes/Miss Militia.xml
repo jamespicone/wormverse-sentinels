@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/xsl" href="hero_convert.xslt"?>
 
 <deck>
-	<name>Miss Militia</name>
+	<deckname>Miss Militia</deckname>
 	<version>1.5</version>
 	<charactercard>
 		<name>Miss Militia</name>

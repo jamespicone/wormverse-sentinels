@@ -85,6 +85,17 @@ ul, ol {
 	padding-bottom: 10px;
 }
 
+.nemesisdiv {
+	padding-bottom: 10px;
+}
+
+.nemesis { float: right;} 
+.title {}
+
+.textdiv, .gameplaydiv, .setupdiv, .advanceddiv {
+	padding-bottom: 10px;
+}
+
 .cardname {
 	font-size: larger;
 	font-weight: bold;

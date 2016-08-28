@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/xsl" href="environment_convert.xslt"?>
 
 <deck>
-	<name>New Delhi</name>
+	<deckname>New Delhi</deckname>
 	<version>1.0</version>
 
 	<!--

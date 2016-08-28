@@ -17,20 +17,6 @@
 			</td>
 			<td>
 				<xsl:apply-templates select="." />
-			
-				<!--
-				<strong><xsl:value-of select="name" />: <xsl:for-each select="hp"><xsl:value-of select="." /> HP</xsl:for-each><br/></strong>
-				
-				<xsl:for-each select="class | type">
-					<em>
-					<xsl:value-of select="." />
-					<xsl:if test="position()!=last()">, </xsl:if>
-					<xsl:if test="position()=last()"><br/></xsl:if>
-					</em>
-				</xsl:for-each>
-				
-				<xsl:for-each select="text"><xsl:copy-of select="node()" /></xsl:for-each>
-				<xsl:for-each select="power"><br/><strong>Power: </strong><xsl:copy-of select="node()" /></xsl:for-each>-->
 			</td>
 		</tr>
 		
@@ -44,7 +30,7 @@
 <xsl:template match="/">
 <html>
 	<head>
-		<title><xsl:value-of select="/deck/name" /></title>
+		<title><xsl:value-of select="/deck/deckname" /></title>
 		<link rel="stylesheet" type="text/css" href="../cards.css" />
 		<style>
 			.center { margin: auto; width: 100%; text-align: center; }

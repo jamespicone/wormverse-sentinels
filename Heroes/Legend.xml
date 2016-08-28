@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/xsl" href="hero_convert.xslt"?>
 
 <deck>
-	<name>Legend</name>
+	<deckname>Legend</deckname>
 	<version>1.0</version>
 	<charactercard>
 		<name>Legend</name>

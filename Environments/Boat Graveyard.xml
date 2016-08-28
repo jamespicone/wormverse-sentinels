@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/xsl" href="environment_convert.xslt"?>
 
 <deck>
-	<name>Boat Graveyard</name>
+	<deckname>Boat Graveyard</deckname>
 	<version>1.0</version>
 	<card>
 		<name>Unstable Footing</name>

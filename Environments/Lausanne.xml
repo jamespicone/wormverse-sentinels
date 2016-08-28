@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/xsl" href="environment_convert.xslt"?>
 
 <deck>
-	<name>Lausanne</name>
+	<deckname>Lausanne</deckname>
 	<version>1.0</version>
 	
 	<!--

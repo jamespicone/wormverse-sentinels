@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/xsl" href="environment_convert.xslt"?>
 
 <deck>
-	<name>Brockton Bay</name>
+	<deckname>Brockton Bay</deckname>
 	<version>1.2</version>
 	<card>
 		<name>Civilians</name>
