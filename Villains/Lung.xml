@@ -4,12 +4,12 @@
 
 <deck>
 	<deckname>Lung</deckname>
-	<version>1.1</version>
+	<version>1.2</version>
 	<villain>
 		<name>Lung</name>
 		<front>
 			<title>Gang Leader</title>
-			<hp>90</hp>
+			<hp>80</hp>
 			<nemesis>Skitter</nemesis>
 			<setup>At the start of the game Lung enters play Gang Leader side up. Put Brute into play, Gang Leader side up.</setup>
 			<gameplay>When the villain trash is shuffled into the villain deck, flip Brute, and flip Lung.</gameplay>
@@ -17,11 +17,11 @@
 		</front>
 		<back>
 			<title>Dragon Awoken</title>
-			<hp>90</hp>
+			<hp>80</hp>
 			<nemesis>Skitter</nemesis>
 			<gameplay><p>When flipped to this side, destroy all villain cards in play and put all cards in the villain deck into the villain trash.</p>				
 				<p>Villain cards cannot be played.</p>
-				<p>Reduce damage dealt to Lung by 2.</p>
+				<p>Reduce damage dealt to Lung by 1.</p>
 			</gameplay>
 			<advanced>When flipped to this side, the heroes lose the game</advanced>
 		</back>
@@ -31,7 +31,7 @@
 		<front>
 		<title>Gang Leader</title>
 		<text><p>This card is indestructible.</p>
-		<p>If there are 10 or more cards in the villain trash, reduce damage dealt to Lung by 1.</p>
+		<p>If there are 10 or more cards in the villain trash, the first time Lung is dealt damage each round, reduce the damage by 1.</p>
 		<p>At the end of the villain turn play the top card of the villain deck, then:
 			<ul>
 				<li>Lung deals X melee damage to all hero targets, where X = 1 + the number of cards in the villain trash / 5 then,</li>
@@ -51,7 +51,7 @@
 				<ul>
 					<li>Lung deals 6 melee and 2 irreducible fire damage to all hero targets then,</li>
 					<li>Lung regains 3 HP then,</li>
-					<li>Destroy H hero ongoing or equipment cards.</li>
+					<li>Destroy H-1 hero ongoing or equipment cards.</li>
 				</ul>
 				</p>
 		</text>
