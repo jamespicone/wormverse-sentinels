@@ -30,7 +30,7 @@
 <xsl:template match="/">
 <html>
 	<head>
-		<title><xsl:value-of select="/deck/name" /></title>
+		<title><xsl:value-of select="/deck/deckname" /></title>
 		<link rel="stylesheet" type="text/css" href="../cards.css" />
 		<style>
 			.center { margin: auto; width: 100%; text-align: center; }
