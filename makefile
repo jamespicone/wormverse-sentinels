@@ -1,4 +1,6 @@
 .PHONY: all
+.PHONY: clean
+.PHONY: package
 .PHONY: environments
 .PHONY: heroes
 .PHONY: villains
@@ -12,3 +14,10 @@ heroes :
 	
 villains :
 	$(MAKE) -C Villains
+
+clean :
+	$(MAKE) clean -C Environments
+	$(MAKE) clean -C Heroes
+	$(MAKE) clean -C Villains
+	
+package : all
