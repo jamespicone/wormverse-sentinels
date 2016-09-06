@@ -115,8 +115,8 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 		<quantity>1</quantity>
 		<text>Coil: Scheming and Coil: Acting cannot be damaged. Whenever this card is dealt damage during a hero's turn, that hero must discard a card</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>“The last thing I want is another arrogant dickface telling me what to do,” Dinah said.  “You want answers, Director?  Fine.  Twenty two point eight one three percent chance you die painfully, over long, slow minutes or hours.  Maybe soon, maybe in twenty years, but it’ll bring you to tears, and you’ll wail in pain.  That’s a freebie.  Want more details?”</text>
+			<source>Dinah, Cell, 22.1</source>
 		</quote>
 	</card>
 	<card>
@@ -126,8 +126,8 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 		<quantity>1</quantity>
 		<text>Whenever a hero plays a card, this card deals that hero 1 projectile damage</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>Dauntless parried Circus’ sledgehammer with his Arclance, and the sledgehammer was gone in the next second, as though it had never existed.  At some point in the meantime, though, she’d managed to slip a lit torch into one hand.</text>
+			<source>Tangle, 6.7</source>
 		</quote>
 	</card>
 	<card>
@@ -137,8 +137,8 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 		<quantity>1</quantity>
 		<text>Whenever a non-villain target would damage a villain target other than Trainwreck, redirect the damage to Trainwreck. At the start of the villain turn, Trainwreck regains H HP</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>A steel giant with massive hands and a spout on its back that was spewing volumes of gray-black smoke had one hand closed around Armsmaster.  Repeatedly, methodically, it slammed Armsmaster against the hood of a car.</text>
+			<source>Tangle, 6.7</source>
 		</quote>
 	</card>
 	<card>
@@ -148,7 +148,7 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 		<quantity>2</quantity>
 		<quote>
 			<text>"He’s found a way to confuse my power, to counteract it.  This thing with the hit on your head.  It was just to scare us.  To let us know that any security my power afforded us, it doesn’t apply to him."</text>
-			<source>Tattletale, Colony 15.10</source>
+			<source>Tattletale, Colony, 15.10</source>
 		</quote>
 	</card>
 	<card>
