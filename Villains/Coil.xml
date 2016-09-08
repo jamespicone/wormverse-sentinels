@@ -50,8 +50,8 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 		<text>Villain targets are immune to environmental damage</text>
 		<quantity>1</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>The interior of the sub-basement had none of the smell of the previous chambers, and consisted of two tiers with walls of poured concrete. The upper level we stood on was an arrangement of metal walkways that extended around the room’s perimeter. Crates and boxes filled the level below, and I could see fifteen or so of Coil’s people down there, sitting on crates or leaning against them, talking among themselves.</text>
+			<source>Buzz 7.11</source>
 		</quote>
 	</card>
 	<card>
@@ -60,8 +60,8 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 		<quantity>3</quantity>
 		<text>At the end of the villain turn, this card deals H - 1 energy damage to the two hero targets with the highest HP</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>Each soldier was outfitted in a matching uniform: shades of gray and some black, hard vests with raised collars to protect their necks. Only a few wore their balaclavas, and I could see a variety of nationalities in a group that was mostly men. All of the soldiers had assault rifles somewhere nearby, slung over shoulders with straps and leaning against walls or crates.</text>
+			<source>Buzz 7.11</source>
 		</quote>
 	</card>
 	<card>
@@ -71,8 +71,10 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 		<quantity>1</quantity>
 		<text>This card is immune to fire damage. At the end of the villain turn, this card deals 2 fire damage to all hero targets</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>Directly below Sundancer, the floor was normal. Starting around five feet from her, though, the ground looked wet, glassy.
+
+The asphalt was melting.</text>
+			<source>Hive 5.9</source>
 		</quote>
 	</card>
 	<card>
@@ -82,8 +84,10 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 		<quantity>1</quantity>
 		<text>The first time Trickster would be dealt damage each round, redirect it to the hero target with the lowest HP. At the end of the villain turn, the hero with most cards in play destroys 1 card</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>“A shame,” Trickster bowed.
+
+In the blink of an eye, Weld disappeared, and Genesis loomed in his place</text>
+			<source>Sentinel 9.3</source>
 		</quote>
 	</card>
 	<card>
@@ -104,8 +108,8 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 		<quantity>1</quantity>
 		<text>Whenever a hero card is dealt damage by this card, that hero must destroy one of their cards. At the end of the villain turn, this card deals H + 1 projectile damage to the hero target with the highest HP</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>When he used his power on the car, you didn’t see it move. Rather, in the blink of an eye, it was gone from where it had been, abruptly in a position where it was virtually wrapped around the upper half of the forcefield.</text>
+			<source>Tangle 6.7</source>
 		</quote>
 	</card>
 	<card>
@@ -115,8 +119,8 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 		<quantity>1</quantity>
 		<text>Coil: Scheming and Coil: Acting cannot be damaged. Whenever this card is dealt damage during a hero's turn, that hero must discard a card</text>
 		<quote>
-			<text>“The last thing I want is another arrogant dickface telling me what to do,” Dinah said.  “You want answers, Director?  Fine.  Twenty two point eight one three percent chance you die painfully, over long, slow minutes or hours.  Maybe soon, maybe in twenty years, but it’ll bring you to tears, and you’ll wail in pain.  That’s a freebie.  Want more details?”</text>
-			<source>Dinah, Cell, 22.1</source>
+			<text>“The last thing I want is another arrogant dickface telling me what to do,” Dinah said. “You want answers, Director?  Fine. Twenty two point eight one three percent chance you die painfully, over long, slow minutes or hours. Maybe soon, maybe in twenty years, but it’ll bring you to tears, and you’ll wail in pain. That’s a freebie. Want more details?”</text>
+			<source>Dinah, Cell 22.1</source>
 		</quote>
 	</card>
 	<card>
@@ -126,8 +130,8 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 		<quantity>1</quantity>
 		<text>Whenever a hero plays a card, this card deals that hero 1 projectile damage</text>
 		<quote>
-			<text>Dauntless parried Circus’ sledgehammer with his Arclance, and the sledgehammer was gone in the next second, as though it had never existed.  At some point in the meantime, though, she’d managed to slip a lit torch into one hand.</text>
-			<source>Tangle, 6.7</source>
+			<text>Dauntless parried Circus’ sledgehammer with his Arclance, and the sledgehammer was gone in the next second, as though it had never existed. At some point in the meantime, though, she’d managed to slip a lit torch into one hand.</text>
+			<source>Tangle 6.7</source>
 		</quote>
 	</card>
 	<card>
@@ -137,8 +141,8 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 		<quantity>1</quantity>
 		<text>Whenever a non-villain target would damage a villain target other than Trainwreck, redirect the damage to Trainwreck. At the start of the villain turn, Trainwreck regains H HP</text>
 		<quote>
-			<text>A steel giant with massive hands and a spout on its back that was spewing volumes of gray-black smoke had one hand closed around Armsmaster.  Repeatedly, methodically, it slammed Armsmaster against the hood of a car.</text>
-			<source>Tangle, 6.7</source>
+			<text>A steel giant with massive hands and a spout on its back that was spewing volumes of gray-black smoke had one hand closed around Armsmaster. Repeatedly, methodically, it slammed Armsmaster against the hood of a car.</text>
+			<source>Tangle 6.7</source>
 		</quote>
 	</card>
 	<card>
@@ -147,8 +151,8 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 		<text>Destroy all hero ongoings</text>
 		<quantity>2</quantity>
 		<quote>
-			<text>"He’s found a way to confuse my power, to counteract it.  This thing with the hit on your head.  It was just to scare us.  To let us know that any security my power afforded us, it doesn’t apply to him."</text>
-			<source>Tattletale, Colony, 15.10</source>
+			<text>"He’s found a way to confuse my power, to counteract it. This thing with the hit on your head. It was just to scare us. To let us know that any security my power afforded us, it doesn’t apply to him."</text>
+			<source>Tattletale, Colony 15.10</source>
 		</quote>
 	</card>
 	<card>
@@ -157,8 +161,8 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 		<text>Destroy all hero equipment</text>
 		<quantity>2</quantity>
 		<quote>
-			<text>Über kicking down the door, leaving the heroes to deal with the bomb they were holding, which was squealing at a higher pitch and volume with every passing second.  It was glowing, brilliant in its golden radiance.</text>
-			<source>Monarch, 16.8</source>
+			<text>Über kicking down the door, leaving the heroes to deal with the bomb they were holding, which was squealing at a higher pitch and volume with every passing second. It was glowing, brilliant in its golden radiance.</text>
+			<source>Monarch 16.8</source>
 		</quote>
 	</card>
 	<card>
@@ -167,7 +171,7 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 		<text>Put the villain trash on top of the villain deck. Shuffle the villain deck. Play the top card of the villain deck</text>
 		<quantity>2</quantity>
 		<quote>
-			<text>“Do not use grenades.  I assure you it does not work out the way you imagine it will.  Give me that.”</text>
+			<text>“Do not use grenades. I assure you it does not work out the way you imagine it will. Give me that.”</text>
 			<source>Coil, Monarch 16.11</source>
 		</quote>
 	</card>
@@ -177,7 +181,7 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 		<text>Take all Ongoing cards out of the villain trash and put them into play</text>
 		<quantity>2</quantity>
 		<quote>
-			<text>“Maybe,” she admitted, “But that still feels wrong.  Why wouldn’t Coil have a backup plan?”</text>
+			<text>“Maybe,” she admitted, “But that still feels wrong. Why wouldn’t Coil have a backup plan?”</text>
 			<source>Tattletale, Colony 15.10</source>
 		</quote>
 	</card>
@@ -189,7 +193,7 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 		<quantity>2</quantity>
 		<quote>
 			<text>He snapped his fingers, and soldiers began to teleport down to the edges of the market.</text>
-			<source>Monarch, 16.13</source>
+			<source>Monarch 16.13</source>
 		</quote>
 	</card>
 	<card>
@@ -198,7 +202,7 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 		<text>Increase damage dealt by villain targets by 1. Damage dealt by villain cards is irreducible</text>
 		<quantity>2</quantity>
 		<quote>
-			<text>“Tattletale clued me in.  He creates parallel realities.  Makes two different decisions, and he gets to see the outcome of each as they unfold.  Decides which he wants in the end.”</text>
+			<text>“Tattletale clued me in. He creates parallel realities. Makes two different decisions, and he gets to see the outcome of each as they unfold. Decides which he wants in the end.”</text>
 			<source>Skitter, Colony 15.4</source>
 		</quote>
 	</card>
@@ -208,7 +212,7 @@ Note that Coil: Scheming activates before Coil: Acting.</setup>
 		<text>Reduce damage dealt to villain targets by 2</text>
 		<quantity>2</quantity>
 		<quote>
-			<text>Screws.  Screws with <em>hexagonal slots</em>.  Because Calvert wasn’t willing to risk that I’d have a screwdriver on hand with a more typical head on it.</text>
+			<text>Screws. Screws with <em>hexagonal slots</em>. Because Calvert wasn’t willing to risk that I’d have a screwdriver on hand with a more typical head on it.</text>
 			<source>Monarch 16.11</source>
 		</quote>
 	</card>
