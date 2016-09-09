@@ -10,7 +10,8 @@ html = $(patsubst %.xml,table_%.html,$(wildcard *.xml)) $(patsubst %.xml,cards_%
 
 all : $(html)
 clean :
-	rm $(html)
+	rm -f $(html)
 	
 package :
+	mkdir -p ../Cards/$(folder)
 	cp $(html) ../Cards/$(folder)

@@ -4,6 +4,7 @@
 .PHONY: environments
 .PHONY: heroes
 .PHONY: villains
+.PHONY: distclean
 
 all : environments heroes villains
 environments :
@@ -19,6 +20,9 @@ clean :
 	$(MAKE) clean -C Environments
 	$(MAKE) clean -C Heroes
 	$(MAKE) clean -C Villains
+	
+distclean : clean
+	rm -rf Cards/*
 	
 package : all
 	$(MAKE) package -C Environments
