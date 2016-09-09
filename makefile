@@ -23,8 +23,10 @@ clean :
 	
 distclean : clean
 	rm -rf Cards/*
+	rm -f Cards.zip
 	
 package : all
 	$(MAKE) package -C Environments
 	$(MAKE) package -C Heroes
 	$(MAKE) package -C Villains
+	zip Cards.zip Cards/ -r9
