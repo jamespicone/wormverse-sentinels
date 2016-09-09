@@ -21,3 +21,6 @@ clean :
 	$(MAKE) clean -C Villains
 	
 package : all
+	$(MAKE) package -C Environments
+	$(MAKE) package -C Heroes
+	$(MAKE) package -C Villains
