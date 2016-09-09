@@ -29,28 +29,28 @@
 		<class>Equipment</class>
 		<type>Weapon</type>
 		<name>Machete</name>
-		<power>Deal 2 melee damage to a non-hero target. If you have used the Submachine Gun power since the start of your last turn, deal 3 melee damage to the same target</power>
+		<power>Deal 2 melee damage to a non-hero target.<br/><br/>If you have used the Submachine Gun power since the start of your last turn, deal 3 melee damage to the same target</power>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>Equipment</class>
 		<type>Weapon</type>
 		<name>Pistol</name>
-		<power>Deal 2 projectile damage to a non-hero target. If you have used the Submachine Gun power since the start of your last turn, play a card</power>
+		<power>Deal 2 projectile damage to a non-hero target.<br/><br/> If you have used the Submachine Gun power since the start of your last turn, play a card</power>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>Equipment</class>
 		<type>Weapon</type>
 		<name>Submachine Gun</name>
-		<power>Deal 1 projectile damage to up to 3 non-hero targets. If you have used the Machete power since the start of your last turn, destroy an Environment or Ongoing card. If you have used the Rifle power since the start of your last turn, put a non-hero target that is not a character card on top of its deck</power>
+		<power>Deal 1 projectile damage to up to 3 non-hero targets.<br/><br/>If you have used the Machete power since the start of your last turn, destroy an Environment or Ongoing card.<br/><br/>If you have used the Rifle power since the start of your last turn, put a non-hero target that is not a character card on top of its deck</power>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>Equipment</class>
 		<type>Weapon</type>
 		<name>Sniper Rifle</name>
-		<power>Select a target, (other than the villain target with the highest HP, unless they are the only villain target). At the start of your next turn, deal 4 projectile damage to that target. If you have used the Pistol power since the start of your last turn, draw 2 cards</power>
+		<power>Select a target, (other than the villain target with the highest HP, unless they are the only villain target). At the start of your next turn, deal 4 projectile damage to that target.<br/><br/>If you have used the Pistol power since the start of your last turn, draw 2 cards</power>
 	</card>
 	<card>
 		<quantity>2</quantity>
@@ -106,9 +106,13 @@
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Weaponry</name>
-		<text>If you have used the Submachine Gun power since the start of your last turn, until the end of your turn, increase damage you deal by 1<br/>
-		If you have used the Machete power since the start of your last turn, deal 1 irreducible melee damage to a non-hero target<br/>
-		If you have used the Pistol power since the start of your last turn, draw a card<br/>
-		If you have used the Sniper Rifle power since the start of your last turn, destroy a non-hero, non-character-card target</text>
+		<text>
+		<ul>
+		<li>If you have used the Submachine Gun power since the start of your last turn, until the end of your turn, increase damage you deal by 1</li>
+		<li>If you have used the Machete power since the start of your last turn, deal 1 irreducible melee damage to a non-hero target</li>
+		<li>If you have used the Pistol power since the start of your last turn, draw a card</li>
+		<li>If you have used the Sniper Rifle power since the start of your last turn, destroy a non-hero, non-character-card target</li>
+		</ul>
+		</text>
 	</card>
 </deck>
