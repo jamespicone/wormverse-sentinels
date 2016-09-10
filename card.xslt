@@ -71,17 +71,22 @@
 			<xsl:apply-templates select="hp" />
 		</div>
 		
-		<xsl:if test="class | type">
-			<div class="classdiv"><em>
-			<xsl:apply-templates select="class | type"/>
+		<xsl:if test="title | nemesis | class | type">
+			<div class="nemesisdiv"><em>
+				<xsl:apply-templates select="title" />
+				<xsl:if test="not(../title)">
+					<em><xsl:apply-templates select="class | type"/></em>
+				</xsl:if>
+				<span class="nemesis"><xsl:apply-templates select="nemesis" /></span>
 			</em></div>
 		</xsl:if>
 		
-		<xsl:if test="title | nemesis">
-			<div class="nemesisdiv"><em>
-				<xsl:apply-templates select="title" />
-				<span class="nemesis"><xsl:apply-templates select="nemesis" /></span>
-			</em></div>
+		<xsl:if test="title">
+			<xsl:if test="class | type">
+				<div class="classdiv"><em>
+				<xsl:apply-templates select="class | type"/>
+				</em></div>
+			</xsl:if>
 		</xsl:if>
 		
 		<xsl:apply-templates select="setup" />
