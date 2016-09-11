@@ -2,6 +2,8 @@
 
 <?xml-stylesheet type="text/xsl" href="cards.xslt"?>
 
+<!-- LOGO: Tidal wave -->
+
 <deck>
 	<deckname>Leviathan</deckname>
 	<version>1.2</version>

@@ -2,6 +2,8 @@
 
 <?xml-stylesheet type="text/xsl" href="cards.xslt"?>
 
+<!-- LOGO: Starburst -->
+
 <deck>
 	<deckname>Legend</deckname>
 	<version>1.0</version>

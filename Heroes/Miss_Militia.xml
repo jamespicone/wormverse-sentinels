@@ -2,6 +2,8 @@
 
 <?xml-stylesheet type="text/xsl" href="cards.xslt"?>
 
+<!-- LOGO: Flag? A gun? -->
+
 <deck>
 	<deckname>Miss Militia</deckname>
 	<version>1.5</version>

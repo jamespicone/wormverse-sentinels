@@ -2,6 +2,8 @@
 
 <?xml-stylesheet type="text/xsl" href="cards.xslt"?>
 
+<!-- LOGO: Domino mask? question mark? -->
+
 <deck>
 	<deckname>Tattletale</deckname>
 	<version>1.2</version>
