@@ -15,7 +15,7 @@
 			</power>
 			<power>
 				<name>Discharge</name>
-				<text>Un-tilt your character card. Play a card.</text>
+				<text>Un-tilt your character card. You may play a card.</text>
 			</power>
 		</front>
 		<back>
@@ -56,7 +56,7 @@
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Pushing the Limits</name>
-		<text>If Battery is charged, play 2 cards. If Battery is not charged, draw 3 cards.</text>
+		<text>If Battery is charged, you may play 2 cards. If Battery is not charged, draw 3 cards.</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -68,7 +68,7 @@
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Pow!</name>
-		<text>Select a non-hero target. If Battery is charged and the target is not a character card,put it on top of its deck and then deal 3 melee damage to a non-hero target. Otherwise, deal 2 melee damage to that target</text>
+		<text>Select a non-hero target. If Battery is charged and the target is not a character card, put it on top of its deck and then deal 3 melee damage to a non-hero target. Otherwise, deal 2 melee damage to that target</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -80,7 +80,7 @@
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Rapid Recon</name>
-		<text>If Battery is not charged, all heroes may draw a card.<br/><br/> Draw a card. Play a card</text>
+		<text>If Battery is not charged, all heroes may draw a card.<br/><br/>Draw a card. You may play a card</text>
 	</card>
 	<card>
 		<quantity>2</quantity>

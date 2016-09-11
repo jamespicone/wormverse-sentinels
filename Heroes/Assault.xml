@@ -38,7 +38,7 @@
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Zoom!</name>
-		<text>Deal 2 melee damage to a target. If it is not your turn, deal 1 melee damage to a second target</text>
+		<text>Deal 2 melee damage to a target. If it is not your turn, you may deal 1 melee damage to a second target</text>
 		<quote>
 			<text>Assault moved to kick one of the desks. It went flying into the air in the same instant I threw myself to the ground.</text>
 			<source>Monarch, 16.2</source>
@@ -104,7 +104,7 @@
 		<class>Limited</class>
 		<text>The first time a hero card from a hero other than Assault deals 4 or more damage to a non-hero target each turn, you may play a card</text>
 		<quote>
-			<text>“You’re cute. Nice body, and the costume is a nice mix of pathetic and adorable in a three-legged-puppy kind of way.  But you don’t want to try to stop me. I hit pretty damn hard.”</text>
+			<text>“You’re cute. Nice body, and the costume is a nice mix of pathetic and adorable in a three-legged-puppy kind of way. But you don’t want to try to stop me. I hit pretty damn hard.”</text>
 			<source>Madcap, Interlude 12.5</source>
 		</quote>
 	</card>
