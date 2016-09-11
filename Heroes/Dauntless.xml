@@ -36,7 +36,7 @@
 		<class>Equipment</class><type>Relic</type>
 		<name>Arcstep</name>
 		<text>This card is indestructible</text>
-		<power>Draw X cards, where X = 1 + the number of Charge cards next to this card / 2 (round down). You may play a card</power>
+		<power>Draw X cards, where X = 1 + the number of Charge cards next to this card / 2 (round down).<br/>You may play a card</power>
 	</card>
 	<card>
 		<quantity>4</quantity>
