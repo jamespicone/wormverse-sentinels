@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<?xml-stylesheet type="text/xsl" href="hero_convert.xslt"?>
+<?xml-stylesheet type="text/xsl" href="cards.xslt"?>
 
 <deck>
 	<deckname>Assault</deckname>

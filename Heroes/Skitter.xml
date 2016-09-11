@@ -1,6 +1,6 @@
+<?xml-stylesheet type="text/xsl" href="cards.xslt"?>
 <?xml version="1.0"?>
 
-<?xml-stylesheet type="text/xsl" href="hero_convert.xslt"?>
 
 <deck>
 	<deckname>Skitter</deckname>
