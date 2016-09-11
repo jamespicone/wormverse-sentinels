@@ -29,4 +29,5 @@ package : all
 	$(MAKE) package -C Environments
 	$(MAKE) package -C Heroes
 	$(MAKE) package -C Villains
+	cp cards.css Cards
 	zip Cards.zip Cards/ -r9
