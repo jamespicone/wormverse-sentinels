@@ -18,7 +18,7 @@
 				The first time each round Behemoth would be dealt damage of his current damage type, redirect the damage to the hero target with the lowest HP.<br/><br/>
 				At the end of the villain turn, Behemoth deals each hero X damage, where X is the number of proximity tokens on the hero.
 			</gameplay>
-			<advanced>If a hero ever has 5 proximity tokens on them, they are immediately incapacitated</advanced>
+			<advanced>If a hero ever has 6 proximity tokens on them, they are immediately incapacitated</advanced>
 		</front>
 		<back>
 			<title>Herokiller, Desperate</title>
@@ -30,7 +30,7 @@
 				At the end of the villain turn, Behemoth deals each hero X damage, where X is the number of proximity tokens on the hero.<br/><br/>
 				At the end of the villain turn, play the top card of the villain deck
 			</gameplay>
-			<advanced>If a hero ever has 5 proximity tokens on them, they are immediately incapacitated</advanced>
+			<advanced>If a hero ever has 6 proximity tokens on them, they are immediately incapacitated</advanced>
 		</back>
 	</villain>
 	
