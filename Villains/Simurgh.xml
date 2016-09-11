@@ -31,7 +31,7 @@
 	<!-- CONDITIONS -->
 	<card>
 		<name>A Surfeit of Targets</name>
-		<class>Condition</class>
+		<type>Condition</type>
 		<text>When this card is revealed, if there are at least H Ongoing cards in play, flip over a face-down trap card. Then return this card to the Condition deck and shuffle it</text>
 		<quantity>1</quantity>
 		<quote>
@@ -43,7 +43,7 @@
 	<!-- TRAPS -->
 	<card>
 		<name>A Reckoning Long Delayed</name>
-		<class>Trap</class>
+		<type>Trap</type>
 		<text>When this card is flipped, every player must secretly and without discussion vote for a hero by simultaneously pointing at a hero card (Count down from 3). If there is a clear winner, that hero deals itself 5 psychic damage. Otherwise, every hero deals themselves 5 psychic damage.</text>
 		<quantity>1</quantity>
 		<quote>
@@ -53,10 +53,11 @@
 	</card>
 	
 	<!-- NORMAL CARDS -->
-	<name></name>
+	<card>
+		<name></name>
 		<class></class>
 		<text></text>
-		<quantity></quantity>
+		<quantity>0</quantity>
 		<quote>
 			<text></text>
 			<source></source>
