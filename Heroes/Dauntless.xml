@@ -36,7 +36,7 @@
 		<class>Equipment</class><type>Relic</type>
 		<name>Arcstep</name>
 		<text>This card is indestructible</text>
-		<power>Draw X cards, where X = 1 + the number of Charge cards next to this card / 2 (round down)</power>
+		<power>Draw X cards, where X = 1 + the number of Charge cards next to this card / 2 (round down). You may play a card</power>
 	</card>
 	<card>
 		<quantity>4</quantity>
@@ -50,7 +50,7 @@
 		<class>Ongoing</class>
 		<type>Charge</type>
 		<name>Plasma Core</name>
-		<text>When you play this card, either place it next to Dauntless or next to a Relic, but only if they do not already have a card with the same name next to them.<br/>If next to Dauntless, his Arclance does irreducible damage.<br/>If next to the Arcshield, whenever a non-hero target deal damage to Dauntless and it is reduced by the Arcshield's power, Dauntless deals that target 1 energy damage.<br/>If next to the Arcstep, Dauntless regains 1 HP whenever he uses the Arcstep's power</text>
+		<text>When you play this card, either place it next to Dauntless or next to a Relic, but only if they do not already have a card with the same name next to them.<br/>If next to Dauntless, his Arclance does irreducible damage.<br/>If next to the Arcshield, whenever a non-hero target would deal damage to Dauntless and it is reduced by the Arcshield's power, Dauntless deals that target 1 energy damage.<br/>If next to the Arcstep, Dauntless regains 1 HP whenever he uses the Arcstep's power</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -63,7 +63,7 @@
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>To Me!</name>
-		<text>Search your deck for a Relic and put it into play. Shuffle your deck. Draw a card. Play a card</text>
+		<text>Search your deck for a Relic and put it into play. Shuffle your deck. Draw a card. You may play a card</text>
 	</card>
 	<card>
 		<quantity>4</quantity>

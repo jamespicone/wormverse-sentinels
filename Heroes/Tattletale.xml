@@ -87,7 +87,7 @@
 		<quantity>2</quantity>
 		<class>Ongoing</class>
 		<name>Taking a Risk</name>
-		<power>Play the top card of a deck</power>
+		<power>Select a deck. Put the top card of that deck into play</power>
 	</card>
 	<card>
 		<quantity>3</quantity>

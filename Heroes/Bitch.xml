@@ -64,7 +64,7 @@
 		<class>One-Shot</class>
 		<type>Order</type>
 		<name>Guard!</name>
-		<text>Select X targets, where X = the number of Dog cards in play. Reduce damage dealt to those targets by 2 until the start of your next turn. Draw a card</text>
+		<text>Select up to X targets, where X = the number of Dog cards in play. Reduce damage dealt to those targets by 2 until the start of your next turn. Draw a card</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -91,7 +91,7 @@
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Veterinary Care</name>
-		<text>Restore all Dog cards to maximum HP. You may draw 1 card. You may play 1 card</text>
+		<text>Restore all Dog cards to maximum HP. You may draw a card. You may play a card</text>
 	</card>
 	<card>
 		<quantity>3</quantity>

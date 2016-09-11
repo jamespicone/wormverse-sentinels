@@ -28,13 +28,13 @@
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Blinding</name>
-		<text>Deal 2 melee damage to a non-hero target. If you deal damage in this way, destroy 1 ongoing card</text>
+		<text>Deal 2 melee damage to a non-hero target. If you deal damage in this way, you may destroy an ongoing card</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Canny Combatant</name>
-		<text>Deal X melee damage to a non-hero target, where X = 2 + the number of Ongoing cards you have in play</text>
+		<text>Deal X melee damage to a non-hero target, where X = 2 + the number of Ongoing cards in play</text>
 	</card>
 	<card>
 		<quantity>3</quantity>

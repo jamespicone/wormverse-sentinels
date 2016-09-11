@@ -19,7 +19,7 @@
 			<ul>
 				<li>Deal 2 projectile damage to a target</li>
 				<li>Destroy an Equipment card. If you do, deal 4 projectile damage to a target</li>
-				<li>Another hero plays a card</li>
+				<li>Another hero may play a card</li>
 			</ul>
 			</text>
 		</back>
@@ -36,27 +36,27 @@
 		<class>Equipment</class>
 		<type>Weapon</type>
 		<name>Pistol</name>
-		<power>Deal 2 projectile damage to a non-hero target.<br/><br/> If you have used the Submachine Gun power since the start of your last turn, play a card</power>
+		<power>Deal 2 projectile damage to a non-hero target.<br/><br/>If you have used the Submachine Gun power since the start of your last turn, you may play a card</power>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>Equipment</class>
 		<type>Weapon</type>
 		<name>Submachine Gun</name>
-		<power>Deal 1 projectile damage to up to 3 non-hero targets.<br/><br/>If you have used the Machete power since the start of your last turn, destroy an Environment or Ongoing card.<br/><br/>If you have used the Rifle power since the start of your last turn, put a non-hero target that is not a character card on top of its deck</power>
+		<power>Deal 1 projectile damage to up to 3 non-hero targets.<br/><br/>If you have used the Machete power since the start of your last turn, you may destroy an Environment or Ongoing card.<br/><br/>If you have used the Rifle power since the start of your last turn, you may put a non-hero target that is not a character card on top of its deck</power>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>Equipment</class>
 		<type>Weapon</type>
 		<name>Sniper Rifle</name>
-		<power>Select a target, (other than the villain target with the highest HP, unless they are the only villain target). At the start of your next turn, deal 4 projectile damage to that target.<br/><br/>If you have used the Pistol power since the start of your last turn, draw 2 cards</power>
+		<power>Select a target, other than the villain target with the highest HP, unless they are the only villain target. At the start of your next turn, deal 4 projectile damage to that target.<br/><br/>If you have used the Pistol power since the start of your last turn, draw 2 cards</power>
 	</card>
 	<card>
 		<quantity>2</quantity>
 		<class>One-Shot</class>
 		<name>Overdrive</name>
-		<text>You may use as many powers this turn as you have Weapons. At the end of your turn, destroy every Weapon card you have in play</text>
+		<text>You may use as many powers this turn as you have Weapons. At the end of the turn, destroy every Weapon card you have in play</text>
 	</card>
 	<card>
 		<quantity>4</quantity>
@@ -68,7 +68,7 @@
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Grenade</name>
-		<text>Deal 2 fire damage and 2 melee damage to a non-hero target. If you deal any damage in this way, destroy an Ongoing card</text>
+		<text>Deal 2 fire damage and 2 melee damage to a non-hero target. If you deal any damage in this way, you may destroy an Ongoing card</text>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -100,7 +100,7 @@
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>Nonlethal Measures</name>
-		<text>Whenever you destroy a target, you may put the destroyed target on the bottom of its deck and destroy this card instead</text>
+		<text>Whenever you destroy a target, you may put the destroyed target on the bottom of its deck.</text>
 	</card>
 	<card>
 		<quantity>4</quantity>
@@ -109,9 +109,9 @@
 		<text>
 		<ul>
 		<li>If you have used the Submachine Gun power since the start of your last turn, until the end of your turn, increase damage you deal by 1</li>
-		<li>If you have used the Machete power since the start of your last turn, deal 1 irreducible melee damage to a non-hero target</li>
+		<li>If you have used the Machete power since the start of your last turn, you may deal 1 irreducible melee damage to a non-hero target</li>
 		<li>If you have used the Pistol power since the start of your last turn, draw a card</li>
-		<li>If you have used the Sniper Rifle power since the start of your last turn, destroy a non-hero, non-character-card target</li>
+		<li>If you have used the Sniper Rifle power since the start of your last turn, you may destroy a non-hero, non-character-card target</li>
 		</ul>
 		</text>
 	</card>
