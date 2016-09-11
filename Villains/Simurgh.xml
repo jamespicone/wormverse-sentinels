@@ -2,6 +2,8 @@
 
 <?xml-stylesheet type="text/xsl" href="cards.xslt"?>
 
+<!-- LOGO: Swan -->
+
 <deck>
 	<deckname>The Simurgh</deckname>
 	<version>1.0</version>

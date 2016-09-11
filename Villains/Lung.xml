@@ -2,6 +2,8 @@
 
 <?xml-stylesheet type="text/xsl" href="cards.xslt"?>
 
+<!-- LOGO: Does the ABB have a logo? Dragon head? Claw? -->
+
 <deck>
 	<deckname>Lung</deckname>
 	<version>1.2</version>
