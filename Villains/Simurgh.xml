@@ -52,6 +52,17 @@
 		</quote>
 	</card>
 	
+	<!-- NORMAL CARDS -->
+	<name></name>
+		<class></class>
+		<text></text>
+		<quantity></quantity>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
 	<!--
 	
 		Stacks her own deck. Anti-stacks hero decks somehow ("Name a card type. Reveal the top N cards of hero decks, discard all cards with that card type"?)
