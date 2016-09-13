@@ -202,8 +202,8 @@
 		<type>Defence</type>
 		<text>Each hero discards 2 cards</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>I fumbled for the gun, using my bugs to get a sense for where it was.  In the same motion that I pointed it, Jack slapped it out of my hand with two slashes of his knife.  He was a dozen feet away, but the knife nonetheless connected with my weapon.</text>
+			<source>Prey 14.9</source>
 		</quote>
 	</card>
 	<card>
@@ -213,8 +213,8 @@
 		<type>Attack</type>
 		<text>Each villain target in play deals 2 melee damage to the hero target with the highest HP</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>If and when the Slaughterhouse Nine do eliminate five of the six candidates, or if any candidates leave the city, the Slaughterhouse Nine are prepared to penalize the city for their failure.</text>
+			<source>Snare 13.1</source>
 		</quote>
 	</card>
 	<card>
@@ -256,8 +256,8 @@
 		<type>Special</type>
 		<text>If Jack Slash is not in play, find Jack Slash in the Nine deck and put him into play. Jack Slash deals 2 psychic damage to all hero targets</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>He smiled.  These challenges, after all, served as his own carrot.</text>
+			<source>Interlude 12</source>
 		</quote>
 	</card>
 	<card>
