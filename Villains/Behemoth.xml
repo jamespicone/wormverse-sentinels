@@ -5,7 +5,7 @@
 
 <deck>
 	<deckname>Behemoth</deckname>
-	<version>1.0</version>
+	<version>1.1</version>
 	<villain>
 		<name>Behemoth</name>
 		<front>
@@ -114,7 +114,7 @@
 		<name>Unstoppable Advance</name>
 		<class>Ongoing</class>
 		<text>
-			When this card enters player, change Behemoth's damage type to Melee.<br/><br/>
+			When this card enters play, change Behemoth's damage type to Melee.<br/><br/>
 			At the end of the villain turn, move a proximity token to the hero with the most proximity tokens
 		</text>
 		<quantity>2</quantity>
@@ -128,7 +128,7 @@
 		<name>Radiation</name>
 		<class>Ongoing</class>
 		<text>
-			When this card enters player, change Behemoth's damage type to Energy.<br/><br/>
+			When this card enters play, change Behemoth's damage type to Energy.<br/><br/>
 			At the end of the villain turn, deal X damage to each hero target, where X is the number of tokens on this card. Then place a token on this card.
 		</text>
 		<quantity>2</quantity>
@@ -142,7 +142,7 @@
 		<name>Juggernaut</name>
 		<class>Ongoing</class>
 		<text>
-			When this card enters player, change Behemoth's damage type to Sonic.<br/><br/>
+			When this card enters play, change Behemoth's damage type to Sonic.<br/><br/>
 			Reduce damage dealt to Behemoth by 1<br/><br/>
 			Whenever a hero deals damage to Behemoth, move a proximity token to that hero.
 		</text>
@@ -157,7 +157,7 @@
 		<name>Continuous Crackle</name>
 		<class>Ongoing</class>
 		<text>
-			When this card enters player, change Behemoth's damage type to Lightning.<br/><br/>
+			When this card enters play, change Behemoth's damage type to Lightning.<br/><br/>
 			Whenever a hero puts an Equipment or Ongoing card into play, Behemoth deals that hero 2 damage.
 		</text>
 		<quantity>2</quantity>
