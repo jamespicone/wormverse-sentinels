@@ -6,7 +6,7 @@
 
 <deck>
 	<deckname>Grue</deckname>
-	<version>1.0</version>
+	<version>1.1</version>
 	<charactercard>
 		<name>Grue</name>
 		<front>
@@ -109,6 +109,7 @@
 		<class>Limited</class>
 		<name>Martial Talent</name>
 		<text>Increase melee damage dealt by Grue by 1</text>
+		<power>Grue deals a target 2 melee damage</power>
 	</card>
 	<card>
 		<quantity>3</quantity>
