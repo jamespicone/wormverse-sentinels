@@ -86,7 +86,7 @@
 		<quantity>2</quantity>
 		<class>Ongoing</class>
 		<name>Morale</name>
-		<text><p>Play this card next to a hero target.</p><p>The next time that target would deal damage, you may increase the damage by 2. If you do, destroy this card</p></text>
+		<text><p>Play this card next to a hero target.</p><p>Whenever that target would deal damage, you may increase the damage by 2. If you do, destroy this card</p></text>
 	</card>
 	
 	<card>
@@ -157,5 +157,18 @@
 		<text>If Glory Girl is active, destroy a target with 4 or less HP. Deal 3 projectile damage to a target</text>
 	</card>
 	
-	<!-- 34 cards total, need 6 more -->
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<name>Imperious Command</name>
+		<text>If Glory Girl is active, up to two other heroes may play a card</name>
+	</card>
+	
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<name>Wreak Ruin</name>
+		<text>If Glory Girl is active, you may destroy an Equipment or Device card.<br\><br\>
+		If Panacea is active, you may destroy an Ongoing or Environment card</text>
+	</card>
 </deck>
