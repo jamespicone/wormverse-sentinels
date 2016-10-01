@@ -78,7 +78,7 @@
 		<quantity>2</quantity>
 		<class>Ongoing</class>
 		<name>Glory</name>
-		<power>Until the start of your next turn, increase damage dealt by hero targets by 1</text>
+		<power>Until the start of your next turn, increase damage dealt by hero targets by 1</power>
 	</card>
 	
 	<card>
@@ -160,14 +160,14 @@
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Imperious Command</name>
-		<text>If Glory Girl is active, up to two other heroes may play a card</name>
+		<text>If Glory Girl is active, up to two other heroes may play a card</text>
 	</card>
 	
 	<card>
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Wreak Ruin</name>
-		<text>If Glory Girl is active, you may destroy an Equipment or Device card.<br\><br\>
+		<text>If Glory Girl is active, you may destroy an Equipment or Device card.<br/><br/>
 		If Panacea is active, you may destroy an Ongoing or Environment card</text>
 	</card>
 	
