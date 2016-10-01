@@ -9,20 +9,6 @@
 	<head>
 		<title><xsl:value-of select="/deck/deckname" /></title>
 		<link rel="stylesheet" type="text/css" href="../cards.css" />
-		<style>			
-			body {
-				-webkit-columns: auto 3; /* Chrome, Safari, Opera */
-				-moz-columns: auto 3; /* Firefox */
-				columns: auto 3;
-				
-				-webkit-column-gap: 0px; /* Chrome, Safari, Opera */
-				-moz-column-gap: 0px; /* Firefox */
-				column-gap: 0px;
-				
-				margin: 0mm;
-				padding: 0mm;
-			}
-		</style>
 	</head>
 	<body>
 		<xsl:for-each select="/deck/card">

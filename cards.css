@@ -64,13 +64,18 @@ ul, ol {
 }
 
 .carddiv {
+	display: inline-block;
 	height: 88mm;
 	width: 59mm;
+	max-height: 88mm;
+	max-width: 59mm;
 	padding: 2mm;
 	border: 1px solid black;
 	page-break-inside: avoid;
 	box-sizing: border-box;
 	text-align: left;
+	vertical-align: top;
+	font-size: 8pt;
 	position: relative;
 }
 
@@ -140,5 +145,5 @@ ul, ol {
 body {
 	line-height: 1.1;
 	font-family: Arial;
-	font-size: 8pt;
+	font-size: 0;
 }
