@@ -37,6 +37,7 @@
 			table { width: 100%; }
 			table, th, td {  border: 1px solid black; text-align: center; }
 			tr { page-break-inside: avoid; }
+			body {font-size: 14pt;}
 		</style>
 	</head>
 	<body>
