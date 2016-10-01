@@ -68,7 +68,7 @@
 	</card>
 	
 	<card>
-		<quantity>4</quantity>
+		<quantity>2</quantity>
 		<class>One-Shot</class>
 		<name>Flying Brick</name>
 		<text>If Glory Girl is active, Glory Girl deals 4 melee damage to a target</text>
@@ -78,8 +78,7 @@
 		<quantity>2</quantity>
 		<class>Ongoing</class>
 		<name>Glory</name>
-		<text><p>At the start of your turn, destroy this card.</p>
-		<p>Increase damage dealt by hero targets by 1</p></text>
+		<power>Until the start of your next turn, increase damage dealt by hero targets by 1</text>
 	</card>
 	
 	<card>
@@ -106,7 +105,7 @@
 	</card>
 	
 	<card>
-		<quantity>3</quantity>
+		<quantity>2</quantity>
 		<class>One-Shot</class>
 		<name>It's My Job</name>
 		<text>If Panacea is active, one target regains 4 HP</text>
@@ -170,5 +169,12 @@
 		<name>Wreak Ruin</name>
 		<text>If Glory Girl is active, you may destroy an Equipment or Device card.<br\><br\>
 		If Panacea is active, you may destroy an Ongoing or Environment card</text>
+	</card>
+	
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<name>Flight</name>
+		<power>Draw 3 cards. Discard a card</power>
 	</card>
 </deck>
