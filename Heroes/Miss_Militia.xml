@@ -58,7 +58,7 @@
 		<quantity>2</quantity>
 		<class>One-Shot</class>
 		<name>Overdrive</name>
-		<text>You may use as many powers this turn as you have Weapons. At the end of the turn, destroy every Weapon card you have in play</text>
+		<text>You may use as many powers this turn as you have unique Weapons (at the time you play this card). At the end of the turn, destroy every Weapon card you used a power from this turn</text>
 	</card>
 	<card>
 		<quantity>4</quantity>
@@ -110,8 +110,8 @@
 		<name>Weaponry</name>
 		<text>
 		<ul>
-		<li>If you have used the Submachine Gun power since the start of your last turn, until the end of your turn, damage you deal is irreducible</li>
-		<li>If you have used the Machete power since the start of your last turn, you may deal 1 melee damage to a non-hero target</li>
+		<li>If you have used the Submachine Gun power since the start of your last turn, until the end of this turn, increase damage you deal by 1</li>
+		<li>If you have used the Machete power since the start of your last turn, you may deal 1 irreducible melee damage to a non-hero target</li>
 		<li>If you have used the Pistol power since the start of your last turn, draw a card</li>
 		<li>If you have used the Sniper Rifle power since the start of your last turn, you may destroy a non-hero, non-character-card target</li>
 		</ul>
