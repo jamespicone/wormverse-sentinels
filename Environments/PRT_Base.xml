@@ -11,6 +11,10 @@
 		<hp>5</hp>
 		<text>At the end of the environment turn, this card deals 1 energy damage to all non-environment targets with 2 or less HP</text>
 		<name>Guard Drone</name>
+		<quote>
+			<text>They emulated Sere’s power on a low enough level to kill bugs in the area without doing undue harm to any people, then became laser turrets, firing an invisible beam every second for about a minute, killing a bug with each shot.</text>
+			<source>Cell 22.1</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>2</quantity>
@@ -18,6 +22,10 @@
 		<hp>6</hp>
 		<text>Whenever a non-environment target deals 4 or more damage in one attack, this card deals that target 4 lightning damage</text>
 		<name>Prison Drone</name>
+		<quote>
+			<text>“Touch the door, make too much noise or use your power, and the room gets flooded with an electric charge,”</text>
+			<source>Triumph, Cell 22.1</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>1</quantity>
@@ -25,12 +33,20 @@
 		<hp>16</hp>
 		<text>Whenever an instance of damage is dealt to more than one target, reduce that damage by 1</text>
 		<name>Base Forcefield</name>
+		<quote>
+			<text>Moments later, he heard the distinctive hiss-crack of forcefield generators failing (the base’s?)</text>
+			<source>Cenotaph, Cataclysm 7.1</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<hp>8</hp>
 		<text>Whenever a hero is dealt damage by this card, that hero discards a card. At the end of the environment turn, this card deals the non-environment target with the lowest HP 1 projectile damage</text>
 		<name>Containment Agents</name>
+		<quote>
+			<text>Their very recognizable uniforms were chain mesh augmented with kevlar, topped with faceless helmets.  The only means you had to identify them with were the badge numbers printed across their vests in bold white numbers.</text>
+			<source>Tangle 6.5</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>1</quantity>
@@ -38,6 +54,10 @@
 		<hp>5</hp>
 		<text>At the end of the environment turn, all Devices regain 2 HP. At the end of the environment turn, this card deals 1 energy damage to the non-environment target with the highest HP</text>
 		<name>Kid Win</name>
+		<quote>
+			<text>The PRT staff insisted he was exceptional with antigrav and guns, had it even marked in his file, but he knew it wasn’t so true.  He finished his guns because they were simple, in their own way.  It was easy enough to take three half-finished gun projects and mash them together.</text>
+			<source>Sentinel 9.4</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>1</quantity>
@@ -45,6 +65,10 @@
 		<hp>6</hp>
 		<text>At the start of the environment turn, select the hero with the lowest HP. Until the next environment turn, that hero cannot draw cards, cannot deal damage, cannot use powers, cannot be damaged, and does not have a turn. If that hero is the only hero that is not incapacitated, the heroes lose the game</text>
 		<name>Clockblocker</name>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>1</quantity>
@@ -52,6 +76,10 @@
 		<hp>5</hp>
 		<text>Reduce damage dealt to environment cards by 1. Increase damage dealt by environment cards by 1</text>
 		<name>Vista</name>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>1</quantity>
@@ -59,6 +87,10 @@
 		<hp>20</hp>
 		<text>At the end of the environment turn, this card deals 3 melee damage to the non-environment target with the second highest HP</text>
 		<name>Aegis</name>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>1</quantity>
@@ -66,6 +98,10 @@
 		<hp>5</hp>
 		<text>Heroes dealt damage by this card cannot use powers until the start of the environment turn. At the end of the environment turn, this card deals 2 projectile damage to the two non-environment targets with the most HP</text>
 		<name>Gallant</name>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>1</quantity>
@@ -73,11 +109,19 @@
 		<hp>6</hp>
 		<text>Reduce damage dealt to this card by 1. At the end of the environment turn, this card deals 2 projectile damage to the non-environment target with the lowest HP</text>
 		<name>Shadow Stalker</name>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>1</quantity>
 		<type>Device</type>
 		<text>At the start of the environment turn, reveal cards from the top of the Environment deck until you reveal a Parahuman. Put the Parahuman into play and shuffle the other cards back into the environment deck. At the start of a hero turn, that hero may skip the rest of their turn to destroy this card</text>
 		<name>Base Alarm</name>
+		<quote>
+			<text>Colin moved quickly, spinning in his chair to reach a small console.  He opened a glass panel and flipped a switch.  Air raid sirens immediately began their ominous whine.</text>
+			<source>Interlude 7</source>
+		</quote>
 	</card>
 </deck>
