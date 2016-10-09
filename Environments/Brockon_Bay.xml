@@ -9,40 +9,68 @@
 		<name>Civilians</name>
 		<quantity>2</quantity>
 		<text>Heroes cannot use powers. At the start of the environment turn, each player may discard 1 card each to destroy this card</text>
+		<quote>
+			<text>“Low blow, Dragon,” I said, finally.  “Outing me?  I thought you were better than that.”</text>
+			<source>Chrysalis 20.5</source>
+		</quote>
 	</card>
 	<card>
 		<name>Rooftops</name>
 		<quantity>1</quantity>
 		<text>Increase all damage by 1. At the end of their turn, 1 player may discard 2 cards to destroy this card</text>
+		<quote>
+			<text>I could just imagine the flames igniting the rooftop, and just how little I’d be able to do if it happened.</text>
+			<source>Gestation 1.5</source>
+		</quote>
 	</card>
 	<card>
 		<name>Attention</name>
 		<quantity>1</quantity>
 		<text>At the end of the environment turn, reveal the top card of every deck, starting at the villain deck and going clockwise (and ignoring villain side decks). If the revealed card is a target, put it into play. Otherwise, shuffle it back into its deck. Then, destroy this card</text>
+		<quote>
+			<text>“That’s the kind of thing you’re supposed to inform us of well in advance,” Grue hissed at her, “And there’s not supposed to be six of them.”</text>
+			<source>Agitation 3.8</source>
+		</quote>
 	</card>
 	<card>
 		<name>The Boardwalk</name>
 		<quantity>1</quantity>
 		<text>When this card enters play, destroy all other Suburb cards. Reduce damage dealt to environment targets by 1</text>
 		<type>Suburb</type>
+		<quote>
+			<text>The Boardwalk was where the tourists came.  Running north-to-south along the beach, there were shops that sold dresses for over a thousand dollars, cafes with ludicrously expensive coffees and stretches of wooden walkways and beaches where tourists could get a great view of the ocean.</text>
+			<source>Gestation 1.3</source>
+		</quote>
 	</card>
 	<card>
 		<name>The Docks</name>
 		<quantity>1</quantity>
 		<text>When this card enters play, destroy all other Suburb cards. Increase damage dealt by environment targets by 1</text>
 		<type>Suburb</type>
+		<quote>
+			<text>Growing up in Brockton Bay, my parents had told me stuff like “stick to the Boardwalk”.  Even on my runs, I had scrupulously stayed on the Boardwalk and avoided the bad part of town.  Now it was Sunday night and I was in costume and breaking the rules.</text>
+			<source>Gestation 1.3</source>
+		</quote>
 	</card>
 	<card>
 		<name>The Outskirts</name>
 		<quantity>1</quantity>
 		<text>When this card enters play, destroy all other Suburb cards. At the end of the environment turn, play the top card of the environment deck</text>
 		<type>Suburb</type>
+		<quote>
+			<text>“The howling.  If you can hear the howling, you’re too fucking close.  Leave.”</text>
+			<source>Interlude 11a</source>
+		</quote>
 	</card>
 	<card>
 		<name>PRT Squad</name>
 		<quantity>3</quantity>
 		<hp>5</hp>
 		<text>At the end of the environment turn, this card deals the non-environment target with the lowest HP 2 projectile damage</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<name>Scum</name>
@@ -50,6 +78,10 @@
 		<hp>4</hp>
 		<text>At the end of the environment turn, this card deals the non-environment target with the second highest HP X projectile damage, where X = the number of Scum in play * 2</text>
 		<type>Scum</type>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<name>Uber</name>
@@ -57,6 +89,10 @@
 		<hp>4</hp>
 		<text>At the end of the environment turn, this card deals the non-environment target with the highest HP 2 melee damage. Then, if Leet is in play, Uber and Leet regain 1 HP</text>
 		<type>Parahuman</type>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<name>Leet</name>
@@ -64,5 +100,9 @@
 		<hp>4</hp>
 		<text>At the end of the environment turn, this card deals the non-environment target with the lowest HP 2 lightning damage. If Uber is in play, increase damage dealt by Uber and Leet by 1</text>
 		<type>Parahuman</type>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 </deck>
