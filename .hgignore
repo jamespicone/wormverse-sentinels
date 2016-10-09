@@ -1,0 +1,4 @@
+^\Cards
+
+syntax: glob
+*.html
