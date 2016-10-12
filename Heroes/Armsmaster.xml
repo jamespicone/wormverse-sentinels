@@ -31,7 +31,7 @@
 		<class>Equipment</class>
 		<type>Halberd</type>
 		<name>Original Halberd</name>
-		<text>When activated, Armsmaster deals 2 melee damage to a target. Then you may activate the primary text of the module on the left of this Halberd, and you may activate the  secondary text of the module on the right of this Halberd</text>
+		<text>When activated, Armsmaster deals 2 melee damage to a target. Then you may activate the primary text of the module on the left of this Halberd, and you may activate the secondary text of the module on the right of this Halberd</text>
 		<quote><text>His trademark and weapon was his Halberd, which was basically a spear with an axe head on the end, souped up with gadgets and the kind of technology you generally only saw in science fiction</text><source>Gestation 1.6</source></quote>
 	</card>
 	<card>
@@ -39,7 +39,7 @@
 		<class>Equipment</class>
 		<type>Halberd</type>
 		<name>Survey Halberd</name>
-		<text>When activated, draw a card. Then activate the primary text of the module on the left of this Halberd, and the secondary text of the module on the right of this Halberd</text>
+		<text>When activated, draw a card. Then you may activate the primary text of the module on the left of this Halberd, and you may activate the secondary text of the module on the right of this Halberd</text>
 		<quote><text>"Let’s see... to deal with my buddy Grue, you’ve made that thing a fancy tuning stick. Sensing vibrations in the air, translating them into images with that fancy helm of yours?"</text><source>Tattletale, Tangle 6.6</source></quote>
 	</card>
 	<card>
@@ -47,7 +47,7 @@
 		<class>Equipment</class>
 		<type>Halberd</type>
 		<name>Experimental Halberd</name>
-		<text>When activated, Armsmaster deals 1 irreducible energy damage to a target. Then activate the primary text of the module on the left of this Halberd, and the secondary text of the module on the right of this Halberd</text>
+		<text>When activated, Armsmaster deals 1 irreducible energy damage to a target. Then you may activate the primary text of the module on the left of this Halberd, and you may activate the secondary text of the module on the right of this Halberd</text>
 		<quote><text>...a dull stainless steel from tip to butt end, with no decoration or style to it. The head was surrounded by a strange blur that seemed static, unmoving around the blade and point</text><source>Extermination 8.4</source></quote>
 	</card>
 	<card>
@@ -55,7 +55,7 @@
 		<class>Equipment</class>
 		<type>Halberd</type>
 		<name>Grapple Halberd</name>
-		<text>When activated, you may destroy an environment card. Then activate the primary text of the module on the left of this Halberd, and the secondary text of the module on the right of this Halberd</text>
+		<text>When activated, you may destroy an environment card. Then you may activate the primary text of the module on the left of this Halberd, and you may activate the secondary text of the module on the right of this Halberd</text>
 		<quote><text>It looked as though he flew up onto the roof, but the six-foot long weapon the man held kind of jerked as he landed. I was pretty sure I saw the tines of a grappling hook retreating back into the end of the weapon.</text><source>Gestation 1.6</source></quote>
 	</card>
 	<card>
