@@ -54,7 +54,7 @@
 		<name>Heel!</name>
 		<text>Select either your deck or your trash. Reveal cards from the top of the pile you selected until you reveal a Dog. Put the Dog into play, and return the other revealed cards to the selected pile. If you selected your deck, shuffle it. Draw a card</text>
 		<quote>
-			<text>A whistle.  Brutus’ ears perk up.   Already jumping off the bed as second whistle comes, just after the first.  Two whistles like that means come.  Master only asks for dogs to come to the front stairs if it is time for walkies!</text>
+			<text>A whistle. Brutus' ears perk up.  Already jumping off the bed as second whistle comes, just after the first. Two whistles like that means come. Master only asks for dogs to come to the front stairs if it is time for walkies!</text>
 			<source>Interlude 4</source>
 		</quote>
 	</card>	
@@ -65,7 +65,7 @@
 		<name>Find!</name>
 		<text>Reveal the top X cards of a deck, where X = the number of Dog cards in play + 2. For each target revealed in this way, either discard it or put it into play. Shuffle the other revealed cards back into the deck</text>
 		<quote>
-			<text>“Find her!” she shouted.  “Find Skitter!  Hurt!  Kill!”</text>
+			<text>"Find her!" she shouted. "Find Skitter! Hurt! Kill!"</text>
 			<source>Bitch, Monarch 16.12</source>
 		</quote>
 	</card>
@@ -76,8 +76,8 @@
 		<name>Guard!</name>
 		<text>Select up to X targets, where X = the number of Dog cards in play. Reduce damage dealt to those targets by 2 until the start of your next turn. Draw a card</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>“Sirius, guard!” she pointed toward the front door of the building.  “Bentley!  Guard!”</text>
+			<source>Bitch, Interlude 11a</source>
 		</quote>
 	</card>
 	<card>
@@ -87,8 +87,8 @@
 		<name>Hold!</name>
 		<text>Destroy 1 target with up to X HP, where X = the number of Dog cards in play * 2. Draw a card.</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>The dog lurched forward and placed both front paws on Mannequin’s body, pinning his arm and chest.</text>
+			<source>Snare 13.3</source>
 		</quote>
 	</card>
 	<card>
@@ -98,7 +98,7 @@
 		<name>Kill!</name>
 		<text>Deal 1 target X melee damage, where X = the number of Dog cards in play * 3</text>
 		<quote>
-			<text>“Kill him!  Kill!”</text>
+			<text>"Kill him! Kill!"</text>
 			<source>Bitch, Extermination 8.5</source>
 		</quote>
 	</card>
@@ -109,8 +109,8 @@
 		<name>Fetch!</name>
 		<text>Reveal the top X cards of a deck, where X = the number of Dog cards in play + 2. For each equipment or device card revealed in this way, either discard it or put it into play. Shuffle the other revealed cards back into the deck</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>If only humans were as reliable, as easy to train.</text>
+			<source>Interlude 11a</source>
 		</quote>
 	</card>
 	<card>
@@ -119,8 +119,8 @@
 		<name>Veterinary Care</name>
 		<text>Restore all Dog cards to maximum HP. You may draw a card. You may play a card</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>"Heartworms have a bacteria inside them.  When they die, the bacteria gets released into the dog.  Having a vet treat it is a long process that involves injecting arsenic into muscles and lots of antibiotics.  Like this, his body won’t just kill them, but it can kill the disease.  He’ll be fine by tomorrow.”</text>
+			<source>Bitch, Buzz 7.2</source>
 		</quote>
 	</card>
 	<card>
@@ -141,7 +141,7 @@
 		<name>The Hunt</name>
 		<text>At the start of your turn, each Dog in play may deal 1 melee damage to 1 target</text>
 		<quote>
-			<text>“If I ordered them to kill you, Brutus would have torn out your throat before you could scream.  I gave them the hurt command.”</text>
+			<text>"If I ordered them to kill you, Brutus would have torn out your throat before you could scream. I gave them the hurt command."</text>
 			<source>Bitch, Insinuation 2.8</source>
 		</quote>
 	</card>
@@ -163,7 +163,7 @@
 		<name>Judas</name>
 		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
 		<quote>
-			<text>Judas leaped, nearly twice as far and high as I might have guessed something as big as he was could.  The dog’s prehensile tail wrapped around Aegis’ torso.</text>
+			<text>Judas leaped, nearly twice as far and high as I might have guessed something as big as he was could. The dog's prehensile tail wrapped around Aegis' torso.</text>
 			<source>Agitation 3.9</source>
 		</quote>
 	</card>
@@ -185,7 +185,7 @@
 		<name>Brutus</name>
 		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
 		<quote>
-			<text>I think Bitch called this one Brutus.  He was the biggest, with the meatiest body, and he had a shorter snout.  He’d been the Rottweiler, before.</text>
+			<text>I think Bitch called this one Brutus. He was the biggest, with the meatiest body, and he had a shorter snout. He'd been the Rottweiler, before.</text>
 			<source>Agitation 3.8</source>
 		</quote>
 	</card>
