@@ -32,8 +32,8 @@
 		<name>Blinding</name>
 		<text>Deal 2 melee damage to a non-hero target. If you deal damage in this way, you may destroy an ongoing card</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>As I entered it, the blackness slithered over my skin, oily with a weird consistency to it.  Combined with an absolute lack of light that left me unable to tell whether my eyes were open or shut, it was ominous.</text>
+			<source>Insinuation 2.8</source>
 		</quote>
 	</card>
 	<card>
@@ -42,8 +42,8 @@
 		<name>Canny Combatant</name>
 		<text>Deal X melee damage to a non-hero target, where X = 2 + the number of Ongoing cards in play</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>An instant after I realized that I didn’t actually have bugs on Browbeat, the figure struck Vista across the side of the head, laying her flat.  I saw the briefest glimpse of Grue’s skull mask before he and Vista were covered by a fresh tide of his darkness.</text>
+			<source>Agitation 3.10</source>
 		</quote>
 	</card>
 	<card>
@@ -52,8 +52,8 @@
 		<name>Hide and Recover</name>
 		<text>Each player may draw a card</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>"Skitter is right.  We retreat."</text>
+			<source>Grue, Buzz 7.7</source>
 		</quote>
 	</card>
 	<card>
@@ -62,8 +62,8 @@
 		<name>Hand-to-Hand Assault</name>
 		<text>Deal 2 melee damage to a non-hero target. If you used your character card power last turn, deal that target 2 melee damage</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>“I keep telling you,” Brian said, “You’re throwing punches like you’d throw a baseball.  Don’t bring your arm so far back before you punch.  You’re just broadcasting what you’re about to do and it doesn’t add enough power to the hit to be worth that.”</text>
+			<source>Grue, Agitation 3.2</source>
 		</quote>
 	</card>
 	<card>
@@ -72,8 +72,8 @@
 		<name>Darken the Area</name>
 		<text>Environment cards cannot be played until the start of your next turn</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>Grue raised his arms, and filled the street with darkness.</text>
+			<source>Agitation 3.12</source>
 		</quote>
 	</card>
 	<card>
@@ -82,8 +82,8 @@
 		<name>Snatch and Grab</name>
 		<text>Destroy up to 2 Ongoing cards</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>While the PRT member struggled ineffectually to remove his foam-covered helmet, I pulled the tank off him and helped Tattletale put it on.  Grue already had his on, and was getting a third one off one of the foam-captured PRT team members for me.</text>
+			<source>Tangle 6.5</source>
 		</quote>
 	</card>
 	<card>
@@ -92,8 +92,8 @@
 		<name>Cover the Getaway</name>
 		<text>Destroy all Environment cards</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>Aegis would have climbed out of the rubble by now, flown up for a bird’s eye view.  If Grue was doing what we’d planned, he was filling every street and side street we passed with darkness.  Aegis couldn’t see where or if we doubled back or what streets we took, so he could only identify our location by the places where fresh darkness appeared.  If he tried to close in to get us, though, we’d be gone by the time he reached us.  All he could do was follow our general location.</text>
+			<source>Agitation 3.12</source>
 		</quote>
 	</card>
 	<card>
@@ -103,8 +103,8 @@
 		<name>Skull Helmet</name>
 		<text>Whenever a non-hero target enters play, Grue may deal it 1 psychic damage</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>The full-face visor was sculpted to look like a stylized skull, and was as black as the rest of his costume, with only the faint highlights of reflected light on the surface to give a sense of what it was.</text>
+			<source>Gestation 1.5</source>
 		</quote>
 	</card>
 	<card>
@@ -114,8 +114,8 @@
 		<name>Leathers</name>
 		<text>Reduce non-psychic damage dealt to Grue by 1</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>He was dressed entirely in black, a costume I realized was basically motorcycle leathers and a motorcycle helmet.</text>
+			<source>Gestation 1.5</source>
 		</quote>
 	</card>
 	<card>
@@ -125,8 +125,8 @@
 		<name>Second Trigger</name>
 		<text>Increase damage dealt to Grue by 1. This card is indestructible</text><power>One player may use power now</power>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>“Oh.”  My voice was a croak.  “Brian.”</text>
+			<source>Skitter, Snare 13.8</source>
 		</quote>
 	</card>
 	<card>
@@ -136,8 +136,8 @@
 		<name>Leadership</name>
 		<text>Increase damage dealt by hero targets by 1</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>Grue took a leadership role when needed, but he wasn’t in charge of us.  Not exactly.</text>
+			<source>Hive 5.2</source>
 		</quote>
 	</card>
 	<card>
@@ -147,8 +147,8 @@
 		<name>Stillness</name>
 		<text>Reduce all fire, sonic, and lightning damage by 1</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>“It’s not just hearing.  It also cuts off radio signals and dampens the effects of radiation.”</text>
+			<source>Tattletale, Insinuation 2.9</source>
 		</quote>
 	</card>
 	<card>
@@ -159,8 +159,8 @@
 		<text>Increase melee damage dealt by Grue by 1</text>
 		<power>Grue deals a target 2 melee damage</power>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>As he explained it, he was more interested in the broader strokes and philosophy of a given style than on the particulars.  Once he had a sense of how a given adherent of the style might approach a fight and enough basic techniques to see how they put it into practice, he tended to lose interest.</text>
+			<source>Monarch 16.7</source>
 		</quote>
 	</card>
 	<card>
@@ -169,8 +169,8 @@
 		<name>Spew Darkness</name>
 		<text>When this card enters play, Grue deals himself 3 psychic damage. Hero targets are immune to damage dealt by villain or environment cards. At the start of your turn, destroy this card</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>More of it just kept pouring from his hand, climbing upwards to cover the top of the room.  As the light from the windows near the upper edges of the room and the florescent bars on the ceiling was cut off, the room got a great deal darker.</text>
+			<source>Insinuation 2.9</source>
 		</quote>
 	</card>
 </deck>
