@@ -32,6 +32,10 @@
 		<type>Weapon</type>
 		<name>Machete</name>
 		<power>Deal 2 melee damage to a non-hero target.<br/><br/>If you have used the Submachine Gun power since the start of your last turn, deal 3 melee damage to the same target</power>
+		<quote>
+			<text>It rematerialized into a gleaming steel machete. Regent stopped his struggles the second she rested the point of the bladed weapon against the side of his throat.</text>
+			<source>Tangle 6.6</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -39,6 +43,12 @@
 		<type>Weapon</type>
 		<name>Pistol</name>
 		<power>Deal 2 projectile damage to a non-hero target.<br/><br/>If you have used the Submachine Gun power since the start of your last turn, you may play a card</power>
+		<quote>
+			<text>She touched it, and felt a weight settle into her palm. Her hand automatically closed around it, feeling the warmth of it. It felt almost like when she pet a friendly dog. An odd thought, given what she found herself looking at.
+
+			A gun, polished gray steel.</text>
+			<source>Interlude 7</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -46,6 +56,10 @@
 		<type>Weapon</type>
 		<name>Submachine Gun</name>
 		<power>Deal 1 projectile damage to up to 3 non-hero targets.<br/><br/>If you have used the Machete power since the start of your last turn, you may destroy an Environment or Ongoing card.<br/><br/>If you have used the Sniper Rifle power since the start of your last turn, you may put a non-hero target that is not a character card on top of its deck</power>
+		<quote>
+			<text>She'd killed the soldiers that held the other children of her village hostage. After the first, she had feigned fear, pretended the guerrilla fighters were in the woods. Then she had waited for the moment they were too busy watching the woods and mowed the rest of the men down with an assault rifle.</text>
+			<source>Interlude 7</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -53,36 +67,62 @@
 		<type>Weapon</type>
 		<name>Sniper Rifle</name>
 		<power>Select a target, other than the villain target with the highest HP, unless they are the only villain target. At the start of your next turn, deal 4 projectile damage to that target.<br/><br/>If you have used the Pistol power since the start of your last turn, draw 2 cards</power>
+		<quote>
+			<text>Miss Militia turned a sniper rifle on me. I caught her before she could fire.</text>
+			<source>Speck 30.4</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>2</quantity>
 		<class>One-Shot</class>
 		<name>Overdrive</name>
 		<text>You may use as many powers this turn as you have unique Weapons (at the time you play this card). At the end of the turn, destroy every Weapon card you used a power from this turn</text>
+		<quote>
+			<text>Miss Militia stepped up to the plate, a cape flanking her.
+
+Her power, to create the bomb. Ten and a half feet long.</text>
+			<source>Venom 29.2</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Cover Fire</name>
 		<text>Deal 2 projectile damage to a non-hero target. 1 hero target regains 2 HP</text>
+		<quote>
+			<text>A red dot appeared on the tendril that gripped her. Another distant gunshot, and it was severed. Ooze splashed onto the rooftop.</text>
+			<source>Teneral e.4</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Grenade</name>
 		<text>Deal 2 fire damage and 2 melee damage to a non-hero target. If you deal any damage in this way, you may destroy an Ongoing card</text>
+		<quote>
+			<text>Miss Militia was climbing up out of the lead truck's passenger door in an instant, hefting a grenade launcher to blast Menja three times in quick succession.</text>
+			<source>Sentinel 9.6</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>I Have More</name>
 		<text>Destroy a Weapon card. Destroy up to 2 Ongoing or Environment cards</text>
+		<quote>
+			<text>She could reform the gun in a second if a gun jammed.</text>
+			<source>Sentinel 9.6</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Hail of Bullets</name>
 		<text>Deal 2 projectile damage to all non-hero targets</text>
+		<quote>
+			<text>She unloaded clip after clip into the enemy ranks; rubber bullets, most likely. </text>
+			<source>Sentinel 9.6</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>2</quantity>
@@ -90,6 +130,10 @@
 		<class>Limited</class>
 		<name>Armour</name>
 		<text>The next time Miss Militia would be dealt 5 or more damage from a single source, prevent the damage and destroy this card</text>
+		<quote>
+			<text>She'd grown to love this country. Truly love it, for what it stood for. She'd had to fight to wear the flag as part of her costume. America wasn't perfect, but nothing touched by human hands could be. There was greed, corruption, selfishness, pettiness, hatred. But there were good things too. Freedoms, ideas, choices, hope and the possibility that anyone could be anything, here, if they were willing to strive for it.</text>
+			<source>Interlude 7</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -97,12 +141,22 @@
 		<class>Limited</class>
 		<name>I Don't Sleep</name>
 		<text>At the end of your turn, draw a card</text>
+		<quote>
+			<text>Hannah's eyes snapped open.
+
+This is why I don't sleep.</text>
+			<source>Interlude 7</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>Nonlethal Measures</name>
 		<text>Whenever you destroy a target, you may put the destroyed target on the bottom of its deck.</text>
+		<quote>
+			<text>"Taylor!" she called out, as if she could reach me that way. "I'm not going to shoot, but you have to stop!"</text>
+			<source>Cell 22.4</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>4</quantity>
@@ -116,5 +170,9 @@
 		<li>If you have used the Sniper Rifle power since the start of your last turn, you may destroy a non-hero, non-character-card target</li>
 		</ul>
 		</text>
+		<quote>
+			<text>She harbored her suspicions about her gift: her powers had taken a part of her psyche and given it concrete form. The angriest parts of her, the most childish parts, the parts of her that dreamed, and those that forgot. The knife at her hip slept for her and dreamed for her, she imagined.</text>
+			<source>Interlude 7.x</source>
+		</quote>
 	</card>
 </deck>
