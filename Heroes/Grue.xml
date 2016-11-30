@@ -31,42 +31,70 @@
 		<class>One-Shot</class>
 		<name>Blinding</name>
 		<text>Deal 2 melee damage to a non-hero target. If you deal damage in this way, you may destroy an ongoing card</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Canny Combatant</name>
 		<text>Deal X melee damage to a non-hero target, where X = 2 + the number of Ongoing cards in play</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Hide and Recover</name>
 		<text>Each player may draw a card</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Hand-to-Hand Assault</name>
 		<text>Deal 2 melee damage to a non-hero target. If you used your character card power last turn, deal that target 2 melee damage</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Darken the Area</name>
 		<text>Environment cards cannot be played until the start of your next turn</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Snatch and Grab</name>
 		<text>Destroy up to 2 Ongoing cards</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Cover the Getaway</name>
 		<text>Destroy all Environment cards</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -74,6 +102,10 @@
 		<class>Limited</class>
 		<name>Skull Helmet</name>
 		<text>Whenever a non-hero target enters play, Grue may deal it 1 psychic damage</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -81,6 +113,10 @@
 		<class>Limited</class>
 		<name>Leathers</name>
 		<text>Reduce non-psychic damage dealt to Grue by 1</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>1</quantity>
@@ -88,6 +124,10 @@
 		<class>Limited</class>
 		<name>Second Trigger</name>
 		<text>Increase damage dealt to Grue by 1. This card is indestructible</text><power>One player may use power now</power>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -95,6 +135,10 @@
 		<class>Limited</class>
 		<name>Leadership</name>
 		<text>Increase damage dealt by hero targets by 1</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>2</quantity>
@@ -102,6 +146,10 @@
 		<class>Limited</class>
 		<name>Stillness</name>
 		<text>Reduce all fire, sonic, and lightning damage by 1</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>2</quantity>
@@ -110,11 +158,19 @@
 		<name>Martial Talent</name>
 		<text>Increase melee damage dealt by Grue by 1</text>
 		<power>Grue deals a target 2 melee damage</power>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>Spew Darkness</name>
 		<text>When this card enters play, Grue deals himself 3 psychic damage. Hero targets are immune to damage dealt by villain or environment cards. At the start of your turn, destroy this card</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 </deck>
