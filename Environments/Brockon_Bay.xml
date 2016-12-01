@@ -10,7 +10,7 @@
 		<quantity>2</quantity>
 		<text>Heroes cannot use powers. At the start of the environment turn, each player may discard 1 card each to destroy this card</text>
 		<quote>
-			<text>“Low blow, Dragon,” I said, finally.  “Outing me?  I thought you were better than that.”</text>
+			<text>"Low blow, Dragon," I said, finally. "Outing me? I thought you were better than that."</text>
 			<source>Chrysalis 20.5</source>
 		</quote>
 	</card>
@@ -19,7 +19,7 @@
 		<quantity>1</quantity>
 		<text>Increase all damage by 1. At the end of their turn, 1 player may discard 2 cards to destroy this card</text>
 		<quote>
-			<text>I could just imagine the flames igniting the rooftop, and just how little I’d be able to do if it happened.</text>
+			<text>I could just imagine the flames igniting the rooftop, and just how little I'd be able to do if it happened.</text>
 			<source>Gestation 1.5</source>
 		</quote>
 	</card>
@@ -28,7 +28,7 @@
 		<quantity>1</quantity>
 		<text>At the end of the environment turn, reveal the top card of every deck, starting at the villain deck and going clockwise (and ignoring villain side decks). If the revealed card is a target, put it into play. Otherwise, shuffle it back into its deck. Then, destroy this card</text>
 		<quote>
-			<text>“That’s the kind of thing you’re supposed to inform us of well in advance,” Grue hissed at her, “And there’s not supposed to be six of them.”</text>
+			<text>"That's the kind of thing you're supposed to inform us of well in advance," Grue hissed at her, "And there's not supposed to be six of them."</text>
 			<source>Agitation 3.8</source>
 		</quote>
 	</card>
@@ -38,7 +38,7 @@
 		<text>When this card enters play, destroy all other Suburb cards. Reduce damage dealt to environment targets by 1</text>
 		<type>Suburb</type>
 		<quote>
-			<text>The Boardwalk was where the tourists came.  Running north-to-south along the beach, there were shops that sold dresses for over a thousand dollars, cafes with ludicrously expensive coffees and stretches of wooden walkways and beaches where tourists could get a great view of the ocean.</text>
+			<text>The Boardwalk was where the tourists came. Running north-to-south along the beach, there were shops that sold dresses for over a thousand dollars, cafes with ludicrously expensive coffees and stretches of wooden walkways and beaches where tourists could get a great view of the ocean.</text>
 			<source>Gestation 1.3</source>
 		</quote>
 	</card>
@@ -48,7 +48,7 @@
 		<text>When this card enters play, destroy all other Suburb cards. Increase damage dealt by environment targets by 1</text>
 		<type>Suburb</type>
 		<quote>
-			<text>Growing up in Brockton Bay, my parents had told me stuff like “stick to the Boardwalk”.  Even on my runs, I had scrupulously stayed on the Boardwalk and avoided the bad part of town.  Now it was Sunday night and I was in costume and breaking the rules.</text>
+			<text>Growing up in Brockton Bay, my parents had told me stuff like "stick to the Boardwalk". Even on my runs, I had scrupulously stayed on the Boardwalk and avoided the bad part of town. Now it was Sunday night and I was in costume and breaking the rules.</text>
 			<source>Gestation 1.3</source>
 		</quote>
 	</card>
@@ -58,7 +58,7 @@
 		<text>When this card enters play, destroy all other Suburb cards. At the end of the environment turn, play the top card of the environment deck</text>
 		<type>Suburb</type>
 		<quote>
-			<text>“The howling.  If you can hear the howling, you’re too fucking close.  Leave.”</text>
+			<text>"The howling. If you can hear the howling, you're too fucking close. Leave."</text>
 			<source>Interlude 11a</source>
 		</quote>
 	</card>
@@ -68,8 +68,8 @@
 		<hp>5</hp>
 		<text>At the end of the environment turn, this card deals the non-environment target with the lowest HP 2 projectile damage</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>Standing guard by the front of the room, raising their weapons in our direction, was an on-duty PRT squad. Their very recognizable uniforms were chain mesh augmented with kevlar, topped with faceless helmets. The only means you had to identify them with were the badge numbers printed across their vests in bold white numbers.</text>
+			<source>Tangle 6.5</source>
 		</quote>
 	</card>
 	<card>
@@ -79,8 +79,8 @@
 		<text>At the end of the environment turn, this card deals the non-environment target with the second highest HP X projectile damage, where X = the number of Scum in play * 2</text>
 		<type>Scum</type>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>The gang members who stood above her each wore crimson and pale green. There were other colors, predominantly black, but the constrast of red and green stood out. Some had their faces exposed, others wore kerchiefs over the lower halves of their faces. One had a bandanna folded so it covered one eye. She couldn't think straight enough to count them.</text>
+			<source>Interlude 19</source>
 		</quote>
 	</card>
 	<card>
@@ -90,8 +90,8 @@
 		<text>At the end of the environment turn, this card deals the non-environment target with the highest HP 2 melee damage. Then, if Leet is in play, Uber and Leet regain 1 HP</text>
 		<type>Parahuman</type>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>"Über and Leet. I can't tell you two how relieved I am. For a few seconds, I thought we had something to be worried about."</text>
+			<source>Tattletale, Shell 4.5</source>
 		</quote>
 	</card>
 	<card>
@@ -101,8 +101,10 @@
 		<text>At the end of the environment turn, this card deals the non-environment target with the lowest HP 2 lightning damage. If Uber is in play, increase damage dealt by Uber and Leet by 1</text>
 		<type>Parahuman</type>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>"I can make anything," Leet boasted.
+
+"Once. You can make anything once. But the closer something you invent is to something you've made before, the more likely it is to blow up in your face or misfire. Real impressive."</text>
+			<source>Tattletale, Shell 4.6</source>
 		</quote>
 	</card>
 </deck>
