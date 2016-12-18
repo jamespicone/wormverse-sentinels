@@ -74,12 +74,20 @@
 		<class>One-Shot</class>
 		<name>Surveying</name>
 		<text>Reveal the top 3 cards of the environment deck. Put 1 on top of the environment deck, and 2 on the bottom of the environment deck</text>
+		<quote>
+			<text>I was watching, studying, sensing and experiencing ten thousand things at once, an engine going full-bore.  I could follow my dad as he moved through the house, picked work clothes out of his closet, threw away a sock and its matching pair.  I watched every entryway into the house, the windows and doors, tracked the movements of the neighbors, and our neighbor’s neighbors.</text>
+			<source>Chrysalis 20.1</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Regroup</name>
 		<text>Return each Bug card you control to your hand. Add a token to your bug pool. Play any number of Bug cards</text>
+		<quote>
+			<text>That was the spark of inspiration I needed.  In a matter of seconds, I had a plan.</text>
+			<source>Plague 12.7</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -87,6 +95,10 @@
 		<type>Bug</type>
 		<name>Bees!</name>
 		<text>Deal 2 melee and 2 toxic damage to X targets, where X = the number of tokens in your bug pool</text>
+		<quote>
+			<text>“This was over from the moment we stepped into the room”</text>
+			<source>Skitter, Tangle 6.6</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -94,6 +106,10 @@
 		<type>Bug</type>
 		<name>Delivery</name>
 		<text>Draw X cards, where X = the number of tokens in your bug pool</text>
+		<quote>
+			<text>Silk looped around the neck of a marker, then around a series of roaches, who could then be assisted by other bugs.  I did the same for the other things, the iodine, markers, pens, candles and more.</text>
+			<source>Plague 12.6</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -101,6 +117,10 @@
 		<class>Limited</class>
 		<name>Situational Awareness</name>
 		<text>Whenever a hero target would be dealt 5 or more damage from a single source, reduce that damage by 2</text>
+		<quote>
+			<text><em>There</em>.  I snapped my head up to look in the direction of the upstairs apartment, as though I could see through the walls.  Topsy had put his phone down on the kitchen counter to grab a beer, setting the thing to speaker mode while he looked for a bottle opener.</text>
+			<source>Scarab 25.3</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -108,6 +128,10 @@
 		<class>Limited</class>
 		<name>Always Planning</name>
 		<text>Whenever a hero is dealt 5 or more damage from a single source, you may search your deck for a card and put it into your hand. If you searched your deck, shuffle it</text>
+		<quote>
+			<text>“Grue is a good leader, but this is my project.  Something I’ve been working towards and thinking about for the last two years.  Leaving the Undersiders, making contacts, helping hold things together, maintaining the peace and eliminating possible issues.  Everything I did, it’s been to prepare for this in some fashion.”</text>
+			<source>Skitter, Sting 26.1</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -115,6 +139,10 @@
 		<class>Limited</class>
 		<name>Silk Armour</name>
 		<text>Reduce damage dealt to Skitter by 1</text>
+		<quote>
+			<text>“…Set her on fire.  Her costume is bulletproof, and I want this done.  I need to attend to other matters.”</text>
+			<source>Coil, Monarch 16.11</source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -122,6 +150,10 @@
 		<class>Limited</class>
 		<name>Prepared Threads</name>
 		<power>Destroy an Environment or Ongoing card</power>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -129,6 +161,10 @@
 		<name>Bug Decoy</name>
 		<hp>*</hp>
 		<text>When you play this card, remove any number of tokens from your bug pool and place them next to this card. This card has that much HP. Whenever a non-hero target deals damage to a hero target, redirect the damage to this card, When this card is destroyed or returned to your hand, return the tokens next to it to your bug pool</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>4</quantity>
@@ -136,6 +172,10 @@
 		<name>Swarm</name>
 		<hp>*</hp>
 		<text>When you play this card, remove any number of tokens from your bug pool and place them next to this card. This card has that much HP. At the end of your turn, this card deals 1 melee and 1 toxic damage to up to X targets, where X = this target's HP. When this card is destroyed or returned to your hand, return the tokens next to it to your bug pool</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>3</quantity>
@@ -143,6 +183,10 @@
 		<name>Spiders</name>
 		<hp>*</hp>
 		<text>When you play this card, remove any number of tokens from your bug pool and place them next to this card. This card has that much HP. At the end of your turn, this target may deal X toxic damage to 1 target, where X = this target's HP - 1. When this card is destroyed or returned to your hand, return the tokens next to it to your bug pool</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>2</quantity>
@@ -150,6 +194,10 @@
 		<name>Relay Bugs</name>
 		<hp>*</hp>
 		<text>When you play this card, remove any number of tokens from your bug pool and place them next to this card. This card has that much HP. When you play this card, add 4 tokens to your bug pool. When this card is destroyed or returned to your hand, return the tokens next to it to your bug pool, and then remove 4 tokens from your bug pool or from next to other Bug cards</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>2</quantity>
@@ -157,6 +205,10 @@
 		<name>Tracking Bugs</name>
 		<hp>*</hp>
 		<text>When you play this card, remove any number of tokens from your bug pool and place them next to this card. This card has that much HP. Whenever a non-hero target enters play, this target deals it 2 melee and 2 toxic damage, and then deals itself 1 melee damage. When this card is destroyed or returned to your hand, return the tokens next to it to your bug pool</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 	<card>
 		<quantity>1</quantity>
@@ -164,5 +216,9 @@
 		<type>Bug</type>
 		<hp>5</hp>
 		<text>Skitter is immune to damage from environment cards. At the end of your turn, draw a card. At the end of your turn, this card deals itself 1 psychic damage</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
 	</card>
 </deck>
