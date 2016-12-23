@@ -151,8 +151,8 @@
 		<name>Prepared Threads</name>
 		<power>Destroy an Environment or Ongoing card</power>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>Spiders drew out lines of silk and formed them into cords, weaving them into one another to form extended lines, fifty or so feet long.</text>
+			<source>Chrysalis 20.4</source>
 		</quote>
 	</card>
 	<card>
@@ -162,8 +162,8 @@
 		<hp>*</hp>
 		<text>When you play this card, remove any number of tokens from your bug pool and place them next to this card. This card has that much HP. Whenever a non-hero target deals damage to a hero target, redirect the damage to this card, When this card is destroyed or returned to your hand, return the tokens next to it to your bug pool</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>The lump of bugs dropped to the ground, and more bullets penetrated the heap that landed at the base of the building.  When the bugs rose, they rose in the general shape of a person, of me.</text>
+			<source>Monarch 16.11</source>
 		</quote>
 	</card>
 	<card>
