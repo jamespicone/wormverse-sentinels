@@ -153,7 +153,7 @@
 		<quantity>1</quantity>
 		<class>Ongoing</class>
 		<name>Mine</name>
-		<text>Play this card next to a non-hero target other than a character card. Whenever that target deals damage, you may redirect that damage to another target. You may prevent any effects caused by the target next to this card</text>
+		<text>Play this card next to a non-hero target other than a character card. The first time each turn that target deals damage, you may redirect that damage to another target. You may prevent any effects caused by the target next to this card</text>
 		<quote>
 			<text>"I'm letting you go," Regent lied.</text>
 			<source>Interlude 10</source>
