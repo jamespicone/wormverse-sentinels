@@ -12,34 +12,138 @@
 		<front>
 			<hp>30</hp>
 			<power>
-				<name>???</name>
-				<text>???</text>
+				<name>Eidetic Memory</name>
+				<text>You may play a card. Return one of your cards in play to your hand</text>
 			</power>
 		</front>
 		<back>
 			<text>
 			<ul>
-				<li>???</li>
-				<li>???</li>
-				<li>???</li>
+				<li>Select a target. Until the start of your next turn, reduce damage dealt to that target by 1<li>
+				<li>One player may search their deck for a card and put it into their hand</li>
+				<li>Deal 2 melee damage to a target</li>
 			</ul>
 			</text>
 		</back>
 	</charactercard>
 	
 	<card>
-		<quantity>2</quantity>
-		<class>One-Shot</class>
-		<name>???</name>
-		<text>???</text>
+		<quantity>4</quantity>
+		<class>Ongoing</class>
+		<name>Protector</name>
+		<text><p>When this card enters play Alexandria regains 2 HP</p>
+		<p>At the end of your turn, select a target. Until the start of your next turn, whenever that target would take damage, redirect that damage to Alexandria</p></text>
 	</card>
 	
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<type>Limited</type>
+		<name>Named After the Library</name>
+		<text>
+			<p>When this card enters play shuffle your trash into your deck</p>
+			<p>Whenever you would draw a card, search your deck for a card and put it into your hand instead</p>
+		</text>
+	</card>
+	
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<name>Cold Reading</name>
+		<text><p>When this card enters play reveal the top 3 cards of the villain deck. Put them back in any order<p>
+		<p>At the start of your turn, reveal the top card of the villain deck. Either discard it or return it to the top of the villain deck</p></text>
+	</card>
+	
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<name>Invincible</name>
+		<text><p>When this card enters play reduce damage dealt to Alexandria by 2 until the start of her next turn</p>
+		<p>When Alexandria would take damage, you may discard a card. If you do, prevent the damage</p>
+		</text>
+	</card>
+
+	<card>
+		<quantity>3</quantity>
+		<class>Ongoing</class>
+		<name>Hypersonic Flight</name>
+		<type>Ongoing</type>
+		<text><p>After this card is played deal 2 damage to a target</p>
+		<p>When Alexandria deals damage to a villain target you may destroy an Equipment or Ongoing card</p><text>
+	</card>
+	
+	<card>
+		<quantity>3</quantity>
+		<name>Martial Arts</name>
+		<type>Ongoing</type>
+		<text><p>After this card is played, destroy a non-character card target</p>
+		<p>When Alexandria destroys a target select a target. Until the start of your next turn that target cannot deal damage</p></text>
+	</card>
+	
+	<card>
+		<quantity>4</quantity>
+		<name>Imperious Demeanour</name>
+		<type>Ongoing</type>
+		<text><p>When this card is put into play draw a card</p>
+		<p>Whenever you use a power, Alexandria regains 1 HP</p></text>
+	</card>
+	<!--(22)-->
+	
+	<card>
+		<quantity>2</quantity>
+		<class>Equipment</class>
+		<name>Alexandria's Cape</name>
+		<text><p>Treat Alexandria as if she was the the target with the highest HP</p></text>
+	</card>
+	
+	<card>
+		<quantity>2</quantity>
+		<class>Equipment</class>
+		<name>Prosthetic Eye</name>
+		<text><p>At the end of your turn, reveal the top 3 cards of a deck. Put them back in any order.</text>
+	</card>
+	<!--(4)-->
+	
+	<card>
+		<quantity>2</quantity>
+		<class>One-Shot</class>
+		<name>Time-Locked</name>
+		<text><p>Note down Alexandria's current HP</p>
+		<p>At the start of your next turn, if Alexandria was not incapacitated, set Alexandria's HP to the value you noted down</p></text>
+	</card>
+	
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Pure Strength</name>
+		<text>Deal a target 4 melee damage</text>
+	</card>
+	
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>I Know Them</name>
+		<text>Deal 5 damage to the villain target with the highest HP</text>
+	</card>
+	
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>...And They Know Me</name>
+		<text><p>The villain target with the highest HP deals Alexandria 5 psychic damage.</p>
+		<p>The villain target with the highest HP cannot deal damage until the start of your next turn</p></text>
+	</card>
+	<!--(14)-->
+	
+	
+		
 	<!--
 		Mechanics:
 			- Tanking?
 			- Melee damage
 			- Damage prevention
 			- Taking damage for people?
-	
+			- Personal deck search
+			- Deck manipulation
 	-->
 </deck>
