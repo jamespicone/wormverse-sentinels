@@ -50,7 +50,7 @@
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>Cold Reading</name>
-		<text><p>When this card enters play reveal the top 3 cards of the villain deck. Put them back in any order<p>
+		<text><p>When this card enters play reveal the top 3 cards of the villain deck. Put them back in any order</p>
 		<p>At the start of your turn, reveal the top card of the villain deck. Either discard it or return it to the top of the villain deck</p></text>
 	</card>
 	
@@ -69,7 +69,7 @@
 		<name>Hypersonic Flight</name>
 		<type>Ongoing</type>
 		<text><p>After this card is played deal 2 damage to a target</p>
-		<p>When Alexandria deals damage to a villain target you may destroy an Equipment or Ongoing card</p><text>
+		<p>When Alexandria deals damage to a villain target you may destroy an Equipment or Ongoing card</p></text>
 	</card>
 	
 	<card>
@@ -100,7 +100,7 @@
 		<quantity>2</quantity>
 		<class>Equipment</class>
 		<name>Prosthetic Eye</name>
-		<text><p>At the end of your turn, reveal the top 3 cards of a deck. Put them back in any order.</text>
+		<text><p>At the end of your turn, reveal the top 3 cards of a deck. Put them back in any order.</p></text>
 	</card>
 	<!--(4)-->
 	
