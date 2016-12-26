@@ -68,7 +68,7 @@
 		<class>Ongoing</class>
 		<name>Hypersonic Flight</name>
 		<type>Ongoing</type>
-		<text><p>After this card is played deal 2 damage to a target</p>
+		<text><p>After this card is played you may deal 2 damage to a target</p>
 		<p>When Alexandria deals damage to a villain target you may destroy an Equipment or Ongoing card</p></text>
 	</card>
 	
@@ -76,7 +76,7 @@
 		<quantity>3</quantity>
 		<name>Martial Arts</name>
 		<type>Ongoing</type>
-		<text><p>After this card is played, destroy a non-character card target</p>
+		<text><p>After this card is played you may destroy a non-character card target</p>
 		<p>When Alexandria destroys a target select a target. Until the start of your next turn that target cannot deal damage</p></text>
 	</card>
 	
