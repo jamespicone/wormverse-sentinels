@@ -42,7 +42,7 @@
 		<name>Named After the Library</name>
 		<text>
 			<p>When this card enters play shuffle your trash into your deck</p>
-			<p>Whenever you would draw a card, search your deck for a card and put it into your hand instead</p>
+			<p>Whenever you would draw a card, instead reveal the top 2 cards of your deck, put 1 in your hand, and return the other to the top of your deck</p>
 		</text>
 	</card>
 	
@@ -85,7 +85,7 @@
 		<name>Imperious Demeanour</name>
 		<type>Ongoing</type>
 		<text><p>When this card is put into play draw a card</p>
-		<p>Whenever you use a power, Alexandria regains 1 HP</p></text>
+		<p>Whenever you use a power, Alexandria regains 3 HP</p></text>
 	</card>
 	<!--(22)-->
 	
