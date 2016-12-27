@@ -16,9 +16,10 @@
 			<hp>60</hp>
 			<nemesis>???</nemesis>
 			<setup>Search the villain deck for all Condition cards; put them aside as the Condition deck. Search the villain deck for all Trap cards; shuffle them and deal H face-down. Put the other trap cards aside. Put The Simurgh into play, "The Strategist" side up.</setup>
-			<gameplay>
-				At the start of the villain turn, reveal the top card of the Condition deck.<br/><br/>
-				At the start of the villain turn, reveal the top X cards of the villain deck, where X is the number of revealed trap cards + 1. Put them back on the villain deck in ascending order by their ⚠
+			<gameplay>		
+				<p>At the start of the villain turn, reveal the top card of the Condition deck.</p>
+				<p>At the start of the villain turn, reveal the top X cards of the villain deck, where X is the number of revealed trap cards + 1. Put them back on the villain deck in ascending order by their ⚠</p>
+				<p>At the end of the villain turn, if all trap cards are revealed, flip this card</p>
 			</gameplay>
 			<advanced>Players may not discuss strategy or tactics</advanced>
 		</front>
@@ -26,8 +27,9 @@
 			<title>Wings Unfurled</title>
 			<hp>60</hp>
 			<nemesis>???</nemesis>
-			<gameplay></gameplay>
-			<advanced></advanced>
+			<gameplay><p>At the start of the villain turn, reveal the top H + 1 cards of the villain deck. Put them back on the villain deck in ascending order by their ⚠</p>
+			<p>At the end of the villain turn, place a token on the Simurgh and deal all heroes X psychic damage, where X is the number of tokens on the Simurgh</p></gameplay>
+			<advanced>Players may not discuss strategy or tactics</advanced>
 		</back>
 	</villain>
 	
@@ -173,16 +175,133 @@
 	
 	<!-- NORMAL CARDS -->
 	<card>
-		<name></name>
-		<class></class>
-		<text></text>
-		<quantity>0</quantity>
+		<name>A Plan Enacted</name>
+		<class>One-Shot</class>
+		<text>
+			<p>1 ⚠</p>
+			<p>Flip over a face down trap card, then shuffle this card back into the villain deck</p>
+		</text>
+		<quantity>1</quantity>
 		<quote>
 			<text></text>
 			<source></source>
 		</quote>
 	</card>
 	
+	<card>
+		<name>A Million Coincidences</name>
+		<class>One-Shot</class>
+		<text>
+			<p>2 ⚠</p>
+			<p>Deal X instances of 1 psychic damage spread out over all hero targets, where X = H * H</p>
+		</text>
+		<quantity>3</quantity>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<name>A Capability Revealed</name>
+		<class>One-Shot</class>
+		<text>
+			<p>3 ⚠</p>
+			<p>Destroy all equipment cards in play. Reveal the top X cards of the villain deck, where X = the number of cards destroyed in this way. Put them back on the villain deck in ascending order by their ⚠</p>
+		</text>
+		<quantity>2</quantity>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<name>A Response Prepared</name>
+		<class>One-Shot</class>
+		<text>
+			<p>4 ⚠</p>
+			<p>When this card is revealed, play it</p>
+			<p>Destroy all hero ongoing cards</p>
+		</text>
+		<quantity>2</quantity>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<name>A Threat Foreseen</name>
+		<class>Ongoing</class>
+		<text>
+			<p>5 ⚠</p>
+			<p>The first time each round the Simurgh would be dealt damage, redirect that damage to the hero with the lowest HP</p>
+		</text>
+		<quantity>2</quantity>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<name>An Ambush Laid</name>
+		<class>One-Shot</class>
+		<text>
+			<p>6 ⚠</p>
+			<p>When this card is revealed, play it</p>
+			<p>Deal X psychic damage to all hero targets, where X = the number of revealed trap cards + 1</p>
+		</text>
+		<quantity>4</quantity>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<name>A Fate Selected</name>
+		<class>One-Shot</class>
+		<text>
+			<p>7 ⚠</p>
+			<p>Deal H psychic damage to the hero with the least cards in play</p>
+		</text>
+		<quantity>3</quantity>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<name>An Environment Chosen</name>
+		<class>One-Shot</class>
+		<text>
+			<p>8 ⚠</p>
+			<p>Play the top H cards of the environment deck</p>
+		</text>
+		<quantity>4</quantity>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<name>A Countermeasure Defeated</name>
+		<class>One-Shot</class>
+		<text>
+			<p>9 ⚠</p>
+			<p>Reveal the top H cards of the villain trash. Play the one with the lowest ⚠</p>
+		</text>
+		<quantity>4</quantity>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
 	<!--
 	Danger symbol:
 		⚠
