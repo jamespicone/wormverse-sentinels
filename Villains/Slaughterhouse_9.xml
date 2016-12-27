@@ -23,7 +23,7 @@
 			<hp>26</hp>
 			<type>Parahuman</type>
 			<type>Nine</type>
-			<text><p>The first time an Attack card would enter the trash each turn, this card deals X melee damage to each hero, where X = 2 * the number of powers contolled by that hero.</p><br/><p>The first time a Special card would enter the trash each turn, play the top card of the villain deck</p></text>
+			<text><p>The first time an Attack card would enter the trash each turn, this card deals X melee damage to each hero, where X = 2 * the number of powers contolled by that hero.</p><p>The first time a Special card would enter the trash each turn, play the top card of the villain deck</p></text>
 		</front>
 		<back>
 			<type>Parahuman</type>
@@ -39,7 +39,7 @@
 			<hp>24</hp>
 			<type>Parahuman</type>
 			<type>Nine</type>
-			<text><p>The first time a Defence card would enter the trash each turn, each villain target regains 2 HP.</p><br/><p>The first time a Special card would enter the trash each turn, this card deals 2 toxic damage to all non-villain targets</p></text>
+			<text><p>The first time a Defence card would enter the trash each turn, each villain target regains 2 HP.</p><p>The first time a Special card would enter the trash each turn, this card deals 2 toxic damage to all non-villain targets</p></text>
 		</front>
 		<back>
 			<type>Parahuman</type>
@@ -54,7 +54,9 @@
 			<hp>30</hp>
 			<type>Parahuman</type>
 			<type>Nine</type>
-			<text><p>Whenever Crawler is dealt damage, he becomes immune to that damage type until the next time he takes damage.</p><br/><p>The first time an Attack card would enter the trash each turn, this card deals 2 toxic damage and 2 melee damage to the non-villain target with the highest HP.</p><br/><p>The first time a Special card would enter the trash each turn, Crawler regains 30 HP</p></text>
+			<text><p>Whenever Crawler is dealt damage, he becomes immune to that damage type until the next time he takes damage.</p>
+			<p>The first time an Attack card would enter the trash each turn, this card deals 2 toxic damage and 2 melee damage to the non-villain target with the highest HP.</p>
+			<p>The first time a Special card would enter the trash each turn, Crawler regains 30 HP</p></text>
 		</front>
 		<back>
 			<type>Parahuman</type>
@@ -69,7 +71,8 @@
 			<hp>24</hp>
 			<type>Parahuman</type>
 			<type>Nine</type>
-			<text><p>The first time a Special card would enter the trash each turn, destroy all environment cards then Burnscar deals X fire damage to all non-villain targets, where X = 1 + the number of environment cards destroyed in this way</p><br/><p>The first time an Attack card would enter the trash each turn, deal 3 fire damage to the hero target with the lowest HP, and destroy a hero card</p></text>
+			<text><p>The first time a Special card would enter the trash each turn, destroy all environment cards then Burnscar deals X fire damage to all non-villain targets, where X = 1 + the number of environment cards destroyed in this way</p>
+			<p>The first time an Attack card would enter the trash each turn, deal 3 fire damage to the hero target with the lowest HP, and destroy a hero card</p></text>
 		</front>
 		<back>
 			<type>Parahuman</type>
@@ -84,7 +87,8 @@
 			<hp>26</hp>
 			<type>Parahuman</type>
 			<type>Nine</type>
-			<text><p>Reduce damage dealt to Mannequin by 1.</p><br/><p>The first time a Defence card would enter the trash each turn, destroy 1 hero Ongoing or Equipment card</p></text>
+			<text><p>Reduce damage dealt to Mannequin by 1.</p>
+			<p>The first time a Defence card would enter the trash each turn, destroy 1 hero Ongoing or Equipment card</p></text>
 		</front>
 		<back>
 			<type>Parahuman</type>
@@ -129,7 +133,8 @@
 			<hp>24</hp>
 			<type>Parahuman</type>
 			<type>Nine</type>
-			<text><p>The first time a Defence card would enter the trash each turn, the hero with the most cards in hand discards 2 cards.</p><br/><p>Whenever Cherish would be dealt damage, Cherish deals 2 psychic damage to the target damaging her</p></text>
+			<text><p>The first time a Defence card would enter the trash each turn, the hero with the most cards in hand discards 2 cards.</p>
+			<p>Whenever Cherish would be dealt damage, Cherish deals 2 psychic damage to the target damaging her</p></text>
 		</front>
 		<back>
 			<type>Parahuman</type>

@@ -127,7 +127,7 @@ Did I really want to know?</text>
 	<card>
 		<name>Stranger and Master Protocols</name>
 		<quantity>1</quantity>
-		<text>Heroes cannot cause other heroes to draw cards, search their deck, regain HP, use a power, or play a card<br/><br/>At the start of their turn, a player may skip the rest of their turn to destroy this card</text>
+		<text><p>Heroes cannot cause other heroes to draw cards, search their deck, regain HP, use a power, or play a card</p><p>At the start of their turn, a player may skip the rest of their turn to destroy this card</p></text>
 		<quote>
 			<text>"This is what hell is like," Revel said. "Listen to me."</text>
 			<source>Revel, Sting 26.1</source>

@@ -167,8 +167,8 @@
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Wreak Ruin</name>
-		<text>If Glory Girl is active, you may destroy an Equipment or Device card.<br/><br/>
-		If Panacea is active, you may destroy an Ongoing or Environment card</text>
+		<text><p>If Glory Girl is active, you may destroy an Equipment or Device card.</p>
+		<p>If Panacea is active, you may destroy an Ongoing or Environment card</p></text>
 	</card>
 	
 	<card>

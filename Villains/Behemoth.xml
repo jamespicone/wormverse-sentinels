@@ -14,10 +14,10 @@
 			<nemesis>Alexandria</nemesis>
 			<setup>Place Behemoth into play, "Herokiller" side up. Remove all Movement cards from the villain deck, shuffle them, and put them aside as the Movement Deck</setup>
 			<gameplay>
-				Whenever Behemoth would deal damage, use Behemoth's current damage type.<br/><br/>
-				At the start of the villain turn, if Behemoth has less than 30 HP, flip Behemoth.<br/><br/>
-				At the start of the villain turn, play the top card of the Movement deck.<br/><br/>
-				At the end of the villain turn, Behemoth deals each hero X damage, where X is the number of proximity tokens on the hero.
+				<p>Whenever Behemoth would deal damage, use Behemoth's current damage type.</p>
+				<p>At the start of the villain turn, if Behemoth has less than 30 HP, flip Behemoth.</p>
+				<p>At the start of the villain turn, play the top card of the Movement deck.</p>
+				<p>At the end of the villain turn, Behemoth deals each hero X damage, where X is the number of proximity tokens on the hero.</p>
 			</gameplay>
 			<advanced>If a hero ever has 6 proximity tokens on them, they are immediately incapacitated</advanced>
 		</front>
@@ -26,11 +26,11 @@
 			<hp>100</hp>
 			<nemesis>Alexandria</nemesis>
 			<gameplay>
-				Whenever Behemoth would deal damage, use Behemoth's current damage type.<br/><br/>
-				At the start of the villain turn, play the top card of the Movement deck.<br/><br/>
-				Whenever Behemoth would be dealt damage of his current damage type, redirect the damage to the hero target with the lowest HP.<br/><br/>
-				At the end of the villain turn, Behemoth deals each hero X damage, where X is the number of proximity tokens on the hero.<br/><br/>
-				At the end of the villain turn, play the top card of the villain deck
+				<p>Whenever Behemoth would deal damage, use Behemoth's current damage type.</p>
+				<p>At the start of the villain turn, play the top card of the Movement deck.</p>
+				<p>Whenever Behemoth would be dealt damage of his current damage type, redirect the damage to the hero target with the lowest HP.</p>
+				<p>At the end of the villain turn, Behemoth deals each hero X damage, where X is the number of proximity tokens on the hero.</p>
+				<p>At the end of the villain turn, play the top card of the villain deck</p>
 			</gameplay>
 			<advanced>If a hero ever has 6 proximity tokens on them, they are immediately incapacitated</advanced>
 		</back>
@@ -90,8 +90,8 @@
 		<name>Roar</name>
 		<class>One-Shot</class>
 		<text>
-			Behemoth's damage type is Sonic.<br/><br/>
-			Behemoth deals 2 damage to all non-villain targets.
+			<p>Behemoth's damage type is Sonic.</p>
+			<p>Behemoth deals 2 damage to all non-villain targets.</p>
 		</text>
 		<quantity>2</quantity>
 		<quote>
@@ -104,8 +104,8 @@
 		<name>Lightning Bolt</name>
 		<class>One-Shot</class>
 		<text>
-			Behemoth's damage type is Lightning.<br/><br/>
-			Behemoth deals 5 damage to a hero. That hero may move a proximity token to another hero.
+			<p>Behemoth's damage type is Lightning.</p>
+			<p>Behemoth deals 5 damage to a hero. That hero may move a proximity token to another hero.</p>
 		</text>
 		<quantity>2</quantity>
 		<quote>
@@ -118,8 +118,8 @@
 		<name>Discharge</name>
 		<class>One-Shot</class>
 		<text>
-			Behemoth's damage type is Energy.<br/><br/>
-			Behemoth deals 2 damage to each hero target. Each hero may move a proximity token to another hero
+			<p>Behemoth's damage type is Energy.</p>
+			<p>Behemoth deals 2 damage to each hero target. Each hero may move a proximity token to another hero</p>
 		</text>
 		<quantity>2</quantity>
 		<quote>
@@ -132,8 +132,8 @@
 		<name>Wildfire</name>
 		<class>One-Shot</class>
 		<text>
-			Behemoth's damage type is Fire.<br/><br/>
-			Behemoth deals H damage to any hero with 3 or more proximity tokens.
+			<p>Behemoth's damage type is Fire.</p>
+			<p>Behemoth deals H damage to any hero with 3 or more proximity tokens.</p>
 		</text>
 		<quantity>1</quantity>
 		<quote>
@@ -148,8 +148,8 @@
 		<name>Unstoppable Advance</name>
 		<class>Ongoing</class>
 		<text>
-			When this card enters play, change Behemoth's damage type to Melee.<br/><br/>
-			At the end of the villain turn, move a proximity token to the hero with the most proximity tokens
+			<p>When this card enters play, change Behemoth's damage type to Melee.</p>
+			<p>At the end of the villain turn, move a proximity token to the hero with the most proximity tokens</p>
 		</text>
 		<quantity>1</quantity>
 		<quote>
@@ -162,9 +162,9 @@
 		<name>Juggernaut</name>
 		<class>Ongoing</class>
 		<text>
-			When this card enters play, change Behemoth's damage type to Sonic.<br/><br/>
-			Reduce damage dealt to Behemoth by 1<br/><br/>
-			Whenever a hero deals damage to Behemoth, move a proximity token to that hero.
+			<p>When this card enters play, change Behemoth's damage type to Sonic.</p>
+			<p>Reduce damage dealt to Behemoth by 1</p>
+			<p>Whenever a hero deals damage to Behemoth, move a proximity token to that hero.</p>
 		</text>
 		<quantity>1</quantity>
 		<quote>
@@ -177,8 +177,8 @@
 		<name>Continuous Crackle</name>
 		<class>Ongoing</class>
 		<text>
-			When this card enters play, change Behemoth's damage type to Lightning.<br/><br/>
-			Whenever a hero puts an Equipment or Ongoing card into play, Behemoth deals that hero 2 damage.
+			<p>When this card enters play, change Behemoth's damage type to Lightning.</p>
+			<p>Whenever a hero puts an Equipment or Ongoing card into play, Behemoth deals that hero 2 damage.</p>
 		</text>
 		<quantity>1</quantity>
 		<quote>
@@ -193,8 +193,8 @@
 		<name>Twisted Wreckage</name>
 		<class>One-Shot</class>
 		<text>
-			Behemoth's damage type is Lightning.<br/><br/>
-			Destroy 2 hero cards and remove them from the game. Move 1 proximity token to a hero who owned one of the destroyed cards 
+			<p>Behemoth's damage type is Lightning.</p>
+			<p>Destroy 2 hero cards and remove them from the game. Move 1 proximity token to a hero who owned one of the destroyed cards</p>
 		</text>
 		<quantity>2</quantity>
 		<quote>
@@ -207,10 +207,10 @@
 		<name>Earthquake</name>
 		<class>One-Shot</class>
 		<text>
-			Behemoth's damage type is Melee.<br/><br/>
-			Destroy all environment cards<br/><br/>
-			Destroy all ongoing cards<br/><br/>
-			Destroy all equipment cards<br/><br/>
+			<p>Behemoth's damage type is Melee</p>
+			<p>Destroy all environment cards</p>
+			<p>Destroy all ongoing cards</p>
+			<p>Destroy all equipment cards</p>
 		</text>
 		<quantity>1</quantity>
 		<quote>
@@ -223,8 +223,8 @@
 		<name>Incinerate</name>
 		<class>One-Shot</class>
 		<text>
-			Behemoth's damage type is Fire.<br/><br/>
-			Destroy two ongoing cards. Move 1 proximity token from one of the heroes who owned one of the destroyed cards to another hero
+			<p>Behemoth's damage type is Fire.</p>
+			<p>Destroy two ongoing cards. Move 1 proximity token from one of the heroes who owned one of the destroyed cards to another hero</p>
 		</text>
 		<quantity>2</quantity>
 		<quote>

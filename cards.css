@@ -147,3 +147,7 @@ body {
 	font-family: Arial;
 	font-size: 0;
 }
+
+p {
+	margin-bottom: 0.5em;
+}

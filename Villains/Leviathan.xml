@@ -14,16 +14,16 @@
 			<hp>100</hp>
 			<nemesis>Dauntless</nemesis>
 			<setup>Put Leviathan into play "Citykiller" side up. Search the villain deck for a Tactic card and put it into play</setup>
-			<gameplay>When flipped to this side, destroy H hero cards<br/><br/>At the end of the villain turn, Leviathan deals 2 melee damage to all hero targets.<br/>At the end of the villain turn, if Leviathan has been dealt 8 - H damage in one instance last round, flip Leviathan</gameplay>
+			<gameplay><p>When flipped to this side, destroy H hero cards</p><p>At the end of the villain turn, Leviathan deals 2 melee damage to all hero targets.</p><p>At the end of the villain turn, if Leviathan has been dealt 8 - H damage in one instance last round, flip Leviathan</p></gameplay>
 			<advanced>Reduce damage dealt to Leviathan by 1</advanced>
 		</front>
 		<back>
 			<title>Citykiller Retaliates</title>
 			<hp>100</hp>
 			<nemesis>Dauntless</nemesis>
-			<gameplay>When flipped to this side, reveal cards from the top of the villain deck until you reveal a Tactic card. Put it into play; shuffle the rest of the revealed cards back into the villain deck.<br/><br/>
-			At the start of the villain turn, flip Leviathan<br/><br/>
-			Reduce damage dealt to Leviathan by 1</gameplay>
+			<gameplay><p>When flipped to this side, reveal cards from the top of the villain deck until you reveal a Tactic card. Put it into play; shuffle the rest of the revealed cards back into the villain deck.</p>
+			<p>At the start of the villain turn, flip Leviathan</p>
+			<p>Reduce damage dealt to Leviathan by 1</p></gameplay>
 			<advanced>The first time Leviathan would flip each turn, play the top card of the villain deck first</advanced>
 		</back>
 	</villain>
@@ -46,9 +46,9 @@
 		<name>Lose the War</name>
 		<class>Ongoing</class>
 		<type>Tactic</type>
-		<text>If the environment deck is ever empty, the heroes lose the game. At the end of the villain turn, remove the top card of the environment deck from the game.<br/><br/>
-		Players may skip any of their phases (play, power, draw). Every time a player skips a phase, they may take a card from the environment trash and shuffle it back into the environment deck<br/><br/>
-		This card is indestructible</text>
+		<text><p>If the environment deck is ever empty, the heroes lose the game. At the end of the villain turn, remove the top card of the environment deck from the game.</p>
+		<p>Players may skip any of their phases (play, power, draw). Every time a player skips a phase, they may take a card from the environment trash and shuffle it back into the environment deck</p>
+		<p>This card is indestructible</p></text>
 		<quantity>1</quantity>
 	</card>
 	<card>
