@@ -14,7 +14,7 @@
 		<front>
 			<title>The Strategist</title>
 			<hp>60</hp>
-			<nemesis>???</nemesis>
+			<nemesis>Trickster</nemesis>
 			<setup>Search the villain deck for all Condition cards; put them aside as the Condition deck. Search the villain deck for all Trap cards; shuffle them and deal H face-down. Put the other trap cards aside. Put The Simurgh into play, "The Strategist" side up.</setup>
 			<gameplay>		
 				<p>At the start of the villain turn, reveal the top card of the Condition deck.</p>
@@ -26,7 +26,7 @@
 		<back>
 			<title>Wings Unfurled</title>
 			<hp>60</hp>
-			<nemesis>???</nemesis>
+			<nemesis>Trickster</nemesis>
 			<gameplay><p>At the start of the villain turn, reveal the top H + 1 cards of the villain deck. Put them back on the villain deck in ascending order by their ⚠</p>
 			<p>At the end of the villain turn, place a token on the Simurgh and deal all heroes X psychic damage, where X is the number of tokens on the Simurgh</p></gameplay>
 			<advanced>Players may not discuss strategy or tactics</advanced>
