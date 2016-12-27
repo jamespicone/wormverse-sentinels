@@ -127,7 +127,7 @@
 	<card>
 		<name>An Unfortunate Discovery</name>
 		<type>Trap</type>
-		<text><p>At the start of the villain turn, name a card type. Reveal the top two cards of every hero deck. Return cards of the named type to the top of the deck, discard the others</p>
+		<text><p>At the start of the villain turn, the heroes name a card type. Reveal the top two cards of every hero deck. Return cards of the named type to the top of the deck, discard the others</p>
 		<p>This card is indestructible</p></text>
 		<quantity>1</quantity>
 		<quote>

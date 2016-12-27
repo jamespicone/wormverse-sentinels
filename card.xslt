@@ -53,7 +53,10 @@
 <xsl:template match="power">
 	<div class="power">
 		<xsl:if test="name(..)='card'"><div class="powertitle">Power:</div><div class="powertext"><xsl:copy-of select="node()" /></div></xsl:if>
-		<xsl:if test="name(..)!='card'"><div class="powertitle"><xsl:copy-of select="name/node()" />: </div><div class="powertext"><xsl:copy-of select="text/node()" /></div></xsl:if>
+		<xsl:if test="name(..)!='card'"><div class="powerbox">
+			<div class="powername"><xsl:copy-of select="name/node()" /></div>
+			<div class="powertitle">Power: </div><div class="powertext"><xsl:copy-of select="text/node()" /></div>
+		</div></xsl:if>
 	</div>
 </xsl:template>
 
