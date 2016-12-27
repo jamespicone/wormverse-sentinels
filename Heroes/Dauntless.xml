@@ -42,7 +42,7 @@
 		<class>Equipment</class><type>Relic</type>
 		<name>Arcstep</name>
 		<text>This card is indestructible</text>
-		<power>Draw X cards, where X = 1 + the number of Charge cards next to this card / 2 (round down).<br/>You may play a card</power>
+		<power><p>Draw X cards, where X = 1 + the number of Charge cards next to this card / 2 (round down).</p><p>You may play a card</p></power>
 		<quote>
 			<text>The shoes were the most recent, things that let him leap tall buildings, stand on air, or teleport in a flash of lighting.</text>
 			<source>Cenotaph, Interlude R</source>

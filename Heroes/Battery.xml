@@ -114,7 +114,7 @@
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Rapid Recon</name>
-		<text>If Battery is not charged, all heroes may draw a card.<br/><br/>Draw a card. You may play a card</text>
+		<text><p>If Battery is not charged, all heroes may draw a card.</p><p>Draw a card. You may play a card</p></text>
 		<quote>
 			<text>“So I’m going by the book, and I’m walking away.  But I’ll be keeping an eye on you, on this, and the moment you go too far, we’re coming after you, no holds barred.”</text>
 			<source>Battery, Infestation 11.2</source>

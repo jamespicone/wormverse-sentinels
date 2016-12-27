@@ -17,16 +17,15 @@
 			<nemesis>???</nemesis>
 			<setup>Search the villain deck for all Condition cards; put them aside as the Condition deck. Search the villain deck for all Trap cards; shuffle them and deal H face-down. Put the other trap cards aside. Put The Simurgh into play, "The Strategist" side up.</setup>
 			<gameplay>
-				Face-down trap cards are not in play.<br/><br/>
 				At the start of the villain turn, reveal the top card of the Condition deck.<br/><br/>
-				At the start of the villain turn, reveal the top two cards of the villain deck. Put them back on the villain deck ordered by their $(INSERT_SYMBOL) number
+				At the start of the villain turn, reveal the top X cards of the villain deck, where X is the number of revealed trap cards + 1. Put them back on the villain deck in ascending order by their ⚠
 			</gameplay>
-			<advanced>???</advanced>
+			<advanced>Players may not discuss strategy or tactics</advanced>
 		</front>
 		<back>
-			<title></title>
-			<hp></hp>
-			<nemesis></nemesis>
+			<title>Wings Unfurled</title>
+			<hp>60</hp>
+			<nemesis>???</nemesis>
 			<gameplay></gameplay>
 			<advanced></advanced>
 		</back>
@@ -34,9 +33,53 @@
 	
 	<!-- CONDITIONS -->
 	<card>
-		<name>A Surfeit of Targets</name>
+		<name>A Surfeit of Options</name>
 		<type>Condition</type>
-		<text>When this card is revealed, if there are at least H Ongoing cards in play, flip over a face-down trap card. Then return this card to the Condition deck and shuffle it</text>
+		<text>When this card is revealed if there are at least H Ongoing cards in play, flip over a face-down trap card. Then return this card to the Condition deck and shuffle it</text>
+		<quantity>1</quantity>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<name>An Attack Expected</name>
+		<type>Condition</type>
+		<text>When this card is revealed if the Simurgh took damage last round, flip over a face-down trap card. Then return this card to the Condition deck and shuffle it</text>
+		<quantity>1</quantity>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<name>A Backup Sabotaged</name>
+		<type>Condition</type>
+		<text>When this card is revealed if any hero has multiple copies of the same card in their hand, flip over a face-down trap card. Then return this card to the Condition deck and shuffle it</text>
+		<quantity>1</quantity>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<name>A Wealth of Targets</name>
+		<type>Condition</type>
+		<text>When this card is revealed if there are at least H non-character-card targets in play, flip over a face-down trap card. Then return this card to the Condition deck and shuffle it</text>
+		<quantity>1</quantity>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<name>An Unfortunate Malfunction</name>
+		<type>Condition</type>
+		<text>When this card is revealed if there are at least H Equipment cards in play, flip over a face-down trap card. Then return this card to the Condition deck and shuffle it</text>
 		<quantity>1</quantity>
 		<quote>
 			<text></text>
@@ -48,7 +91,79 @@
 	<card>
 		<name>A Reckoning Long Delayed</name>
 		<type>Trap</type>
-		<text>When this card is flipped, every player must secretly and without discussion vote for a hero by simultaneously pointing at a hero card (Count down from 3). If there is a clear winner, that hero deals itself 5 psychic damage. Otherwise, every hero deals themselves 5 psychic damage.</text>
+		<text><p>When this card is flipped, every player must secretly and without discussion vote for a hero by simultaneously pointing at a hero card (Count down from 3). If there is a clear winner, that hero deals itself 5 psychic damage. Otherwise, every hero deals themselves 5 psychic damage.</p>
+		<p>This card is indestructible</p>
+		</text>
+		<quantity>1</quantity>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<name>A Defence Penetrated</name>
+		<type>Trap</type>
+		<text><p>Damage that would be dealt to hero targets cannot be redirected</p>
+		<p>This card is indestructible</p></text>
+		<quantity>1</quantity>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<name>A Strength Turned to Weakness</name>
+		<type>Trap</type>
+		<text><p>Whenever a hero target would deal more than X damage, where X = 8 - H, that hero target deals itself 1 psychic damage</p>
+		<p>This card is indestructible</p></text>
+		<quantity>1</quantity>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<name>An Unfortunate Discovery</name>
+		<type>Trap</type>
+		<text><p>At the start of the villain turn, name a card type. Reveal the top two cards of every hero deck. Return cards of the named type to the top of the deck, discard the others</p>
+		<p>This card is indestructible</p></text>
+		<quantity>1</quantity>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<name>A Tragic End</name>
+		<type>Trap</type>
+		<text><p>When this card is flipped, destroy every non-character-card target in play. Deal X psychic damage to all hero targets, where X = the number of targets destroyed in this way</p>
+		<p>This card is indestructible</p></text>
+		<quantity>1</quantity>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<name>A Crucial Hesitation</name>
+		<type>Trap</type>
+		<text><p>When this card is flipped, place 8 - H tokens on it. If there are ever no tokens on this card, the heroes lose the game</p>
+		<p>At the end of the villain turn, remove a token</p>
+		<p>Heroes may skip a phase (play, power, draw) in order to place a token on this card</p>
+		<p>This card is indestructible</p></text>
+		<quantity>1</quantity>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<name>A Terrible Defeat</name>
+		<type>Trap</type>
+		<text><p>When this card is flipped, every player must secretly and without discussion vote for a hero by simultaneously pointing at a hero card (Count down from 3). If there is a clear winner, destroy every card owned by that hero except the character card. Otherwise, destroy all hero cards except character cards.</p>
+		<p>This card is indestructible</p></text>
 		<quantity>1</quantity>
 		<quote>
 			<text></text>
@@ -69,7 +184,10 @@
 	</card>
 	
 	<!--
-	
+	Danger symbol:
+		⚠
+		
+		
 		Stacks her own deck. Anti-stacks hero decks somehow ("Name a card type. Reveal the top N cards of hero decks, discard all cards with that card type"?)
 		Cards that get played if they're revealed.
 		Traps! Somehow!

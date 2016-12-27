@@ -13,7 +13,7 @@
 			<hp>26</hp>
 			<power>
 				<name>Armory</name>
-				<text>Reveal the top 2 cards of your deck. Put any Weapons revealed into play. Discard the other revealed cards.<br/><br/>You may activate a power on a Weapon card</text>
+				<text><p>Reveal the top 2 cards of your deck. Put any Weapons revealed into play. Discard the other revealed cards.</p><p>You may activate a power on a Weapon card</p></text>
 			</power>
 		</front>
 		<back>
@@ -31,7 +31,7 @@
 		<class>Equipment</class>
 		<type>Weapon</type>
 		<name>Machete</name>
-		<power>Deal 2 melee damage to a non-hero target.<br/><br/>If you have used the Submachine Gun power since the start of your last turn, deal 3 melee damage to the same target</power>
+		<power><p>Deal 2 melee damage to a non-hero target.</p><p>If you have used the Submachine Gun power since the start of your last turn, deal 3 melee damage to the same target</p></power>
 		<quote>
 			<text>It rematerialized into a gleaming steel machete. Regent stopped his struggles the second she rested the point of the bladed weapon against the side of his throat.</text>
 			<source>Tangle 6.6</source>
@@ -42,7 +42,7 @@
 		<class>Equipment</class>
 		<type>Weapon</type>
 		<name>Pistol</name>
-		<power>Deal 2 projectile damage to a non-hero target.<br/><br/>If you have used the Submachine Gun power since the start of your last turn, you may play a card</power>
+		<power><p>Deal 2 projectile damage to a non-hero target.</p><p>If you have used the Submachine Gun power since the start of your last turn, you may play a card</p></power>
 		<quote>
 			<text>She touched it, and felt a weight settle into her palm. Her hand automatically closed around it, feeling the warmth of it. It felt almost like when she pet a friendly dog. An odd thought, given what she found herself looking at.
 
@@ -55,7 +55,7 @@
 		<class>Equipment</class>
 		<type>Weapon</type>
 		<name>Submachine Gun</name>
-		<power>Deal 1 projectile damage to up to 3 non-hero targets.<br/><br/>If you have used the Machete power since the start of your last turn, you may destroy an Environment or Ongoing card.<br/><br/>If you have used the Sniper Rifle power since the start of your last turn, you may put a non-hero target that is not a character card on top of its deck</power>
+		<power><p>Deal 1 projectile damage to up to 3 non-hero targets.</p><p>If you have used the Machete power since the start of your last turn, you may destroy an Environment or Ongoing card.</p><p>If you have used the Sniper Rifle power since the start of your last turn, you may put a non-hero target that is not a character card on top of its deck</p></power>
 		<quote>
 			<text>She'd killed the soldiers that held the other children of her village hostage. After the first, she had feigned fear, pretended the guerrilla fighters were in the woods. Then she had waited for the moment they were too busy watching the woods and mowed the rest of the men down with an assault rifle.</text>
 			<source>Interlude 7</source>
@@ -66,7 +66,7 @@
 		<class>Equipment</class>
 		<type>Weapon</type>
 		<name>Sniper Rifle</name>
-		<power>Select a target, other than the villain target with the highest HP, unless they are the only villain target. At the start of your next turn, deal 4 projectile damage to that target.<br/><br/>If you have used the Pistol power since the start of your last turn, draw 2 cards</power>
+		<power><p>Select a target, other than the villain target with the highest HP, unless they are the only villain target. At the start of your next turn, deal 4 projectile damage to that target.</p><p>If you have used the Pistol power since the start of your last turn, draw 2 cards</p></power>
 		<quote>
 			<text>Miss Militia turned a sniper rifle on me. I caught her before she could fire.</text>
 			<source>Speck 30.4</source>
