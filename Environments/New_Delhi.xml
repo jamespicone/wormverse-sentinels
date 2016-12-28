@@ -6,6 +6,132 @@
 	<deckname>New Delhi</deckname>
 	<version>1.0</version>
 
+	<card>
+		<type>Parahuman</type>
+		<quantity>1</quantity>
+		<name>Phir Sē</name>
+		<hp>5</hp>
+		<text><p>At the start of the environment turn, place a token on this card</p>
+		<p>At the end of the environment turn, move this card next to the target with the highest HP</p>
+		<p>When this card is destroyed, it deals X damage to the target it is next to, where X is the number of tokens on this card</p></text>
+	</card>
+	
+	<card>
+		<type>Entity</type>
+		<quantity>1</quantity>
+		<name>Scion</name>
+		<text><p>At the start of the environment turn, remove this card from the game (even if it is indestructible)</p>
+		<p>All cards are indestructible</p>
+		<p>All cards are immune to damage</p></text>
+	</card>
+	
+	<card>
+		<type>Parahuman</type>
+		<quantity>1</quantity>
+		<name>Chevalier</name>
+		<hp>8</hp>
+		<text><p>Reduce damage dealt to this card by 1</p>
+		<p>Whenever damage would be dealt to heroes, redirect it to this card</p></text>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<name>Accord's Plan</name>
+		<text>
+		<p>When this card enters play reveal the top card of each deck, starting from the villain, in turn order. If the card is an Ongoing, Equipment or Device, put it into play</p>
+		<p>At the end of the environment turn, destroy this card</p>
+		</text>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<name>Yàngbǎn</name>
+		<text>
+		<p>At the end of the environment turn this card deals 2 fire damage to the target with the highest HP</p>
+		<p>At the end of the environment turn this card deals 2 cold damage to the target with the highest HP</p>
+		<p>At the end of the environment turn this card deals 2 lightning damage to the target with the highest HP</p>
+		<p>At the end of the environment turn this card deals 2 energy damage to the target with the highest HP</p>
+		</text>
+	</card>
+	<!--good cards-->
+	
+	<card>
+		<quantity>1</quantity>
+		<name>Lightning Rod</name>
+		<hp>10</hp>
+		<type>Structure</type>
+		<text>
+		<p>Whenever a target would be dealt lightning damage, redirect the damage to this card</p>
+		</text>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<name>Wildfires</name>
+		<text>
+		<p>At the end of the environment turn, this card deals all targets 2 fire damage</p>
+		</text>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<name>Thanda</name>
+		<text><p>When this card enters play, place three tokens on it. If it ever has no tokens on it, remove it from the game</p>
+		<p>At the end of the environment turn, remove the non-character-card Parahuman with the lowest HP from the game. If you do, remove a token from this card</p></text>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<name>A Chaotic Environment</name>
+		<text><p>At the end of the environment turn, play the top card of the environment deck</p>
+		<p>At the start of the environment turn, if this is the only environment card in play, destroy it</p></text>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<name>Irradiated</name>
+		<text><p>At the end of the environment turn, place a token on this card</p>
+		<p>At the start of the environment turn, deal X energy damage to all targets, where X is the number of tokens on this card. If there are no tokens on this card, destroy it</p>
+		<p>Whenever a target regains HP, remove a token from this card</p></text>
+	</card>
+	<!-- neutral cards-->
+	
+	<card>
+		<quantity>1</quantity>
+		<name>Perditon</name>
+		<type>Parahuman</type>
+		<hp>6</hp>
+		<text><p>At the start of the environment turn, play the top card of the villain trash</p></text>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<name>Devastation</name>
+		<text><p>When this card is revealed, destroy all non-character-card cards in play (including itself)</p></text>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<name>Crackling Lightning</name>
+		<text><p>When this card is revealed, deal 3 lightning damage to all hero targets</p>
+		<p>At the end of the environment turn, destroy this card</p></text>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<name>Unstoppable</name>
+		<text><p>Reduce damage dealt to the villain target with the highest HP by 1</p>
+		<p>If the villain target with the highest HP is dealt 4 or more damage in a single instance, destroy this card</p></text>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<name>Heroic Sacrifice</name>
+		<text><p>Whenever damage would be redirected from one hero target to another, increase the damage by 2</p>
+		<p>If a hero target deals damage to another hero target, destroy this card</p></text>
+	</card>
+	
+	<!-- bad cards -->
 	<!--
 	
 		Yangban
