@@ -132,7 +132,7 @@ In the blink of an eye, Weld disappeared, and Genesis loomed in his place</text>
 		<type>Parahuman</type>
 		<hp>4</hp>
 		<quantity>1</quantity>
-		<text>Whenever a hero plays a card, this card deals that hero 1 projectile damage</text>
+		<text>Whenever a hero card is played, this card deals that hero 1 projectile damage</text>
 		<quote>
 			<text>Dauntless parried Circus’ sledgehammer with his Arclance, and the sledgehammer was gone in the next second, as though it had never existed. At some point in the meantime, though, she’d managed to slip a lit torch into one hand.</text>
 			<source>Tangle 6.7</source>
