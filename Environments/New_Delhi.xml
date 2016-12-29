@@ -107,13 +107,13 @@
 	<card>
 		<quantity>1</quantity>
 		<name>Devastation</name>
-		<text><p>When this card is revealed, destroy all non-character-card cards in play (including itself)</p></text>
+		<text><p>When this card is put into play, destroy all non-character-card cards in play (including itself)</p></text>
 	</card>
 	
 	<card>
 		<quantity>1</quantity>
 		<name>Crackling Lightning</name>
-		<text><p>When this card is revealed, deal 3 lightning damage to all hero targets</p>
+		<text><p>When this card is put into play, deal 3 lightning damage to all hero targets</p>
 		<p>At the end of the environment turn, destroy this card</p></text>
 	</card>
 	
