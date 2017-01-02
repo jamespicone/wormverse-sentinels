@@ -46,11 +46,12 @@
 	<card>
 		<quantity>1</quantity>
 		<name>Yàngbǎn</name>
+		<hp>10</hp>
 		<text>
-		<p>At the end of the environment turn this card deals 2 fire damage to the target with the highest HP</p>
-		<p>At the end of the environment turn this card deals 2 cold damage to the target with the highest HP</p>
-		<p>At the end of the environment turn this card deals 2 lightning damage to the target with the highest HP</p>
-		<p>At the end of the environment turn this card deals 2 energy damage to the target with the highest HP</p>
+		<p>At the end of the environment turn this card deals 1 fire damage to the target with the highest HP</p>
+		<p>At the end of the environment turn this card deals 1 cold damage to the target with the highest HP</p>
+		<p>At the end of the environment turn this card deals 1 lightning damage to the target with the highest HP</p>
+		<p>At the end of the environment turn this card deals 1 energy damage to the target with the highest HP</p>
 		</text>
 	</card>
 	<!--good cards-->
