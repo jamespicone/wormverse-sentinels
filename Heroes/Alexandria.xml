@@ -58,8 +58,8 @@
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>Invincible</name>
-		<text><p>When this card enters play reduce damage dealt to Alexandria by 2 until the start of her next turn</p>
-		<p>When Alexandria would take damage, you may discard a card. If you do, prevent the damage</p>
+		<text><p>From when this card enters play until the start of your next turn, when Alexandria would take damage you may discard a card. If you do, prevent the damage.</p>
+		<p>Reduce damage dealt to Alexandria by 1</p>
 		</text>
 	</card>
 
