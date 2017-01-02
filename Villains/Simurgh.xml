@@ -13,20 +13,25 @@
 		<name>The Simurgh</name>
 		<front>
 			<title>The Strategist</title>
-			<hp>60</hp>
+			<hp>50</hp>
 			<nemesis>Trickster</nemesis>
 			<setup>Search the villain deck for all Condition cards; put them aside as the Condition deck. Search the villain deck for all Trap cards; shuffle them and deal H face-down. Put the other trap cards aside. Put The Simurgh into play "The Strategist" side up.</setup>
 			<gameplay>		
+				<p>Reduce damage dealt to the Simurgh by 1</p>
+				
 				<p>At the start of the villain turn, reveal the top card of the Condition deck. Then reveal the top X cards of the villain deck, where X is the number of revealed trap cards + 1. Return them to the villain deck in ascending order by their ⚠</p>
 				<p>At the end of the villain turn if all trap cards are revealed flip this card</p>
+				
 			</gameplay>
-			<advanced>Players may not discuss strategy or tactics</advanced>
+			<advanced>At the start of the villain turn, reveal the top card of the Condition deck</advanced>
 		</front>
 		<back>
 			<title>Wings Unfurled</title>
-			<hp>60</hp>
+			<hp>50</hp>
 			<nemesis>Trickster</nemesis>
-			<gameplay><p>At the start of the villain turn, reveal the top H + 1 cards of the villain deck. Put them back on the villain deck in ascending order by their ⚠</p>
+			<gameplay>
+			<p>Reduce damage dealt to the Simurgh by 1</p>
+			<p>At the start of the villain turn, reveal the top H + 1 cards of the villain deck. Put them back on the villain deck in ascending order by their ⚠</p>
 			<p>At the end of the villain turn, place a token on the Simurgh and deal all heroes X psychic damage, where X is the number of tokens on the Simurgh</p></gameplay>
 			<advanced>Players may not discuss strategy or tactics</advanced>
 		</back>
@@ -127,6 +132,7 @@
 		<name>An Unfortunate Discovery</name>
 		<type>Trap</type>
 		<text><p>At the start of the villain turn, the heroes name a card type. Reveal the top two cards of every hero deck. Return cards of the named type to the top of the deck, discard the others</p>
+		<p>Whenever a hero card goes to the trash, that hero deals themselves 1 psychic damage</p>
 		<p>This card is indestructible</p></text>
 		<quantity>1</quantity>
 		<quote>
@@ -151,7 +157,7 @@
 		<type>Trap</type>
 		<text><p>When this card is flipped, place 8 - H tokens on it. If there are ever no tokens on this card, the heroes lose the game</p>
 		<p>At the end of the villain turn, remove a token</p>
-		<p>Heroes may skip a phase (play, power, draw) in order to place a token on this card</p>
+		<p>Heroes may skip any two phases (play, power, draw) in order to place a token on this card</p>
 		<p>This card is indestructible</p></text>
 		<quantity>1</quantity>
 		<quote>
@@ -178,7 +184,8 @@
 		<class>One-Shot</class>
 		<text>
 			<p>1 ⚠</p>
-			<p>Flip over a face down trap card, then shuffle this card back into the villain deck</p>
+			<p>If all trap cards are revealed, play the top card of the villain deck</p>
+			<p>Otherwise, Flip over a face down trap card, then shuffle this card back into the villain deck</p>
 		</text>
 		<quantity>1</quantity>
 		<quote>
@@ -193,6 +200,7 @@
 		<text>
 			<p>2 ⚠</p>
 			<p>Deal X instances of 1 psychic damage spread out over all hero targets, where X = H * H</p>
+			<p>Deal X instances of 1 irreducible psychic damage spread out over all hero targets, where X = (H-1) * (H-1)</p>
 		</text>
 		<quantity>3</quantity>
 		<quote>
