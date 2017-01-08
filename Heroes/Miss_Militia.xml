@@ -27,23 +27,23 @@
 		</back>
 	</charactercard>
 	<charactercard>
-			<name>Miss Militia, Protectorate Captain</name>
-			<front>
-				<hp>28</hp>
-				<power>
-					<name>Weaponsense</name>
-					<text><p>You may activate a power on a Weapon card, treating it as if all Weapon powers have been used since your last turn.</p><p>Return all Weapon cards in play to your hand.</p><p>You may put a Weapon card into play from your hand</p></text>
-				</power>
-			</front>
-			<back>
-				<text>
-					<ul>
-						<li>Another hero may use a power</li>
-						<li>Deal 2 melee damage to a target</li>
-						<li>One hero regains 2 HP</li>
-					</ul>
-				</text>
-			</back>
+		<name>Miss Militia, Protectorate Captain</name>
+		<front>
+			<hp>28</hp>
+			<power>
+				<name>Weaponsense</name>
+				<text><p>You may activate a power on a Weapon card, treating it as if all Weapon powers have been used since your last turn.</p><p>Return all Weapon cards in play to your hand.</p><p>You may put a Weapon card into play from your hand</p></text>
+			</power>
+		</front>
+		<back>
+			<text>
+				<ul>
+					<li>Another hero may use a power</li>
+					<li>Deal 2 melee damage to a target</li>
+					<li>One hero regains 2 HP</li>
+				</ul>
+			</text>
+		</back>
 	</charactercard>
 	<card>
 		<quantity>3</quantity>
