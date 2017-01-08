@@ -2,11 +2,10 @@
 
 <?xml-stylesheet type="text/xsl" href="cards.xslt"?>
 
-<!-- LOGO: Smiley face? -->
-
 <deck>
 	<deckname>Assault</deckname>
 	<version>1.2</version>
+	<logo>Assault.svg</logo>
 	<charactercard>
 		<name>Assault</name>
 		<front>
