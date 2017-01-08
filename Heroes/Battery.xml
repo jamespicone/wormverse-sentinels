@@ -46,6 +46,9 @@
 					<li>Deal 2 melee damage to a target</li>
 					<li>Destroy an Equipment or Device card</li>
 					<li>One hero may draw a card</li>
+				</ul>
+			</text>
+		</back>
 	</charactercard>
 	<card>
 		<quantity>4</quantity>
