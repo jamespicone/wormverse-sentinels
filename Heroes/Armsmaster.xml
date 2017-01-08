@@ -26,6 +26,34 @@
 			</text>
 		</back>
 	</charactercard>
+	<charactercard>
+		<name>Defiant</name>
+		<front>
+			<hp>28</hp>
+			<text>
+				Modules may be played next to Defiant. Modules may not be played next to Halberds. When a module is played next to Defiant reduce Defiant's maximum HP and current HP by 2
+			</text>
+
+			<power>
+				<name>Cyborg</name>
+				<text><p>You may activate the Primary text of a module to the left of Defiant.</p><p>You may activate the Secondary text of a module to the right of Defiant</p></text>
+			</power>
+
+			<power>
+				<name>Tinker</name>
+				<text>Activate a Halberd</text>
+			</power>
+		</front>
+		<back>
+			<text>
+				<ul>
+					<li>Select a hero target. Reduce the next damage dealt to that target by 2</li>
+					<li>Deal 1 lightning damage to all villain targets</li>
+					<li>One hero may play an Equipment card</li>
+				</ul>
+			</text>
+		</back>
+	</charactercard>
 	<card>
 		<quantity>1</quantity>
 		<class>Equipment</class>
@@ -116,7 +144,7 @@
 		<name>Recycler</name>
 		<text><p>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.</p>
 		<p><strong>Primary:</strong> Draw a card.</p>
-		<p><strong>Secondary:</strong> Activate the secondary text of the card to the left of the Halberd this card is next to</p>
+		<p><strong>Secondary:</strong> Activate the secondary text of a card to the left of the card this card is next to</p>
 		</text>
 		<quote><text>Efficiency, detail and effective use of waste were critical aspects of his particular brand of tinkering</text><source>Teneral e.3</source></quote>
 	</card>
