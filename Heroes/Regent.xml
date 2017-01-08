@@ -25,6 +25,25 @@
 			</text>
 		</back>
 	</charactercard>
+	<charactercard>
+		<name>Hijack</name>
+		<front>
+			<hp>26</hp>
+			<power>
+				<name>Control</name>
+				<text>Select a villain target. The next time that target would deal damage, redirect the damage to a target of your choice</text>
+			</power>
+		</front>
+		<back>
+			<text>
+				<ul>
+					<li>Destroy 1 ongoing card</li>
+					<li>Deal 2 psychic damage to a target</li>
+					<li>Select a hero target. The next time that target would take damage, redirect the damage to a hero target of your choice</li>
+				</ul>
+			</text>
+		</back>
+	</charactercard>
 	<card>
 		<quantity>3</quantity>
 		<class>One-Shot</class>

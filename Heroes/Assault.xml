@@ -26,6 +26,26 @@
 			</text>
 		</back>
 	</charactercard>
+	<charactercard>
+		<name>Madcap</name>
+		<front>
+			<hp>26</hp>
+			<text>Treat Madcap as a villain target except when determining victory or H</text>
+			<power>
+				<name>Practiced Villany</name>
+				<text>Draw a card. The next time a hero card enters play, you may play a card</text>
+			</power>
+		</front>
+		<back>
+			<text>
+				<ul>
+					<li>The next time a hero target would deal damage, redirect the damage to a villain target of your choice</li>
+					<li>Deal 1 irreducible melee damage to a target</li>
+					<li>Play the top card of the villain deck. A hero may play two cards</li>
+				</ul>
+			</text>
+		</back>
+	</charactercard>
 	<card>
 		<quantity>4</quantity>
 		<class>One-Shot</class>

@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="cards.xslt"?>
+
+<!-- LOGO: Do the travellers have a logo? A hydra? -->
+
+<deck>
+	<deckname>Echidna</deckname>
+	<version>1.0</version>
+	<villain>
+		<name>Echidna</name>
+		<front>
+			<title>Mother of Monsters</title>
+			<hp>30</hp>
+			<nemesis>Skitter</nemesis>
+			<setup>At the start of the game Echidna enters play Mother of Monsters side up. Search the villain deck for all Twisted cards; shuffle them, and put the top H + 2 to the side as the Twisted side-deck. Set the other Twisted cards aside</setup>
+			<gameplay>
+				<p>When flipped to this side, Echidna deals H + 2 melee damage to the hero target with the highest HP</p>
+				<p>Whenever a card enters the trash, Echidna regains 1 HP</p>
+			<p>Whenever Echidna deals at least 8 - H damage in a single instance, search the villain deck and trash for an 'Engulfed' card, and put it into play</p>
+			<p>At the end of the villain turn, if no hero target took damage in the last round, flip Echidna</p></gameplay>
+			<advanced>Reduce damage dealt to Echidna by 1</advanced>
+		</front>
+		<back>
+			<title>Noelle, Canny Tactician</title>
+			<hp>30</hp>
+			<nemesis>Skitter</nemesis>
+			<gameplay><p>When flipped to this side, destroy H hero cards</p>
+				<p>Whenever a card enters the trash, Echidna regains 1 HP</p>
+				<p>At the start of the villain turn, flip Echidna</p>
+			</gameplay>
+			<advanced>When flipped to this side, search the villain deck and trash for an 'Engulfed' card and put it into play</advanced>
+		</back>
+	</villain>
+
+	<!--
+		Bunch of 'twisted' special cards here, ideally one per hero in the game at least, maybe even one per major parahuman. These are all targets with 'Twisted' and 'Parahuman' as types, they do annoying things and have frustratingly high HP.
+	-->
+	<card>
+		<name>Engulfed</name>
+		<type>Ongoing</type>
+		<quantity>5</quantity>
+		<text>
+			<p>Place this card next to a hero that does not already have an 'Engulfed' card next to them.</p>
+			<p>The hero this card is next to must skip a phase (play, power, draw) each turn.</p>
+			<p>Whenever the hero this card is next to skips a phase, they deal themselves 2 psychic damage</p> 
+			<p>Play the top card of the Twisted side-deck</p>
+			<p>If this card is not next to a hero target, destroy it</p>
+			</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<name>Chimaerical Nightmare</name>
+		<type>Ongoing</type>
+		<quantity>2</quantity>
+		<text>Reduce damage dealt to Echidna by 2. A the end of the villain turn, Echidna regains 2 HP</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<name>Experimentation</name>
+		<type>One-Shot</type>
+		<quantity>3</quantity>
+		<text>Reveal the top X cards of the villain deck, where X is the number of Twisted cards in play + 1. Put any revealed One-Shots into play. Shuffle the remaining cards back into the deck</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<type>One-Shot</type>
+		<name>Bullrush</name>
+		<text>Echidna deals H melee damage to the hero target with the lowest HP</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<type>Ongoing</type>
+		<name>Squad Tactics</name>
+		<text>Increase damage dealt by villain targets by 1</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<type>One-Shot</type>
+		<name>Crush</name>
+		<text>Echidna deals H damage to any hero target with an 'Engulfed' card next to them</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<type>Ongoing</type>
+		<name>Psychological Warfare</name>
+		<text>At the start of the villain turn Echidna deals 2 psychic damage to all hero targets</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<name>Slippery</name>
+		<type>One-Shot</type>
+		<text>A hero may discard their hand. If they don't, Echidna is immune to damage until the start of her next turn</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+</deck>
