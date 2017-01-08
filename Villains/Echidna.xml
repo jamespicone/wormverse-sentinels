@@ -32,6 +32,10 @@
 			<advanced>When flipped to this side, search the villain deck and trash for an 'Engulfed' card and put it into play</advanced>
 		</back>
 	</villain>
+
+	<!--
+		Bunch of 'twisted' special cards here, ideally one per hero in the game at least, maybe even one per major parahuman. These are all targets with 'Twisted' and 'Parahuman' as types, they do annoying things and have frustratingly high HP.
+	-->
 	<card>
 		<name>Engulfed</name>
 		<type>Ongoing</type>
