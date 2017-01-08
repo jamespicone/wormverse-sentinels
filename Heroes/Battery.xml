@@ -13,11 +13,11 @@
 			<hp>26</hp>
 			<power>
 				<name>Charge</name>
-				<text>Tilt your character card (to indicate it is charged). Draw a card.</text>
+				<text><p>You may not use this power if Battery is charged</p><p>Tilt your character card, indicating Battery is charged.</p><p>Draw a card.</p></text>
 			</power>
 			<power>
 				<name>Discharge</name>
-				<text>Un-tilt your character card. You may play a card.</text>
+				<text><p>You may not use this power if Battery isn't charged</p><p>Un-tilt your character card.</p><p>You may play a card.</p></text>
 			</power>
 		</front>
 		<back>
@@ -29,6 +29,23 @@
 			</ul>
 			</text>
 		</back>
+	</charactercard>
+	<charactercard>
+		<name>Battery, Untrained</name>
+		<front>
+			<hp>28</hp>
+			<text><p>At the end of Battery's turn if she isn't charged, reveal the top card of Battery's deck. If it isn't a One-Shot, tilt your character card to indicate Battery is charged. Then shuffle the revealed card back into your deck</p></text>
+			<power>
+				<name>Discharge</name>
+				<text><p>You may not use this power if Battery isn't charged</p><p>You may play a card.</p><p>Un-tilt your character card.</p></text>
+			</power>
+		</front>
+		<back>
+			<text>
+				<ul>
+					<li>Deal 2 melee damage to a target</li>
+					<li>Destroy an Equipment or Device card</li>
+					<li>One hero may draw a card</li>
 	</charactercard>
 	<card>
 		<quantity>4</quantity>
