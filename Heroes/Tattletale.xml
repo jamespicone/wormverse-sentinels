@@ -26,6 +26,25 @@
 			</text>
 		</back>
 	</charactercard>
+	<charactercard>
+		<name>Tattletale, Ruler of Brockton Bay</name>
+		<front>
+			<hp>26</hp>
+			<power>
+				<name>Overworked</name>
+				<text><p>You may use a power</p><p>You may use a power</p></text>
+			</power>
+		</front>
+		<back>
+			<text>
+				<ul>
+					<li>One hero may use a power</li>
+					<li>Reveal the top card of a deck, then return it to that deck</li>
+					<li>Reveal the bottom card of a deck. Either return it to the bottom of the deck or discard it</li>
+				</ul>
+			</text>
+		</back>
+	</charactercard>
 	<card>
 		<quantity>3</quantity>
 		<class>One-Shot</class>
