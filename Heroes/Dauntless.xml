@@ -26,6 +26,29 @@
 			</text>
 		</back>
 	</charactercard>
+	<charactercard>
+		<name>Dauntless, Shatter the Sky</name>
+		<front>
+			<hp>26</hp>
+			<text>
+				<p>Charge cards may only be played next to Dauntless</p>
+				<p>Multiple charge cards with the same name may be played next to Dauntless, even if they say otherwise</p>
+			</text>
+			<power>
+				<name>Arclance Evolved</name>
+				<text>Deal X energy damage to a target, where X = the number of Charge cards next to Dauntless</text>
+			</power>
+		</front>
+		<back>
+			<text>
+				<ul>
+					<li>Deal 1 energy damage to a target</li>
+					<li>Deal 2 energy damage to a target</li>
+					<li>Deal 3 energy damage to a target</li>
+				</ul>
+			</text>
+		</back>
+	</charactercard>
 	<card>
 		<quantity>1</quantity>
 		<class>Equipment</class><type>Relic</type>
