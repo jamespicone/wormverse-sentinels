@@ -1,5 +1,5 @@
 @echo off
 
 for %%x in (*.xml) DO (
-	Transform -s:"%%x" -o:"cards_%%~nx.html" -xsl:cards.xslt
+	Transform -s:"%%x" -o:"card_%%~nx.html" -xsl:card.xslt
 )
