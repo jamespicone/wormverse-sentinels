@@ -12,8 +12,8 @@ html = $(patsubst %.xml,table_%.html,$(wildcard *.xml)) $(patsubst %.xml,card_%.
 
 all : $(html)
 clean :
-	$(delete) $(html)
+	$(call rm, $(html))
 	
 package :
-	$(mkdir) ../Cards/$(folder)
-	$(copy) $(html) ../Cards/$(folder)
+	$(call mkdir,$(package_folder))
+	$(call copy,$(html),$(package_folder))

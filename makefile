@@ -10,26 +10,26 @@ include osdep.mk
 
 all : environments heroes villains
 environments :
-	$(MAKE) -C Environments
+	$(MAKE) -C Environments -I ..
 	
 heroes :
-	$(MAKE) -C Heroes
+	$(MAKE) -C Heroes -I ..
 	
 villains :
-	$(MAKE) -C Villains
+	$(MAKE) -C Villains -I ..
 
 clean :
-	$(MAKE) clean -C Environments
-	$(MAKE) clean -C Heroes
-	$(MAKE) clean -C Villains
+	$(MAKE) clean -C Environments -I ..
+	$(MAKE) clean -C Heroes -I ..
+	$(MAKE) clean -C Villains -I ..
 	
 distclean : clean
-	$(delete) Cards/*
-	$(delete) Cards.zip
+	$(rmdir, Cards)
+	$(rm, Cards.zip)
 	
 package : all
-	$(MAKE) package -C Environments
-	$(MAKE) package -C Heroes
-	$(MAKE) package -C Villains
-	$(copy) cards.css Cards
+	$(MAKE) package -C Environments -I ..
+	$(MAKE) package -C Heroes -I ..
+	$(MAKE) package -C Villains -I ..
+	$(call copy,cards.css,Cards)
 	zip Cards.zip Cards/ -r9
