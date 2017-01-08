@@ -113,24 +113,29 @@ ul, ol {
 	float: right;
 }
 
-.powerbox {
+.ability {
+	margin-bottom: 0.5em;
+}
+
+.abilitybox {
 	border: 1px solid black;
 	padding-left: 0.5mm;
 	padding-right: 0.5mm;
+	margin-bottom: 0.5em;
 }
 
-.powername {
+.abilityname {
 	font-style: italic;
 	text-align: center;
 }
 
-.powertitle {
+.abilitytitle {
 	font-weight: bold;
 	float: left;
 	margin-right: 1em;
 }
 
-.powertext {
+.abilitytext {
 	margin-left: 2em;
 }
 
