@@ -26,6 +26,25 @@
 			</text>
 		</back>
 	</charactercard>
+	<charactercard>
+		<name>Grue, Second Wind</name>
+		<front>
+			<hp>28</hp>
+			<power>
+				<name>Suffocating Darkness</name>
+				<text>Until the start of your next turn reduce all damage dealt by 1</text>
+			</power>
+		</front>	
+		<back>
+			<text>
+				<ul>
+					<li>One hero may use a power now</li>
+					<li>Destroy up to two environment cards</li>
+					<li>Deal 1 melee damage to a target</li>
+				</ul>
+			</text>
+		</back>
+	</charactercard>
 	<card>
 		<quantity>4</quantity>
 		<class>One-Shot</class>
