@@ -6,7 +6,7 @@
                      
 <deck>
 	<deckname>Armsmaster</deckname>
-	<version>1.4</version>
+	<version>1.5</version>
 	<logo>Armsmaster.svg</logo>
 	<charactercard>
 		<name>Armsmaster</name>
@@ -31,13 +31,10 @@
 		<name>Defiant</name>
 		<front>
 			<hp>28</hp>
-			<text>
-				Modules may be played next to Defiant. Modules may not be played next to Halberds. When a module is played next to Defiant reduce Defiant's maximum HP and current HP by 2
-			</text>
-
+			<text><p>Modules may be played next to Defiant.</p><p>Modules may not be played next to Halberds.</p><p>When a module is played next to Defiant reduce Defiant's maximum HP and current HP by 2.</p></text>
 			<power>
 				<name>Cyborg</name>
-				<text><p>You may activate the Primary text of a module to the left of Defiant.</p><p>You may activate the Secondary text of a module to the right of Defiant</p></text>
+				<text><p>You may activate the primary text of a module to the left of Defiant.</p><p>You may activate the secondary text of a module to the right of Defiant</p></text>
 			</power>
 
 			<power>
@@ -60,7 +57,10 @@
 		<class>Equipment</class>
 		<type>Halberd</type>
 		<name>Original Halberd</name>
-		<text>When activated, Armsmaster deals 2 melee damage to a target. Then you may activate the primary text of the module on the left of this Halberd, and you may activate the secondary text of the module on the right of this Halberd</text>
+		<ability>
+			<title>Activate</title>
+			<text><p>Armsmaster deals 2 melee damage to a target.</p><p>You may activate the primary text of the Module on the left of this Halberd.</p><p>You may activate the secondary text of the Module on the right of this Halberd</p></text>
+		</ability>
 		<quote><text>His trademark and weapon was his Halberd, which was basically a spear with an axe head on the end, souped up with gadgets and the kind of technology you generally only saw in science fiction</text><source>Gestation 1.6</source></quote>
 	</card>
 	<card>
@@ -68,7 +68,10 @@
 		<class>Equipment</class>
 		<type>Halberd</type>
 		<name>Survey Halberd</name>
-		<text>When activated, draw a card. Then you may activate the primary text of the module on the left of this Halberd, and you may activate the secondary text of the module on the right of this Halberd</text>
+		<ability>
+			<title>Activate</title>
+			<text><p>Draw a card</p><p>You may activate the primary text of the Module on the left of this Halberd.</p><p>You may activate the secondary text of the Module on the right of this Halberd</p></text>
+		</ability>
 		<quote><text>"Let's see... to deal with my buddy Grue, you've made that thing a fancy tuning stick. Sensing vibrations in the air, translating them into images with that fancy helm of yours?"</text><source>Tattletale, Tangle 6.6</source></quote>
 	</card>
 	<card>
@@ -76,7 +79,10 @@
 		<class>Equipment</class>
 		<type>Halberd</type>
 		<name>Experimental Halberd</name>
-		<text>When activated, Armsmaster deals 1 irreducible energy damage to a target. Then you may activate the primary text of the module on the left of this Halberd, and you may activate the secondary text of the module on the right of this Halberd</text>
+		<ability>
+			<title>Activate</title>
+			<text><p>Armsmaster deals 1 irreducible energy damage to a target</p><p>You may activate the primary text of the Module on the left of this Halberd.</p><p>You may activate the secondary text of the Module on the right of this Halberd</p></text>
+		</ability>
 		<quote><text>...a dull stainless steel from tip to butt end, with no decoration or style to it. The head was surrounded by a strange blur that seemed static, unmoving around the blade and point</text><source>Extermination 8.4</source></quote>
 	</card>
 	<card>
@@ -84,7 +90,10 @@
 		<class>Equipment</class>
 		<type>Halberd</type>
 		<name>Grapple Halberd</name>
-		<text>When activated, you may destroy an environment card. Then you may activate the primary text of the module on the left of this Halberd, and you may activate the secondary text of the module on the right of this Halberd</text>
+		<ability>
+			<title>Activate</title>
+			<text><p>You may destroy an environment card</p><p>You may activate the primary text of the Module on the left of this Halberd.</p><p>You may activate the secondary text of the Module on the right of this Halberd</p></text>
+		</ability>
 		<quote><text>It looked as though he flew up onto the roof, but the six-foot long weapon the man held kind of jerked as he landed. I was pretty sure I saw the tines of a grappling hook retreating back into the end of the weapon.</text><source>Gestation 1.6</source></quote>
 	</card>
 	<card>
@@ -120,10 +129,15 @@
 		<class>Equipment</class>
 		<type>Module</type>
 		<name>Flamethrower</name>
-		<text><p>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.</p>
-		<p><strong>Primary:</strong> Deal 2 fire damage to a non-hero target.</p>
-		<p><strong>Secondary:</strong> Destroy an environment card</p>
-		</text>
+		<ability>
+			<title>Primary</title>
+			<text>Deal 2 fire damage to a non-hero target</text>
+		</ability>
+		<ability>
+			<title>Secondary</title>
+			<text>Destroy an Environment card</text>
+		</ability>
+		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.</text>
 		<quote><text>The system used light for its circuits, rather than electricity, and it generated a lot of heat as a byproduct</text><source>Teneral e.3</source></quote>
 	</card>
 	<card>
@@ -131,11 +145,15 @@
 		<class>Equipment</class>
 		<type>Module</type>
 		<name>Combat Prediction Array</name>
-		<text>
-		<p>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.</p>
-		<p><strong>Primary:</strong> Reveal the top 3 cards of the villain deck, and put them back in any order.</p>
-		<p><strong>Secondary:</strong> Until the start of your next turn, reduce damage dealt to Armsmaster by villain cards by 1</p>
-		</text>
+		<ability>
+			<title>Primary</title>
+			<text>Reveal the top 3 cards of the villain deck, and put them back in any order</text>
+		</ability>
+		<ability>
+			<title>Secondary</title>
+			<text>Until the start of your next turn, reduce damage dealt to Armsmaster by villain cards by 1</text>
+		</ability>
+		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.</text>
 		<quote><text>"I've got a computer on my back that's relaying to a supernetwork, noting your every move, using subsonic pulses to read every aspect of the street, the surrounding buildings, every feature of the terrain. I know exactly what you're going to do next – you're going to try to catch me from behind with a wave."</text><source>Armsmaster, Extermination 8.4</source></quote>
 	</card>
 	<card>
@@ -143,10 +161,15 @@
 		<class>Equipment</class>
 		<type>Module</type>
 		<name>Recycler</name>
-		<text><p>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.</p>
-		<p><strong>Primary:</strong> Draw a card.</p>
-		<p><strong>Secondary:</strong> Activate the secondary text of a card to the left of the card this card is next to</p>
-		</text>
+		<ability>
+			<title>Primary</title>
+			<text>Draw a card</text>
+		</ability>
+		<ability>
+			<title>Secondary</title>
+			<text>Activate the secondary text of a Module to the left of the card this card is next to</text>
+		</ability>
+		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.</text>
 		<quote><text>Efficiency, detail and effective use of waste were critical aspects of his particular brand of tinkering</text><source>Teneral e.3</source></quote>
 	</card>
 	<card>
@@ -154,11 +177,15 @@
 		<class>Equipment</class>
 		<type>Module</type>
 		<name>Medicator</name>
-		<text>
-		<p>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.</p>
-		<p><strong>Primary:</strong> All hero targets regain 1 HP.</p>
-		<p><strong>Secondary:</strong> Armsmaster regains 2 HP</p>
-		</text>
+		<ability>
+			<title>Primary</title>
+			<text>All hero targets regain 1 HP</text>
+		</ability>
+		<ability>
+			<title>Secondary</title>
+			<text>Armsmaster regains 2 HP</text>
+		</ability>
+		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side</text>
 		<quote><text>"I didn't dose him with enough venom to kill him. What I think is that the tranquilizers that you pumped into his system knocked out his ability to heal, which is what let the poisons do as much damage as they did."</text><source>Skitter, Agitation 3.5</source></quote>
 	</card>
 	<card>
@@ -166,11 +193,15 @@
 		<class>Equipment</class>
 		<type>Module</type>
 		<name>Grappling Hook</name>
-		<text>
-		<p>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.</p>
-		<p><strong>Primary:</strong> Deal 1 projectile damage to up to 2 non-hero targets.</p>
-		<p><strong>Secondary:</strong> Destroy an Ongoing card</p>
-		</text>
+		<ability>
+			<title>Primary</title>
+			<text>Deal 1 projectile damage to up to 2 non-hero targets</text>
+		</ability>
+		<ability>
+			<title>Secondary</title>
+			<text>Destroy an Ongoing card</text>
+		</ability>
+		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side</text>
 		<quote><text>The ball came flying out of the end of his weapon, but my attempt to dodge did little good. He whipped the chain to shift the sphere's trajectory, and simultaneously opened it into its oversized grappling hook form.</text><source>Tangle 6.6</source></quote>
 	</card>
 	<card>
@@ -178,11 +209,15 @@
 		<class>Equipment</class>
 		<type>Module</type>
 		<name>Accelerator</name>
-		<text>
-		<p>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.</p>
-		<p><strong>Primary:</strong> All heroes may draw a card.</p>
-		<p><strong>Secondary:</strong> A hero other than Armsmaster may play a card</p>
-		</text>
+		<ability>
+			<title>Primary</title>
+			<text>All heroes may draw a card</text>
+		</ability>
+		<ability>
+			<title>Secondary</title>
+			<text>A hero other than Armsmaster may play a card</text>
+		</ability>
+		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.</text>
 		<quote><text>"Let's see how quickly you respond to classical conditioning. Every time you try to run, I'll do something like that."</text><source>Armsmaster, Extermination 8.4</source></quote>
 	</card>
 	<card>
@@ -190,11 +225,15 @@
 		<class>Equipment</class>
 		<type>Module</type>
 		<name>Stasis Effector</name>
-		<text>
-		<p>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.</p>
-		<p><strong>Primary:</strong> Discard 2 cards. If you do, the next time a villain card would be played, put it in the villain trash instead, and until the start of your next turn all villain character cards are immune to damage</p>
-		<p><strong>Secondary:</strong> Destroy a target with 4 HP or less</p>
-		</text>
+		<ability>
+			<title>Primary</title>
+			<text>Discard 2 cards. If you do, the next time a villain card would be played, put it in the villain trash instead, and until the start of your next turn all villain character cards are immune to damage</text>
+		</ability>
+		<ability>
+			<title>Secondary</title>
+			<text>Destroy a target with 4 HP or less</text>
+		</ability>
+		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.</text>
 		<quote><text>"For the record, that last trick was a temporal stasis trigger, with thanks owed to the cooperation of a subordinate of mine. Drains my battery reserves, but you don't understand that, do you?"</text><source>Armsmaster, Extermination 8.4</source></quote>
 	</card>
 	<card>
@@ -202,11 +241,15 @@
 		<class>Equipment</class>
 		<type>Module</type>
 		<name>Targeting Computer</name>
-		<text>
-		<p>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.</p>
-		<p><strong>Primary:</strong> Select a hero target. The next time that hero target deals damage, increase the damage by 1 and make the damage irreducible.</p>
-		<p><strong>Secondary:</strong> Choose a target. At the start of your next turn, you deal that target 4 projectile damage</p>
-		</text>
+		<ability>
+			<title>Primary</title>
+			<text>Select a hero target. The next time that hero target deals damage, increase the damage by 1 and make the damage irreducible</text>
+		</ability>
+		<ability>
+			<title>Secondary</title>
+			<text>Select a target. At the start of Armsmaster's next turn, he deals that target 4 projectile damage</text>
+		</ability>
+		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.</text>
 		<quote><text>The lens of his right eye clicked through multiple frequencies and resolutions, until the scene stood out in high detail. The blood shone ultraviolet, and even particles of dust were highlighted.</text><source>Interlude 16</source></quote>
 	</card>
 	<card>
@@ -214,11 +257,15 @@
 		<class>Equipment</class>
 		<type>Module</type>
 		<name>Static Field Generator</name>
-		<text>
-		<p>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.</p>
-		<p><strong>Primary:</strong> Deal 2 lightning damage to a target</p>
-		<p><strong>Secondary:</strong> Deal 1 lightning damage to all targets with 2 or less HP</p>
-		</text>
+		<ability>
+			<title>Primary</title>
+			<text>Deal 2 lightning damage to a target</text>
+		</ability>
+		<ability>
+			<title>Secondary</title>
+			<text>Deal 1 lightning damage to all targets with 3 or less HP</text>
+		</ability>
+		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.</text>
 		<quote><text>He slammed his spear against the ground. The entire cafeteria flinched at the crackle of electricity that ripped through the air around him, flowing along exposed pipe and the heating ducts in a path to the door. Every bug in the hallway died.</text><source>Chrysalis 20.5</source></quote>
 	</card>
 	<card>
@@ -226,11 +273,15 @@
 		<class>Equipment</class>
 		<type>Module</type>
 		<name>Communicator</name>
-		<text>
-		<p>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.</p>
-		<p><strong>Primary:</strong> A hero other than Armsmaster may use a power</p>
-		<p><strong>Secondary:</strong> A hero other than Armsmaster may play a card</p>
-		</text>
+		<ability>
+			<title>Primary</title>
+			<text>A hero other than Armsmaster may use a power</text>
+		</ability>
+		<ability>
+			<title>Secondary</title>
+			<text>A hero other than Armsmaster may play a card</text>
+		</ability>
+		<text>Play this card next to a Halberd, either on its left or right, but only if there isn't already a card on that side.</text>
 		<quote><text>They could communicate without talking. Some kind of system built into their masks. It made this harder. I couldn't listen in and anticipate what they were saying.</text><source>Cell 22.5</source></quote>
 	</card>
 </deck>

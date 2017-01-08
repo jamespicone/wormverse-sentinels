@@ -52,10 +52,20 @@
 
 <xsl:template match="power">
 	<div class="power">
-		<xsl:if test="name(..)='card'"><div class="powertitle">Power:</div><div class="powertext"><xsl:copy-of select="node()" /></div></xsl:if>
-		<xsl:if test="name(..)!='card'"><div class="powerbox">
-			<div class="powername"><xsl:copy-of select="name/node()" /></div>
-			<div class="powertitle">Power: </div><div class="powertext"><xsl:copy-of select="text/node()" /></div>
+		<xsl:if test="name(..)='card'"><div class="abilitytitle">Power:</div><div class="abilitytext"><xsl:copy-of select="node()" /></div></xsl:if>
+		<xsl:if test="name(..)!='card'"><div class="abilitybox">
+			<div class="abilityname"><xsl:copy-of select="name/node()" /></div>
+			<div class="abilitytitle">Power: </div><div class="abilitytext"><xsl:copy-of select="text/node()" /></div>
+		</div></xsl:if>
+	</div>
+</xsl:template>
+
+<xsl:template match="ability">
+	<div class="ability">
+		<xsl:if test="name(..)='card'"><div class="abilitytitle"><xsl:copy-of select="title/node()" />:</div><div class="abilitytext"><xsl:copy-of select="text/node()" /></div></xsl:if>
+		<xsl:if test="name(..)!='card'"><div class="abilitybox">
+			<div class="abilityname"><xsl:copy-of select="name/node()" /></div>
+			<div class="abilitytitle"><xsl:copy-of select="title/node()" />:</div><div class="abilitytext"><xsl:copy-of select="text/node()" /></div>
 		</div></xsl:if>
 	</div>
 </xsl:template>
@@ -98,6 +108,7 @@
 		<xsl:apply-templates select="advanced" />
 		
 		<xsl:apply-templates select="power" />
+		<xsl:apply-templates select="ability" />
 		<xsl:apply-templates select="quote" />
 	</div>
 </xsl:template>
