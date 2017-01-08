@@ -112,7 +112,7 @@
 		<quantity>4</quantity>
 		<name>Slippery</name>
 		<type>One-Shot</type>
-		<text><p>A hero may discard their hand. If they don't, Echidna is immune to damage until the start of her next turn</text>
+		<text>A hero may discard their hand. If they don't, Echidna is immune to damage until the start of her next turn</text>
 		<quote>
 			<text></text>
 			<source></source>
