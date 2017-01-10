@@ -54,7 +54,7 @@
 			<hp>24</hp>
 			<power>
 				<name>Sacrifice</name>
-				<text>Destroy any number of Khepri's cards and remove them from the game. For each card destroyed in this way, up to two heroes may use a power (or one hero may use two powers)</text>
+				<text>Destroy any number of Khepri's cards and remove them from the game. For each card destroyed in this way, a hero may use a power, and then a hero may use a power</text>
 			</power>
 			<text>At the start of the game, put 4 tokens in Khepri's bug pool</text>
 		</front>
