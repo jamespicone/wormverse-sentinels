@@ -6,7 +6,7 @@
                      
 <deck>
 	<deckname>Armsmaster</deckname>
-	<version>1.5</version>
+	<version>2.0</version>
 	<logo>Armsmaster.svg</logo>
 	<charactercard>
 		<name>Armsmaster</name>
@@ -35,7 +35,7 @@
 		<name>Defiant</name>
 		<front>
 			<hp>28</hp>
-			<text><p>Modules may be played next to Defiant.</p><p>Modules may not be played next to Halberds.</p><p>When a module is played next to Defiant reduce Defiant's maximum HP and current HP by 2.</p></text>
+			<text><p>Modules may be played next to Defiant, even if there's already a module on that side.</p><p>Modules may not be played next to Halberds.</p><p>When a module is played next to Defiant reduce Defiant's maximum HP and current HP by 2.</p></text>
 			<power>
 				<name>Cyborg</name>
 				<text><p>You may activate the primary text of a module to the left of Defiant.</p><p>You may activate the secondary text of a module to the right of Defiant</p></text>
@@ -63,7 +63,7 @@
 		<name>Original Halberd</name>
 		<ability>
 			<title>Activate</title>
-			<text><p>Armsmaster deals 2 melee damage to a target.</p><p>You may activate the primary text of the Module on the left of this Halberd.</p><p>You may activate the secondary text of the Module on the right of this Halberd</p></text>
+			<text><p>Armsmaster deals 2 melee damage to a target.</p><p>You may activate the primary text of a Module on the left of this Halberd.</p><p>You may activate the secondary text of a Module on the right of this Halberd</p></text>
 		</ability>
 		<quote><text>His trademark and weapon was his Halberd, which was basically a spear with an axe head on the end, souped up with gadgets and the kind of technology you generally only saw in science fiction</text><source>Gestation 1.6</source></quote>
 	</card>
@@ -74,7 +74,7 @@
 		<name>Survey Halberd</name>
 		<ability>
 			<title>Activate</title>
-			<text><p>Draw a card</p><p>You may activate the primary text of the Module on the left of this Halberd.</p><p>You may activate the secondary text of the Module on the right of this Halberd</p></text>
+			<text><p>Draw a card</p><p>You may activate the primary text of a Module on the left of this Halberd.</p><p>You may activate the secondary text of a Module on the right of this Halberd</p></text>
 		</ability>
 		<quote><text>"Let's see... to deal with my buddy Grue, you've made that thing a fancy tuning stick. Sensing vibrations in the air, translating them into images with that fancy helm of yours?"</text><source>Tattletale, Tangle 6.6</source></quote>
 	</card>
@@ -85,7 +85,7 @@
 		<name>Experimental Halberd</name>
 		<ability>
 			<title>Activate</title>
-			<text><p>Armsmaster deals 1 irreducible energy damage to a target</p><p>You may activate the primary text of the Module on the left of this Halberd.</p><p>You may activate the secondary text of the Module on the right of this Halberd</p></text>
+			<text><p>Armsmaster deals 1 irreducible energy damage to a target</p><p>You may activate the primary text of a Module on the left of this Halberd.</p><p>You may activate the secondary text of a Module on the right of this Halberd</p></text>
 		</ability>
 		<quote><text>...a dull stainless steel from tip to butt end, with no decoration or style to it. The head was surrounded by a strange blur that seemed static, unmoving around the blade and point</text><source>Extermination 8.4</source></quote>
 	</card>
@@ -96,7 +96,7 @@
 		<name>Grapple Halberd</name>
 		<ability>
 			<title>Activate</title>
-			<text><p>You may destroy an environment card</p><p>You may activate the primary text of the Module on the left of this Halberd.</p><p>You may activate the secondary text of the Module on the right of this Halberd</p></text>
+			<text><p>You may destroy an environment card</p><p>You may activate the primary text of a Module on the left of this Halberd.</p><p>You may activate the secondary text of a Module on the right of this Halberd</p></text>
 		</ability>
 		<quote><text>It looked as though he flew up onto the roof, but the six-foot long weapon the man held kind of jerked as he landed. I was pretty sure I saw the tines of a grappling hook retreating back into the end of the weapon.</text><source>Gestation 1.6</source></quote>
 	</card>
