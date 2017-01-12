@@ -29,7 +29,7 @@
 		<name>Madcap</name>
 		<front>
 			<hp>26</hp>
-			<text>Treat Madcap as a villain target except when determining victory or H</text>
+			<text>If there are hero targets in play other than Madcap treat Madcap as a villain target, not as a hero or hero target, except for determining victory or H.</text>
 			<power>
 				<name>Practiced Villany</name>
 				<text>Draw a card. The next time a hero card enters play, you may play a card</text>
