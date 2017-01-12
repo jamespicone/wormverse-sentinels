@@ -6,14 +6,14 @@
 
 <deck>
 	<deckname>Bitch</deckname>
-	<version>1.1</version>
+	<version>2.0</version>
 	<charactercard>
 		<name>Bitch</name>
 		<front>
 			<hp>28</hp>
 			<power>
 				<name>Attack!</name>
-				<text>Each Dog in play may deal 2 melee damage to 1 target</text>
+				<text>Each Dog in play may deal 2 melee damage to a target</text>
 			</power>
 		</front>
 		<back>
@@ -52,7 +52,7 @@
 		<class>One-Shot</class>
 		<type>Order</type>
 		<name>Heel!</name>
-		<text>Select either your deck or your trash. Reveal cards from the top of the pile you selected until you reveal a Dog. Put the Dog into play, and return the other revealed cards to the selected pile. If you selected your deck, shuffle it. Draw a card</text>
+		<text><p>Reveal cards from the top of either your deck or your trash until you reveal a Dog. Put it into play. Return the other cards and shuffle your deck.</p><p>Draw a card</p></text>
 		<quote>
 			<text>A whistle. Brutus' ears perk up. Already jumping off the bed as second whistle comes, just after the first. Two whistles like that means come. Master only asks for dogs to come to the front stairs if it is time for walkies!</text>
 			<source>Interlude 4</source>
@@ -63,7 +63,7 @@
 		<class>One-Shot</class>
 		<type>Order</type>
 		<name>Find!</name>
-		<text>Reveal the top X cards of a deck, where X = the number of Dog cards in play + 2. For each target revealed in this way, either discard it or put it into play. Shuffle the other revealed cards back into the deck</text>
+		<text>Reveal the top X cards of a deck, where X = the number of Dog cards in play + 2. For each target revealed in this way, either discard it or put it into play. Shuffle the other cards back into the deck</text>
 		<quote>
 			<text>"Find her!" she shouted. "Find Skitter! Hurt! Kill!"</text>
 			<source>Bitch, Monarch 16.12</source>
@@ -74,7 +74,7 @@
 		<class>One-Shot</class>
 		<type>Order</type>
 		<name>Guard!</name>
-		<text>Select up to X targets, where X = the number of Dog cards in play. Reduce damage dealt to those targets by 2 until the start of your next turn. Draw a card</text>
+		<text><p>Select up to X targets, where X = the number of Dog cards in play. Reduce damage dealt to those targets by 2 until the start of your next turn.</p><p>Draw a card</p></text>
 		<quote>
 			<text>"Sirius, guard!" she pointed toward the front door of the building. "Bentley! Guard!"</text>
 			<source>Bitch, Interlude 11a</source>
@@ -85,7 +85,7 @@
 		<class>One-Shot</class>
 		<type>Order</type>
 		<name>Hold!</name>
-		<text>Destroy 1 target with up to X HP, where X = the number of Dog cards in play * 2. Draw a card.</text>
+		<text><p>Destroy a target with up to X HP, where X = the number of Dog cards in play * 2.</p><p>Draw a card.</p></text>
 		<quote>
 			<text>The dog lurched forward and placed both front paws on Mannequin's body, pinning his arm and chest.</text>
 			<source>Snare 13.3</source>
@@ -96,7 +96,7 @@
 		<class>One-Shot</class>
 		<type>Order</type>
 		<name>Kill!</name>
-		<text>Deal 1 target X melee damage, where X = the number of Dog cards in play * 3</text>
+		<text>Deal a target X melee damage, where X = the number of Dog cards in play * 3</text>
 		<quote>
 			<text>"Kill him! Kill!"</text>
 			<source>Bitch, Extermination 8.5</source>
@@ -107,7 +107,7 @@
 		<class>One-Shot</class>
 		<type>Order</type>
 		<name>Fetch!</name>
-		<text>Reveal the top X cards of a deck, where X = the number of Dog cards in play + 2. For each equipment or device card revealed in this way, either discard it or put it into play. Shuffle the other revealed cards back into the deck</text>
+		<text>Reveal the top X cards of a deck, where X = the number of Dog cards in play + 2. For each equipment or device card revealed in this way, either discard it or put it into play. Shuffle the other cards back into the deck</text>
 		<quote>
 			<text>If only humans were as reliable, as easy to train.</text>
 			<source>Interlude 11a</source>
@@ -117,7 +117,7 @@
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Veterinary Care</name>
-		<text>Restore all Dog cards to maximum HP. You may draw a card. You may play a card</text>
+		<text><p>Restore all Dog cards to maximum HP.</p><p>You may draw a card.</p><p>You may play a card</p></text>
 		<quote>
 			<text>"Heartworms have a bacteria inside them. When they die, the bacteria gets released into the dog. Having a vet treat it is a long process that involves injecting arsenic into muscles and lots of antibiotics. Like this, his body won't just kill them, but it can kill the disease. He'll be fine by tomorrow."</text>
 			<source>Bitch, Buzz 7.2</source>
@@ -139,7 +139,7 @@
 		<class>Ongoing</class>
 		<class>Limited</class>
 		<name>The Hunt</name>
-		<text>At the start of your turn, each Dog in play may deal 1 melee damage to 1 target</text>
+		<text>At the start of your turn, each Dog in play may deal 1 melee damage to a target</text>
 		<quote>
 			<text>"If I ordered them to kill you, Brutus would have torn out your throat before you could scream. I gave them the hurt command."</text>
 			<source>Bitch, Insinuation 2.8</source>
@@ -161,7 +161,7 @@
 		<type>Dog</type>
 		<hp>6</hp>
 		<name>Judas</name>
-		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
+		<text>At the end of your turn this card deals itself 1 psychic damage</text>
 		<quote>
 			<text>Judas leaped, nearly twice as far and high as I might have guessed something as big as he was could. The dog's prehensile tail wrapped around Aegis' torso.</text>
 			<source>Agitation 3.9</source>
@@ -172,7 +172,7 @@
 		<type>Dog</type>
 		<hp>6</hp>
 		<name>Angelica</name>
-		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
+		<text>At the end of your turn this card deals itself 1 psychic damage</text>
 		<quote>
 			<text>Angelica positioned herself between enemy and master, and Glory Girl hit the dog broadside. Angelica barely reacted, turning instead to snap at Glory Girl.</text>
 			<source>Interlude 11a</source>
@@ -183,7 +183,7 @@
 		<type>Dog</type>
 		<hp>6</hp>
 		<name>Brutus</name>
-		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
+		<text>At the end of your turn this card deals itself 1 psychic damage</text>
 		<quote>
 			<text>I think Bitch called this one Brutus. He was the biggest, with the meatiest body, and he had a shorter snout. He'd been the Rottweiler, before.</text>
 			<source>Agitation 3.8</source>
@@ -194,7 +194,7 @@
 		<type>Dog</type>
 		<hp>6</hp>
 		<name>Kuro</name>
-		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
+		<text>At the end of your turn this card deals itself 1 psychic damage</text>
 		<quote>
 			<text>"I want to fuck this bastard up," she said. "Last one killed my dogs. Killed Brutus, Judas, Kuro, Bullet, Milk and Stumpy and Axel and Ginger. When do we attack?"</text>
 			<source>Bitch, Crushed 24.1</source>
@@ -205,7 +205,7 @@
 		<type>Dog</type>
 		<hp>6</hp>
 		<name>Bullet</name>
-		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
+		<text>At the end of your turn this card deals itself 1 psychic damage</text>
 		<quote>
 			<text>Leviathan pulled away, only for a dog to snag his arm, drag him off balance. Another latched on to his elbow, while a third and fourth pounced onto his back, tearing into his spine. More crouched and circled around him, looking for opportunities and places to bite.</text>
 			<source>Extermination 8.5</source>
@@ -216,7 +216,7 @@
 		<type>Dog</type>
 		<hp>6</hp>
 		<name>Ginger</name>
-		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
+		<text>At the end of your turn this card deals itself 1 psychic damage</text>
 		<quote>
 			<text>KOOROW BULLIT
 MILK STUMPY
@@ -230,7 +230,7 @@ AXIL GINGIR</text>
 		<type>Dog</type>
 		<hp>6</hp>
 		<name>Axel</name>
-		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
+		<text>At the end of your turn this card deals itself 1 psychic damage</text>
 		<quote>
 			<text>The size of a van, the 'massive object' was animal rather than vehicle, resembling a cross between a lizard and a tiger, with tangles of muscle and bone where it ought to have skin, scales or fur.</text>
 			<source>Gestation 1.5</source>
@@ -241,7 +241,7 @@ AXIL GINGIR</text>
 		<type>Dog</type>
 		<hp>6</hp>
 		<name>Milk</name>
-		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
+		<text>At the end of your turn this card deals itself 1 psychic damage</text>
 		<quote>
 			<text>When the second door leading further into the building was opened, a tide of dogs nearly bowled us over. I couldn't count them, but there were more than ten, less than twenty. All sorts of breeds, different sizes and shapes.</text>
 			<source>Buzz 7.2</source>
@@ -252,7 +252,7 @@ AXIL GINGIR</text>
 		<type>Dog</type>
 		<hp>6</hp>
 		<name>Stumpy</name>
-		<text>At the end of your turn, this card deals itself 1 psychic damage</text>
+		<text>At the end of your turn this card deals itself 1 psychic damage</text>
 		<quote>
 			<text>I fell, and in a heartbeat, the other two dogs – a German Shepherd and a hairless terrier with a missing ear and eye – were on me.</text>
 			<source>Insinuation, 2.8</source>
