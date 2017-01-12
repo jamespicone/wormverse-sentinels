@@ -6,7 +6,7 @@
 
 <deck>
 	<deckname>Grue</deckname>
-	<version>1.1</version>
+	<version>2.0</version>
 	<charactercard>
 		<name>Grue</name>
 		<front>
@@ -186,7 +186,7 @@
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>Spew Darkness</name>
-		<text>When this card enters play, Grue deals himself 3 psychic damage. Hero targets are immune to damage dealt by villain or environment cards. At the start of your turn, destroy this card</text>
+		<text><p>When this card enters play, Grue deals himself 3 psychic damage.</p><p>Hero targets are immune to damage dealt by villain or environment cards.</p><p>At the start of your turn, destroy this card</p></text>
 		<quote>
 			<text>More of it just kept pouring from his hand, climbing upwards to cover the top of the room. As the light from the windows near the upper edges of the room and the florescent bars on the ceiling was cut off, the room got a great deal darker.</text>
 			<source>Insinuation 2.9</source>
