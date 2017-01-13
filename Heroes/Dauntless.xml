@@ -13,7 +13,7 @@
 			<hp>28</hp>
 			<power>
 				<name>Arclance</name>
-				<text>Deal X energy damage to a target, where X = 1 + the number of Charge cards next to Dauntless / 2 (round down)</text>
+				<text>Deal X energy damage to a target, where X = 1 + the number of Charge cards attached to Dauntless / 2 (round down)</text>
 			</power>
 		</front>
 		<back>
@@ -31,12 +31,12 @@
 		<front>
 			<hp>26</hp>
 			<text>
-				<p>Charge cards may only be played next to Dauntless</p>
-				<p>Multiple charge cards with the same name may be played next to Dauntless, even if they say otherwise</p>
+				<p>Charge cards may only be attached to Dauntless</p>
+				<p>Multiple Charge cards with the same name may be attached to Dauntless, even if they say otherwise</p>
 			</text>
 			<power>
 				<name>Arclance Evolved</name>
-				<text>Deal X energy damage to a target, where X = the number of Charge cards next to Dauntless</text>
+				<text>Deal X energy damage to a target, where X = the number of Charge cards attached to Dauntless</text>
 			</power>
 		</front>
 		<back>
@@ -54,7 +54,7 @@
 		<class>Equipment</class><type>Relic</type>
 		<name>Arcshield</name>
 		<text>This card is indestructible</text>
-		<power>Until the end of your next turn, reduce damage dealt to Dauntless by X, where X = 1 + the number of Charge cards next to this card / 2 (round down)</power>
+		<power>Until the end of your next turn reduce damage dealt to Dauntless by X, where X = 1 + the number of Charge cards attached to this card / 2 (round down)</power>
 		<quote>
 			<text>He was holding his shield arm up, and it had formed into a bubble-shaped forcefield, extending in a ten foot radius around himself, touching both walls on either side of us.</text>
 			<source>Tangle 6.7</source>
@@ -65,7 +65,7 @@
 		<class>Equipment</class><type>Relic</type>
 		<name>Arcstep</name>
 		<text>This card is indestructible</text>
-		<power><p>Draw X cards, where X = 1 + the number of Charge cards next to this card / 2 (round down).</p><p>You may play a card</p></power>
+		<power><p>Draw X cards, where X = 1 + the number of Charge cards attached to this card / 2 (round down).</p><p>You may play a card</p></power>
 		<quote>
 			<text>The shoes were the most recent, things that let him leap tall buildings, stand on air, or teleport in a flash of lighting.</text>
 			<source>Cenotaph, Interlude R</source>
@@ -76,7 +76,7 @@
 		<class>Ongoing</class>
 		<type>Charge</type>
 		<name>Charge</name>
-		<text>When you play this card, either place it next to Dauntless or next to a Relic. This card is indestructible</text>
+		<text><p>When you play this card either attach it to Dauntless or to one of your Relics.</p><p>This card is indestructible</p></text>
 		<quote>
 			<text>His power let him, according to details he'd leaked when he'd appeared on TV and in magazines, imbue his gear with a little bit of power every day.</text>
 			<source>Tangle 6.7</source>
@@ -87,11 +87,11 @@
 		<class>Ongoing</class>
 		<type>Charge</type>
 		<name>Plasma Core</name>
-		<text>When you play this card, either place it next to Dauntless or next to a Relic, but only if they do not already have a card with the same name next to them.
+		<text>When you play this card either attach it to Dauntless or to one of your Relics, but only if they do not already have a card with the same name next to them.
 			<ul>
-				<li>If next to Dauntless, his Arclance does irreducible damage.</li>
-				<li>If next to the Arcshield, whenever a non-hero target would deal damage to Dauntless and it is reduced by the Arcshield's power, Dauntless deals that target 1 energy damage.</li>
-				<li>If next to the Arcstep, Dauntless regains 1 HP whenever he uses the Arcstep's power</li>
+				<li>If attached to Dauntless, his Arclance does irreducible damage.</li>
+				<li>If attached to the Arcshield, whenever a non-hero target would deal damage to Dauntless and it is reduced by the Arcshield's power, Dauntless deals that target 1 energy damage.</li>
+				<li>If attached to the Arcstep, Dauntless regains 1 HP whenever he uses the Arcstep's power</li>
 			</ul>
 		</text>
 		<quote>
@@ -104,11 +104,11 @@
 		<class>Ongoing</class>
 		<type>Charge</type>
 		<name>Matter to Energy</name>
-		<text>When you play this card, either place it next to Dauntless or next to a Relic, but only if they do not already have a card with the same name next to them.
+		<text>When you play this card either attach it to Dauntless or to one of your Relics, but only if they do not already have a card with the same name next to them.
 		<ul>
-			<li>If next to Dauntless, you may choose what damage type his Arclance does when it is used.</li>
-			<li>If next to the Arcshield, when its power is used, pick an energy type. Until the end of your next turn, reduce all damage of that type by 1.</li>
-			<li>If next to the Arcstep, when its power is used, Dauntless deals up to 3 targets 1 energy damage</li>
+			<li>If attached to Dauntless, you may choose what damage type his Arclance does when it is used.</li>
+			<li>If attached to the Arcshield, when its power is used, pick an energy type. Until the end of your next turn, reduce all damage of that type by 1.</li>
+			<li>If attached to the Arcstep, when its power is used, Dauntless deals up to 3 targets 1 energy damage</li>
 		</ul>
 		</text>
 		<quote>
@@ -120,7 +120,7 @@
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>To Me!</name>
-		<text>Search your deck for a Relic and put it into play. Shuffle your deck. Draw a card. You may play a card</text>
+		<text><p>Search your deck for a Relic and put it into play. Shuffle your deck.</p><p>Draw a card. You may play a card</p></text>
 		<quote>
 			<text>A thought, a crackling flash of white absence, and he was clothed in his armor, spear and shield in his left hand.</text>
 			<source>Cenotaph, Interlude R</source>
@@ -150,7 +150,7 @@
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Your Opponent Is Me</name>
-		<text>Dauntless deals 2 energy damage to up to 2 targets. Until the start of your next turn, whenever those targets would deal damage, redirect that damage to Dauntless</text>
+		<text>Dauntless deals 2 energy damage to up to 2 targets. Until the start of your next turn whenever those targets would deal damage, redirect that damage to Dauntless</text>
 		<quote>
 			<text>We'd just crossed the threshold of the parking garage when Dauntless opened fire, striking Brutus no less than three times with jabs of his Arclance, then turning his attention to Angelica.</text>
 			<source>Tangle 6.7</source>
@@ -160,7 +160,7 @@
 		<quantity>4</quantity>
 		<class>Ongoing</class>
 		<name>Heroic Image</name>
-		<text>Whenever Dauntless would be dealt exactly 1 damage, prevent that damage. Whenever one of Dauntless' cards would be destroyed, Dauntless may destroy this card instead</text>
+		<text><p>Whenever Dauntless would be dealt exactly 1 damage prevent that damage.</p><p>Whenever one of Dauntless' cards would be destroyed, Dauntless may destroy this card instead</p></text>
 		<quote>
 			<text>It was expected that he would eventually surpass even the likes of Alexandria, Legend and Eidolon, the 'triumvirate' of the Protectorate, the top dogs. That kind of made him a big deal in Brockton Bay, a hometown hero.</text>
 			<source>Tangle 6.7</source>
@@ -170,7 +170,7 @@
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>Glorious Stand</name>
-		<text>Whenever a hero target would be damaged, redirect the damage to Dauntless. At the start of your turn, destroy this card</text>
+		<text><p>Whenever a hero target would be damaged, redirect the damage to Dauntless.</p><p>At the start of your turn, destroy this card</p></text>
 		<quote>
 			<text>In the center of the ring, an oval shape sat embedded in the ground. This was the area where we'd fought Leviathan. A time-distortion grenade had gone off, and three heroes had been trapped inside. Brockton Bay's own Dauntless among them.</text>
 			<source>Imago 21.5</source>
@@ -191,7 +191,7 @@
 		<class>Ongoing</class>
 		<class>Limited</class>
 		<name>Carry the Charge</name>
-		<text>Whenever Dauntless is dealt energy damage, he may play a card</text>
+		<text>Whenever Dauntless is dealt energy damage, you may play a card</text>
 		<quote>
 			<text>He'd tried to explain, how it wasn't about making a taser, how there were these threads that weren't threads, and some he could thicken and others tweak</text>
 			<source>Cenotaph, Interlude R</source>
