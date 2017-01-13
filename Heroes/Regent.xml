@@ -12,13 +12,13 @@
 			<hp>28</hp>
 			<power>
 				<name>Control</name>
-				<text>Regent deals 1 target 2 psychic damage</text>
+				<text>Regent deals a target 2 psychic damage</text>
 			</power>
 		</front>
 		<back>
 			<text>
 			<ul>
-				<li>1 target deals itself 1 psychic damage</li>
+				<li>A target deals itself 1 psychic damage</li>
 				<li>Destroy 1 environment card</li>
 				<li>Select a target. Reduce damage dealt by that target by 1 until the start of your next turn</li>
 			</ul>
@@ -31,7 +31,7 @@
 			<hp>26</hp>
 			<power>
 				<name>Control</name>
-				<text>Select a villain target. The next time that target would deal damage, redirect the damage to a target of your choice</text>
+				<text>Select a villain target. The next time that target would deal damage redirect the damage to a target of your choice</text>
 			</power>
 		</front>
 		<back>
@@ -58,7 +58,7 @@
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Gut-Zap</name>
-		<text>Regent deals 1 target 2 psychic damage. The target dealt damage in this way cannot deal damage until the start of your next turn</text>
+		<text>Regent deals a target 2 psychic damage. The target dealt damage in this way cannot deal damage until the start of your next turn</text>
 		<quote>
 			<text>The black-green energy of her power continued to arc around her without solidifying as the contents of her stomach began violently heaving their way out of her mouth, spattering into the flag-scarf that covered the lower half of her face and overflowing onto the floor.</text>
 			<source>Tangle 6.6</source>
@@ -78,7 +78,7 @@
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Zap</name>
-		<text>Regent deals 1 target 4 psychic damage. Destroy up to 2 ongoing cards</text>
+		<text><p>Regent deals a target 4 psychic damage.</p><p>Destroy up to 2 ongoing cards</p></text>
 		<quote>
 			<text>"The name is a long story, but what I do is this." He looked over his shoulder at Brian, who was returning from the washroom with a damp washcloth in hand. Brian, mid-stride, stumbled and fell onto the floor.</text>
 			<source>Insinuation 2.9</source>
@@ -88,7 +88,7 @@
 		<quantity>2</quantity>
 		<class>One-Shot</class>
 		<name>Drop That</name>
-		<text>Regent deals 1 target 2 psychic damage. Reveal the top card of the villain deck. You may choose to discard that card or return it to the top of the villain deck</text>
+		<text><p>Regent deals a target 2 psychic damage.</p><p>Reveal the top card of the villain deck. You may choose to discard that card or return it to the top of the villain deck</p></text>
 		<quote>
 			<text>Seeing Regent approach, Kid Win turned his turret-mounted cannon in his direction. Before he could fire, though, Regent raised two fingers, and Kid Win lost his footing on his flying skateboard.</text>
 			<source>Agitation 3.10</source>
@@ -98,7 +98,7 @@
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>A Life Of Leisure</name>
-		<text>Draw 5 cards. Immediately end your turn</text>
+		<text><p>Draw 5 cards.</p><p>Immediately end your turn</p></text>
 		<quote>
 			<text>Having tired ourselves out, we'd all collapsed on the couches and watched some of Alec's movies from Earth-Aleph, the alternate Earth that our Earth had been communicating with since Professor Haywire tore a hole between realities.</text>
 			<source>Agitation 3.4</source>
@@ -109,7 +109,7 @@
 		<class>Equipment</class>
 		<class>Limited</class>
 		<name>Scepter-Taser</name>
-		<text>After Regent uses his 'Control' power on a target, Regent deals that target 1 lightning damage</text>
+		<text>After Regent uses his 'Control' power on a target Regent deals that target 1 lightning damage</text>
 		<quote>
 			<text>He was idly twirling a scepter in his fingers. The scepter wasn't purely thematic – apparently the crowned orb that topped the scepter had two electrodes built into the tines, for the taser that was built into it.</text>
 			<source>Agitation 3.7</source>
@@ -131,7 +131,7 @@
 		<class>Ongoing</class>
 		<class>Limited</class>
 		<name>Growing Control</name>
-		<text>After Regent uses his 'Control' power on a target, place a token next to that target. Increase the damage Regent deals with his 'Control' power by 1 when the target has a token next to them. When this card is destroyed, remove all tokens that have been placed in this way</text>
+		<text>After Regent uses his 'Control' power on a target, place a token next to that target. Increase the damage Regent deals with his 'Control' power by 1 when the target has a token next to them. When this card is destroyed remove all tokens that have been placed in this way</text>
 		<quote>
 			<text>"There's a catch," he spoke. "My power? Once I've figured someone out? It's a lot easier to control them, after. Any time you come near me, I can do this. I can use my power and retake control in the blink of an eye."</text>
 			<source>Regent, Interlude 10</source>
@@ -142,7 +142,7 @@
 		<class>Ongoing</class>
 		<class>Limited</class>
 		<name>My Little Army</name>
-		<text>Whenever Regent destroys a target, other than a character card, you may put it under this card. At the start of Regent's turn, this card deals X projectile damage to a target, where X = the number of cards under this card</text>
+		<text><p>Whenever Regent destroys a target, other than a character card, you may put it under this card.</p><p>At the start of Regent's turn this card deals X projectile damage to a target, where X = the number of cards under this card</p></text>
 		<quote>
 			<text>I could envision Regent in a very similar picture. Years older, grown to his full height and proportions, surrounded not by women, but by the people he had claimed as his tools. Capes he controlled with his power.</text>
 			<source>Imago 21.3</source>
@@ -152,7 +152,7 @@
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>Reactive Zap</name>
-		<text>Play this card next to a non-hero target. Once a turn, when that target would deal damage, Regent may use a power</text>
+		<text><p>Attach this card to a non-hero target.</p><p>Once a turn, when that target would deal damage, Regent may use a power</p></text>
 		<quote>
 			<text>"And if they tried to come at me through my family, they'd get what they deserved,"</text>
 			<source>Regent, Imago 21.1</source>
@@ -162,7 +162,7 @@
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>Over Here</name>
-		<text>Whenever the hero target with the lowest HP would be dealt damage by a villain card, you may redirect that damage to another hero target</text>
+		<text>Whenever the hero target with the lowest HP would be dealt damage by a villain card you may redirect that damage to another hero target</text>
 		<quote>
 			<text>"Hey Shitcrumb!" Regent hollered, backing away from cover. "Easy-"</text>
 			<source>Crushed 24.4</source>
@@ -172,7 +172,7 @@
 		<quantity>1</quantity>
 		<class>Ongoing</class>
 		<name>Mine</name>
-		<text>Play this card next to a non-hero target other than a character card. The first time each turn that target deals damage, you may redirect that damage to another target. You may prevent any effects caused by the target next to this card</text>
+		<text><p>Attach this card to a non-hero target other than a character card.</p><p>The first time each turn that target deals damage, you may redirect that damage to another target.</p><p>You may prevent any effects caused by the target this card is attached to</p></text>
 		<quote>
 			<text>"I'm letting you go," Regent lied.</text>
 			<source>Interlude 10</source>
