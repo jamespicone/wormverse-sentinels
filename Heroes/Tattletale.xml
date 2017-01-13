@@ -6,7 +6,7 @@
 
 <deck>
 	<deckname>Tattletale</deckname>
-	<version>1.2</version>
+	<version>2.0</version>
 	<charactercard>
 		<name>Tattletale</name>
 		<front>
@@ -49,7 +49,7 @@
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Information Overload</name>
-		<text>Tattletale may use any number of powers this turn. Every time Tattletale uses a power this turn, she deals herself 1 psychic damage</text>
+		<text><p>Tattletale may use any number of powers this turn.</p><p>Every time Tattletale uses a power this turn she deals herself 1 psychic damage</p></text>
 		<quote>
 			<text>Using her power wasn't a switch she turned on. It was letting the walls come down, letting the information start pouring in.</text>
 			<source>Interlude 8</source>
@@ -59,7 +59,7 @@
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>It's Always in the First Place I Look</name>
-		<text>A player may search their deck for 1 card and put it into their hand, then shuffle their deck</text>
+		<text>A player may search their deck for a card and put it into their hand, then shuffle their deck</text>
 		<quote>
 			<text>"Sorry, Aidan, to squabble in front of you, but Charlotte needs to remember I don't tend to miss stuff like that."</text>
 			<source>Tattletale, Interlude 26</source>
@@ -69,7 +69,7 @@
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>The Reason You Suck</name>
-		<text>Tattletale deals 1 target 4 psychic damage</text>
+		<text>Tattletale deals a target 4 psychic damage</text>
 		<quote>
 			<text>"We're sinking down to base insults? Trust me, I'm way better than you at that, Dr. Mengele."</text>
 			<source>Tattletale, Cockroaches 28.1</source>
@@ -79,7 +79,7 @@
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Out of Commission</name>
-		<text>Tattletale regains 5 HP. Immediately end your turn</text>
+		<text><p>Tattletale regains 5 HP.</p><p>Immediately end your turn</p></text>
 		<quote>
 			<text>"Sorry," I said, keeping my voice low. "Thought you'd have recovered more."</text>
 			<source>Skitter, Imago 21.7</source>
@@ -101,7 +101,7 @@
 		<class>Ongoing</class>
 		<class>Limited</class>
 		<name>Constant Smile</name>
-		<text>At the start of your turn, Tattletale deals each non-hero target 1 psychic damage</text>
+		<text>At the start of your turn Tattletale deals each non-hero target 1 psychic damage</text>
 		<quote>
 			<text>The girl turned her head, pretending to examine a jacket, so she could hide a vulpine smile that spread across her face.</text>
 			<source>Interlude 8</source>
@@ -112,7 +112,7 @@
 		<class>Ongoing</class>
 		<class>Limited</class>
 		<name>Confidence</name>
-		<text>At the start of your turn, each hero regains 1 HP</text>
+		<text>At the start of your turn each hero regains 1 HP</text>
 		<quote>
 			<text>"You're trying something. I feel smugness from you, too much confidence for where you're standing."</text>
 			<source>Cherish, Plague 12.4</source>
@@ -123,7 +123,7 @@
 		<class>Ongoing</class>
 		<class>Limited</class>
 		<name>Follows All the Threads</name>
-		<text>Play with the top card of all decks face-up. At the start of your turn, Tattletale deals herself 1 psychic damage.</text><power>Destroy this card</power>
+		<text><p>Play with the top card of all decks face-up.</p><p>At the start of your turn Tattletale deals herself 1 psychic damage.</p></text><power>Destroy this card</power>
 		<quote>
 			<text>The details on the bulletin boards became clear. They were color coded by subject, but there were threads connecting elements, pieces of yarn tacked into place or held in spots with magnets.</text>
 			<source>Imago 21.7</source>
@@ -134,7 +134,7 @@
 		<class>Ongoing</class>
 		<class>Limited</class>
 		<name>Quick Insight</name>
-		<text>Whenever a target enters play, Tattletale may reveal the bottom card of a deck, then either put it on the top or the bottom of that deck. If you do, Tattletale deals herself 1 psychic damage</text>
+		<text>Whenever a target enters play Tattletale may reveal the bottom card of a deck, then either put it on the top or the bottom of that deck. If you do Tattletale deals herself 1 psychic damage</text>
 		<quote>
 			<text>I knew she read me ten times as well. The little shifts in her expression as she glanced at my hands, at my face. There was no doubt in my mind that she was reading me like a book. She knew every train of thought that had just crossed my mind, the worries, the anxieties</text>
 			<source>Cockroaches 28.6</source>
@@ -164,7 +164,7 @@
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>My Eye On You</name>
-		<power>1 hero target regains 3 HP</power>
+		<power>A hero target regains 3 HP</power>
 		<quote>
 			<text>"I figured you would be. What I want to know is if you're okay."</text>
 			<source>Tattletale, Extermination 8.8</source>
@@ -184,7 +184,7 @@
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>Spot the Flaw</name>
-		<text>When this card enters play, Tattletale deals herself 2 psychic damage. Damage dealt by hero targets is irreducible. At the start of your turn, destroy this card</text>
+		<text><p>When this card enters play Tattletale deals herself 2 psychic damage.</p><p>Damage dealt by hero targets is irreducible.</p><p>At the start of your turn, destroy this card</p></text>
 		<quote>
 			<text>No vulnerable organs, hyperdurable tissues: simple organs exist at core of torso, where there is highest amount of surrounding tissues. Optimal thickness of layer and narrowness of body part at upper arms, just before shoulder joint, and upper thighs, just below hip joint.</text>
 			<source>Interlude 8</source>
