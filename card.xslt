@@ -110,6 +110,8 @@
 		<xsl:apply-templates select="power" />
 		<xsl:apply-templates select="ability" />
 		<xsl:apply-templates select="quote" />
+		
+		<div class="versiondiv"><xsl:value-of select="/deck/version" /></div>
 	</div>
 </xsl:template>
 </xsl:stylesheet>
