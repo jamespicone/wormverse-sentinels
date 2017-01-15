@@ -149,6 +149,13 @@ ul, ol {
 	border: 1px solid black;
 }
 
+.versiondiv {
+	font-size: 70%;
+	position: absolute;
+	bottom: 0mm;
+	right: 1mm;
+}
+
 body {
 	line-height: 1.1;
 	font-family: Arial;

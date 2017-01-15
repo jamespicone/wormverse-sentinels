@@ -4,7 +4,7 @@
 
 include osdep.mk
 
-table_%.html card_%.html : %.xml table.xslt cards.xslt
+table_%.html card_%.html : %.xml table.xslt cards.xslt ../card.xslt
 	$(transform) -s:"$<" -o:"card_$(<:.xml=.html)" -xsl:cards.xslt
 	$(transform) -s:"$<" -o:"table_$(<:.xml=.html)" -xsl:table.xslt
 	
