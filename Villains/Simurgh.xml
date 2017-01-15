@@ -15,11 +15,11 @@
 			<title>The Strategist</title>
 			<hp>50</hp>
 			<nemesis>Trickster</nemesis>
-			<setup>Search the villain deck for all Condition cards; put them aside as the Condition deck. Search the villain deck for all Trap cards; shuffle them and deal H face-down. Put the other trap cards aside. Put The Simurgh into play "The Strategist" side up.</setup>
+			<setup>Put all Condition cards aside as the Condition deck. Search the villain deck for all Trap cards; shuffle them and deal H face-down. Put the other trap cards aside. Put The Simurgh into play "The Strategist" side up.</setup>
 			<gameplay>		
 				<p>Reduce damage dealt to the Simurgh by 1</p>
 				
-				<p>At the start of the villain turn, reveal the top card of the Condition deck. Then reveal the top X cards of the villain deck, where X is the number of revealed trap cards + 1. Return them to the villain deck in ascending order by their ⚠</p>
+				<p>At the start of the villain turn reveal the top card of the Condition deck. Then reveal the top X cards of the villain deck, where X is the number of revealed trap cards + 1. Return them to the villain deck in ascending order by their ⚠</p>
 				<p>At the end of the villain turn if all trap cards are revealed flip this card</p>
 				
 			</gameplay>
