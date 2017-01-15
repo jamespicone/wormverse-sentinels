@@ -66,7 +66,7 @@
 		<name>Knock 'em Down</name>
 		<text>Deal 2 melee damage to a non-hero target. If Battery is charged, deal 2 melee damage to all non-hero targets</text>
 		<quote>
-			<text>She threw the table like an oversize frisbee, and I pushed Tattletale in one direction as I flung myself in the other. The table edge caught the weapon in Tattletale’s hands and knocked it from her grip with enough force to make Tattletale roll as she hit the ground.</text>
+			<text>She threw the table like an oversize frisbee, and I pushed Tattletale in one direction as I flung myself in the other. The table edge caught the weapon in Tattletale's hands and knocked it from her grip with enough force to make Tattletale roll as she hit the ground.</text>
 			<source>Tangle 6.5</source>
 		</quote>
 	</card>
@@ -76,7 +76,7 @@
 		<name>Shock and Awe</name>
 		<text>Deal 2 lightning damage to a target. If Battery is charged, deal 3 lightning damage to up to 3 additional targets</text>
 		<quote>
-			<text>“I hit pretty hard myself,”</text>
+			<text>"I hit pretty hard myself,"</text>
 			<source>Battery, Interlude 12.5</source>
 		</quote>
 	</card>
@@ -86,7 +86,7 @@
 		<name>Knockout Punch</name>
 		<text>Deal 2 lightning damage to a target. If Battery is charged, you deal damage in this way, and the target is not a character card, treat that target as if it had no card text until your next turn</text>
 		<quote>
-			<text>She didn’t bolt straight for us, though. Instead, she leaped to one side, kicked Assault square in the middle of the chest with both feet, and then careened off in the opposite direction.</text>
+			<text>She didn't bolt straight for us, though. Instead, she leaped to one side, kicked Assault square in the middle of the chest with both feet, and then careened off in the opposite direction.</text>
 			<source>Tangle 6.5</source>
 		</quote>
 	</card>
@@ -96,7 +96,7 @@
 		<name>Pushing the Limits</name>
 		<text><p>If Battery is charged, you may play 2 cards.</p><p>If Battery is not charged, draw 3 cards.</p></text>
 		<quote>
-			<text>“I want to stop him. And not just him. I want to help things make sense again, even if it means playing unfair because they’re playing unfair. Crime should have consequences.”</text>
+			<text>"I want to stop him. And not just him. I want to help things make sense again, even if it means playing unfair because they're playing unfair. Crime should have consequences."</text>
 			<source>Battery, Interlude 12.5</source>
 		</quote>
 	</card>
@@ -106,7 +106,7 @@
 		<name>...then Pushing it Beyond</name>
 		<text><p>When this card enters play Battery deals herself 3 psychic damage.</p><p>You may play a card. You may use a power.</p></text>
 		<quote>
-			<text>Whatever these favors were, all she could do was hope she could do enough good to counterbalance any wrongs she’d have to commit.</text>
+			<text>Whatever these favors were, all she could do was hope she could do enough good to counterbalance any wrongs she'd have to commit.</text>
 			<source>Interlude 12.5</source>
 		</quote>
 	</card>
@@ -126,7 +126,7 @@
 		<name>Cool Toys</name>
 		<text><p>Deal X lightning damage to a target, where X = the number of equipment and device cards in play.</p><p>If Battery is charged, you may destroy an equipment or device card</p></text>
 		<quote>
-			<text>“You have access to our channel,” Battery growled, interrupting Tattletale’s spiel of numbers.</text>
+			<text>"You have access to our channel," Battery growled, interrupting Tattletale's spiel of numbers.</text>
 			<source>Prey 14.4</source>
 		</quote>
 	</card>
@@ -136,7 +136,7 @@
 		<name>Rapid Recon</name>
 		<text><p>If Battery is not charged, all heroes may draw a card.</p><p>Draw a card. You may play a card</p></text>
 		<quote>
-			<text>“So I’m going by the book, and I’m walking away. But I’ll be keeping an eye on you, on this, and the moment you go too far, we’re coming after you, no holds barred.”</text>
+			<text>"So I'm going by the book, and I'm walking away. But I'll be keeping an eye on you, on this, and the moment you go too far, we're coming after you, no holds barred."</text>
 			<source>Battery, Infestation 11.2</source>
 		</quote>
 	</card>
@@ -146,7 +146,7 @@
 		<name>No Time to Rest</name>
 		<text>When you destroy a target, you may draw a card and you may play a card</text>
 		<quote>
-			<text>Armsmaster strode away from the Undersiders, and I saw Assault, Battery, Brandish, Night and Fog move to join that group, among others. Smaller than the first group, but I suppose it took a certain amount of bravery to be willing to get close to an Endbringer when you weren’t invincible or close to it.</text>
+			<text>Armsmaster strode away from the Undersiders, and I saw Assault, Battery, Brandish, Night and Fog move to join that group, among others. Smaller than the first group, but I suppose it took a certain amount of bravery to be willing to get close to an Endbringer when you weren't invincible or close to it.</text>
 			<source>Extermination 8.2</source>
 		</quote>
 	</card>
@@ -156,7 +156,7 @@
 		<name>Magnetism</name>
 		<power><p>If Battery is charged, destroy an equipment or device card.</p><p>If Battery is not charged, choose an equipment card from a hero's trash and put it into play</p></power>
 		<quote>
-			<text>But she didn’t give him the opportunity to do either. Instead, she spent the rest of her accumulated power in a single burst, pulling at the metal of a nearby chair. It fell over, sliding into Madcap’s path.</text>
+			<text>But she didn't give him the opportunity to do either. Instead, she spent the rest of her accumulated power in a single burst, pulling at the metal of a nearby chair. It fell over, sliding into Madcap's path.</text>
 			<source>Interlude 12.5</source>
 		</quote>
 	</card>
@@ -176,7 +176,7 @@
 		<name>Glowing Threads</name>
 		<text>When Battery uses her Discharge power reduce damage dealt to her by 2 until the start of her next turn</text>
 		<quote>
-			<text>Battery was charging again, taking advantage of us being off balance to build up a store of power again. Heck, she’d probably built her whole fighting style around it. I could see the normally cobalt blue lines of her costume glowing a brilliant electric blue-white.</text>
+			<text>Battery was charging again, taking advantage of us being off balance to build up a store of power again. Heck, she'd probably built her whole fighting style around it. I could see the normally cobalt blue lines of her costume glowing a brilliant electric blue-white.</text>
 			<source>Tangle 6.5</source>
 		</quote>
 	</card>
