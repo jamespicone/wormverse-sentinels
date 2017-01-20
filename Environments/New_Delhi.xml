@@ -108,7 +108,8 @@
 	<card>
 		<quantity>1</quantity>
 		<name>Devastation</name>
-		<text><p>When this card is put into play, destroy all non-character-card cards in play (including itself)</p></text>
+		<text><p>When this card is put into play, destroy all non-character-card cards in play except this card</p>
+		<p>At the end of the environment turn, destroy this card</p></text>
 	</card>
 	
 	<card>
