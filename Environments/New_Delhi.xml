@@ -38,7 +38,7 @@
 		<quantity>1</quantity>
 		<name>Accord's Plan</name>
 		<text>
-		<p>When this card enters play reveal the top card of each deck, starting from the villain, in turn order. If the card is an Ongoing, Equipment or Device, put it into play</p>
+		<p>When this card enters play reveal the top card of each deck, starting from the villain, in turn order. If the card is an Ongoing, Equipment or Device, put it into play. Otherwise shuffle it back into the deck</p>
 		<p>At the end of the environment turn, destroy this card</p>
 		</text>
 	</card>
@@ -71,6 +71,7 @@
 		<name>Wildfires</name>
 		<text>
 		<p>At the end of the environment turn, this card deals all targets 2 fire damage</p>
+		<p>If a target is dealt cold damage, destroy this card</p>
 		</text>
 	</card>
 	
