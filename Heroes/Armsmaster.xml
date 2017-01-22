@@ -184,7 +184,7 @@
 		</ability>
 		<ability>
 			<title>Secondary</title>
-			<text>Activate the secondary text of a Module attached on the left of the card this card is next to</text>
+			<text>Activate the secondary text of a Module attached on the left of the card this card is attached to</text>
 		</ability>
 		<text>Attach this card to a Halberd</text>
 		<quote><text>Efficiency, detail and effective use of waste were critical aspects of his particular brand of tinkering</text><source>Teneral e.3</source></quote>
