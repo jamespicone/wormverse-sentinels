@@ -13,8 +13,16 @@
 			<hp>28</hp>
 			<power>
 				<name>Coruscation</name>
-				<text>Deal 2 energy damage to a target</text>
+				<text>Select a Shape to determine targets. Apply the Effect to each target.</text>
 			</power>
+			<ability>
+				<title>Shape</title>
+				<text>Select a target</text>
+			</ability>
+			<ability>
+				<title>Effect</title>
+				<text>Deal 2 energy damage</text>
+			</ability>
 		</front>
 		<back>
 			<text>
@@ -26,14 +34,119 @@
 			</text>
 		</back>
 	</charactercard>
+
+	<card>
+		<name>Curveshot</name>
+		<class>Ongoing</class>
+		<type>Laser</type>
+		<quantity>2</quantity>
+		<ability>
+			<title>Shape</title>
+			<text>Select a target. Your Effect may damage that target even if it's immune to damage. If your effect does damage, the damage is irreducible</text>
+		</ability>
+	</card>
 	
+	<card>
+		<name>Splitshot</name>
+		<class>Ongoing</class>
+		<type>Laser</type>
+		<quantity>2</quantity>
+		<ability>
+			<title>Shape</title>
+			<text>Select up to 3 targets</text>
+		</ability>
+	</card>
+
+	<card>
+		<name>Scattershot</name>
+		<class>Ongoing</class>
+		<type>Laser</type>
+		<quantity>2</quantity>
+		<ability>
+			<title>Shape</title>
+			<text>Select all targets except Legend</text>
+		</ability>
+	</card>
+
+	<card>
+		<name>Freezeblast</name>
+		<class>Ongoing</class>
+		<type>Laser</type>
+		<quantity>2</quantity>
+		<ability>
+			<title>Effect</title>
+			<text>Deal 1 cold damage. Targets dealt damage in this way deal 1 less damage until the start of your next turn</text>
+		</ability>
+	</card>
+
+	<card>
+		<name>Kaleidoscope</name>
+		<class>Ongoing</class>
+		<type>Laser</type>
+		<quantity>2</quantity>
+		<ability>
+			<title>Effect</title>
+			<text>Select a damage type. Deal 2 damage of that type</text>
+		</ability>
+	</card>
+
+	<card>
+		<name>Scatterblast</name>
+		<class>Ongoing</class>
+		<type>Laser</type>
+		<quantity>2</quantity>
+		<ability>
+			<title>Effect</title>
+			<text>Deal X energy damage, where X = 5 - the number of targets affected, minimum 1</text>
+		</ability>
+	</card>
+
 	<card>
 		<quantity>2</quantity>
 		<class>One-Shot</class>
-		<name>???</name>
-		<text>???</text>
+		<name>Burst</name>
+		<text>This turn, when you select Effects, you may select any number of Effects</text>
+	</card>
+
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<name>Fill the Sky</name>
+		<text>At the end of your turn, destroy this card</text>
+		<abiity>
+			<title>Shape</title>
+			<text>Select any number of targets</text>
+		</abiity>
+	</card>
+
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<name>Bounce Back</name>
+		<text><p>Whenever Legend takes damage, place X tokens on this card, where X is the amount of damage Legend took.</p><p>Whenever Legend deals damage, you may remove a token from this card to increase the damage by 1</p></text>
+	</card>
+
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Luminal</name>
+		<text>Draw 3 cards</text>
 	</card>
 	
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<name>Sky High</name>
+		<text><p>Ignore Legend when selecting targets for environment cards</p><p>During your turn you may treat Environment cards as if they had no text</p></text>
+	</card>
+
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<name>Precise Targeting</name>
+		<text>Destroy an Ongoing, Device, or Environment card</text>
+	</card>
 	<!--
 		Mechanics:
 			- Cards that modify power - different damage types, different damage spreads, more/less damage. Options.
