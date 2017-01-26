@@ -175,4 +175,11 @@
 		<name>Energy Conversion</name>
 		<text>Whenever Legend is dealt damage by a villain or environment card, you may play a card</text>
 	</card>
+
+	<card>
+		<quantity>2</quantity>
+		<class>One-Shot</class>
+		<name>Hypersonic</name>
+		<text><p>You may play a card.</p><p>You may play a card</p></text>
+	</card>
 </deck>
