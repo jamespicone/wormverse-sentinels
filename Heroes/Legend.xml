@@ -147,12 +147,32 @@
 		<name>Precise Targeting</name>
 		<text>Destroy an Ongoing, Device, or Environment card</text>
 	</card>
-	<!--
-		Mechanics:
-			- Cards that modify power - different damage types, different damage spreads, more/less damage. Options.
-			- Damage -> card play
-			- Draw
-			- Damage
-	
-	-->
+
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<name>Charisma</name>
+		<text>Each hero may either regain 2 HP or play a card</text>
+	</card>
+
+	<card>
+		<quantity>2</quantity>
+		<class>One-Shot</class>
+		<name>Breaker State</name>
+		<text><p>You cannot play cards or use powers. Legend is immune to damage.</p><p>At the start of your turn, you may destroy this card</p></text>
+	</card>
+
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Barrage</name>
+		<text>Legend deals 3 energy damage to all villain targets</text>
+	</card>
+
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<name>Energy Conversion</name>
+		<text>Whenever Legend is dealt damage by a villain or environment card, you may play a card</text>
+	</card>
 </deck>
