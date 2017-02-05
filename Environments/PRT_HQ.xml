@@ -20,7 +20,7 @@
 		<quantity>2</quantity>
 		<type>Drone</type><type>Device</type>
 		<hp>6</hp>
-		<text>Whenever a non-environment target deals 4 or more damage in one attack this card deals that target 4 lightning damage</text>
+		<text>Whenever a non-environment target deals 4 or more damage in one instance this card deals that target 4 lightning damage</text>
 		<name>Prison Drone</name>
 		<quote>
 			<text>"Touch the door, make too much noise or use your power, and the room gets flooded with an electric charge"</text>
@@ -41,7 +41,7 @@
 	<card>
 		<quantity>3</quantity>
 		<hp>8</hp>
-		<text>Whenever a hero is dealt damage by this card that hero discards a card. At the end of the environment turn this card deals the non-environment target with the lowest HP 1 projectile damage</text>
+		<text><p>Whenever a hero is dealt damage by this card that hero discards a card.</p><p>At the end of the environment turn this card deals the non-environment target with the lowest HP 1 projectile damage</p></text>
 		<name>Containment Agents</name>
 		<quote>
 			<text>Their very recognizable uniforms were chain mesh augmented with kevlar, topped with faceless helmets. The only means you had to identify them with were the badge numbers printed across their vests in bold white numbers.</text>
