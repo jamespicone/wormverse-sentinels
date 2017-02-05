@@ -6,7 +6,7 @@
 
 <deck>
 	<deckname>The Merchants</deckname>
-	<version>1.2</version>
+	<version>2.0</version>
 	<villain>
 		<name>Skidmark</name>
 		<front>
@@ -14,18 +14,20 @@
 			<nemesis>Miss Militia</nemesis>
 			<hp>45</hp>
 			<setup>Place Skidmark in play, "Superpowered Drug Dealer" side up. Search the villain deck for all Thug cards; put them aside as the 'Thug deck'.</setup>
-			<gameplay>If the Thug deck is empty at the start of the villain turn, the heroes lose the game.<br />
-			At the end of the villain turn, play H - 1 Thugs from the top of the Thug deck.<br />
-			When this target is destroyed, flip it instead</gameplay>
+			<gameplay>
+				<p>If the Thug deck is empty at the start of the villain turn, the heroes lose the game.</p>
+				<p>At the end of the villain turn, play H - 1 Thugs from the top of the Thug deck.</p>
+				<p>When this target is destroyed, flip it instead</p>
+			</gameplay>
 			<advanced>Reduce damage dealt to villain targets by 1.</advanced>
 		</front>
 		<back>
 			<title>Defeated Drug Lord</title>
-			<gameplay>If the Thug deck is empty at the start of the villain turn, the heroes lose the game.<br/><br/>
-		
-		At the end of the villain turn, play 1 Thug from the top of the Thug deck.<br/><br/>
-		
-		If there are no villain targets in play, the heroes win the game</gameplay>
+			<gameplay>
+				<p>If the Thug deck is empty at the start of the villain turn, the heroes lose the game.</p>
+				<p>At the end of the villain turn, play 1 Thug from the top of the Thug deck.</p>
+				<p>If there are no villain targets in play, the heroes win the game</p>
+			</gameplay>
 		</back>
 	</villain>
 	<card>
@@ -34,7 +36,7 @@
 		<text>Increase damage dealt by villain targets by 1</text>
 		<quantity>3</quantity>
 		<quote>
-			<text>"You piss-licking losers know what the red armband means! Bloodshed! Violence! We’ve got ourselves a free for all brawl!"</text>
+			<text>"You piss-licking losers know what the red armband means! Bloodshed! Violence! We've got ourselves a free for all brawl!"</text>
 			<source>Skidmark, Infestation 11.5</source>
 		</quote>
 	</card>
@@ -44,7 +46,7 @@
 		<text>Reduce damage dealt to villain targets by 1</text>
 		<quantity>3</quantity>
 		<quote>
-			<text>"Green armband means poison, and this is a poison half of you wastes of air have already tasted! We’re gonna make it as bad as it gets! The worst of bad trips!"</text>
+			<text>"Green armband means poison, and this is a poison half of you wastes of air have already tasted! We're gonna make it as bad as it gets! The worst of bad trips!"</text>
 			<source>Skidmark, Interlude 12</source>
 		</quote>
 	</card>
@@ -72,10 +74,10 @@
 		<name>Squealer</name>
 		<type>Parahuman</type>
 		<hp>8</hp>
-		<text>Ignore villain targets when determining targeting for damage from environmental cards. At the start of the villain turn, play the top card in the environment deck</text>
+		<text><p>Ignore villain targets when determining targeting for damage from Environment cards.</p><p>At the start of the villain turn, play the top card in the environment deck</p></text>
 		<quantity>1</quantity>
 		<quote>
-			<text>Squealer had apparently never grasped the concept of elegance in design. From what I’d read and heard, she went for size, augmentations and additions when she built her vehicles. She was kind of the polar opposite of Armsmaster in that regard.</text>
+			<text>Squealer had apparently never grasped the concept of elegance in design. From what I'd read and heard, she went for size, augmentations and additions when she built her vehicles. She was kind of the polar opposite of Armsmaster in that regard.</text>
 			<source>Plague 12.2</source>
 		</quote>
 	</card>
@@ -83,7 +85,7 @@
 		<name>Mush</name>
 		<type>Parahuman</type>
 		<hp>10</hp>
-		<text>This card is immune to melee and projectile damage. At the end of the villain turn, Mush deals 1 melee damage to all hero targets</text>
+		<text><p>This card is immune to melee and projectile damage.</p><p>At the end of the villain turn, Mush deals 1 melee damage to all hero targets</p></text>
 		<quantity>1</quantity>
 		<quote>
 			<text>His other arm and much of his lower body had already gathered some garbage around it, letting him stand several feet taller than he had before. The skin of his head and body was peeling off into more tendrils, reaching for more trash and distributing some from his arms to his torso.</text>
@@ -105,10 +107,10 @@
 		<name>Helicopter</name>
 		<type>Device</type>
 		<hp>16</hp>
-		<text>Skidmark is immune to melee damage. At the end of the villain turn, play the top card of the Thug deck</text>
+		<text><p>Skidmark is immune to melee damage.</p><p>At the end of the villain turn, play the top card of the Thug deck</p></text>
 		<quantity>1</quantity>
 		<quote>
-			<text>Squealer’s vehicle was like a helicopter made by someone who had never seen a helicopter before, who’d decided to add their own improvements to the design when they were finished</text>
+			<text>Squealer's vehicle was like a helicopter made by someone who had never seen a helicopter before, who'd decided to add their own improvements to the design when they were finished</text>
 			<source>Interlude 12</source>
 		</quote>
 	</card>
@@ -118,7 +120,7 @@
 		<hp>2</hp>
 		<type>Thug</type>
 		<quantity>4</quantity>
-		<text>When this card would be placed in the villain trash or the villain deck, shuffle it into the Thug deck instead.<br/><br/>At the end of the villain turn, this card deals 1 melee damage to the hero target with the highest HP</text>
+		<text><p>When this card would be placed in the villain trash or the villain deck, shuffle it into the Thug deck instead.</p><p>At the end of the villain turn, this card deals 1 melee damage to the hero target with the highest HP</p></text>
 		<quote>
 			<text>Countless Merchants had gathered, some perching on piles of trash or rubble as lookouts, and it seemed like everyone was striving to be heard over the music that blared from the countless speakers that were set up in and around the mall.</text>
 			<source>Infestation 11.5</source>
@@ -129,7 +131,7 @@
 		<hp>2</hp>
 		<type>Thug</type>
 		<quantity>4</quantity>
-		<text>When this card would be placed in the villain trash or the villain deck, shuffle it into the Thug deck instead.<br/><br/>At the end of the villain turn, this card deals 2 melee damage to the 2 hero targets with the highest HP</text>
+		<text><p>When this card would be placed in the villain trash or the villain deck, shuffle it into the Thug deck instead.</p><p>At the end of the villain turn, this card deals 2 melee damage to the 2 hero targets with the highest HP</p></text>
 		<quote>
 			<text>One of the Merchants in the ring had just bludgeoned someone with a length of pipe.</text>
 			<source>Infestation 11.6</source>
@@ -140,7 +142,7 @@
 		<hp>2</hp>
 		<type>Thug</type>
 		<quantity>2</quantity>
-		<text>When this card would be placed in the villain trash or the villain deck, shuffle it into the Thug deck instead.<br/><br/>At the end of the villain turn, this card deals 2 melee damage to the hero target with the lowest HP</text>
+		<text><p>When this card would be placed in the villain trash or the villain deck, shuffle it into the Thug deck instead.</p><p>At the end of the villain turn, this card deals 2 melee damage to the hero target with the lowest HP</p></text>
 		<quote>
 			<text>Inspired by this sight, a man who stood outside the ring grabbed a piece of rubble and threw it down at the edge of the ring. The chunk of concrete flew into the massed people, striking a man who was crouching and trying to avoid the worst of the fighting.</text>
 			<source>Infestation 11.6</source>
