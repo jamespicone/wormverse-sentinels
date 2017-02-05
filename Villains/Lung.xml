@@ -6,7 +6,7 @@
 
 <deck>
 	<deckname>Lung</deckname>
-	<version>1.2</version>
+	<version>2.0</version>
 	<villain>
 		<name>Lung</name>
 		<front>
@@ -15,7 +15,7 @@
 			<nemesis>Skitter</nemesis>
 			<setup>At the start of the game Lung enters play Gang Leader side up. Put Brute into play, Gang Leader side up.</setup>
 			<gameplay>When the villain trash is shuffled into the villain deck, flip Brute, and flip Lung.</gameplay>
-			<advanced>At the end of the villain turn, discard the top 3 cards of the villain deck</advanced>
+			<advanced>At the end of the villain turn, discard the top card of the villain deck</advanced>
 		</front>
 		<back>
 			<title>Dragon Awoken</title>
@@ -31,32 +31,33 @@
 	<specialcard>
 		<name>Brute</name>
 		<front>
-		<title>Gang Leader</title>
-		<text><p>This card is indestructible.</p>
-		<p>If there are 10 or more cards in the villain trash, the first time Lung is dealt damage each round, reduce the damage by 1.</p>
-		<p>At the end of the villain turn play the top card of the villain deck, then:
-			<ul>
-				<li>Lung deals X melee damage to all hero targets, where X = 1 + the number of cards in the villain trash / 5 then,</li>
-				<li>If there are 5 or more cards in the villain trash, Lung regains 1 HP then,</li>
-				<li>If there are 15 or more cards in the villain trash, Lung regains 1 HP.</li>
-			</ul>
-		</p>
-		</text>
+			<title>Gang Leader</title>
+			<text>
+				<p>This card is indestructible.</p>
+				<p>If there are 10 or more cards in the villain trash, the first time Lung is dealt damage each round, reduce the damage by 1.</p>
+				<p>At the end of the villain turn play the top card of the villain deck, then:
+					<ul>
+						<li>Lung deals X melee damage to all hero targets, where X = 1 + the number of cards in the villain trash / 5 then,</li>
+						<li>If there are 5 or more cards in the villain trash, Lung regains 1 HP then,</li>
+						<li>If there are 15 or more cards in the villain trash, Lung regains 1 HP.</li>
+					</ul>
+				</p>
+			</text>
 		</front>
 		<back>
-		<title>Dragon Awoken</title>
-		<text>
-		<p>This card is indestructible</p>
-		<p>Lung is immune to damage dealt by Environment cards.</p>
-		<p>
-			At the end of the villain turn:
-				<ul>
-					<li>Lung deals 6 melee and 2 irreducible fire damage to all hero targets then,</li>
-					<li>Lung regains 3 HP then,</li>
-					<li>Destroy H-1 hero ongoing or equipment cards.</li>
-				</ul>
+			<title>Dragon Awoken</title>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Lung is immune to damage dealt by Environment cards.</p>
+				<p>
+					At the end of the villain turn:
+					<ul>
+						<li>Lung deals 6 melee and 2 irreducible fire damage to all hero targets then,</li>
+						<li>Lung regains 3 HP then,</li>
+						<li>Destroy H-1 hero ongoing or equipment cards.</li>
+					</ul>
 				</p>
-		</text>
+			</text>
 		</back>
 	</specialcard>
 	<card>
@@ -73,9 +74,9 @@
 		<name>Smash</name>
 		<type>One-Shot</type>
 		<quantity>4</quantity>
-		<text>Lung deals the hero target with the lowest HP 2 melee damage. Destroy 1 hero ongoing or equipment card</text>
+		<text><p>Lung deals the hero target with the lowest HP 2 melee damage.</p><p>Destroy 1 hero ongoing or equipment card</p></text>
 		<quote>
-			<text>You don’t properly appreciate what superhuman strength means until you see someone leap from the sidewalk to the second floor of a building on the far side of the street.</text>
+			<text>You don't properly appreciate what superhuman strength means until you see someone leap from the sidewalk to the second floor of a building on the far side of the street.</text>
 			<source>Gestation 1.5</source>
 		</quote>
 	</card>
@@ -85,7 +86,7 @@
 		<quantity>2</quantity>
 		<text>Discard the top 3 cards of the villain deck. Play the top card of the villain deck</text>
 		<quote>
-			<text>You know how this works, right? He only gets stronger the longer you fight him. If you haven’t finished him off by now, you’re probably not going to.</text>
+			<text>You know how this works, right? He only gets stronger the longer you fight him. If you haven't finished him off by now, you're probably not going to.</text>
 			<source>Skitter, Hive 5.9</source>
 		</quote>
 	</card>
@@ -105,7 +106,7 @@
 		<name>White-Hot Flame</name>
 		<text>Fire damage dealt by Lung is irreducible</text>
 		<quote>
-			<text>Fought for minutes, hours. Fought until four wings extended from his back, and he burned so hot that the steel-like flesh just beneath Leviathan’s skin was blackening and charring to ash by proximity alone.</text>
+			<text>Fought for minutes, hours. Fought until four wings extended from his back, and he burned so hot that the steel-like flesh just beneath Leviathan's skin was blackening and charring to ash by proximity alone.</text>
 			<source>Interlude 22</source>
 		</quote>
 	</card>
@@ -123,7 +124,7 @@
 		<quantity>3</quantity>
 		<type>Ongoing</type>
 		<name>Terrible Burns</name>
-		<text>Whenever a hero is dealt fire damage by Lung, destroy 1 hero ongoing or equipment card. At the end of the villain turn, Lung deals the hero target with the highest HP H - 2 fire damage</text>
+		<text><p>Whenever a hero is dealt fire damage by Lung, destroy 1 hero ongoing or equipment card.</p><p>At the end of the villain turn, Lung deals the hero target with the highest HP H - 2 fire damage</p></text>
 		<quote>
 			<text>He lit his hand on fire. My mangled arm went up in flames.</text>
 			<source>Venom 29.8</source>
@@ -134,7 +135,14 @@
 		<name>Bakuda</name>
 		<type>Parahuman</type>
 		<hp>6</hp>
-		<text>At the start of the villain turn, reveal the top card of the villain deck. If it is a one-shot, Bakuda deals 5 fire damage to all non-villain targets. If it is an ongoing, each hero discards 1 card. If it is a target, the hero with the most cards in play destroys all of them</text>
+		<text>
+			At the start of the villain turn, reveal the top card of the villain deck.
+			<ul>
+				<li>If it is a One-Shot, Bakuda deals 5 fire damage to all non-villain targets.</li>
+				<li>If it is an Ongoing, each hero discards 1 card.</li>
+				<li>If it is a target, the hero with the most cards in play destroys all of them</li>
+			</ul>
+		</text>
 		<quote>
 			<text>Behind their assembled group, standing astride the Jeep, one foot resting on her modified jeep-mounted mortar launcher, an altered grenade launcher danging from one strap around her shoulders, was Bakuda.</text>
 			<source>Shell 4.07</source>
@@ -145,7 +153,7 @@
 		<name>Oni Lee</name>
 		<type>Parahuman</type>
 		<hp>3</hp>
-		<text>At the end of the villain turn, Oni Lee deals the hero target with the lowest HP 3 melee damage. Whenever Oni Lee would take damage, reveal the top card of the villain deck. If it is a one-shot prevent the damage. Shuffle the revealed card back into the villain deck</text>
+		<text><p>At the end of the villain turn, Oni Lee deals the hero target with the lowest HP 3 melee damage.</p><p>Whenever Oni Lee would take damage, reveal the top card of the villain deck. If it is a one-shot prevent the damage. Shuffle the revealed card back into the villain deck</p></text>
 		<quote>
 			<text>He could teleport, but when he did, he left a body behind that could act autonomously for a few seconds.</text>
 			<source>Hive 5.7</source>
@@ -154,11 +162,10 @@
 	<card>
 		<quantity>3</quantity>
 		<name>ABB Thugs</name>
-		<type>Thug</type>
 		<hp>4</hp>
 		<text>At the end of the villain turn, ABB Thugs deal the hero target with the lowest HP 2 projectile damage</text>
 		<quote>
-			<text>"The ‘Azn Bad Boys’ is a shit name"</text>
+			<text>"The 'Azn Bad Boys' is a shit name"</text>
 			<source>Bakuda, Interlude 22</source>
 		</quote>
 	</card>	
