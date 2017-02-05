@@ -6,7 +6,7 @@
 
 <deck>
 	<deckname>Slaughterhouse 9</deckname>
-	<version>1.4</version>
+	<version>2.0</version>
 	<villain>
 		<name>Slaughterhouse 9</name>
 		<front>
@@ -134,7 +134,7 @@
 			<type>Parahuman</type>
 			<type>Nine</type>
 			<text><p>The first time a Defence card would enter the trash each turn, the hero with the most cards in hand discards 2 cards.</p>
-			<p>Whenever Cherish would be dealt damage, Cherish deals 2 psychic damage to the target damaging her</p></text>
+			<p>Whenever Cherish is dealt damage, Cherish deals 2 psychic damage to the target that dealt her damage</p></text>
 		</front>
 		<back>
 			<type>Parahuman</type>
@@ -150,7 +150,7 @@
 		<text>Heroes may not use powers</text>
 		<quantity>1</quantity>
 		<quote>
-			<text>"He’s strong enough to swing that axe through a car, tough enough you could flatten him with a steamroller and he’d get back up when you were done."</text>
+			<text>"He's strong enough to swing that axe through a car, tough enough you could flatten him with a steamroller and he'd get back up when you were done."</text>
 			<source>Tattletale, Sting 26.5</source>
 		</quote>
 	</card>
@@ -185,7 +185,7 @@
 		<type>Defence</type>
 		<text>Flip the most recently defeated Nine card; they have 10 HP. If no cards are flipped in this way, play the top card of the villain deck</text>
 		<quote>
-			<text>Her mind leaped into action, reaching for knowledge she hadn’t had earlier in the night, knowledge of how to fix people. She took in details, grasped everything from the amount of blood her mommy had to heart rate and the amount of air she was breathing, just from the clues in how fast the blood flowed and the color of the skin. She knew the order she’d have to fix things.</text>
+			<text>Her mind leaped into action, reaching for knowledge she hadn't had earlier in the night, knowledge of how to fix people. She took in details, grasped everything from the amount of blood her mommy had to heart rate and the amount of air she was breathing, just from the clues in how fast the blood flowed and the color of the skin. She knew the order she'd have to fix things.</text>
 			<source>Interlude 25</source>
 		</quote>
 	</card>
@@ -196,7 +196,7 @@
 		<type>Attack</type>
 		<text>Each hero may destroy any number of Equipment cards. Then, the Nine card with the highest HP deals each hero target X projectile damage, where X = 2 * the number of Equipment cards in play</text>
 		<quote>
-			<text>It was as though the glass broke in response to some invisible tidal wave, caught in the nonexistent ‘water’, carried along, shattering on impacts with surfaces, slashing anything that would cut, piercing deep into any surface soft enough. I could feel it roll past me, south to north.</text>
+			<text>It was as though the glass broke in response to some invisible tidal wave, caught in the nonexistent ‘water', carried along, shattering on impacts with surfaces, slashing anything that would cut, piercing deep into any surface soft enough. I could feel it roll past me, south to north.</text>
 			<source>Plague 12.5</source>
 		</quote>
 	</card>
@@ -229,7 +229,7 @@
 		<type>Special</type>
 		<text>Increase damage dealt by villain cards by 1</text>
 		<quote>
-			<text>"If you fail in this, I’ll kill nine hundred and ninety-nine people in your name. I’ll even break my usual rules to get the body count that high, so it’s something special, beyond my usual habits. Maybe a bomb, maybe poison. I’ll come up with something. I can target the people you love, those you’re closest to, people you’ve affected. Aster there can be the nine hundred and ninety ninth, and you’ll be the thousandth. Perfect. Canceling out the impact you’ve made in the world, it’s poetic."</text>
+			<text>"If you fail in this, I'll kill nine hundred and ninety-nine people in your name. I'll even break my usual rules to get the body count that high, so it's something special, beyond my usual habits. Maybe a bomb, maybe poison. I'll come up with something. I can target the people you love, those you're closest to, people you've affected. Aster there can be the nine hundred and ninety ninth, and you'll be the thousandth. Perfect. Canceling out the impact you've made in the world, it's poetic."</text>
 			<source>Jack, Interlude 11b</source>
 		</quote>
 	</card>
@@ -240,7 +240,7 @@
 		<type>Defence</type>
 		<text>Reduce damage dealt to villain targets by 1</text>
 		<quote>
-			<text>"Why…" Bonesaw spat blood onto the ground. Being impaled in the heart hadn’t put her down. "Ow. Bit my tongue. Why don’t you come closer, big man? Too scared to come here and finish me off?"</text>
+			<text>"Why..." Bonesaw spat blood onto the ground. Being impaled in the heart hadn't put her down. "Ow. Bit my tongue. Why don't you come closer, big man? Too scared to come here and finish me off?"</text>
 			<source>Interlude 19</source>
 		</quote>
 	</card>
@@ -248,7 +248,7 @@
 		<name>Some More Friends</name>
 		<quantity>2</quantity>
 		<class>One-Shot</class>
-		<text>Play the top card of the Nine deck. Play the top card of the villain deck</text>
+		<text><p>Play the top card of the Nine deck.</p><p>Play the top card of the villain deck</p></text>
 		<quote>
 			<text>He raised one hand, and Burnscar slapped it in a lazy high-five.
 
@@ -261,7 +261,7 @@
 		<quantity>2</quantity>
 		<class>One-Shot</class>
 		<type>Special</type>
-		<text>If Jack Slash is not in play, find Jack Slash in the Nine deck and put him into play. Jack Slash deals 2 psychic damage to all hero targets</text>
+		<text><p>If Jack Slash is not in play, find Jack Slash in the Nine deck and put him into play.</p><p>Jack Slash deals 2 psychic damage to all hero targets</p></text>
 		<quote>
 			<text>He smiled. These challenges, after all, served as his own carrot.</text>
 			<source>Interlude 12</source>
@@ -274,7 +274,7 @@
 		<type>Defence</type>
 		<text>Shuffle all Nine targets in play back into the Nine deck. Deal X Nine cards from the top of the Nine deck, where X = 1 + the number of Nine targets that were in play</text>
 		<quote>
-			<text>"What I don’t understand, is why a blank slate like you would default to doing good deeds, rescuing cats from trees. Why not turn to that violence, as our ancestors did? It drove them, just like it drives the basest and most monstrous of our kind."</text>
+			<text>"What I don't understand, is why a blank slate like you would default to doing good deeds, rescuing cats from trees. Why not turn to that violence, as our ancestors did? It drove them, just like it drives the basest and most monstrous of our kind."</text>
 			<source>Jack, Interlude 26</source>
 		</quote>
 	</card>
