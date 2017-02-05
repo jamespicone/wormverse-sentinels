@@ -4,15 +4,15 @@
 
 <deck>
 	<deckname>Coil's Base</deckname>
-	<version>1.1</version>
+	<version>2.0</version>
 	<card>
 		<quantity>1</quantity>
 		<name>Blast Doors</name>
 		<type>Structure</type>
 		<hp>10</hp>
-		<text>Reduce all fire and projectile damage by 2. At the start of their turn, a hero may skip the rest of their turn to destroy this card</text>
+		<text><p>Reduce all fire and projectile damage by 2.</p><p>At the start of their turn, a hero may skip the rest of their turn to destroy this card</p></text>
 		<quote>
-			<text> "A column, with the panic room dead center. When they retreated inside, they pulled the switch, and the entire substructure dropped two thousand, five hundred feet below ground, putting the upper end of the column between us and them."</text>
+			<text>"A column, with the panic room dead center. When they retreated inside, they pulled the switch, and the entire substructure dropped two thousand, five hundred feet below ground, putting the upper end of the column between us and them."</text>
 			<source>Satyrical, Venom 29.6</source>
 		</quote>
 	</card>
@@ -21,7 +21,7 @@
 		<name>Ablative Cladding</name>
 		<type>Structure</type>
 		<hp>10</hp>
-		<text>Reduce all toxic and melee damage by 2. At the start of their turn, a hero may skip the rest of their turn to destroy this card</text>
+		<text><p>Reduce all toxic and melee damage by 2.</p><p>At the start of their turn, a hero may skip the rest of their turn to destroy this card</p></text>
 		<quote>
 			<text>The laser didn't cut the armor. It was capable of cutting granite like a hot knife through butter, but it didn't cut the armor.</text>
 			<source>Interlude 23</source>
@@ -32,7 +32,7 @@
 		<name>Earthing</name>
 		<type>Structure</type>
 		<hp>10</hp>
-		<text>Reduce all cold and lightning damage by 2. At the start of their turn, a hero may skip the rest of their turn to destroy this card</text>
+		<text><p>Reduce all cold and lightning damage by 2.</p><p>At the start of their turn, a hero may skip the rest of their turn to destroy this card</p></text>
 		<quote>
 			<text>Another lightning strike, curving in the air, hit the hand. Residual electricity danced between the two extended fingers.
 
@@ -43,7 +43,7 @@ It was working, and as much as it was a success in helping against the lightning
 	<card>
 		<quantity>1</quantity>
 		<name>Pinned Down</name>
-		<text>Heroes cannot play Ongoing or Equipment cards. At the start of their turn, a hero may skip the rest of their turn to destroy this card</text>
+		<text><p>Heroes cannot play Ongoing or Equipment cards.</p><p>At the start of their turn, a hero may skip the rest of their turn to destroy this card</p></text>
 		<quote>
 			<text>"I've invested a great deal of time and money into establishing your two groups here in Brockton Bay, and I did it for precisely this sort of scenario. Again, the timing is unfortunate, but I still expect you to address this situation. You'll want to verify whether Bitch, Ballistic and Genesis are captured or simply pinned down somewhere, rescue them if need be and dispatch Dragon."</text>
 			<source>Coil, Monarch 16.1</source>
@@ -54,7 +54,7 @@ It was working, and as much as it was a success in helping against the lightning
 		<name>Sealed Chamber</name>
 		<type>Structure</type>
 		<hp>20</hp>
-		<text>If destroyed, the heroes lose the game. At the start of their turn, a hero may skip the rest of their turn. If they do, this structure regains 5 HP</text>
+		<text><p>If this card is destroyed, the heroes lose the game.</p><p>At the start of their turn, a hero may skip the rest of their turn. If they do, this structure regains 5 HP</p></text>
 		<quote>
 			<text>"On a scale of one to ten," I asked, "Just how bad is this?"
 
@@ -67,9 +67,9 @@ It was working, and as much as it was a success in helping against the lightning
 		<name>Trapped Chamber</name>
 		<type>Structure</type>
 		<hp>14</hp>
-		<text>Heroes cannot use powers. At the start of their turn, a hero may skip the rest of their turn to destroy this card</text>
+		<text><p>Heroes cannot use powers.</p><p>At the start of their turn, a hero may skip the rest of their turn to destroy this card</p></text>
 		<quote>
-			<text>A series of barely-audible ‘beeps' sounded throughout the room. What had I just disabled? Claymores?
+			<text>A series of barely-audible 'beeps' sounded throughout the room. What had I just disabled? Claymores?
 
 Did I really want to know?</text>
 			<source>Imago 21.7</source>
@@ -80,7 +80,7 @@ Did I really want to know?</text>
 		<name>Cover</name>
 		<type>Structure</type>
 		<hp>8</hp>
-		<text>Whenever a target would be damaged, redirect that damage to this card. Reduce damage dealt to this target by 1</text>
+		<text><p>Whenever a target would be damaged, redirect that damage to this card.</p><p>Reduce damage dealt to this target by 1</p></text>
 		<quote>
 			<text>I looked at the others, and they were all moving into cover. Kaiser, Fenja and Menja had all ducked into an alleyway. Bitch and her dogs were disappearing around the far corner of the same building, making only the scratching noise of claws against concrete.</text>
 			<source>Hive 5.6</source>
@@ -118,7 +118,7 @@ Did I really want to know?</text>
 	<card>
 		<name>Laser Rifles</name>
 		<quantity>1</quantity>
-		<text>Villain targets deal 1 more damage. Change all villain target damage to Energy</text>
+		<text>Increase damage dealt by Villain targets by 1. Change all villain target damage to Energy</text>
 		<quote>
 			<text>"These guys? They've got these lasers hooked up to the machine guns they carry around. If they don't think bullets are doing it, or if they're after people who are behind cover, they fire off these purple laser beams that can cut through steel."</text>
 			<source>Thug, Interlude 2</source>
