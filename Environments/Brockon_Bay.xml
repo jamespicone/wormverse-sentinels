@@ -4,11 +4,11 @@
 
 <deck>
 	<deckname>Brockton Bay</deckname>
-	<version>1.2</version>
+	<version>2.0</version>
 	<card>
 		<name>Civilians</name>
 		<quantity>2</quantity>
-		<text>Heroes cannot use powers. At the start of the environment turn, each player may discard 1 card each to destroy this card</text>
+		<text><p>Heroes cannot use powers.</p><p>At the start of the environment turn, each player may discard 1 card each to destroy this card</p></text>
 		<quote>
 			<text>"Low blow, Dragon," I said, finally. "Outing me? I thought you were better than that."</text>
 			<source>Chrysalis 20.5</source>
@@ -17,7 +17,7 @@
 	<card>
 		<name>Rooftops</name>
 		<quantity>1</quantity>
-		<text>Increase all damage by 1. At the end of their turn, 1 player may discard 2 cards to destroy this card</text>
+		<text><p>Increase all damage by 1.</p><p>At the end of their turn, 1 player may discard 2 cards to destroy this card</p></text>
 		<quote>
 			<text>I could just imagine the flames igniting the rooftop, and just how little I'd be able to do if it happened.</text>
 			<source>Gestation 1.5</source>
@@ -35,7 +35,7 @@
 	<card>
 		<name>The Boardwalk</name>
 		<quantity>1</quantity>
-		<text>When this card enters play, destroy all other Suburb cards. Reduce damage dealt to environment targets by 1</text>
+		<text><p>When this card enters play, destroy all other Suburb cards.</p><p>Reduce damage dealt to environment targets by 1</p></text>
 		<type>Suburb</type>
 		<quote>
 			<text>The Boardwalk was where the tourists came. Running north-to-south along the beach, there were shops that sold dresses for over a thousand dollars, cafes with ludicrously expensive coffees and stretches of wooden walkways and beaches where tourists could get a great view of the ocean.</text>
@@ -45,7 +45,7 @@
 	<card>
 		<name>The Docks</name>
 		<quantity>1</quantity>
-		<text>When this card enters play, destroy all other Suburb cards. Increase damage dealt by environment targets by 1</text>
+		<text><p>When this card enters play, destroy all other Suburb cards.</p><p>Increase damage dealt by environment targets by 1</p></text>
 		<type>Suburb</type>
 		<quote>
 			<text>Growing up in Brockton Bay, my parents had told me stuff like "stick to the Boardwalk". Even on my runs, I had scrupulously stayed on the Boardwalk and avoided the bad part of town. Now it was Sunday night and I was in costume and breaking the rules.</text>
@@ -55,7 +55,7 @@
 	<card>
 		<name>The Outskirts</name>
 		<quantity>1</quantity>
-		<text>When this card enters play, destroy all other Suburb cards. At the end of the environment turn, play the top card of the environment deck</text>
+		<text><p>When this card enters play, destroy all other Suburb cards.</p><p>At the end of the environment turn, play the top card of the environment deck</p></text>
 		<type>Suburb</type>
 		<quote>
 			<text>"The howling. If you can hear the howling, you're too fucking close. Leave."</text>
@@ -79,7 +79,7 @@
 		<text>At the end of the environment turn, this card deals the non-environment target with the second highest HP X projectile damage, where X = the number of Scum in play * 2</text>
 		<type>Scum</type>
 		<quote>
-			<text>The gang members who stood above her each wore crimson and pale green. There were other colors, predominantly black, but the constrast of red and green stood out. Some had their faces exposed, others wore kerchiefs over the lower halves of their faces. One had a bandanna folded so it covered one eye. She couldn't think straight enough to count them.</text>
+			<text>The gang members who stood above her each wore crimson and pale green. There were other colors, predominantly black, but the contrast of red and green stood out. Some had their faces exposed, others wore kerchiefs over the lower halves of their faces. One had a bandanna folded so it covered one eye. She couldn't think straight enough to count them.</text>
 			<source>Interlude 19</source>
 		</quote>
 	</card>
