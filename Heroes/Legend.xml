@@ -157,7 +157,7 @@
 
 	<card>
 		<quantity>2</quantity>
-		<class>One-Shot</class>
+		<class>Ongoing</class>
 		<name>Breaker State</name>
 		<text><p>You cannot play cards or use powers. Legend is immune to damage.</p><p>At the start of your turn, you may destroy this card</p></text>
 	</card>
