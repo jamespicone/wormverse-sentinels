@@ -113,10 +113,10 @@
 		<class>Ongoing</class>
 		<name>Fill the Sky</name>
 		<text>At the end of your turn, destroy this card</text>
-		<abiity>
+		<ability>
 			<title>Shape</title>
 			<text>Select any number of targets</text>
-		</abiity>
+		</ability>
 	</card>
 
 	<card>
