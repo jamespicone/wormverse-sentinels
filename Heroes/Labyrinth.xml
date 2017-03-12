@@ -11,9 +11,10 @@
 		<name>Labyrinth</name>
 		<front>
 			<hp>26</hp>
+			<text>Labyrinth takes her turn immediately after the Environment, not in the usual hero turn order</text>
 			<power>
 				<name>Reshape</name>
-				<text>The next time an Environment card is put into play, you may play a card instead</text>
+				<text>Play a Shaping card</text>
 			</power>
 		</front>
 		<back>
@@ -26,12 +27,85 @@
 			</text>
 		</back>
 	</charactercard>
+
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<type>Shaping</type>
+		<name>Giant Chessboard</name>
+		<text>
+			<p>Play this card over the top of an Environment card. If you can't, put it in the trash. Treat the covered card as if it had no text.</p>
+			<p>This card is an Environment card, not a hero card</p>
+			<p>At the end of Labyrinth's turn, pick a target. Each environment card in play deals 1 melee damage to that target</p> 
+		</text>
+	</card>
+
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<type>Shaping</type>
+		<name>Devious Labyrinth</name>
+		<text>
+			<p>Play this card over the top of an Environment card. If you can't, put it in the trash. Treat the covered card as if it had no text.</p>
+			<p>This card is an Environment card, not a hero card</p>
+			<p>When a target enters play, you may place it next to this card. While next to this card, treat it as if it had no text</p>
+			<p>At the start of the Environment turn, take 2 cards from next to this card and put them in their normal play area</p> 
+		</text>
+	</card>
+
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<type>Shaping</type>
+		<name>Beautiful Garden</name>
+		<text>
+			<p>Play this card over the top of an Environment card. If you can't, put it in the trash. Treat the covered card as if it had no text.</p>
+			<p>This card is an Environment card, not a hero card</p>
+			<p>Do not consider hero targets when Environment cards deal damage. Environment cards cannot destroy hero cards.</p>
+		</text>
+	</card>
+
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<type>Shaping</type>
+		<name>The Room</name>
+		<text>
+			<p>Play this card over the top of an Environment card. If you can't, put it in the trash. Treat the covered card as if it had no text.</p>
+			<p>This card is an Environment card, not a hero card</p>
+			<p>At the end of Labyrinth's turn, this card deals 2 psychic damage to all villain targets</p>
+			<p>At the end of Labyrinth's turn, this card deals 3 irreducible psychic damage to Labyrinth</p>
+		</text>
+	</card>
+
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<type>Shaping</type>
+		<name>Mighty Castle</name>
+		<text>
+			<p>Play this card over the top of an Environment card. If you can't, put it in the trash. Treat the covered card as if it had no text.</p>
+			<p>This card is an Environment card, not a hero card</p>
+			<p>At the end of Labyrinth's turn, pick a target. Until the start of Labyrinth's next turn, reduce damage dealt to that target by 1</p>
+		</text>
+	</card>
 	
 	<card>
 		<quantity>2</quantity>
 		<class>One-Shot</class>
 		<name>Clean the Slate</name>
 		<text>Destroy all Environment cards. Play X cards, where X is the number of cards you just destroyed</text>
+	</card>
+
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<type>Shaping</type>
+		<name></name>
+		<text>
+			<p>Play this card over the top of an Environment card. If you can't, put it in the trash. Treat the covered card as if it had no text.</p>
+			<p>This card is an Environment card, not a hero card</p>
+		</text>
 	</card>
 	
 	<!--
