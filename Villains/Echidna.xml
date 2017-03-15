@@ -13,7 +13,7 @@
 			<title>Mother of Monsters</title>
 			<hp>30</hp>
 			<nemesis>Skitter</nemesis>
-			<setup>At the start of the game Echidna enters play Mother of Monsters side up. Search the villain deck for all Twisted cards; shuffle them, and put the top H + 2 to the side as the Twisted side-deck. Set the other Twisted cards aside</setup>
+			<setup>At the start of the game Echidna enters play Mother of Monsters side up. Take out and shuffle all Twisted cards; put the top H + 2 to the side as the Twisted side-deck.</setup>
 			<gameplay>
 				<p>When flipped to this side, Echidna deals H + 2 melee damage to the hero target with the highest HP</p>
 				<p>Whenever a card enters the trash, Echidna regains 1 HP</p>

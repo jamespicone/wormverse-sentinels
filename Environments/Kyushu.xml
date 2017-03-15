@@ -6,6 +6,49 @@
 	<deckname>Kyushu</deckname>
 	<version>1.0</version>
 	
+	<card>
+		<quantity>1</quantity>
+		<name></name>
+		<text>
+		</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<name></name>
+		<text>
+		</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<name></name>
+		<text>
+		</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<name></name>
+		<text>
+		</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
 	<!--
 	
 		Super Sentai
