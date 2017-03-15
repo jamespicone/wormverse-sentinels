@@ -13,7 +13,7 @@
 			<title>Mother of Monsters</title>
 			<hp>30</hp>
 			<nemesis>Skitter</nemesis>
-			<setup>At the start of the game Echidna enters play Mother of Monsters side up. Search the villain deck for all Twisted cards; shuffle them, and put the top H + 2 to the side as the Twisted side-deck. Set the other Twisted cards aside</setup>
+			<setup>At the start of the game Echidna enters play Mother of Monsters side up. Take out and shuffle all Twisted cards; put the top H + 2 to the side as the Twisted side-deck.</setup>
 			<gameplay>
 				<p>When flipped to this side, Echidna deals H + 2 melee damage to the hero target with the highest HP</p>
 				<p>Whenever a card enters the trash, Echidna regains 1 HP</p>
@@ -33,6 +33,216 @@
 		</back>
 	</villain>
 
+	<card>
+		<quantity>1</quantity>
+		<class>Parahuman</class>
+		<class>Twisted</class>
+		<name>Alexandria</name>
+		<hp>14</hp>
+		<text><p>At the end of the villain turn, Alexandria deals 2 melee damage to the hero with the highest HP</p>
+		<p>The hero with the highest HP cannot use powers</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Parahuman</class>
+		<class>Twisted</class>
+		<name>Armsmaster</name>
+		<hp>10</hp>
+		<text><p>At the end of the villain turn, destroy a hero Equipment card</p>
+		<p>Whenever an equipment card is put into play, Armsmaster regains 5 HP</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Parahuman</class>
+		<class>Twisted</class>
+		<name>Assault</name>
+		<hp>10</hp>
+		<text><p>At the start of each hero turn, Assault deals that hero 1 melee damage</p>
+		<p>Assault is immune to melee damage</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Parahuman</class>
+		<class>Twisted</class>
+		<name>Battery</name>
+		<hp>10</hp>
+		<text><p>At the start of the villain turn, play the top card of the villain deck</p>
+		<p>At the end of the villain turn, Battery deals 2 melee damage to the hero target with the lowest HP</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Parahuman</class>
+		<class>Twisted</class>
+		<name>Dauntless</name>
+		<hp>12</hp>
+		<text><p>At the end of the villain turn, place a charge token on Dauntless</p>
+		<p>At the start of the villain turn, Dauntless deals the hero target with the highest HP X energy damage, where X = the number of charge tokens on Dauntless + 2</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Parahuman</class>
+		<class>Twisted</class>
+		<name>Eidolon</name>
+		<hp>8</hp>
+		<text><p>At the end of the villain turn, Eidolon deals 5 psychic damage to all hero targets</p>
+		<p>At the start of the villain turn, if there's a Power token on Eidolon, lose the game. Otherwise, put a Power token on Eidolon</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Parahuman</class>
+		<class>Twisted</class>
+		<name>Grue</name>
+		<hp>12</hp>
+		<text><p>At the end of the villain turn, put the top card of the Twisted deck into play, then shuffle the Twisted with the lowest HP back into the Twisted deck</p>
+		<p>Reduce damage dealt to villain targets by 1</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Parahuman</class>
+		<class>Twisted</class>
+		<name>Glory Girl</name>
+		<hp>8</hp>
+		<text><p>At the end of the villain turn, Glory Girl deals 1 psychic damage to all hero targets</p>
+		<p>Prevent the first damage dealt to Glory Girl each round</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Parahuman</class>
+		<class>Twisted</class>
+		<name>Panacea</name>
+		<hp>6</hp>
+		<text><p>At the end of the villain turn, all villain targets regain 2 HP</p>
+		<p>The first time each round a villain target other than Panacea would be reduced to 0 or less HP, set its HP to 1 instead</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Parahuman</class>
+		<class>Twisted</class>
+		<name>Labyrinth</name>
+		<hp>10</hp>
+		<text><p>Villian cards cannot be damaged or destroyed by environment cards</p>
+		<p>Put the top card of the Environment deck into play</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Parahuman</class>
+		<class>Twisted</class>
+		<name>Legend</name>
+		<hp>12</hp>
+		<text><p>At the end of the villain turn, Legend deals the hero target with the highest HP 2 irreducible energy damage</p>
+		<p>Whenever Legend takes damage, increase the next damage he deals by 1</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Parahuman</class>
+		<class>Twisted</class>
+		<name>Miss Militia</name>
+		<hp>10</hp>
+		<text><p>At the end of the villain turn, Miss Militia deals 2 projectile damage to all hero targets</p>
+		<p>When a hero plays a card, Miss Militia deals that hero 1 projectile damage</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Parahuman</class>
+		<class>Twisted</class>
+		<name>Regent</name>
+		<hp>10</hp>
+		<text><p>At the end of the villain turn, the hero target with the least HP deals itself 2 psychic damage</p>
+		<p>Whenever Regent is dealt damage, Regent deals the target damaging him 1 psychic damage</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Parahuman</class>
+		<class>Twisted</class>
+		<name>Skitter</name>
+		<hp>10</hp>
+		<text><p>At the end of each villain turn, Skitter deals all hero targets 1 toxic damage</p>
+		<p>Increase damage dealt by villain targets by 1</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Parahuman</class>
+		<class>Twisted</class>
+		<name>Tattletale</name>
+		<hp>10</hp>
+		<text><p>At the start of the villain turn, reveal the top two cards of the villain deck. If they don't share a type, put them both into play, in the order they were on the deck</p>
+		<p>Villain targets are immune to psychic damage</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
 	<!--
 		Bunch of 'twisted' special cards here, ideally one per hero in the game at least, maybe even one per major parahuman. These are all targets with 'Twisted' and 'Parahuman' as types, they do annoying things and have frustratingly high HP.
 	-->
@@ -41,10 +251,9 @@
 		<type>Ongoing</type>
 		<quantity>5</quantity>
 		<text>
-			<p>Place this card next to a hero that does not already have an 'Engulfed' card next to them.</p>
+			<p>Place this card next to a hero that does not already have an 'Engulfed' card next to them. If you do, play the top card of the Twisted side-deck.</p>
 			<p>The hero this card is next to must skip a phase (play, power, draw) each turn.</p>
-			<p>Whenever the hero this card is next to skips a phase, they deal themselves 2 psychic damage</p> 
-			<p>Play the top card of the Twisted side-deck</p>
+			<p>Whenever the hero this card is next to skips a phase, they deal themselves 2 psychic damage</p>
 			<p>If this card is not next to a hero target, destroy it</p>
 			</text>
 		<quote>
@@ -66,7 +275,7 @@
 		<name>Experimentation</name>
 		<type>One-Shot</type>
 		<quantity>3</quantity>
-		<text>Reveal the top X cards of the villain deck, where X is the number of Twisted cards in play + 1. Put any revealed One-Shots into play. Shuffle the remaining cards back into the deck</text>
+		<text>Reveal the top X cards of the villain deck, where X is the number of Twisted cards in play + 1. Put any revealed One-Shot cards or Engulfed cards into play. Shuffle the remaining cards back into the deck</text>
 		<quote>
 			<text></text>
 			<source></source>
@@ -76,7 +285,7 @@
 		<quantity>3</quantity>
 		<type>One-Shot</type>
 		<name>Bullrush</name>
-		<text>Echidna deals H melee damage to the hero target with the lowest HP</text>
+		<text>Echidna deals H+2 melee damage to the hero target with the lowest HP</text>
 		<quote>
 			<text></text>
 			<source></source>
