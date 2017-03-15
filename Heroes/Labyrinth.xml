@@ -11,9 +11,10 @@
 		<name>Labyrinth</name>
 		<front>
 			<hp>26</hp>
+			<text>Labyrinth takes her turn immediately after the Environment, not in the usual hero turn order</text>
 			<power>
 				<name>Reshape</name>
-				<text>The next time an Environment card is put into play, you may play a card instead</text>
+				<text>Play a Shaping card</text>
 			</power>
 		</front>
 		<back>
@@ -26,20 +27,173 @@
 			</text>
 		</back>
 	</charactercard>
-	
+
+<!-- 10 shaping cards -->
 	<card>
 		<quantity>2</quantity>
+		<type>Shaping</type>
+		<name>Giant Chessboard</name>
+		<text>
+			<p>Play this card over the top of an Environment card. Treat the covered card as if it had no text.</p>
+			<p>If this card is not on top of an Environment card, destroy it</p>
+			<p>This card is an Environment card, not a hero card</p>
+			<p>At the end of Labyrinth's turn, pick a target. Each environment card in play deals 1 melee damage to that target</p> 
+		</text>
+	</card>
+
+	<card>
+		<quantity>2</quantity>
+		<type>Shaping</type>
+		<name>Devious Labyrinth</name>
+		<text>
+			<p>Play this card over the top of an Environment card. Treat the covered card as if it had no text.</p>
+			<p>If this card is not on top of an Environment card, destroy it</p>
+			<p>This card is an Environment card, not a hero card</p>
+			<p>When a target enters play, you may place it next to this card. While next to this card, treat it as if it had no text</p>
+			<p>At the start of the Environment turn, take 2 cards from next to this card and put them in their normal play area</p> 
+		</text>
+	</card>
+
+	<card>
+		<quantity>2</quantity>
+		<type>Shaping</type>
+		<name>Beautiful Garden</name>
+		<text>
+			<p>Play this card over the top of an Environment card. Treat the covered card as if it had no text.</p>
+			<p>If this card is not on top of an Environment card, destroy it</p>
+			<p>This card is an Environment card, not a hero card</p>
+			<p>Do not consider hero targets when Environment cards deal damage. Environment cards cannot destroy hero cards.</p>
+		</text>
+	</card>
+
+	<card>
+		<quantity>2</quantity>
+		<type>Shaping</type>
+		<name>The Room</name>
+		<text>
+			<p>Play this card over the top of an Environment card. Treat the covered card as if it had no text.</p>
+			<p>If this card is not on top of an Environment card, destroy it</p>
+			<p>This card is an Environment card, not a hero card</p>
+			<p>At the end of Labyrinth's turn, this card deals 2 psychic damage to all villain targets</p>
+			<p>At the end of Labyrinth's turn, this card deals 3 irreducible psychic damage to Labyrinth</p>
+		</text>
+	</card>
+
+	<card>
+		<quantity>2</quantity>
+		<type>Shaping</type>
+		<name>Mighty Castle</name>
+		<text>
+			<p>Play this card over the top of an Environment card. Treat the covered card as if it had no text.</p>
+			<p>If this card is not on top of an Environment card, destroy it</p>
+			<p>This card is an Environment card, not a hero card</p>
+			<p>At the end of Labyrinth's turn, pick a target. Until the start of Labyrinth's next turn, reduce damage dealt to that target by 1</p>
+		</text>
+	</card>
+
+	<!-- 4 powers -->
+
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<name>Page Through</name>
+		<power>Reveal the top 2 cards of the Environment deck. You may discard any number of the revealed cards; put the rest into play in any order</power>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<name>Selective Shifting</name>
+		<power>Until the start of Labyrinth's next turn, heroes are immune to damage dealt by environment cards</power>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<!-- 6 ongoing -->
+
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<name>Disassociation</name>
+		<text>
+			<p>Labyrinth is immune to psychic damage</p>
+			<p>At the end of your turn, put the top card of your deck into play</p>
+		</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<name>Inspiration</name>
+		<text>
+			<p>Whenever an Environment card enters play, Labyrinth may draw a card</p>
+		</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<name>Solidity</name>
+		<text>
+			<p>Whenever an Environment card would be destroyed, you may destroy this card instead</p>
+		</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+
+	<!-- 20 one-shots -->
+	
+	<card>
+		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Clean the Slate</name>
-		<text>Destroy all Environment cards. Play X cards, where X is the number of cards you just destroyed</text>
+		<text>Destroy any number of Environment cards. Play X cards, where X is the number of cards you just destroyed</text>
 	</card>
-	
-	<!--
-		Mechanics:
-			- Cards that make environment cards work for the heroes?
-			- Cards that get played on environment cards and modify them?
-			- Cards that use environment cards as fuel?
-			- Cards that pull environment cards out as fuel?
-	
-	-->
+
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Exploration</name>
+		<text><p>You may draw a card.</p>
+		<p>Put the top 2 cards of the environment deck into play</p></text>
+	</card>
+
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Hostile Terrain</name>
+		<text>Destroy an Environment card. If you do, you may destroy a non-character-card target</text>
+	</card>
+
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Defensive Buttress</name>
+		<text>Destroy an Environment card. If you do, until the start of your next turn, reduce damage dealt to all hero targets by 1.</text>
+	</card>
+
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Tactical Shift</name>
+		<text>Destroy an Environment card. If you do, you may destroy an Ongoing card</text>
+	</card>
 </deck>
