@@ -31,13 +31,20 @@
 		</back>
 	</charactercard>
 	<charactercard>
-		<name>Battery, Untrained</name>
+		<name>Battery, Cauldron Cape</name>
 		<front>
 			<hp>28</hp>
-			<text><p>At the end of Battery's turn if she isn't charged, declare a card type, then reveal the top card of Battery's deck. If it has the type you declared, tilt your character card to indicate Battery is charged. Then shuffle the revealed card back into your deck</p></text>
+			<power>
+				<name>Prepare</name>
+				<text>Place the top card of Battery's deck face-down in front of your hero. It is a hero card with no text in play.</text>
+			</power>
+			
 			<power>
 				<name>Discharge</name>
-				<text><p>You may not use this power if Battery isn't charged</p><p>You may play a card.</p><p>Un-tilt your character card.</p></text>
+				<text>
+					<p>Until the start of your next turn, Battery is charged.</p>
+					<p>Reveal all face-down cards in front of Battery. Put them into play in any order</p>
+				</text>
 			</power>
 		</front>
 		<back>
