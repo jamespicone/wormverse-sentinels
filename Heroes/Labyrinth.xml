@@ -6,7 +6,7 @@
 
 <deck>
 	<deckname>Labyrinth</deckname>
-	<version>1.0</version>
+	<version>1.1</version>
 	<charactercard>
 		<name>Labyrinth</name>
 		<front>
@@ -14,7 +14,7 @@
 			<text>Labyrinth takes her turn immediately after the Environment, not in the usual hero turn order</text>
 			<power>
 				<name>Reshape</name>
-				<text>Play a Shaping card</text>
+				<text>Either play a Shaping card or draw a card</text>
 			</power>
 		</front>
 		<back>
@@ -37,7 +37,7 @@
 			<p>Play this card over the top of an Environment card. Treat the covered card as if it had no text.</p>
 			<p>If this card is not on top of an Environment card, destroy it</p>
 			<p>This card is an Environment card, not a hero card</p>
-			<p>At the end of Labyrinth's turn, pick a target. Each environment card in play deals 1 melee damage to that target</p> 
+			<p>At the end of Labyrinth's turn, pick a target. If you destroy an Environment card, each Environment card in play deals 1 melee damage to that target</p>
 		</text>
 	</card>
 
@@ -107,8 +107,13 @@
 	<card>
 		<quantity>2</quantity>
 		<class>Ongoing</class>
-		<name>Selective Shifting</name>
-		<power>Until the start of Labyrinth's next turn, heroes are immune to damage dealt by environment cards</power>
+		<name>Call In the Crew</name>
+		<text>When you use a power on this card, put a vantage token on it. Powers with vantage tokens on them cannot be used</text>
+		<power>Put a target other than a character card on top of its deck</power>
+		<power>Deal 3 sonic damage to all non-hero targets</power>
+		<power>Select a damage type. Reduce all damage of that type by 1 until the start of your next turn</power>
+		<power>Deal 4 fire damage to a target</power>
+		<power>All heroes draw a card</power>
 		<quote>
 			<text></text>
 			<source></source>
@@ -149,9 +154,10 @@
 		<quantity>2</quantity>
 		<class>Ongoing</class>
 		<class>Limited</class>
-		<name>Solidity</name>
+		<name>Vantage</name>
 		<text>
-			<p>Whenever an Environment card would be destroyed, you may destroy this card instead</p>
+			<p>If there are no vantage tokens on this card, at any point during their turn, a hero other than you may place a vantage token on this card to use a power.</p>
+			<p>At the start of your turn, remove any vantage tokens on this card</p>
 		</text>
 		<quote>
 			<text></text>
@@ -165,7 +171,7 @@
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Clean the Slate</name>
-		<text>Destroy any number of Environment cards. Play X cards, where X is the number of cards you just destroyed</text>
+		<text>Destroy any number of Environment cards. Draw X cards, and then you may play up to X cards, where X is the number of cards you just destroyed</text>
 	</card>
 
 	<card>
@@ -182,16 +188,23 @@
 		<name>Hostile Terrain</name>
 		<text>Destroy an Environment card. If you do, you may destroy a non-character-card target</text>
 	</card>
-
+	
 	<card>
 		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Cruel City</name>
+		<text>Destroy an Environment card. If you do, deal 5 damage of any type to a non-hero target</text>
+	</card>
+
+	<card>
+		<quantity>2</quantity>
 		<class>One-Shot</class>
 		<name>Defensive Buttress</name>
 		<text>Destroy an Environment card. If you do, until the start of your next turn, reduce damage dealt to all hero targets by 1.</text>
 	</card>
 
 	<card>
-		<quantity>4</quantity>
+		<quantity>2</quantity>
 		<class>One-Shot</class>
 		<name>Tactical Shift</name>
 		<text>Destroy an Environment card. If you do, you may destroy an Ongoing card</text>
