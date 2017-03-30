@@ -8,8 +8,12 @@
 	
 	<card>
 		<quantity>1</quantity>
-		<name></name>
+		<name>Black Kaze</name>
+		<type>Parahuman</type>
+		<hp>6</hp>
 		<text>
+			<p>At the end of the environment turn, move this card next to the character card target with the lowest HP other than the one it is currently next to. Then, Black Kaze deals 3 irreducible melee damage to the target they are next to</p>
+			<p>The first time Black Kaze would be damaged each round, redirect the damage to the target Black Kaze is next to</p>
 		</text>
 		<quote>
 			<text></text>
@@ -19,8 +23,48 @@
 
 	<card>
 		<quantity>1</quantity>
-		<name></name>
+		<name>Lung</name>
+		<type>Parahuman</type>
+		<hp>12</hp>
 		<text>
+			<p>At the end of the environment turn, Lung deals 3 fire damage to all targets other than Lung.</p>
+			<p>At the start of the environment turn, Lung regains 2 HP</p>
+			<p>Reduce damage dealt to Lung by 1</p>
+		</text>
+		<quote>
+			<text>Lung roared, burned head to toe as he clawed deeper still.  If Leviathan’s muscle was as hard as steel, Lung would burn hot enough to melt steel.</text>
+			<source>Interlude 22</source>
+		</quote>
+	</card>
+	
+	<card>
+		<quantity>3</quantity>
+		<hp>4</hp>
+		<name>Sentai Elite</name>
+		<text>
+			At the end of the environment turn, this card deals X energy damage to the non-environment target with the highest HP, where X = 2 * the number of Sentai Elite cards in play
+		</text>
+		<quote>
+			<text>Leviathan couldn’t attack from range, and couldn’t get close without getting pummelled.  He attempted to run, only for Japan’s foremost team, the Sentai Elite, to step into his way, blocking his progress.</text>
+			<source>Interlude 22</source>
+		</quote>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<name>Slide Into the Sea</name>
+		<text>
+			<p>
+				At the end of the environment turn:
+				<ul>
+					<li>Play the top card of the environment deck, then</li>
+					<li>Shuffle the top 2 cards of the environment trash back into the environment deck, then</li>
+					<li>Remove the top card of the environment deck from the game</li>
+				</ul>
+			</p>
+			
+			<p>At the start of the environment turn, if there are no cards left in the environment deck, the heroes lose the game</p>
+			<p>When this card would be destroyed, if there are other environment cards in play, destroy one of them instead</p>
 		</text>
 		<quote>
 			<text></text>
@@ -30,19 +74,62 @@
 	
 	<card>
 		<quantity>1</quantity>
-		<name></name>
+		<name>Only the Indomitable Remain</name>
 		<text>
+			<p>Reduce all damage dealt by 1</p>
+			<p>At the end of the environment turn, all targets regain 1 HP</p>
+			<p>When a target is destroyed, destroy this card</p>
 		</text>
 		<quote>
 			<text></text>
 			<source></source>
 		</quote>
 	</card>
-
+	
 	<card>
-		<quantity>1</quantity>
-		<name></name>
+		<quantity>2</quantity>
+		<name>Parahuman Backup</name>
 		<text>
+			<p>When this card enters play, all players may draw a card</p>
+			<p>At the end of the environment turn, destroy this card</p>
+		</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<quantity>2</quantity>
+		<name>Fatalism and Despair</name>
+		<text>
+			<p>When this card enters play, all hero targets deal themselves 2 psychic damage</p>
+			<p>At the end of the environment turn, destroy this card</p>
+		</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<name>Collapsing Building</name>
+		<text>
+			<p>When this card enters play, a player may discard 2 cards. If they do, destroy this card</p>
+			<p>At the end of the environment turn, deal 4 irreducible melee damage to the target with the second highest HP</p>
+		</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<name>Tidal Wave</name>
+		<text>
+			<p>When this card enters play, this card deals 2 melee damage to all hero targets</p>
+			<p>Any hero dealt damage in this way must discard a card</p>
+			<p>At the end of the environment turn, destroy this card</p>
 		</text>
 		<quote>
 			<text></text>
