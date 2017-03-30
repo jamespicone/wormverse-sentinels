@@ -3,3 +3,4 @@ Version next
 - Experimental Echidna villain (Heals off your discards, plays evil versions of your heroes)
 - Minor Legend updates (Fix a typo, balance changes)
 - Replace "Battery, Untrained" variant with "Battery, Cauldron Cape" variant (builds up a stock of unknown cards, and then plays them in one burst)
+- Experimental Kyushu environment
