@@ -13,7 +13,11 @@
 			<hp>26</hp>
 			<power>
 				<name>Trump</name>
-				<text>Put a Power card into play. If you have more than 3 Power cards in play, return Power cards to your hand until you have 3 in play. You may use another power. If you do, destroy the Power card it is on and remove it from the game</text>
+				<text>
+					<p>Put a Power card into play.</p>
+					<p>If you have more than 3 Power cards in play, return Power cards to your hand until you have 3 in play.</p>
+					<p>You may use another power. If you do, destroy the Power card it is on and remove it from the game</p>
+				</text>
 			</power>
 		</front>
 		<back>
@@ -28,7 +32,8 @@
 	</charactercard>
 	<card>
 		<quantity>1</quantity>
-		<class>Ongoing, Power</class>
+		<class>Ongoing</class>
+		<type>Power</type>
 		<name>Dig Deep</name>
 		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>Draw 3 cards</power>
@@ -36,7 +41,8 @@
 	
 	<card>
 		<quantity>1</quantity>
-		<class>Ongoing, Power</class>
+		<class>Ongoing</class>
+		<type>Power</type>
 		<name>Lightning Links</name>
 		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>If there are exactly 2 non-hero targets in play, deal 4 lightning damage to both of them</power>
@@ -44,7 +50,8 @@
 	
 	<card>
 		<quantity>1</quantity>
-		<class>Ongoing, Power</class>
+		<class>Ongoing</class>
+		<type>Power</type>
 		<name>Danger Sense</name>
 		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>Reveal the top 5 cards of the villain deck. Put any revealed One-Shot cards back on top in any order. Then put the other cards back on top in any order.</power>
@@ -52,15 +59,23 @@
 	
 	<card>
 		<quantity>1</quantity>
-		<class>Ongoing, Power</class>
+		<class>Ongoing</class>
+		<type>Power</type>
 		<name>Forcefield</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
-		<power>Until the start of your next turn, any time damage would be dealt to all targets of a particular type, reduce that damage by 2</power>
+		<text>
+			<p>This card may only be put into play by Eidolon's 'Trump' power</p>
+			<p>At the end of your turn, put a Force token on this card</p>
+		</text>
+		<power>
+			<p>Until the start of your next turn, any time damage would be dealt to all targets of a particular type, reduce that damage by X, where X is the number of Force tokens on this card right now.</p>
+			<p>Remove all Force tokens from this card</p>
+		</power>
 	</card>
 	
 	<card>
 		<quantity>1</quantity>
-		<class>Ongoing, Power</class>
+		<class>Ongoing</class>
+		<type>Power</type>
 		<name>Transposition</name>
 		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>Select a damage type. The next time damage of that type would be dealt, redirect it to a target of your choice</power>
@@ -68,9 +83,57 @@
 	
 	<card>
 		<quantity>1</quantity>
-		<class>Ongoing, Power</class>
+		<class>Ongoing</class>
+		<type>Power</type>
 		<name>Void</name>
 		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>Destroy a non-character-card target. Then destroy this card</power>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Power Siphon</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>
+			<p>Select a card.</p>
+			<p>You may move any number of tokens to that card from another card with tokens of the same type</p>
+			<p>You may move any number of tokens from that card to another card with tokens of the same type</p>
+			<p>You may add or remove 1 token to that card of the same type as a token already on that card. If you do, Eidolon deals himself 2 irreducible psychic damage</p>
+		</power>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Cliffs of Another World</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>
+			<p>Destroy all environment cards. Deal a target X energy damage, where X is the number of cards you just destroyed</p>
+		</power>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Cliffs of Another World</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>
+			<p>Destroy all environment cards. Deal a target X energy damage, where X is the number of cards you just destroyed</p>
+		</power>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Gravity</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>
+			<p>Deal 2 energy damage to all targets other than Eidolon</p>
+		</power>
 	</card>
 </deck>
