@@ -124,7 +124,7 @@
 		<class>Ongoing</class>
 		<class>Limited</class>
 		<name>Bounce Back</name>
-		<text><p>Whenever Legend takes damage, place X tokens on this card, where X is the amount of damage Legend took.</p><p>Whenever Legend deals damage, you may remove a token from this card to increase the damage by 1</p></text>
+		<text><p>Whenever Legend takes damage, place a Charged token on this card.</p><p>Whenever Legend deals damage, you may remove a Charged token from this card to increase the damage by 1</p></text>
 	</card>
 
 	<card>
@@ -159,7 +159,7 @@
 		<quantity>2</quantity>
 		<class>Ongoing</class>
 		<name>Breaker State</name>
-		<text><p>You cannot play cards or use powers. Legend is immune to damage.</p><p>At the start of your turn, you may destroy this card</p></text>
+		<text><p>You cannot play cards or use powers. Legend is immune to damage.</p><p>At the start of your turn, you may destroy this card</p><p>At the end of your turn, you may draw a card</p></text>
 	</card>
 
 	<card>
@@ -173,7 +173,7 @@
 		<quantity>2</quantity>
 		<class>Ongoing</class>
 		<name>Energy Conversion</name>
-		<text>Whenever Legend is dealt damage by a villain or environment card, you may play a card</text>
+		<text>Whenever Legend is dealt damage by a villain or environment card, you may draw a card or play a card</text>
 	</card>
 
 	<card>
