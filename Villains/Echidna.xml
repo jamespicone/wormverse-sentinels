@@ -6,30 +6,35 @@
 
 <deck>
 	<deckname>Echidna</deckname>
-	<version>1.0</version>
+	<version>1.1</version>
 	<villain>
 		<name>Echidna</name>
 		<front>
 			<title>Mother of Monsters</title>
-			<hp>30</hp>
+			<hp>40</hp>
 			<nemesis>Skitter</nemesis>
-			<setup>At the start of the game Echidna enters play Mother of Monsters side up. Take out and shuffle all Twisted cards; put the top H + 2 to the side as the Twisted side-deck.</setup>
+			<setup>
+				<p>At the start of the game Echidna enters play Mother of Monsters side up.</p>
+				<p>Take out and shuffle all Twisted cards; put them aside as the Twisted side-deck.</p>
+				<p>Put the top H - 2 cards of the Twisted side-deck into play</p>
+			</setup>
 			<gameplay>
-				<p>When flipped to this side, Echidna deals H + 2 melee damage to the hero target with the highest HP</p>
-				<p>Whenever a card enters the trash, Echidna regains 1 HP</p>
-			<p>Whenever Echidna deals at least 8 - H damage in a single instance, search the villain deck and trash for an 'Engulfed' card, and put it into play</p>
-			<p>At the end of the villain turn, if no hero target took damage in the last round, flip Echidna</p></gameplay>
+				<p>Whenever a hero card enters the trash, Echidna regains 1 HP</p>
+				<p>At the end of the villain turn, Echidna deals H - 1 melee damage to the 2 hero targets with the lowest HP.</p>
+				<p>At the end of the villain turn, if no hero was dealt damage by a villain card last round, flip Echidna</p>
+			</gameplay>
 			<advanced>Reduce damage dealt to Echidna by 1</advanced>
 		</front>
 		<back>
 			<title>Noelle, Canny Tactician</title>
-			<hp>30</hp>
+			<hp>40</hp>
 			<nemesis>Skitter</nemesis>
-			<gameplay><p>When flipped to this side, destroy H hero cards</p>
-				<p>Whenever a card enters the trash, Echidna regains 1 HP</p>
-				<p>At the start of the villain turn, flip Echidna</p>
+			<gameplay>
+				<p>When flipped to this side, destroy H hero cards</p>
+				<p>Whenever a hero card enters the trash, Echidna regains 1 HP</p>
+				<p>At the start of the villain turn, search the villain deck for an 'Engulfed' card, put it into play, and shuffle the villain deck. Then flip Echidna</p>
 			</gameplay>
-			<advanced>When flipped to this side, search the villain deck and trash for an 'Engulfed' card and put it into play</advanced>
+			<advanced>When flipped to this side, search the villain deck for an 'Engulfed' card and put it into play. Shuffle the villain deck</advanced>
 		</back>
 	</villain>
 
@@ -109,8 +114,11 @@
 		<class>Twisted</class>
 		<name>Eidolon</name>
 		<hp>8</hp>
-		<text><p>At the end of the villain turn, Eidolon deals 5 psychic damage to all hero targets</p>
-		<p>At the start of the villain turn, if there's a Power token on Eidolon, lose the game. Otherwise, put a Power token on Eidolon</p></text>
+		<text>
+			<p>This card can't be put into play during setup. If it would be, shuffle it back into the Twisted deck and put another one into play.</p>
+			<p>At the end of the villain turn, Eidolon deals 5 psychic damage to all hero targets</p>
+			<p>At the start of the villain turn, if there's a Power token on Eidolon, lose the game. Otherwise, put a Power token on Eidolon</p>
+		</text>
 		<quote>
 			<text></text>
 			<source></source>
@@ -165,7 +173,7 @@
 		<class>Twisted</class>
 		<name>Labyrinth</name>
 		<hp>10</hp>
-		<text><p>Villian cards cannot be damaged or destroyed by environment cards</p>
+		<text><p>Villain cards cannot be damaged or destroyed by environment cards</p>
 		<p>Put the top card of the Environment deck into play</p></text>
 		<quote>
 			<text></text>
@@ -285,7 +293,10 @@
 		<quantity>3</quantity>
 		<type>One-Shot</type>
 		<name>Bullrush</name>
-		<text>Echidna deals H+2 melee damage to the hero target with the lowest HP</text>
+		<text>
+			<p>Echidna deals H+2 melee damage to the hero target with the lowest HP</p>
+			<p>search the villain deck for an 'Engulfed' card and put it into play. Shuffle the villain deck</p>
+		</text>
 		<quote>
 			<text></text>
 			<source></source>
@@ -312,7 +323,7 @@
 		</quote>
 	</card>
 	<card>
-		<quantity>3</quantity>
+		<quantity>2</quantity>
 		<type>Ongoing</type>
 		<name>Psychological Warfare</name>
 		<text>At the start of the villain turn Echidna deals 2 psychic damage to all hero targets</text>
@@ -322,7 +333,17 @@
 		</quote>
 	</card>
 	<card>
-		<quantity>4</quantity>
+		<quantity>2</quantity>
+		<type>Ongoing</type>
+		<name>Clone Army</name>
+		<text>At the end of the villain turn, play the top card of the Twisted side-deck</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<quantity>3</quantity>
 		<name>Slippery</name>
 		<type>One-Shot</type>
 		<text>A hero may discard their hand. If they don't, Echidna is immune to damage until the start of her next turn</text>
