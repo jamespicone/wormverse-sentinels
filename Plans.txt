@@ -1,0 +1,10 @@
+- Dragon: Instead of turns as normal, can spend 4 actions every turn, 1 action to draw, play, or power.
+- Jessica Yamada: No HP, isn't a target, but heroes lose if she's the only non-incap hero. Pure support.
+- Foil: Irreducible damage, making other people's damage irreducible, damaging through immunity, fixing her own deck
+- Brandish: Different weapons played on the left or the right of her character, activate a weapon on her left and her right
+- Lady Photon/Shielder/Laserdream: All variants of each other
+- Accord: Villain, scales up with the amount of stuff in play
+- Cauldron: Villain, 'puzzle boss' where you flip it to a hurtable side by digging out clues from assets it puts into play. Contessa card that makes the heroes lose if it enters play, but has text that lets heroes pay a cost to prevent it coming out
+- Yangban: Villain. Plays parahumans that buff all villain parahumans, led by a attackable Null that is protected by parahumans. Also put Shen Yu and Tong Ting La in.
+- Maybe replace Lausanne with Madison.
+- Imp: Stealth counters she spends for benefits, think of them more like money than mana
