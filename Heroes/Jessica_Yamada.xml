@@ -110,4 +110,70 @@
 			<source></source>
 		</quote>
 	</card>
+	
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<name>Support and Stability</name>
+		<text>
+			<p>Whenever a hero would deal themselves damage, you may prevent that damage</p>
+		</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Clarity</name>
+		<text>
+			<p>Each hero reveals the top card of their deck. They may either discard it or return it to the top of the deck</p>
+		</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Nothing is Lost</name>
+		<text>
+			<p>Each hero may search their trash for a card and put it into their hand</p>
+		</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<quantity>4</quantity>
+		<class>Ongoing</class>
+		<name>Resilience and Respect</name>
+		<text>
+			<p>Reduce psychic damage dealt to hero targets by 1</p>
+		</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Strategy and Suggestion</name>
+		<text>
+			<p>A hero other than Jessica Yamada reveals cards from the top of their deck until they reveal an Ongoing. They may either put it into play or into their hand. Shuffle the other revealed cards back into their deck</p>
+		</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
 </deck>
