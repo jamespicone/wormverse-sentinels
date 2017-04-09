@@ -77,6 +77,101 @@
 	</div>
 </xsl:template>
 
+<xsl:template match="card | charactercard/front | charactercard/back | villain/front | villain/back | specialcard/front | specialcard/back" mode="back">
+	<xsl:choose>
+		<xsl:when test="name() = 'front'">
+		</xsl:when>
+		<xsl:when test="name() = 'back'">
+			<div class="carddiv">
+				<div class="titlediv">
+					<xsl:apply-templates select="name | ../name" />
+					<xsl:apply-templates select="hp" />
+				</div>
+				
+				<xsl:choose>
+					<xsl:when test="title | nemesis">
+						<div class="nemesisdiv"><em>
+							<xsl:apply-templates select="title" />
+							<xsl:if test="not(../title)">
+								<em><xsl:apply-templates select="class | type"/></em>
+							</xsl:if>
+							<span class="nemesis"><xsl:apply-templates select="nemesis" /></span>
+						</em></div>
+					</xsl:when>
+				
+					<xsl:otherwise>
+						<xsl:if test="class | type">
+							<div class="classdiv"><em>
+							<xsl:apply-templates select="class | type"/>
+							</em></div>
+						</xsl:if>
+					</xsl:otherwise>
+				</xsl:choose>
+				
+				<xsl:apply-templates select="setup" />
+				<xsl:apply-templates select="text" />
+				<xsl:apply-templates select="gameplay" />
+				<xsl:apply-templates select="advanced" />
+				
+				<xsl:apply-templates select="power" />
+				<xsl:apply-templates select="ability" />
+				<xsl:apply-templates select="quote" />
+				
+				<div class="versiondiv"><xsl:value-of select="/deck/version" /></div>
+			</div>
+		</xsl:when>
+		<xsl:otherwise>
+			<div class="carddiv">
+				<div class="backtext">
+					<xsl:value-of select="/deck/deckname" />
+				</div>
+			</div>
+		</xsl:otherwise>
+	</xsl:choose>
+</xsl:template>
+
+<xsl:template match="card | charactercard/front | charactercard/back | villain/front | villain/back | specialcard/front | specialcard/back" mode="front">
+	<xsl:if test="not(name()='back')">
+		<div class="carddiv">
+			<div class="titlediv">
+				<xsl:apply-templates select="name | ../name" />
+				<xsl:apply-templates select="hp" />
+			</div>
+			
+			<xsl:choose>
+				<xsl:when test="title | nemesis">
+					<div class="nemesisdiv"><em>
+						<xsl:apply-templates select="title" />
+						<xsl:if test="not(../title)">
+							<em><xsl:apply-templates select="class | type"/></em>
+						</xsl:if>
+						<span class="nemesis"><xsl:apply-templates select="nemesis" /></span>
+					</em></div>
+				</xsl:when>
+			
+				<xsl:otherwise>
+					<xsl:if test="class | type">
+						<div class="classdiv"><em>
+						<xsl:apply-templates select="class | type"/>
+						</em></div>
+					</xsl:if>
+				</xsl:otherwise>
+			</xsl:choose>
+			
+			<xsl:apply-templates select="setup" />
+			<xsl:apply-templates select="text" />
+			<xsl:apply-templates select="gameplay" />
+			<xsl:apply-templates select="advanced" />
+			
+			<xsl:apply-templates select="power" />
+			<xsl:apply-templates select="ability" />
+			<xsl:apply-templates select="quote" />
+			
+			<div class="versiondiv"><xsl:value-of select="/deck/version" /></div>
+		</div>
+	</xsl:if>
+</xsl:template>
+
 <xsl:template match="card | charactercard/front | charactercard/back | villain/front | villain/back | specialcard/front | specialcard/back">
 	<div class="carddiv">
 		<div class="titlediv">
