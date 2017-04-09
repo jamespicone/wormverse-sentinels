@@ -1,6 +1,9 @@
 .PHONY: all
 .PHONY: clean
 .PHONY: package
+.PHONY: tts
+.PHONY: cards
+.PHONY: tables
 .PHONY: environments
 .PHONY: heroes
 .PHONY: villains
@@ -8,14 +11,46 @@
 
 include osdep.mk
 
-all : environments heroes villains
-environments :
+cards : environments_cards heroes_cards villains_cards
+tts : environments_tts heroes_tts villains_tts
+tables : environments_tables heroes_tables villains_tables
+
+all : cards tables tts
+
+environments_cards :
+	$(MAKE) cards -C Environments -I ..
+	
+heroes_cards :
+	$(MAKE) cards -C Heroes -I ..
+	
+villains_cards :
+	$(MAKE) cards -C Villains -I ..
+	
+environments_tts :
+	$(MAKE) tts -C Environments -I ..
+	
+heroes_tts :
+	$(MAKE) tts -C Heroes -I ..
+	
+villains_tts:
+	$(MAKE) tts -C Villains -I ..
+	
+environments_tables :
+	$(MAKE) tables -C Environments -I ..
+	
+heroes_tables :
+	$(MAKE) tables -C Heroes -I ..
+	
+villains_tables :
+	$(MAKE) tables -C Villains -I ..
+	
+environments:
 	$(MAKE) -C Environments -I ..
 	
-heroes :
+heroes:
 	$(MAKE) -C Heroes -I ..
 	
-villains :
+villains:
 	$(MAKE) -C Villains -I ..
 
 clean :
