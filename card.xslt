@@ -83,6 +83,7 @@
 		</xsl:when>
 		<xsl:when test="name() = 'back'">
 			<div class="carddiv">
+				<div class="cardinner">
 				<div class="titlediv">
 					<xsl:apply-templates select="name | ../name" />
 					<xsl:apply-templates select="hp" />
@@ -119,12 +120,15 @@
 				
 				<div class="versiondiv"><xsl:value-of select="/deck/version" /></div>
 			</div>
+			</div>
 		</xsl:when>
 		<xsl:otherwise>
 			<div class="carddiv">
+			<div class="cardinner">
 				<div class="backtext">
 					<xsl:value-of select="/deck/deckname" />
 				</div>
+			</div>
 			</div>
 		</xsl:otherwise>
 	</xsl:choose>
@@ -133,6 +137,7 @@
 <xsl:template match="card | charactercard/front | charactercard/back | villain/front | villain/back | specialcard/front | specialcard/back" mode="front">
 	<xsl:if test="not(name()='back')">
 		<div class="carddiv">
+			<div class="cardinner">
 			<div class="titlediv">
 				<xsl:apply-templates select="name | ../name" />
 				<xsl:apply-templates select="hp" />
@@ -168,6 +173,7 @@
 			<xsl:apply-templates select="quote" />
 			
 			<div class="versiondiv"><xsl:value-of select="/deck/version" /></div>
+			</div>
 		</div>
 	</xsl:if>
 </xsl:template>
