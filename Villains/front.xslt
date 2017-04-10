@@ -9,6 +9,7 @@
 	<head>
 		<title><xsl:value-of select="/deck/deckname" /></title>
 		<link rel="stylesheet" type="text/css" href="../cards.css" />
+		<link rel="stylesheet" type="text/css" href="../images.css" />
 	</head>
 	<body>
 		<xsl:for-each select="/deck/card | /deck/villain/front | /deck/villain/back | /deck/specialcard/front | /deck/specialcard/back">

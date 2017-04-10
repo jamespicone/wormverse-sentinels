@@ -23,9 +23,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -47,7 +49,7 @@ em {
 }
 
 strong {
-	font-weight: bold;
+	font-weight: bolder;
 }
 
 ol, ul, li {
@@ -98,13 +100,13 @@ ul, ol {
 
 .cardname {
 	font-size: larger;
-	font-weight: bold;
+	font-weight: bolder;
 	float: left;
 }
 
 .hp {
 	font-size: larger;
-	font-weight: bold;
+	font-weight: bolder;
 	float: right;
 }
 
@@ -125,7 +127,7 @@ ul, ol {
 }
 
 .abilitytitle {
-	font-weight: bold;
+	font-weight: bolder;
 	float: left;
 	margin-right: 1em;
 }
@@ -160,8 +162,8 @@ ul, ol {
 	position: relative;
 	top: 50%;
 	text-align: center;
-	font-size: xx-large;
-	font-weight: bold;
+	font-size: 300%;
+	font-weight: bolder;
 	vertical-align: middle;
 	text-orientation: sideways;
 	transform: rotate(-90deg);

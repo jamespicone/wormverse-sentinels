@@ -1,0 +1,28 @@
+.carddiv {
+	font-weight: bold;
+	line-height: 1.2;
+	
+	height: 172mm;
+	width: 118mm;
+	
+	max-height: 172mm;
+	max-width: 118mm;
+	
+	font-size: 14pt;
+	
+	padding: 0mm;
+	
+	box-sizing: content-box;
+}
+
+.cardinner {
+	padding: 4mm;
+	margin: 4mm;
+	
+	height: 164mm;
+	width: auto;
+}
+
+.versiondiv {
+	display: none;
+}
