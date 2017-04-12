@@ -64,11 +64,11 @@
 		<name>Forcefield</name>
 		<text>
 			<p>This card may only be put into play by Eidolon's 'Trump' power</p>
-			<p>At the end of your turn, put a Force token on this card</p>
+			<p>At the end of your turn, put a Power token on this card</p>
 		</text>
 		<power>
-			<p>Until the start of your next turn, any time damage would be dealt to all targets of a particular type, reduce that damage by X, where X is the number of Force tokens on this card right now.</p>
-			<p>Remove all Force tokens from this card</p>
+			<p>Until the start of your next turn, any time damage would be dealt to all targets of a particular type, reduce that damage by X, where X is the number of Power tokens on this card right now.</p>
+			<p>Remove all Power tokens from this card</p>
 		</power>
 	</card>
 	
@@ -119,10 +119,14 @@
 		<quantity>1</quantity>
 		<class>Ongoing</class>
 		<type>Power</type>
-		<name>Cliffs of Another World</name>
+		<name>Dimensional Shift</name>
 		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>
-			<p>Destroy all environment cards. Deal a target X energy damage, where X is the number of cards you just destroyed</p>
+			<p>Shuffle a card that has been removed from the game back into its deck</p>
+		</power>
+		
+		<power>
+			<p>Select a non-indestructible card that isn't a character card and remove it from the game. Then destroy this card.</p>
 		</power>
 	</card>
 	
@@ -134,6 +138,43 @@
 		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>
 			<p>Deal 2 energy damage to all targets other than Eidolon</p>
+		</power>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Destroy the Indestructible</name>
+		<text>
+			<p>This card may only be put into play by Eidolon's 'Trump' power</p>
+			<p>At the end of your turn, put a Power token on this card</p>
+		</text>
+		<power>
+			<p>Deal X damage to a target, where X is the number of Power tokens on this card.</p>
+			<p>Then remove all Power tokens from this card</p>
+		</power>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Stand Among the Clouds</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>
+			<p>Until the start of your next turn, Environment cards have no text.</p>
+		</power>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>A Hundred Other Capes</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>
+			<p>If there are 4 or more non-hero targets in play, destroy all non-character-card, non-hero targets</p>
 		</power>
 	</card>
 </deck>
