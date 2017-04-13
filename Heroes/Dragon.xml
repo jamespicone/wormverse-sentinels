@@ -48,6 +48,39 @@
 		</tags>
 	</charactercard>
 	
+	<charactercard>
+		<name>Dragon Unchained</name>
+		<front>
+			<text>
+				<p>At the start of the game, reveal cards from the top of Dragon Unchained's deck until you reveal a Mech. Put it into your hand. Shuffle the rest of the cards back into your deck</p>
+				<p>Dragon Unchained does not have HP and is not a target</p>
+				<p>If Dragon Unchained has no Mechs in play at the end of her turn, incapacitate her</p>
+				<p>Whenever Dragon Unchained would gain a Focus point, instead activate a Focus effect</p>
+			</text>
+				<power>
+					<name>Deployment</name>
+					<text>Reveal cards from the top of your deck until you reveal a Mech. Put it into your hand. Shuffle the rest of the cards back into your deck</text>
+				</power>
+				<power>
+					<name>Recursive Self-Improvement</name>
+					<text>Activate up to 3 Focus effects</text>
+				</power>
+		</front>
+		<back>
+			<text>
+			<ul>
+				<li>Increase the next damage dealt by a target by 2</li>
+				<li>Select a target. The next damage it deals is irreducible</li>
+				<li>One hero may discard a card. If they do, they regain 2 HP</li>
+			</ul>
+			</text>
+		</back>
+		<tags>
+			<tag>Character</tag>
+			<tag>Hero</tag>
+		</tags>
+	</charactercard>
+	
 	<!-- 8 ongoing -->
 	
 	<card>
