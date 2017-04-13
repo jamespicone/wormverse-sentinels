@@ -4,3 +4,6 @@ Version next
 - Minor Legend updates (Fix a typo, balance changes)
 - Replace "Battery, Untrained" variant with "Battery, Cauldron Cape" variant (builds up a stock of unknown cards, and then plays them in one burst)
 - Experimental Kyushu environment
+- Experimental Dragon hero (with Dragon Unchained variant)
+- Experimental Jessica Yamada hero
+- Work on generating card forward and back images for Tabletop Simulator
