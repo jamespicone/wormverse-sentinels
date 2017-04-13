@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="cards.xslt"?>
+
+<!-- LOGO: Code? -->
+
+<deck>
+	<deckname>Dragon</deckname>
+	<version>2.0</version>
+	<charactercard>
+		<name>Dragon</name>
+		<front>
+			<hp>28</hp>
+			<text>
+				<p>Dragon does not have a Play, Power, or Draw phase</p>
+				<p>Dragon has a Focus phase between her Start and End phases, during which she can activate Focus effects on cards by spending a Focus point</p>
+				<p>Dragon starts each turn with 4 focus points.</p>
+			</text>
+				<power>
+					<name>Overclock</name>
+					<text>Activate a Focus effect</text>
+				</power>
+				<ability>
+					<title>Focus</title>
+					<text>Play a card</text>
+				</ability>
+				<ability>
+					<title>Focus</title>
+					<text>Draw a card</text>
+				</ability>
+				<ability>
+					<title>Focus</title>
+					<text>Trigger a card effect that requires a hero to skip a play, power, or draw phase</text>
+				</ability>
+		</front>
+		<back>
+			<text>
+			<ul>
+				<li>One player may search their deck for an Equipment or Device card and put it into play</li>
+				<li>Deal 2 Energy damage to a target</li>
+				<li>One hero may use a power</li>
+			</ul>
+			</text>
+		</back>
+		<tags>
+			<tag>Character</tag>
+			<tag>Hero</tag>
+		</tags>
+	</charactercard>
+	
+	<!-- 5 equipment -->
+	<card>
+		<name>Server Farm</name>
+		<class>Equipment</class>
+		<type>Device</type>
+		<hp>4</hp>
+		<quantity>2</quantity>
+		<text>
+			At the start of your turn, gain a Focus point
+		</text>
+		<ability>
+			<title>Focus</title>
+			<text>Gain 3 focus points</text>
+		</ability>
+	</card>
+	
+	<card>
+		<name>Parahumans Online</name>
+		<class>Equipment</class>
+		<quantity>3</quantity>
+		<text>
+			At the start of your turn, reveal the top card of every hero deck, then either return it to the top of the deck or discard it
+		</text>
+		<ability>
+			<title>Focus</title>
+			<text>A player may draw a card</text>
+		</ability>
+	</card>
+	
+	<!-- 7 mechs -->
+	<card>
+		<name>Azazel</name>
+		<class>Equipment</class>
+		<type>Mech</type>
+		<hp>18</hp>
+		<quantity>1</quantity>
+		<text>
+			<p>Reduce damage dealt to Dragon by 1</p>
+			<p>At the start of your turn, lose 2 Focus points</p>
+			<p>At the end of your turn, this card deals 2 irreducible energy damage to a target</p>
+		</text>
+		<ability>
+			<title>Focus</title>
+			<text>Return this card to your hand</text>
+		</ability>
+		<ability>
+			<title>Focus</title>
+			<text>This card deals 2 irreducible energy damage to a target</text>
+		</ability>
+	</card>
+	
+	<card>
+		<name>Cawthorne</name>
+		<class>Equipment</class>
+		<type>Mech</type>
+		<hp>10</hp>
+		<quantity>1</quantity>
+		<text>
+			<p>At the start of your turn, lose 1 Focus point</p>
+			<p>At the end of your turn, this card deals 1 projectile damage to up to 2 targets</p>
+		</text>
+		<ability>
+			<title>Focus</title>
+			<text>Return this card to your hand</text>
+		</ability>
+		<ability>
+			<title>Focus</title>
+			<text>Select up to 2 targets. Reduce the next damage those targets deal by 2</text>
+		</ability>
+	</card>
+	
+	<card>
+		<name>Glaurung</name>
+		<class>Equipment</class>
+		<type>Mech</type>
+		<hp>10</hp>
+		<quantity>1</quantity>
+		<text>
+			<p>At the start of your turn, lose 1 Focus point</p>
+			<p>At the end of your turn, place a Drone token on this card</p>
+			<p>Whenever this card takes damage, remove 2 Drone tokens from it</p>
+		</text>
+		<ability>
+			<title>Focus</title>
+			<text>Return this card to your hand</text>
+		</ability>
+		<ability>
+			<title>Focus</title>
+			<text>This card deals X targets 2 lightning damage, where X = the number of Drone tokens on this card</text>
+		</ability>
+	</card>
+	
+	<card>
+		<name>Melusine</name>
+		<class>Equipment</class>
+		<type>Mech</type>
+		<hp>12</hp>
+		<quantity>1</quantity>
+		<text>
+			<p>At the start of your turn, lose 1 Focus point</p>
+			<p>Whenever a target deals this card damage, this card deals that target 2 fire damage</p>
+		</text>
+		<ability>
+			<title>Focus</title>
+			<text>Return this card to your hand</text>
+		</ability>
+		<ability>
+			<title>Focus</title>
+			<text>This card deals a target 3 melee damage</text>
+		</ability>
+		<ability>
+			<title>Focus</title>
+			<text>Restore this card to full HP</text>
+		</ability>
+	</card>
+	
+	<card>
+		<name>Ladon</name>
+		<class>Equipment</class>
+		<type>Mech</type>
+		<hp>10</hp>
+		<quantity>1</quantity>
+		<text>
+			<p>At the start of your turn, lose 1 Focus point</p>
+			<p>Reduce damage dealt to this card by 1</p>
+		</text>
+		<ability>
+			<title>Focus</title>
+			<text>Return this card to your hand</text>
+		</ability>
+		<ability>
+			<title>Focus</title>
+			<text>Select a damage type. Until the start of your next turn, reduce all damage of that type by 1</text>
+		</ability>
+	</card>
+	
+	<card>
+		<name>Pythios</name>
+		<class>Equipment</class>
+		<type>Mech</type>
+		<hp>10</hp>
+		<quantity>1</quantity>
+		<text>
+			<p>At the start of your turn, lose 1 Focus point</p>
+			<p>At the end of your turn, this card deals 1 lightning damage to all targets with 3 or less HP</p>
+		</text>
+		<ability>
+			<title>Focus</title>
+			<text>Return this card to your hand</text>
+		</ability>
+		<ability>
+			<title>Focus</title>
+			<text>Select a non-character-card target in play and put it on top of its deck</text>
+		</ability>
+		<ability>
+			<title>Focus</title>
+			<text>Reveal cards from the top of a deck until you reveal a target. You may either discard it or put it into play</text>
+		</ability>
+	</card>
+	
+	<card>
+		<name>Astaroth-Nidhug</name>
+		<class>Equipment</class>
+		<type>Mech</type>
+		<hp>10</hp>
+		<quantity>1</quantity>
+		<text>
+			<p>At the start of your turn, lose 1 Focus point</p>
+			<p>At the end of your turn, place an Aim token on this card</p>
+		</text>
+		<ability>
+			<title>Focus</title>
+			<text>Return this card to your hand</text>
+		</ability>
+		<ability>
+			<title>Focus</title>
+			<text>Place an Aim token on this card</text>
+		</ability>
+		<ability>
+			<title>Focus</title>
+			<text>Deal X projectile damage to a target, where X is the number of Aim tokens on this card. Remove all Aim tokens from this card</text>
+		</ability>
+	</card>
+</deck>
