@@ -7,8 +7,7 @@
 <xsl:template match="/">
 	<html>
 		<head>
-			<title><xsl:value-of select="/deck/deckname" /></title>
-			<link rel="stylesheet" type="text/css" href="../cards.css" />
+			<xsl:apply-templates select="deck" />
 		</head>
 		<body>
 			<xsl:for-each select="/deck/card | /deck/charactercard/front | /deck/charactercard/back">

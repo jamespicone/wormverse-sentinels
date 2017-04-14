@@ -8,6 +8,9 @@
 	<deckname>Armsmaster</deckname>
 	<version>2.0</version>
 	<logo>Armsmaster.svg</logo>
+	<textcolour>black</textcolour>
+	<cardcolour>white</cardcolour>
+	<boxcolour>white</boxcolour>
 	<charactercard>
 		<name>Armsmaster</name>
 		<front>

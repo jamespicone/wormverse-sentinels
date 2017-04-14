@@ -5,6 +5,9 @@
 <deck>
 	<deckname>PRT HQ</deckname>
 	<version>2.0</version>
+	<textcolour>black</textcolour>
+	<cardcolour>white</cardcolour>
+	<boxcolour>white</boxcolour>
 	<card>
 		<quantity>2</quantity>
 		<type>Drone</type><type>Device</type>

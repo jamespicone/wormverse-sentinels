@@ -5,6 +5,9 @@
 <deck>
 	<deckname>Brockton Bay</deckname>
 	<version>2.0</version>
+	<textcolour>black</textcolour>
+	<cardcolour>white</cardcolour>
+	<boxcolour>white</boxcolour>
 	<card>
 		<name>Civilians</name>
 		<quantity>2</quantity>

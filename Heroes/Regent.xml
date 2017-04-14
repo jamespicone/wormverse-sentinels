@@ -6,6 +6,9 @@
 <deck>
 	<deckname>Regent</deckname>
 	<version>2.0</version>
+	<textcolour>black</textcolour>
+	<cardcolour>white</cardcolour>
+	<boxcolour>white</boxcolour>
 	<charactercard>
 		<name>Regent</name>
 		<front>

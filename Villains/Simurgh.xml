@@ -9,6 +9,9 @@
 <deck>
 	<deckname>The Simurgh</deckname>
 	<version>1.0</version>
+	<textcolour>black</textcolour>
+	<cardcolour>white</cardcolour>
+	<boxcolour>white</boxcolour>
 	<villain>
 		<name>The Simurgh</name>
 		<front>

@@ -5,6 +5,9 @@
 <deck>
 	<deckname>Lausanne</deckname>
 	<version>1.0</version>
+	<textcolour>black</textcolour>
+	<cardcolour>white</cardcolour>
+	<boxcolour>white</boxcolour>
 	
 	<!--
 	
