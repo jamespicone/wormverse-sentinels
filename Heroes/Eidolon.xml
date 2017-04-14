@@ -7,6 +7,9 @@
 <deck>
 	<deckname>Eidolon</deckname>
 	<version>1.0</version>
+	<textcolour>black</textcolour>
+	<cardcolour>white</cardcolour>
+	<boxcolour>white</boxcolour>
 	<charactercard>
 		<name>Eidolon</name>
 		<front>

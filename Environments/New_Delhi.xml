@@ -5,7 +5,9 @@
 <deck>
 	<deckname>New Delhi</deckname>
 	<version>1.0</version>
-
+	<textcolour>black</textcolour>
+	<cardcolour>white</cardcolour>
+	<boxcolour>white</boxcolour>
 	<card>
 		<type>Parahuman</type>
 		<quantity>1</quantity>

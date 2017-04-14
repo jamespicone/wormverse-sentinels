@@ -7,6 +7,9 @@
 <deck>
 	<deckname>Leviathan</deckname>
 	<version>1.2</version>
+	<textcolour>black</textcolour>
+	<cardcolour>white</cardcolour>
+	<boxcolour>white</boxcolour>
 	<villain>
 		<name>Leviathan</name>
 		<front>

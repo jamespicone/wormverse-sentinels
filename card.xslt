@@ -26,32 +26,32 @@
 </xsl:template>
 
 <xsl:template match="text">
-	<div class="textdiv"><xsl:copy-of select="node()" /></div>
+	<div class="textdiv inbox"><xsl:copy-of select="node()" /></div>
 </xsl:template>
 
 <xsl:template match="setup">
-	<div class="setupdiv">
+	<div class="setupdiv inbox">
 		<strong>SETUP:</strong><br/>
 		<xsl:copy-of select="node()" />
 	</div>
 </xsl:template>
 
 <xsl:template match="gameplay">
-	<div class="gameplaydiv">
+	<div class="gameplaydiv inbox">
 		<strong>GAMEPLAY:</strong><br/>
 		<xsl:copy-of select="node()" />
 	</div>
 </xsl:template>
 
 <xsl:template match="advanced">
-	<div class="advanceddiv">
+	<div class="advanceddiv inbox">
 		<strong>ADVANCED:</strong><br/>
 		<xsl:copy-of select="node()" />
 	</div>
 </xsl:template>
 
 <xsl:template match="power">
-	<div class="power">
+	<div class="power inbox">
 		<xsl:if test="name(..)='card'"><div class="abilitytitle">Power:</div><div class="abilitytext"><xsl:copy-of select="node()" /></div></xsl:if>
 		<xsl:if test="name(..)!='card'"><div class="abilitybox">
 			<div class="abilityname"><xsl:copy-of select="name/node()" /></div>
@@ -61,7 +61,7 @@
 </xsl:template>
 
 <xsl:template match="ability">
-	<div class="ability">
+	<div class="ability inbox">
 		<xsl:if test="name(..)='card'"><div class="abilitytitle"><xsl:copy-of select="title/node()" />:</div><div class="abilitytext"><xsl:copy-of select="text/node()" /></div></xsl:if>
 		<xsl:if test="name(..)!='card'"><div class="abilitybox">
 			<div class="abilityname"><xsl:copy-of select="name/node()" /></div>
@@ -71,7 +71,7 @@
 </xsl:template>
 
 <xsl:template match="quote">
-	<div class="quotediv">
+	<div class="quotediv inbox">
 		<p><xsl:value-of select="text/node()" /></p>
 		<strong>--<xsl:value-of select="source/node()" /></strong>
 	</div>
@@ -84,14 +84,14 @@
 		<xsl:when test="name() = 'back'">
 			<div class="carddiv">
 				<div class="cardinner">
-				<div class="titlediv">
+				<div class="titlediv inbox">
 					<xsl:apply-templates select="name | ../name" />
 					<xsl:apply-templates select="hp" />
 				</div>
 				
 				<xsl:choose>
 					<xsl:when test="title | nemesis">
-						<div class="nemesisdiv"><em>
+						<div class="nemesisdiv inbox"><em>
 							<xsl:apply-templates select="title" />
 							<xsl:if test="not(../title)">
 								<em><xsl:apply-templates select="class | type"/></em>
@@ -102,7 +102,7 @@
 				
 					<xsl:otherwise>
 						<xsl:if test="class | type">
-							<div class="classdiv"><em>
+							<div class="classdiv inbox"><em>
 							<xsl:apply-templates select="class | type"/>
 							</em></div>
 						</xsl:if>
@@ -138,14 +138,14 @@
 	<xsl:if test="not(name()='back')">
 		<div class="carddiv">
 			<div class="cardinner">
-			<div class="titlediv">
+			<div class="titlediv inbox">
 				<xsl:apply-templates select="name | ../name" />
 				<xsl:apply-templates select="hp" />
 			</div>
 			
 			<xsl:choose>
 				<xsl:when test="title | nemesis">
-					<div class="nemesisdiv"><em>
+					<div class="nemesisdiv inbox"><em>
 						<xsl:apply-templates select="title" />
 						<xsl:if test="not(../title)">
 							<em><xsl:apply-templates select="class | type"/></em>
@@ -156,7 +156,7 @@
 			
 				<xsl:otherwise>
 					<xsl:if test="class | type">
-						<div class="classdiv"><em>
+						<div class="classdiv inbox"><em>
 						<xsl:apply-templates select="class | type"/>
 						</em></div>
 					</xsl:if>
@@ -180,14 +180,14 @@
 
 <xsl:template match="card | charactercard/front | charactercard/back | villain/front | villain/back | specialcard/front | specialcard/back">
 	<div class="carddiv">
-		<div class="titlediv">
+		<div class="titlediv inbox">
 			<xsl:apply-templates select="name | ../name" />
 			<xsl:apply-templates select="hp" />
 		</div>
 		
 		<xsl:choose>
 			<xsl:when test="title | nemesis">
-				<div class="nemesisdiv"><em>
+				<div class="nemesisdiv inbox"><em>
 					<xsl:apply-templates select="title" />
 					<xsl:if test="not(../title)">
 						<em><xsl:apply-templates select="class | type"/></em>
@@ -198,7 +198,7 @@
 		
 			<xsl:otherwise>
 				<xsl:if test="class | type">
-					<div class="classdiv"><em>
+					<div class="classdiv inbox"><em>
 					<xsl:apply-templates select="class | type"/>
 					</em></div>
 				</xsl:if>
@@ -217,4 +217,28 @@
 		<div class="versiondiv"><xsl:value-of select="/deck/version" /></div>
 	</div>
 </xsl:template>
+
+<xsl:template match="/deck">
+	<title><xsl:value-of select="deckname" /></title>
+	<link rel="stylesheet" type="text/css" href="../cards.css" />
+</xsl:template>
+
+<xsl:template match="/deck" mode="image">
+	<title><xsl:value-of select="deckname" /></title>
+	<link rel="stylesheet" type="text/css" href="../cards.css" />
+	<link rel="stylesheet" type="text/css" href="../images.css" />
+	
+	<style>
+		.carddiv {
+			color: <xsl:value-of select="textcolour" />;
+			background-color: <xsl:value-of select="cardcolour" />;
+		}
+		
+		.inbox {
+			background-color: <xsl:value-of select="boxcolour" />;
+		}
+	</style>
+	
+</xsl:template>
+
 </xsl:stylesheet>

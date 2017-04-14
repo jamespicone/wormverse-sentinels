@@ -7,6 +7,9 @@
 <deck>
 	<deckname>Echidna</deckname>
 	<version>1.1</version>
+	<textcolour>black</textcolour>
+	<cardcolour>white</cardcolour>
+	<boxcolour>white</boxcolour>
 	<villain>
 		<name>Echidna</name>
 		<front>

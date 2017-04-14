@@ -5,6 +5,9 @@
 <deck>
 	<deckname>Boat Graveyard</deckname>
 	<version>2.0</version>
+	<textcolour>black</textcolour>
+	<cardcolour>white</cardcolour>
+	<boxcolour>white</boxcolour>
 	<card>
 		<name>Unstable Footing</name>
 		<quantity>2</quantity>

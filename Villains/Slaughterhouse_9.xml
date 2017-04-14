@@ -7,6 +7,9 @@
 <deck>
 	<deckname>Slaughterhouse 9</deckname>
 	<version>2.0</version>
+	<textcolour>black</textcolour>
+	<cardcolour>white</cardcolour>
+	<boxcolour>white</boxcolour>
 	<villain>
 		<name>Slaughterhouse 9</name>
 		<front>
