@@ -10,7 +10,7 @@
 	<charactercard>
 		<name>Dragon</name>
 		<front>
-			<hp>28</hp>
+			<hp>20</hp>
 			<text>
 				<p>Dragon does not have a Play, Power, or Draw phase</p>
 				<p>Dragon has a Focus phase between her Start and End phases, during which she can activate Focus effects on cards by spending a Focus point</p>
@@ -51,9 +51,10 @@
 	<charactercard>
 		<name>Dragon Unchained</name>
 		<front>
+			<hp>10</hp>
 			<text>
 				<p>At the start of the game, reveal cards from the top of Dragon Unchained's deck until you reveal a Mech. Put it into your hand. Shuffle the rest of the cards back into your deck</p>
-				<p>Dragon Unchained does not have HP and is not a target</p>
+				<p>Dragon Unchained is not a target unless there are no other hero targets in play</p>
 				<p>If Dragon Unchained has no Mechs in play at the end of her turn, incapacitate her</p>
 				<p>Whenever Dragon Unchained would gain a Focus point, instead activate a Focus effect</p>
 			</text>
@@ -142,6 +143,7 @@
 			Destroy an Ongoing card
 		</text>
 	</card>
+	
 	<card>
 		<name>Borrowed Blueprints</name>
 		<class>One-Shot</class>
@@ -184,7 +186,7 @@
 		<quantity>2</quantity>
 		<text>
 			<p>Select a Mech owned by you. Then select a target.</p>
-			<p>If that target is a character card, the Mech deals the target 3 energy and 3 fire damage.</p>
+			<p>If that target is a character card, the Mech deals the target 3 energy, 3 fire damage, and 3 melee damage.</p>
 			<p>If that target is not a character card, destroy it.</p>
 			<p>Destroy the Mech</p>
 		</text>
