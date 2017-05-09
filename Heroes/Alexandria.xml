@@ -8,8 +8,8 @@
 	<deckname>Alexandria</deckname>
 	<version>1.0</version>
 	<textcolour>black</textcolour>
-	<cardcolour>white</cardcolour>
-	<boxcolour>white</boxcolour>
+	<cardcolour>slategrey</cardcolour>
+	<boxcolour>lightgrey</boxcolour>
 	<charactercard>
 		<name>Alexandria</name>
 		<front>

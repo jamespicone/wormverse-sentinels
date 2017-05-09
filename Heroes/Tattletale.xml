@@ -8,8 +8,8 @@
 	<deckname>Tattletale</deckname>
 	<version>2.0</version>
 	<textcolour>black</textcolour>
-	<cardcolour>white</cardcolour>
-	<boxcolour>white</boxcolour>
+	<cardcolour>indigo</cardcolour>
+	<boxcolour>lavender</boxcolour>
 	<charactercard>
 		<name>Tattletale</name>
 		<front>

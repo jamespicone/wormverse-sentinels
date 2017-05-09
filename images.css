@@ -16,13 +16,44 @@
 }
 
 .cardinner {
-	padding: 4mm;
-	margin: 4mm;
+	padding: 10px;
+	margin: 10px;
 	
 	height: 164mm;
 	width: auto;
 }
 
+.inbox {
+	border: 1mm solid black;
+	width: 100%;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	margin-left: -0.5em;
+	margin-right: -0.5em;
+	margin-bottom: 1em;
+}
+
 .versiondiv {
 	display: none;
 }
+
+.quotediv {
+	width: auto !important;
+}
+
+.setupdiv {
+	margin-bottom: 0em;
+}
+
+.gameplaydiv {
+	margin-bottom: 0em;
+}
+
+.advanceddiv {
+	margin-bottom: 0em;
+}
+
+.abilitybox {
+	border: 0px;
+}
+

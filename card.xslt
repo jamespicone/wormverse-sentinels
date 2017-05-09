@@ -51,7 +51,7 @@
 </xsl:template>
 
 <xsl:template match="power">
-	<div class="power inbox">
+	<div class="ability inbox">
 		<xsl:if test="name(..)='card'"><div class="abilitytitle">Power:</div><div class="abilitytext"><xsl:copy-of select="node()" /></div></xsl:if>
 		<xsl:if test="name(..)!='card'"><div class="abilitybox">
 			<div class="abilityname"><xsl:copy-of select="name/node()" /></div>
