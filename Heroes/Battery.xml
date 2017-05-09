@@ -8,8 +8,8 @@
 	<deckname>Battery</deckname>
 	<version>2.1</version>
 	<textcolour>black</textcolour>
-	<cardcolour>white</cardcolour>
-	<boxcolour>white</boxcolour>
+	<cardcolour>slategrey</cardcolour>
+	<boxcolour>steelblue</boxcolour>
 	<charactercard>
 		<name>Battery</name>
 		<front>

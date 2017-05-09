@@ -20,10 +20,10 @@ back_%.html : %.xml back.xslt ../card.xslt
 	$(transform) -s:"$<" -o:"$@" -xsl:back.xslt
 	
 front_%.png : front_%.html ../cards.css ../images.css
-	cutycapt --url="$<" --out=$@ --min-width=2687
+	cutycapt --url="$<" --out=$@ --min-width=3135
 	
 back_%.png : back_%.html ../cards.css ../images.css
-	cutycapt --url="$<" --out=$@ --min-width=2687
+	cutycapt --url="$<" --out=$@ --min-width=3135
 	
 cards = $(patsubst %.xml,card_%.html,$(wildcard *.xml))
 tables = $(patsubst %.xml,table_%.html,$(wildcard *.xml))

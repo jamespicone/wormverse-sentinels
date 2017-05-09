@@ -9,8 +9,8 @@
 	<version>2.0</version>
 	<logo>Armsmaster.svg</logo>
 	<textcolour>black</textcolour>
-	<cardcolour>white</cardcolour>
-	<boxcolour>white</boxcolour>
+	<cardcolour>midnightblue</cardcolour>
+	<boxcolour>mediumaquamarine</boxcolour>
 	<charactercard>
 		<name>Armsmaster</name>
 		<front>

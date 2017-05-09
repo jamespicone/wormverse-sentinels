@@ -8,8 +8,8 @@
 	<deckname>Grue</deckname>
 	<version>2.0</version>
 	<textcolour>black</textcolour>
-	<cardcolour>white</cardcolour>
-	<boxcolour>white</boxcolour>
+	<cardcolour>darkgrey</cardcolour>
+	<boxcolour>lightgrey</boxcolour>
 	<charactercard>
 		<name>Grue</name>
 		<front>
