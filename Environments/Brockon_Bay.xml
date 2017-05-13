@@ -87,7 +87,7 @@
 		</quote>
 	</card>
 	<card>
-		<name>Uber</name>
+		<name>Über</name>
 		<quantity>1</quantity>
 		<hp>4</hp>
 		<text>At the end of the environment turn, this card deals the non-environment target with the highest HP 2 melee damage. Then, if Leet is in play, Uber and Leet regain 1 HP</text>
