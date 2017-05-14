@@ -8,7 +8,209 @@
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>
+
+	<specialcard>
+		<name>Citizen</name>
+		<front>
+			<hp>8</hp>
+			<type>Citizen</type>
+			<type>Broken</type>
+			<text>
+				<p>At the end of the Environment turn, this card deals 3 projectile damage to the hero target with the lowest HP</p>
+				<p>When this card is flipped to this side destroy 1 hero card</p>
+			</text>
+		</front>
+		<back>
+			<type>Citizen</type>
+			<text>
+				<p>This is the back of the card</p>
+				<p>When this card would be put into play, put it into play this side up</p>
+				<p>At the start of the environment turn, flip this card</p>
+				<p>When this card is destroyed, deal 2 psychic damage to all heroes</p>
+			</text>
+		</back>
+	</specialcard>
 	
+	<specialcard>
+		<name>Citizen</name>
+		<front>
+			<hp>8</hp>
+			<type>Citizen</type>
+			<text>
+				<p>When this card is destroyed, deal 1 psychic damage to all heroes</p>
+			</text>
+		</front>
+		<back>
+			<type>Citizen</type>
+			<text>
+				<p>This is the back of the card</p>
+				<p>When this card would be put into play, put it into play this side up</p>
+				<p>At the start of the environment turn, flip this card</p>
+				<p>When this card is destroyed, deal 2 psychic damage to all heroes</p>
+			</text>
+		</back>
+	</specialcard>
+
+	<specialcard>
+		<name>Citizen</name>
+		<front>
+			<hp>8</hp>
+			<type>Citizen</type>
+			<text>
+				<p>The first time damage would be dealt to a hero target each round, reduce the damage by 1</p>
+			</text>
+		</front>
+		<back>
+			<type>Citizen</type>
+			<text>
+				<p>This is the back of the card</p>
+				<p>When this card would be put into play, put it into play this side up</p>
+				<p>When damage would be dealt to a hero target, flip this card</p>
+				<p>When this card is destroyed, deal 2 psychic damage to all heroes</p>
+			</text>
+		</back>
+	</specialcard>
+
+	<specialcard>
+		<name>Citizen</name>
+		<front>
+			<hp>8</hp>
+			<type>Citizen</type>
+			<type>Broken</type>
+			<text>
+				<p>Increase damage dealt to hero targets by 1</p>
+				<p>When this card is flipped to this side, destroy all Citizens that aren't also Broken</p>
+			</text>
+		</front>
+		<back>
+			<type>Citizen</type>
+			<text>
+				<p>This is the back of the card</p>
+				<p>When this card would be put into play, put it into play this side up</p>
+				<p>When damage would be dealt to a hero target, flip this card</p>
+				<p>When this card is destroyed, deal 2 psychic damage to all heroes</p>
+			</text>
+		</back>
+	</specialcard>
+
+	<specialcard>
+		<name>Citizen</name>
+		<front>
+			<hp>8</hp>
+			<type>Citizen</type>
+			<text>
+				<p>The first time each round a hero card enters play, that hero may draw a card</p>
+			</text>
+		</front>
+		<back>
+			<type>Citizen</type>
+			<text>
+				<p>This is the back of the card</p>
+				<p>When this card would be put into play, put it into play this side up</p>
+				<p>When a hero card would be put into play, flip this card</p>
+				<p>When this card is destroyed, deal 2 psychic damage to all heroes</p>
+			</text>
+		</back>
+	</specialcard>
+
+	<specialcard>
+		<name>Citizen</name>
+		<front>
+			<hp>8</hp>
+			<type>Citizen</type>
+			<type>Broken</type>
+			<text>
+				<p>The first time a hero card enters play each turn, that hero discards a card</p>
+				<p>When this card is flipped to this side, remove the top card of each hero deck from the game</p>
+			</text>
+		</front>
+		<back>
+			<type>Citizen</type>
+			<text>
+				<p>This is the back of the card</p>
+				<p>When this card would be put into play, put it into play this side up</p>
+				<p>When a hero card would be put into play, flip this card</p>
+				<p>When this card is destroyed, deal 2 psychic damage to all heroes</p>
+			</text>
+		</back>
+	</specialcard>
+
+	<card>
+		<quantity>1</quantity>
+		<name>A Strategem Unveiled</name>
+		<text>
+			<p>When this card is revealed, put it into play</p>
+			<p>At the end of the environment turn, take all Citizen cards from the the Environment deck and trash, shuffle them, and put them into play</p>
+			<p>When a Citizen card is destroyed, destroy this card</p>
+		</text>
+	</card>
+
+	<card>
+		<quantity>2</quantity>
+		<name>Hard Decisions</name>
+		<text>
+			<p>When this card is put into play all heroes must simultaneously and secretly vote for another hero (count down from 3)</p>
+			<p>If there is a clear winner, that hero takes 2 psychic damage, and the heroes may destroy a Citizen card in play</p>
+			<p>Otherwise, all heroes take 2 psychic damage, then flip all Citizen cards in play</p>
+			<p>Then destroy this card</p>
+		</text>
+	</card>
+
+	<specialcard>
+		<name>The Simurgh</name>
+		
+		<front>
+			<type>Benevolent Angel?</type>
+			<text>
+				<p>At the start of the game, put this card into play, this side up</p>
+				<p>All environment cards are indestructible</p>
+				<p>Citizen cards cannot flip</p>
+				<p>Whenever the top card of the Environment deck would be played, instead search the Environment deck for a Citizen card and put it into play</p>
+				<p>At the end of the Environment turn, place a Fate token on The Simurgh</p>
+				<p>When there are 3 Fate tokens on the Simurgh, flip her</p>
+			</text>
+		</front>
+		<back>
+			<type>Newest Endbringer</type>
+			<hp>14</hp>
+			<text>
+				<p>When this card is flipped to this side, flip every Citizen card in play</p>
+				<p>At the end of the environment turn, deal X psychic damage to every hero, where X is the number of Fate tokens on this card</p>
+				<p>When a Citizen card enters play, place a Fate token on this card</p>
+			</text>
+		</back>
+	</specialcard>
+
+	<card>
+		<quantity>2</quantity>
+		<name>Hurried Backup</name>
+		<text>
+			<p>When this card enters play, all heroes draw a card</p>
+			<p>When this card is destroed, all heroes discard a card</p>
+			<p>When a hero target is destroyed, destroy this card</p>
+		</text>
+	</card>
+
+	<card>
+		<name>Looters</name>
+		<hp>4</hp>
+		<quantity>2</quantity>
+		<text>
+			<p>At the end of the environment turn, this card deals 1 melee damage to the targettable hero with the most cards in play</p>
+			<p>When this card deals damage to a hero, destroy a card owned by that hero</p>
+			<p>When this card deals damage to a villain target, destroy a villain non-character card</p>
+		</text>
+	</card>
+
+	<card>
+		<name>General Armstrong</name>
+		<hp>8</hp>
+		<quantity>1</quantity>
+		<text>
+			<p>At the end of the environment turn, destroy a Civilian card</p>
+		</text>
+	</card>
+
 	<!--
 	
 		All quiet before the storm! Damage doesn't happen for a turn or summat
