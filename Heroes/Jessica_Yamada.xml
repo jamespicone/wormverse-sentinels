@@ -75,6 +75,7 @@
 	<card>
 		<quantity>4</quantity>
 		<class>Ongoing</class>
+		<class>Limited</class>
 		<name>Time to Think</name>
 		<text>
 			<p>Whenever a hero plays no cards during their play phase, they may draw a card</p>
