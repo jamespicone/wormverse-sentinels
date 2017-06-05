@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="cards.xslt"?>
+
+<!-- LOGO: Fe symbol? -->
+
+<deck>
+	<deckname>Weld</deckname>
+	<version>1.0</version>
+	<textcolour>black</textcolour>
+	<cardcolour>grey</cardcolour>
+	<boxcolour>lightgrey</boxcolour>
+	<author>Ethan Levy</author>
+	<charactercard>
+		<name>Weld</name>
+		<front>
+			<hp>13</hp>
+			<text>
+				<p>Metal cards owned by Weld are indestructible by villain or environment cards</p>
+				<p>Whenever a Metal card is played, you regain 1 HP</p>
+			</text>
+			<power>
+				<name>Sculpting</name>
+				<text>You may play a Metal card</text>
+			</power>
+		</front>
+		<back>
+			<text>
+			<ul>
+				<li>A hero may play a card</li>
+				<li>A hero may regain 2 HP</li>
+				<li>Deal 2 melee damage to a target</li>
+			</ul>
+			</text>
+		</back>
+	</charactercard>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Magnetic Influence</name>
+		<text><p>If this card is in Weld's hand, put it into play</p><p>Reveal a card. If it's a Metal card, put it into play. Otherwise, draw it</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Polishing and Refining</name>
+		<text><p>If this card is in Weld's hand, put it into play</p><p>Reveal a card. If it isn't a Metal card, put it into play. Otherwise, draw it</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<name>Quicksilver Reflexes</name>
+		<text><p>Draw 2 cards</p><p>Play a card</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<name>Steel Grip</name>
+		<text><p>Deal 3 melee damage to a target</p><p>Until the start of your next turn, reduce damage dealt by that target by 2</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<class>One-Shot</class>
+		<name>Uranium Backup</name>
+		<text><p>Destroy 2 Metal cards. If you do, after your next end phase, take another turn</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<class>Ongoing</class>
+		<name>Silver Tongue</name>
+		<power>Another hero may either play or draw a card</power>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<name>Iron Will</name>
+		<text><p>Increase damage dealt by Weld to the villain target with the highest HP by 1</p></text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>Equipment</class>
+		<type>Metal</type>
+		<name>Nuts and Bolts</name>
+		<text>
+			<p>If you haven't returned a card to your hand this round, you may return this card to your hand at any time</p>
+		</text>
+		
+		<ability>
+			<abilityname>Sacrifice</abilityname>
+			<abilitytext>At any time you may remove this card from the game to search your trash for a Metal card and put it into play</abilitytext>
+		</ability>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<quantity>3</quantity>
+		<class>Equipment</class>
+		<type>Metal</type>
+		<name>Boilerplate</name>
+		<text>
+			<p>Whenever Weld would be dealt damage, if the damage hasn't been reduced, reduce the damage by 1</p>
+		</text>
+		
+		<ability>
+			<abilityname>Sacrifice</abilityname>
+			<abilitytext>Whenever Weld would be dealt enough damage to reduce him to 0 or less HP, you may remove this card from the game to prevent that damage</abilitytext>
+		</ability>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<quantity>3</quantity>
+		<class>Equipment</class>
+		<type>Metal</type>
+		<name>Bronze Spear</name>
+		<ability>
+			<abilityname>Sacrifice</abilityname>
+			<abilitytext>At any time during your turn you may destroy this card to deal 2 ranged damage to up to 3 targets</abilitytext>
+		</ability>
+		<power>Deal 3 melee damage to a target</power>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<quantity>3</quantity>
+		<class>Equipment</class>
+		<type>Metal</type>
+		<name>Tin Foibles</name>
+		<text>
+			<p>When this card enters play, you may destroy 1 ongoing or environment card</p>
+		</text>	
+		<ability>
+			<abilityname>Sacrifice</abilityname>
+			<abilitytext>At any time during your turn you may destroy this card to destroy 1 ongoing or environment card</abilitytext>
+		</ability>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<quantity>3</quantity>
+		<class>Equipment</class>
+		<type>Metal</type>
+		<name>Bronze Construct</name>
+		<power>If there are no tokens on this card, you may activate the Sacrifice text on a Metal card without destroying the card or removing it from play. Then place a token on this card</power>
+		<ability>
+			<abilityname>Sacrifice</abilityname>
+			<abilitytext>Whenever an equipment card would be destroyed, you may destroy this card instead</abilitytext>
+		</ability>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<quantity>2</quantity>
+		<class>Equipment</class>
+		<type>Metal</type>
+		<name>Gold Clock</name>
+		<text>
+			<p>At the beginning of your turn you may search your trash for a Metal card. Put it into your hand.</p>
+		</text>
+		<ability>
+			<abilityname>Sacrifice</abilityname>
+			<abilitytext>Whenever a villain card would enter play you may destroy this card to put that card on the bottom of the villain deck; then play the top card of the villain deck</abilitytext>
+		</ability>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<quantity>2</quantity>
+		<class>Equipment</class>
+		<type>Metal</type>
+		<name>Daggers</name>
+		<text>
+			<p>At the beginning of your turn you may deal 1 melee damage to up to 2 targets</p>
+		</text>
+		<ability>
+			<abilityname>Sacrifice</abilityname>
+			<abilitytext>During your turn you may destroy this card to deal 4 ranged damage to a target</abilitytext>
+		</ability>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+	
+	<card>
+		<quantity>2</quantity>
+		<class>Equipment</class>
+		<type>Metal</type>
+		<name>Reserve Ore</name>
+		<text>
+			<p>At the beginning of your turn, regain 1 HP</p>
+		</text>
+		<ability>
+			<abilityname>Sacrifice</abilityname>
+			<abilitytext>At any time you may destroy this card to regain 3 HP and draw a card</abilitytext>
+		</ability>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>
+</deck>

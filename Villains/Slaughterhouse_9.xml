@@ -17,6 +17,8 @@
 			<setup>Search the Villain deck for all Nine cards, shuffle them, and put them under this card as the Nine deck. Put the top H cards from the Nine deck into play</setup>
 		<gameplay>Whenever a Nine card would be destroyed, flip it instead. Whenever no villain targets are in play, the heroes win the game</gameplay>
 		<advanced>At the end of the villain turn, put the top card of the Nine deck into play</advanced></front>
+		<back>
+		</back>
 	</villain>
 	
 	<specialcard>
