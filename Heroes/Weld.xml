@@ -114,8 +114,8 @@
 		</text>
 		
 		<ability>
-			<abilityname>Sacrifice</abilityname>
-			<abilitytext>At any time you may remove this card from the game to search your trash for a Metal card and put it into play</abilitytext>
+			<title>Sacrifice</title>
+			<text>At any time you may remove this card from the game to search your trash for a Metal card and put it into play</text>
 		</ability>
 		<quote>
 			<text></text>
@@ -133,8 +133,8 @@
 		</text>
 		
 		<ability>
-			<abilityname>Sacrifice</abilityname>
-			<abilitytext>Whenever Weld would be dealt enough damage to reduce him to 0 or less HP, you may remove this card from the game to prevent that damage</abilitytext>
+			<title>Sacrifice</title>
+			<text>Whenever Weld would be dealt enough damage to reduce him to 0 or less HP, you may remove this card from the game to prevent that damage</text>
 		</ability>
 		<quote>
 			<text></text>
@@ -148,8 +148,8 @@
 		<type>Metal</type>
 		<name>Bronze Spear</name>
 		<ability>
-			<abilityname>Sacrifice</abilityname>
-			<abilitytext>At any time during your turn you may destroy this card to deal 2 ranged damage to up to 3 targets</abilitytext>
+			<title>Sacrifice</title>
+			<text>At any time during your turn you may destroy this card to deal 2 ranged damage to up to 3 targets</text>
 		</ability>
 		<power>Deal 3 melee damage to a target</power>
 		<quote>
@@ -167,8 +167,8 @@
 			<p>When this card enters play, you may destroy 1 ongoing or environment card</p>
 		</text>	
 		<ability>
-			<abilityname>Sacrifice</abilityname>
-			<abilitytext>At any time during your turn you may destroy this card to destroy 1 ongoing or environment card</abilitytext>
+			<title>Sacrifice</title>
+			<text>At any time during your turn you may destroy this card to destroy 1 ongoing or environment card</text>
 		</ability>
 		<quote>
 			<text></text>
@@ -183,8 +183,8 @@
 		<name>Bronze Construct</name>
 		<power>If there are no tokens on this card, you may activate the Sacrifice text on a Metal card without destroying the card or removing it from play. Then place a token on this card</power>
 		<ability>
-			<abilityname>Sacrifice</abilityname>
-			<abilitytext>Whenever an equipment card would be destroyed, you may destroy this card instead</abilitytext>
+			<title>Sacrifice</title>
+			<text>Whenever an equipment card would be destroyed, you may destroy this card instead</text>
 		</ability>
 		<quote>
 			<text></text>
@@ -201,8 +201,8 @@
 			<p>At the beginning of your turn you may search your trash for a Metal card. Put it into your hand.</p>
 		</text>
 		<ability>
-			<abilityname>Sacrifice</abilityname>
-			<abilitytext>Whenever a villain card would enter play you may destroy this card to put that card on the bottom of the villain deck; then play the top card of the villain deck</abilitytext>
+			<title>Sacrifice</title>
+			<text>Whenever a villain card would enter play you may destroy this card to put that card on the bottom of the villain deck; then play the top card of the villain deck</text>
 		</ability>
 		<quote>
 			<text></text>
@@ -219,8 +219,8 @@
 			<p>At the beginning of your turn you may deal 1 melee damage to up to 2 targets</p>
 		</text>
 		<ability>
-			<abilityname>Sacrifice</abilityname>
-			<abilitytext>During your turn you may destroy this card to deal 4 ranged damage to a target</abilitytext>
+			<title>Sacrifice</title>
+			<text>During your turn you may destroy this card to deal 4 ranged damage to a target</text>
 		</ability>
 		<quote>
 			<text></text>
@@ -237,8 +237,8 @@
 			<p>At the beginning of your turn, regain 1 HP</p>
 		</text>
 		<ability>
-			<abilityname>Sacrifice</abilityname>
-			<abilitytext>At any time you may destroy this card to regain 3 HP and draw a card</abilitytext>
+			<title>Sacrifice</title>
+			<text>At any time you may destroy this card to regain 3 HP and draw a card</text>
 		</ability>
 		<quote>
 			<text></text>
