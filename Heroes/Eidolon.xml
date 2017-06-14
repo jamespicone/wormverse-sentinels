@@ -180,4 +180,81 @@
 			<p>If there are 4 or more non-hero targets in play, destroy all non-character-card, non-hero targets</p>
 		</power>
 	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Draw Worship</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>
+			<p>Destroy a hero Ongoing card. If you do, destroy up to 2 villain Ongoing, Equipment, or Device cards</p>
+		</power>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Detonate</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>
+			<p>Destroy a hero Equipment card. If you do, you may deal a target 3 melee and 3 fire damage</p>
+		</power>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Molecular Brake</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>
+			<p>Deal 3 cold damage to all non-hero targets.</p>
+			<p>Destroy all targets with 2 HP or less</p>
+			<p>Skip the next hero turn</p>
+		</power>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Pierce Through</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>
+			<p>Deal 3 projectile damage to a villain target.</p>
+			<p>Deal 4 projectile damage to a different villain target.</p>
+			<p>Deal 2 projectile damage to a hero target</p>
+			<p>Deal 1 projectile damage to a different hero target</p>
+		</power>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Control</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>
+			<p>Deal a hero other than Eidolon 4 psychic damage</p>
+			<p>That hero may play a card</p>
+			<p>That hero may use a power</p>
+			<p>That hero may draw a card</p>
+		</power>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Accelerate Time</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>
+			<p>Play the top card of the villain deck</p>
+			<p>Each hero (other than Eidolon) may use a power in turn order</p>
+		</power>
+	</card>
+
+
 </deck>
