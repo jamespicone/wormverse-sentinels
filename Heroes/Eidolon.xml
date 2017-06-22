@@ -256,5 +256,65 @@
 		</power>
 	</card>
 
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Creation</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>
+			<p>Reveal the top card of every deck, starting from yours and going clockwise</p>
+			<p>If the revealed card is an Equipment or Device card, put it into play. Otherwise, discard it</p>
+			<p>Play the top card of the villain deck</p>
+		</power>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Scatterstate</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>
+			<p>Deal 1 energy damage and 1 melee damage to all non-hero targets</p>
+			<p>Until the start of your next turn:
+				<ul>
+					<li>You take 1 less damage</li>
+					<li>If damage would be dealt to all heroes or all hero targets, redirect the damage to you</li>
+				</ul>
+			</p>
+		</power>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Frozen Fortifications</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>
+			<p>Until the start of your next turn:
+				<ul>
+					<li>Whenever 2 or less damage would be dealt to a hero target, prevent it</li>
+					<li>Whenever 3 or more damage would be dealt to a hero target, stop preventing damage, and deal 2 cold damage to all hero targets</li>
+				</ul>
+			</p>
+		</power>
+	</card>
+
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Psychometry</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>
+			<p>Reveal the top 3 cards of a deck. Put any revealed Ongoing cards into play</p>
+		</power>
+	</card>
+
+
+
+
 
 </deck>
