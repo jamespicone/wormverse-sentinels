@@ -4,7 +4,7 @@
 
 <deck>
 	<deckname>New Delhi</deckname>
-	<version>1.0</version>
+	<version>2.0</version>
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>
@@ -13,7 +13,7 @@
 		<quantity>1</quantity>
 		<name>Phir Sē</name>
 		<hp>5</hp>
-		<text><p>At the start of the environment turn, place a token on this card</p>
+		<text><p>At the start of the environment turn, place 2 tokens on this card</p>
 		<p>At the end of the environment turn, move this card next to the target with the highest HP</p>
 		<p>When this card is destroyed, it deals X damage to the target it is next to, where X is the number of tokens on this card</p></text>
 	</card>
