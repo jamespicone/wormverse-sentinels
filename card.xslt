@@ -241,7 +241,7 @@
 	
 </xsl:template>
 
-<xsl:template match="/">
+<xsl:template name="card">
 <html>
 	<head>
 		<xsl:apply-templates select="deck" />
@@ -257,6 +257,50 @@
 	</body>
 </html>
 
+</xsl:template>
+
+<xsl:template name="front">
+<html>
+	<head>
+		<xsl:apply-templates select="deck" mode="image" />
+	</head>
+	<body>
+		<xsl:for-each select="/deck/card">
+			<xsl:variable name="thecard" select="." />
+			<xsl:variable name="number">
+				<xsl:if test="name()='card'"><xsl:value-of select="$thecard/quantity" /></xsl:if>
+				<xsl:if test="name()!='card'">1</xsl:if>
+			</xsl:variable>
+			<xsl:for-each select="1 to $number">
+				<xsl:for-each select="$thecard">
+					<xsl:apply-templates select="." mode="front"/>
+				</xsl:for-each>
+			</xsl:for-each>
+		</xsl:for-each>
+	</body>
+</html>
+</xsl:template>
+
+<xsl:template name="back">
+<html>
+	<head>
+		<xsl:apply-templates select="deck" mode="image" />
+	</head>
+	<body>
+		<xsl:for-each select="/deck/card">
+			<xsl:variable name="thecard" select="." />
+			<xsl:variable name="number">
+				<xsl:if test="name()='card'"><xsl:value-of select="$thecard/quantity" /></xsl:if>
+				<xsl:if test="name()!='card'">1</xsl:if>
+			</xsl:variable>
+			<xsl:for-each select="1 to $number">
+				<xsl:for-each select="$thecard">
+					<xsl:apply-templates select="." mode="back" />
+				</xsl:for-each>
+			</xsl:for-each>
+		</xsl:for-each>
+	</body>
+</html>
 </xsl:template>
 
 </xsl:stylesheet>
