@@ -4,4 +4,8 @@
 
 <xsl:include href="../card.xslt" />
 
+<xsl:template match="/">
+<xsl:call-template name="card" />
+</xsl:template>
+
 </xsl:stylesheet>

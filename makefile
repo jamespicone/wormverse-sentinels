@@ -3,7 +3,6 @@
 .PHONY: package
 .PHONY: tts
 .PHONY: cards
-.PHONY: tables
 .PHONY: environments
 .PHONY: heroes
 .PHONY: villains
@@ -13,9 +12,8 @@ include osdep.mk
 
 cards : environments_cards heroes_cards villains_cards
 tts : environments_tts heroes_tts villains_tts
-tables : environments_tables heroes_tables villains_tables
 
-all : cards tables tts
+all : cards tts
 
 environments_cards :
 	$(MAKE) cards -C Environments -I ..
@@ -34,15 +32,6 @@ heroes_tts :
 	
 villains_tts:
 	$(MAKE) tts -C Villains -I ..
-	
-environments_tables :
-	$(MAKE) tables -C Environments -I ..
-	
-heroes_tables :
-	$(MAKE) tables -C Heroes -I ..
-	
-villains_tables :
-	$(MAKE) tables -C Villains -I ..
 	
 environments:
 	$(MAKE) -C Environments -I ..
