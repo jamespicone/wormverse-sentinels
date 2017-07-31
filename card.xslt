@@ -247,7 +247,7 @@
 		<xsl:apply-templates select="deck" />
 	</head>
 	<body>
-		<xsl:for-each select="/deck/card | /deck/villain/front | /deck/villain/back | /deck/specialcard/front | /deck/specialcard/back | /deck/charactercard/front | /deck/charactercard/front">
+		<xsl:for-each select="/deck/card | /deck/villain/front | /deck/villain/back | /deck/specialcard/front | /deck/specialcard/back | /deck/charactercard/front | /deck/charactercard/back">
 		<xsl:variable name="thecard" select="." />
 		<xsl:variable name="number"><xsl:if test="name()='card'"><xsl:value-of select="$thecard/quantity" /></xsl:if><xsl:if test="name()!='card'">1</xsl:if></xsl:variable>
 		<xsl:for-each select="1 to $number">
@@ -265,7 +265,7 @@
 		<xsl:apply-templates select="deck" mode="image" />
 	</head>
 	<body>
-		<xsl:for-each select="/deck/card">
+		<xsl:for-each select="/deck/card | /deck/specialcard/front | /deck/villain/front | /deck/charactercard/front">
 			<xsl:variable name="thecard" select="." />
 			<xsl:variable name="number">
 				<xsl:if test="name()='card'"><xsl:value-of select="$thecard/quantity" /></xsl:if>
@@ -287,7 +287,7 @@
 		<xsl:apply-templates select="deck" mode="image" />
 	</head>
 	<body>
-		<xsl:for-each select="/deck/card">
+		<xsl:for-each select="/deck/card | /deck/villain/back | /deck/specialcard/back | /deck/charactercard/back">
 			<xsl:variable name="thecard" select="." />
 			<xsl:variable name="number">
 				<xsl:if test="name()='card'"><xsl:value-of select="$thecard/quantity" /></xsl:if>
