@@ -4,7 +4,7 @@
 
 <deck>
 	<deckname>PRT HQ</deckname>
-	<version>2.0</version>
+	<version>2.1</version>
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>
@@ -34,7 +34,7 @@
 		<quantity>1</quantity>
 		<type>Device</type>
 		<hp>16</hp>
-		<text>Whenever an instance of damage is dealt to more than one target reduce that damage by 1</text>
+		<text>Whenever damage is dealt to all targets of a particular type reduce that damage by 1</text>
 		<name>Base Forcefield</name>
 		<quote>
 			<text>Moments later, he heard the distinctive hiss-crack of forcefield generators failing (the base's?)</text>
@@ -44,7 +44,7 @@
 	<card>
 		<quantity>3</quantity>
 		<hp>8</hp>
-		<text><p>Whenever a hero is dealt damage by this card that hero discards a card.</p><p>At the end of the environment turn this card deals the non-environment target with the lowest HP 1 projectile damage</p></text>
+		<text><p>Whenever a player character card is dealt damage by this card that player discards a card.</p><p>At the end of the environment turn this card deals the non-environment target with the lowest HP 1 projectile damage</p></text>
 		<name>Containment Agents</name>
 		<quote>
 			<text>Their very recognizable uniforms were chain mesh augmented with kevlar, topped with faceless helmets. The only means you had to identify them with were the badge numbers printed across their vests in bold white numbers.</text>
@@ -66,7 +66,7 @@
 		<quantity>1</quantity>
 		<type>Parahuman</type>
 		<hp>6</hp>
-		<text>At the start of the environment turn select the hero with the lowest HP. Until the next environment turn that hero cannot draw cards, cannot deal damage, cannot use powers, cannot be damaged, and does not have a turn. If that hero is the only hero that is not incapacitated the heroes lose the game</text>
+		<text>At the start of the environment turn select the player character card with the lowest HP. Until the next environment turn that character cannot draw cards, cannot deal damage, cannot use powers, cannot be damaged, and does not have a turn. If that character is the only character that is not incapacitated the heroes lose the game</text>
 		<name>Clockblocker</name>
 		<quote>
 			<text>...they were just suspended in time. Stuck in the air, immobile, untouchable.</text>
@@ -99,7 +99,7 @@
 		<quantity>1</quantity>
 		<type>Parahuman</type>
 		<hp>5</hp>
-		<text><p>Heroes dealt damage by this card cannot use powers until the start of the environment turn.</p><p>At the end of the environment turn this card deals 2 projectile damage to the two non-environment targets with the most HP</p></text>
+		<text><p>Player character cards dealt damage by this card cannot use powers until the start of the environment turn.</p><p>At the end of the environment turn this card deals 2 projectile damage to the two non-environment targets with the most HP</p></text>
 		<name>Gallant</name>
 		<quote>
 			<text>So he'd shot the dangerous psychopath with a blast that made her angry. Someone would have to explain that one to me at a later date.</text>
@@ -120,7 +120,7 @@
 	<card>
 		<quantity>1</quantity>
 		<type>Device</type>
-		<text><p>At the start of the environment turn reveal cards from the top of the Environment deck until you reveal a Parahuman. Put the Parahuman into play and shuffle the other cards back into the environment deck.</p><p> At the start of a hero turn that hero may skip the rest of their turn to destroy this card</p></text>
+		<text><p>At the start of the environment turn reveal cards from the top of the Environment deck until you reveal a Parahuman. Put the Parahuman into play and shuffle the other cards back into the environment deck.</p><p> At the start of a player turn that player may skip the rest of their turn to destroy this card</p></text>
 		<name>Base Alarm</name>
 		<quote>
 			<text>Colin moved quickly, spinning in his chair to reach a small console. He opened a glass panel and flipped a switch. Air raid sirens immediately began their ominous whine.</text>
