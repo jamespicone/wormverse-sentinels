@@ -21,7 +21,7 @@
 		<name>Rusted Hulk</name>
 		<hp>15</hp>
 		<quantity>2</quantity>
-		<text>Whenever damage would be dealt to all targets or all targets of a particular type, this target takes one instance of the damage and prevents the rest of it</text>
+		<text>Whenever damage would be dealt to all targets of a particular type, this target takes one instance of the damage and prevents the rest of it</text>
 		<quote>
 			<text>...forty or fifty derelict ships, some bigger in sheer mass than the skyscrapers downtown</text>
 			<source>Prey 14.11</source>
@@ -30,7 +30,7 @@
 	<card>
 		<name>Aquatic Environment</name>
 		<quantity>2</quantity>
-		<text><p>All effects that would occur at the end of a turn occur at the start of the turn instead.</p><p>If a hero plays a card they cannot use a power that turn, and vice-versa.</p><p>At the start of the environment turn, a player may discard their hand to destroy this card</p></text>
+		<text><p>All effects that would occur at the end of a turn occur at the start of the turn instead.</p><p>If a player plays a card they cannot use a power that turn, and vice-versa.</p><p>At the start of the environment turn, a player may discard their hand to destroy this card</p></text>
 		<quote>
 			<text>The floor sloped one way. Half of the room was metal flooring covered in sand, the lowest half was submerged.</text>
 			<source>Prey 14.11</source>
@@ -39,7 +39,7 @@
 	<card>
 		<name>Cold and Unpleasant</name>
 		<quantity>2</quantity>
-		<text><p>At the start of the environment turn, all targets take 1 cold damage.</p><p>At the start of their turn, a hero may skip the rest of their turn to destroy this card</p></text>
+		<text><p>At the start of the environment turn, all targets take 1 cold damage.</p><p>At the start of their turn, a player may skip the rest of their turn to destroy this card</p></text>
 		<quote>
 			<text>...the Boat Graveyard - an entire section of the coastline where boats had sat for so long that they'd rusted or taken on water.</text>
 			<source>Prey 14.11</source>
@@ -48,7 +48,7 @@
 	<card>
 		<name>Useful Cache</name>
 		<quantity>2</quantity>
-		<text>When this card is destroyed, a hero may draw 3 cards</text>
+		<text>When this card is destroyed, a player may draw 3 cards</text>
 		<quote>
 			<text>"...I'll use my bugs to mark out the traps that Bonesaw set up inside."</text>
 			<source>Skitter, Prey 14.11</source>
@@ -67,7 +67,7 @@
 	<card>
 		<name>Sound Carries</name>
 		<quantity>2</quantity>
-		<text><p>Whenever a target is put into play, play the top card of the environment deck.</p><p>At the end of the environment turn, a hero may discard 2 cards to destroy this card</p></text>
+		<text><p>Whenever a target is put into play, play the top card of the environment deck.</p><p>At the end of the environment turn, a player may discard 2 cards to destroy this card</p></text>
 		<quote>
 			<text>"...She knows where we are."</text>
 			<source>Tattletale, Prey 14.11</source>
