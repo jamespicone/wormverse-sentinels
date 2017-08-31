@@ -11,7 +11,7 @@
 	<card>
 		<name>Civilians</name>
 		<quantity>2</quantity>
-		<text><p>Heroes cannot use powers.</p><p>At the start of the environment turn, each player may discard 1 card each to destroy this card</p></text>
+		<text><p>Player characters cannot use powers.</p><p>At the start of the environment turn, each player may discard 1 card each to destroy this card</p></text>
 		<quote>
 			<text>"Low blow, Dragon," I said, finally. "Outing me? I thought you were better than that."</text>
 			<source>Chrysalis 20.5</source>
@@ -20,7 +20,7 @@
 	<card>
 		<name>Rooftops</name>
 		<quantity>1</quantity>
-		<text><p>Increase all damage by 1.</p><p>At the end of their turn, 1 player may discard 2 cards to destroy this card</p></text>
+		<text><p>Increase all damage by 1.</p><p>At the end of their turn, a player may discard 2 cards to destroy this card</p></text>
 		<quote>
 			<text>I could just imagine the flames igniting the rooftop, and just how little I'd be able to do if it happened.</text>
 			<source>Gestation 1.5</source>
