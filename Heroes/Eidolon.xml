@@ -280,7 +280,7 @@
 			<p>Until the start of your next turn:
 				<ul>
 					<li>You take 1 less damage</li>
-					<li>If damage would be dealt to all heroes or all hero targets, redirect the damage to you</li>
+					<li>If damage would be dealt to all heroes or all hero targets, redirect every instance of the damage to you</li>
 				</ul>
 			</p>
 		</power>
@@ -313,8 +313,32 @@
 		</power>
 	</card>
 
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Lines of Force</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>
+			<p>Rearrange the player order.</p>
+			<p>Continue play from the next position, not the hero that would have taken the next turn (e.g. if you were the 3rd player in the turn order, the 4th player in the new turn order takes their turn next)</p>
+		</power>
+		<power>
+			<p>Select a deck. Rearrange the order every card from that deck is considered to have entered play (this will effect the ordering of start of turn and end of turn effects)</p>
+		</power>
+	</card>
 
-
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Kinetic Dampener</name>
+		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		<power>
+			<p>All irreducible damage is reducible damage instead</p>
+		</power>
+	</card>
+		
 
 
 </deck>
