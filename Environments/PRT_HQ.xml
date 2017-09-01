@@ -34,7 +34,7 @@
 		<quantity>1</quantity>
 		<type>Device</type>
 		<hp>16</hp>
-		<text>Whenever damage is dealt to all targets of a particular type reduce that damage by 1</text>
+		<text>Whenever damage is dealt to all targets or all targets of a particular type reduce that damage by 1</text>
 		<name>Base Forcefield</name>
 		<quote>
 			<text>Moments later, he heard the distinctive hiss-crack of forcefield generators failing (the base's?)</text>
@@ -66,7 +66,7 @@
 		<quantity>1</quantity>
 		<type>Parahuman</type>
 		<hp>6</hp>
-		<text>At the start of the environment turn select the player character card with the lowest HP. Until the next environment turn that character cannot draw cards, cannot deal damage, cannot use powers, cannot be damaged, and does not have a turn. If that character is the only character that is not incapacitated the heroes lose the game</text>
+		<text>At the start of the environment turn select the player character card with the lowest HP. Until the next environment turn that character cannot draw cards, cannot deal damage, cannot use powers, cannot be damaged, and does not have a turn. If that player character card is the only player character card that is not incapacitated the heroes lose the game</text>
 		<name>Clockblocker</name>
 		<quote>
 			<text>...they were just suspended in time. Stuck in the air, immobile, untouchable.</text>
