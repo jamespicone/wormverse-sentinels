@@ -21,7 +21,7 @@
 		<name>Rusted Hulk</name>
 		<hp>15</hp>
 		<quantity>2</quantity>
-		<text>Whenever damage would be dealt to all targets of a particular type, this target takes one instance of the damage and prevents the rest of it</text>
+		<text>Whenever damage would be dealt to all targets or all targets of a particular type, this target takes one instance of the damage and prevents the rest of it</text>
 		<quote>
 			<text>...forty or fifty derelict ships, some bigger in sheer mass than the skyscrapers downtown</text>
 			<source>Prey 14.11</source>
