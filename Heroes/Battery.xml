@@ -164,7 +164,7 @@
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>Magnetism</name>
-		<power><p>If Battery is charged, destroy an equipment or device card.</p><p>If Battery is not charged, choose an equipment card from a hero's trash and put it into play</p></power>
+		<power><p>If Battery is charged, destroy an equipment or device card.</p><p>If Battery is not charged, choose an equipment card from a player's trash and put it into play</p></power>
 		<quote>
 			<text>But she didn't give him the opportunity to do either. Instead, she spent the rest of her accumulated power in a single burst, pulling at the metal of a nearby chair. It fell over, sliding into Madcap's path.</text>
 			<source>Interlude 12.5</source>
