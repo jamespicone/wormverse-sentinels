@@ -41,7 +41,7 @@
 	<card>
 		<quantity>2</quantity>
 		<class>Ongoing</class>
-		<type>Limited</type>
+		<class>Limited</class>
 		<name>Named After the Library</name>
 		<text>
 			<p>When this card enters play shuffle your trash into your deck</p>
@@ -86,6 +86,7 @@
 		<quantity>4</quantity>
 		<name>Imperious Demeanour</name>
 		<class>Ongoing</class>
+		<class>Limited</class>
 		<text><p>When this card is put into play draw a card</p>
 		<p>Whenever you use a power, Alexandria regains 3 HP</p></text>
 	</card>
@@ -95,7 +96,10 @@
 		<quantity>2</quantity>
 		<class>Equipment</class>
 		<name>Alexandria's Cape</name>
-		<text><p>Treat Alexandria as if she was the the target with the highest HP</p></text>
+		<text>
+			<p>Treat Alexandria as if she was the the target with the highest HP</p>
+			<p>Whenever Alexandria would be dealt exactly 1 damage, prevent it</p>
+		</text>
 	</card>
 	
 	<card>
