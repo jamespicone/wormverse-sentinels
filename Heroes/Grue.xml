@@ -167,7 +167,7 @@
 		<class>Ongoing</class>
 		<class>Limited</class>
 		<name>Stillness</name>
-		<text>Reduce all fire, sonic, and lightning damage by 1</text>
+		<text>Reduce all fire, sonic, lightning and energy damage by 1</text>
 		<quote>
 			<text>"It's not just hearing. It also cuts off radio signals and dampens the effects of radiation."</text>
 			<source>Tattletale, Insinuation 2.9</source>

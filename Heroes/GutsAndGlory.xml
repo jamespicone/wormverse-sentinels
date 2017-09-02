@@ -88,7 +88,8 @@
 		<quantity>2</quantity>
 		<class>Ongoing</class>
 		<name>Morale</name>
-		<text><p>Play this card next to a hero target.</p><p>Whenever that target would deal damage, you may increase the damage by 2. If you do, destroy this card</p></text>
+		<text><p>Attach this card to a hero target. Place 2 Morale tokens on it</p><p>Whenever that target would deal damage, you may spend a Morale token from this card to increase the damage by 2.</p></text>
+		<power>Place a Morale token on this card</power>
 	</card>
 	
 	<card>
@@ -135,7 +136,7 @@
 		<quantity>1</quantity>
 		<class>One-Shot</class>
 		<name>No</name>
-		<text>If Panacea is active, flip an incapacitated hero card. Give that hero 5 HP</text>
+		<text>If Panacea is active, flip an incapacitated hero card. Give that hero 5 HP, reshuffle their deck, and they draw an initial hand of 4 cards</text>
 	</card>
 	
 	<card>

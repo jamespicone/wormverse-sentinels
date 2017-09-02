@@ -57,8 +57,7 @@
 			<hp>10</hp>
 			<text>
 				<p>At the start of the game, reveal cards from the top of Dragon Unchained's deck until you reveal a Mech. Put it into your hand. Shuffle the rest of the cards back into your deck</p>
-				<p>Dragon Unchained is not a target unless there are no other hero targets in play</p>
-				<p>If Dragon Unchained has no Mechs in play at the end of her turn, incapacitate her</p>
+				<p>Whenever Dragon Unchained would be damaged, you may redirect that damage to a Mech</p>
 				<p>Whenever Dragon Unchained would gain a Focus point, instead activate a Focus effect</p>
 			</text>
 				<power>
@@ -67,7 +66,7 @@
 				</power>
 				<power>
 					<name>Recursive Self-Improvement</name>
-					<text>Activate up to 3 Focus effects</text>
+					<text>Activate up to 3 different Focus effects</text>
 				</power>
 		</front>
 		<back>
@@ -207,7 +206,9 @@
 		</text>
 		<ability>
 			<title>Focus</title>
-			<text>Gain 3 focus points</text>
+			<text>
+				<p>Gain 3 focus points after destroying this card</p>
+			</text>
 		</ability>
 	</card>
 	
