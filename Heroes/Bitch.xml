@@ -131,7 +131,10 @@
 		<class>Equipment</class>
 		<class>Limited</class>
 		<name>Whistle</name>
-		<text>At the end of your turn you may play an Order card</text>
+		<text>
+			<p>At the start of your turn you may draw a card</p>
+			<p>At the end of your turn you may play an Order card</p>
+		</text>
 		<quote>
 			<text>Bitch slipped past the pair of them, reaching the front door. I could hear her whistle at a volume that I doubted I could scream.</text>
 			<source>Parasite 10.3</source>
