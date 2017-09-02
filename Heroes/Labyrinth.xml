@@ -37,8 +37,7 @@
 		<type>Shaping</type>
 		<name>Giant Chessboard</name>
 		<text>
-			<p>Play this card over the top of an Environment card. Treat the covered card as if it had no text.</p>
-			<p>If this card is not on top of an Environment card, destroy it</p>
+			<p>Attach this card to an Environment card. Treat that card as if it had no text.</p>
 			<p>This card is an Environment card, not a hero card</p>
 			<p>At the end of Labyrinth's turn, pick a target. If you destroy an Environment card, each Environment card in play deals 1 melee damage to that target</p>
 		</text>
@@ -49,8 +48,7 @@
 		<type>Shaping</type>
 		<name>Devious Labyrinth</name>
 		<text>
-			<p>Play this card over the top of an Environment card. Treat the covered card as if it had no text.</p>
-			<p>If this card is not on top of an Environment card, destroy it</p>
+			<p>Attach this card to an Environment card. Treat that card as if it had no text.</p>
 			<p>This card is an Environment card, not a hero card</p>
 			<p>When a target enters play, you may place it next to this card. While next to this card, treat it as if it had no text</p>
 			<p>At the start of the Environment turn, take 2 cards from next to this card and put them in their normal play area</p> 
@@ -62,8 +60,7 @@
 		<type>Shaping</type>
 		<name>Beautiful Garden</name>
 		<text>
-			<p>Play this card over the top of an Environment card. Treat the covered card as if it had no text.</p>
-			<p>If this card is not on top of an Environment card, destroy it</p>
+			<p>Attach this card to an Environment card. Treat that card as if it had no text.</p>
 			<p>This card is an Environment card, not a hero card</p>
 			<p>Do not consider hero targets when Environment cards deal damage. Environment cards cannot destroy hero cards.</p>
 		</text>
@@ -74,8 +71,7 @@
 		<type>Shaping</type>
 		<name>The Room</name>
 		<text>
-			<p>Play this card over the top of an Environment card. Treat the covered card as if it had no text.</p>
-			<p>If this card is not on top of an Environment card, destroy it</p>
+			<p>Attach this card to an Environment card. Treat that card as if it had no text.</p>
 			<p>This card is an Environment card, not a hero card</p>
 			<p>At the end of Labyrinth's turn, this card deals 2 psychic damage to all villain targets</p>
 			<p>At the end of Labyrinth's turn, this card deals 3 irreducible psychic damage to Labyrinth</p>
@@ -87,8 +83,7 @@
 		<type>Shaping</type>
 		<name>Mighty Castle</name>
 		<text>
-			<p>Play this card over the top of an Environment card. Treat the covered card as if it had no text.</p>
-			<p>If this card is not on top of an Environment card, destroy it</p>
+			<p>Attach this card to an Environment card. Treat that card as if it had no text.</p>
 			<p>This card is an Environment card, not a hero card</p>
 			<p>At the end of Labyrinth's turn, pick a target. Until the start of Labyrinth's next turn, reduce damage dealt to that target by 1</p>
 		</text>
@@ -111,7 +106,7 @@
 		<quantity>2</quantity>
 		<class>Ongoing</class>
 		<name>Call In the Crew</name>
-		<text>When you use a power on this card, put a vantage token on it. Powers with vantage tokens on them cannot be used</text>
+		<text>When you use a power on this card, put a Team token on it. Powers with Team tokens on them cannot be used</text>
 		<power>Put a target other than a character card on top of its deck</power>
 		<power>Deal 3 sonic damage to all non-hero targets</power>
 		<power>Select a damage type. Reduce all damage of that type by 1 until the start of your next turn</power>
