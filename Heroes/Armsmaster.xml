@@ -142,6 +142,7 @@
 		<class>Ongoing</class>
 		<name>Quick Adjustment</name>
 		<power>Return a Module in play to your hand. You may play a Module</power>
+		<text>Whenever an Equipment card would be destroyed, you may destroy this card instead</text>
 		<quote><text>"Ear buds," Tattletale sighed, "Armsmaster told him to wear ear buds, so Dauntless can't hear anyone but him. That's both brilliant and incredibly depressing."</text><source>Tattletale, Tangle 6.7</source></quote>
 	</card>
 	<card>
