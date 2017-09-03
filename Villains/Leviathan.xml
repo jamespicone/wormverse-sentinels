@@ -35,14 +35,14 @@
 		<name>Water Shadow</name>
 		<class>Ongoing</class>
 		<type>Tactic</type>
-		<text>Whenever Leviathan would deal damage to a target, this card deals that target 2 irreducible melee damage. This card is indestructible</text>
+		<text>Whenever Leviathan would deal melee damage to a target, this card deals that target 2 irreducible melee damage. This card is indestructible</text>
 		<quantity>1</quantity>
 	</card>
 	<card>
 		<name>Torrential Downpour</name>
 		<class>Ongoing</class>
 		<type>Tactic</type>
-		<text>At the start of each hero turn, Leviathan deals that hero 1 cold damage. This card is indestructible</text>
+		<text>Whenever a player would draw a card, Leviathan deals that player's character card 1 cold damage. This card is indestructible</text>
 		<quantity>1</quantity>
 	</card>
 	<card>
@@ -50,7 +50,7 @@
 		<class>Ongoing</class>
 		<type>Tactic</type>
 		<text><p>If the environment deck is ever empty, the heroes lose the game. At the end of the villain turn, remove the top card of the environment deck from the game.</p>
-		<p>Players may skip any of their phases (play, power, draw). Every time a player skips a phase, they may take a card from the environment trash and shuffle it back into the environment deck</p>
+		<p>Players may skip any of their phases (play, power, draw). Any time a player skips a phase, they may take a card from the environment trash and shuffle it back into the environment deck</p>
 		<p>This card is indestructible</p></text>
 		<quantity>1</quantity>
 	</card>
