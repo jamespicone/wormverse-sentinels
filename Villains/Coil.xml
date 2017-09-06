@@ -44,7 +44,7 @@
 			<title>Evil Mastermind</title>
 			<nemesis>Tattletale</nemesis>
 			<hp>50</hp>
-			<text><p>At the start of the villain turn reveal cards from the villain deck until you reveal a Parahuman. Put it into play then shuffle the other revealed cards into the villain deck.</p><p>At the end of the villain turn deal H energy damage to the hero target with the highest HP.</p><p>When this card would be destroyed, flip it instead</p></text>
+			<text><p>At the start of the villain turn reveal cards from the villain deck until you reveal a Parahuman or you've revealed H cards. Put the Parahuman into play (if there is one) then shuffle the other revealed cards into the villain deck.</p><p>At the end of the villain turn deal H energy damage to the hero target with the highest HP.</p><p>When this card would be destroyed, flip it instead</p></text>
 			<advanced>At the end of the villain turn if Coil: Scheming has more HP than this card set this card's HP to its HP</advanced>
 		</front>
 		<back>
