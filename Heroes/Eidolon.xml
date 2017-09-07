@@ -15,13 +15,16 @@
 		<front>
 			<hp>26</hp>
 			<power>
-				<name>Trump</name>
+				<name>Need</name>
 				<text>
-					<p>Put a Power card into play.</p>
-					<p>If you have more than 3 Power cards in play, return Power cards to your hand until you have 3 in play.</p>
-					<p>You may use another power. If you do, destroy the Power card it is on and remove it from the game</p>
+					<p>Draw a card</p>
 				</text>
 			</power>
+			
+			<text>
+				<p>Whenever a Power card enters play, if there are more than 3 Power cards already in play, return one of your Power cards to your hand</p>
+				<p>If you use a power on a Power card the same turn it enters play, it from the game</p>
+			</text>
 		</front>
 		<back>
 			<text>
@@ -33,12 +36,38 @@
 			</text>
 		</back>
 	</charactercard>
+	
+	<charactercard>
+		<name>Ignis Fatuus</name>
+		<front>
+			<hp>28</hp>
+			<power>
+				<name>Flicker</name>
+				<text>
+					<p>Reveal the top 5 cards of your deck. Put one of the revealed cards into your hand; shuffle the others back into your deck</p>
+				</text>
+			</power>
+			
+			<text>
+				<p>Whenever a Power card enters play, you may use a power on that card. Then put the card into your trash</p>
+			</text>
+		</front>
+		<back>
+			<text>
+			<ul>
+				<li>1 player may use a power</li>
+				<li>Destroy a target that is not a character card</li>
+				<li>Destroy all ongoing cards in play</li>
+			</ul>
+			</text>
+		</back>
+	</charactercard>
+	
 	<card>
 		<quantity>1</quantity>
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Dig Deep</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>Draw 3 cards</power>
 	</card>
 	
@@ -47,7 +76,6 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Lightning Links</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>If there are exactly 2 non-hero targets in play, deal 4 lightning damage to both of them</power>
 	</card>
 	
@@ -56,7 +84,6 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Danger Sense</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>Reveal the top 5 cards of the villain deck. Put any revealed One-Shot cards back on top in any order. Then put the other cards back on top in any order.</power>
 	</card>
 	
@@ -66,8 +93,8 @@
 		<type>Power</type>
 		<name>Forcefield</name>
 		<text>
-			<p>This card may only be put into play by Eidolon's 'Trump' power</p>
 			<p>At the end of your turn, put a Power token on this card</p>
+			<p>When this card enters play, put a Power token on it</p>
 		</text>
 		<power>
 			<p>Until the start of your next turn, any time damage would be dealt to all targets of a particular type, reduce that damage by X, where X is the number of Power tokens on this card right now.</p>
@@ -80,7 +107,6 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Transposition</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>Select a damage type. The next time damage of that type would be dealt, redirect it to a target of your choice</power>
 	</card>
 	
@@ -89,8 +115,11 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Void</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
-		<power>Destroy a non-character-card target. Then destroy this card</power>
+		<power>
+			<p>Destroy a non-character-card target.</p>
+			<p>Put a Vacuum token on this card.</p>
+			<p>Deal all targets X sonic damage, where X is the number of Vacuum tokens on this card</p>
+		</power>
 	</card>
 	
 	<card>
@@ -98,7 +127,6 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Power Siphon</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>
 			<p>Select a card.</p>
 			<p>You may move any number of tokens to that card from another card with tokens of the same type</p>
@@ -112,7 +140,6 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Cliffs of Another World</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>
 			<p>Destroy all environment cards. Deal a target X energy damage, where X is the number of cards you just destroyed</p>
 		</power>
@@ -123,7 +150,7 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Dimensional Shift</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		
 		<power>
 			<p>Shuffle a card that has been removed from the game back into its deck</p>
 		</power>
@@ -138,7 +165,7 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Gravity</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		
 		<power>
 			<p>Deal 2 energy damage to all targets other than Eidolon</p>
 		</power>
@@ -150,8 +177,8 @@
 		<type>Power</type>
 		<name>Destroy the Indestructible</name>
 		<text>
-			<p>This card may only be put into play by Eidolon's 'Trump' power</p>
 			<p>At the end of your turn, put a Power token on this card</p>
+			<p>When this card enters play, put a Power token on it</p>
 		</text>
 		<power>
 			<p>Deal X damage to a target, where X is the number of Power tokens on this card.</p>
@@ -164,7 +191,6 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Stand Among the Clouds</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>
 			<p>Until the start of your next turn, Environment cards have no text.</p>
 		</power>
@@ -175,7 +201,6 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>A Hundred Other Capes</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>
 			<p>If there are 4 or more non-hero targets in play, destroy all non-character-card, non-hero targets</p>
 		</power>
@@ -186,7 +211,6 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Draw Worship</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>
 			<p>Destroy a hero Ongoing card. If you do, destroy up to 2 villain Ongoing, Equipment, or Device cards</p>
 		</power>
@@ -197,7 +221,6 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Detonate</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>
 			<p>Destroy a hero Equipment card. If you do, you may deal a target 3 melee and 3 fire damage</p>
 		</power>
@@ -208,7 +231,6 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Molecular Brake</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>
 			<p>Deal 3 cold damage to all non-hero targets.</p>
 			<p>Destroy all targets with 2 HP or less</p>
@@ -221,7 +243,6 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Pierce Through</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>
 			<p>Deal 3 projectile damage to a villain target.</p>
 			<p>Deal 4 projectile damage to a different villain target.</p>
@@ -235,7 +256,6 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Control</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>
 			<p>Deal a hero other than Eidolon 4 psychic damage</p>
 			<p>That hero may play a card</p>
@@ -249,7 +269,6 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Accelerate Time</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>
 			<p>Play the top card of the villain deck</p>
 			<p>Each hero (other than Eidolon) may use a power in turn order</p>
@@ -261,10 +280,10 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Creation</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		
 		<power>
-			<p>Reveal the top card of every deck, starting from yours and going clockwise</p>
-			<p>If the revealed card is an Equipment or Device card, put it into play. Otherwise, discard it</p>
+			<p>Reveal the top 2 cards of every deck, starting from yours and going clockwise</p>
+			<p>Put any revealed Equipment or Device cards into play. Discard the rest.</p>
 			<p>Play the top card of the villain deck</p>
 		</power>
 	</card>
@@ -274,7 +293,7 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Scatterstate</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		
 		<power>
 			<p>Deal 1 energy damage and 1 melee damage to all non-hero targets</p>
 			<p>Until the start of your next turn:
@@ -291,7 +310,7 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Frozen Fortifications</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		
 		<power>
 			<p>Until the start of your next turn:
 				<ul>
@@ -307,7 +326,7 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Psychometry</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		
 		<power>
 			<p>Reveal the top 3 cards of a deck. Put any revealed Ongoing cards into play</p>
 		</power>
@@ -318,7 +337,7 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Lines of Force</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
+		
 		<power>
 			<p>Rearrange the player order.</p>
 			<p>Continue play from the next position, not the hero that would have taken the next turn (e.g. if you were the 3rd player in the turn order, the 4th player in the new turn order takes their turn next)</p>
@@ -333,12 +352,11 @@
 		<class>Ongoing</class>
 		<type>Power</type>
 		<name>Kinetic Dampener</name>
-		<text>This card may only be put into play by Eidolon's 'Trump' power</text>
 		<power>
-			<p>All irreducible damage is reducible damage instead</p>
+			<p>Until the start of your next turn, all irreducible damage is reducible damage instead</p>
 		</power>
 	</card>
 		
-
+	
 
 </deck>
