@@ -48,6 +48,42 @@
 			</text>
 		</back>
 	</charactercard>
+	<charactercard>
+		<name>Tattletale, Hunter of Secrets</name>
+		<front>
+			<hp>26</hp>
+			<text>On this card, X is the number of Info tokens on Tattletale</text>
+			<power>
+				<name>Lead</name>
+				<text>
+					<p>Reveal the top card of your deck. Then:
+						<ul>
+							<li>If it isn't an Ongoing, discard it.</li>
+							<li>If it is an Ongoing and no other copies of that card are in play, put it into play and put an Info token on Tattletale.</li>
+							<li>Otherwise, Tattletale deals X psychic damage to herself. Then remove all Info tokens from Tattletale.</li>
+						</ul>
+					</p>
+				</text>
+			</power>
+			<power>
+				<name>Big Reveal</name>
+				<text>
+					<p>
+						While there are Info tokens on Tattletale, you may deal X psychic damage to a target and then remove an Info token from Tattletale
+					</p>
+				</text>
+			</power>
+		</front>
+		<back>
+			<text>
+				<ul>
+					<li>One hero may use a power</li>
+					<li>Reveal the top card of a deck, then return it to that deck</li>
+					<li>Reveal the bottom card of a deck. Either return it to the bottom of the deck or discard it</li>
+				</ul>
+			</text>
+		</back>
+	</charactercard>
 	<card>
 		<quantity>3</quantity>
 		<class>One-Shot</class>
