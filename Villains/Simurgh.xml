@@ -8,7 +8,7 @@
 
 <deck>
 	<deckname>The Simurgh</deckname>
-	<version>1.0</version>
+	<version>2.0</version>
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>
@@ -35,7 +35,7 @@
 			<gameplay>
 			<p>Reduce damage dealt to the Simurgh by 1</p>
 			<p>At the start of the villain turn, reveal the top H + 1 cards of the villain deck. Put them back on the villain deck in ascending order by their ⚠</p>
-			<p>At the end of the villain turn, place a token on the Simurgh and deal all heroes X psychic damage, where X is the number of tokens on the Simurgh</p></gameplay>
+			<p>At the end of the villain turn, place a token on the Simurgh. Then all heroes deal themselves X psychic damage, where X is the number of tokens on the Simurgh</p></gameplay>
 			<advanced>Players may not discuss strategy or tactics</advanced>
 		</back>
 	</villain>
@@ -44,7 +44,7 @@
 	<card>
 		<name>A Surfeit of Options</name>
 		<type>Condition</type>
-		<text>When this card is revealed if there are at least H Ongoing cards in play, flip over a face-down trap card. Then return this card to the Condition deck and shuffle it</text>
+		<text>When this card is revealed if there are at least H Ongoing cards in play, flip over a face-down trap card and remove this card from the game. Otherwise return this card to the Condition deck and shuffle it</text>
 		<quantity>1</quantity>
 		<quote>
 			<text></text>
@@ -55,7 +55,7 @@
 	<card>
 		<name>An Attack Expected</name>
 		<type>Condition</type>
-		<text>When this card is revealed if the Simurgh took damage last round, flip over a face-down trap card. Then return this card to the Condition deck and shuffle it</text>
+		<text>When this card is revealed if the Simurgh took damage last round, flip over a face-down trap card and remove this card from the game. Otherwise return this card to the Condition deck and shuffle it</text>
 		<quantity>1</quantity>
 		<quote>
 			<text></text>
@@ -66,7 +66,7 @@
 	<card>
 		<name>A Backup Sabotaged</name>
 		<type>Condition</type>
-		<text>When this card is revealed if any hero has multiple copies of the same card in their hand, flip over a face-down trap card. Then return this card to the Condition deck and shuffle it</text>
+		<text>When this card is revealed if any hero has multiple copies of the same card in their hand, flip over a face-down trap card and remove this card from the game. Otherwise return this card to the Condition deck and shuffle it</text>
 		<quantity>1</quantity>
 		<quote>
 			<text></text>
@@ -77,7 +77,7 @@
 	<card>
 		<name>A Wealth of Targets</name>
 		<type>Condition</type>
-		<text>When this card is revealed if there are at least H non-character-card targets in play, flip over a face-down trap card. Then return this card to the Condition deck and shuffle it</text>
+		<text>When this card is revealed if there are at least H non-character-card targets in play, flip over a face-down trap card and remove this card from the game. Otherwise return this card to the Condition deck and shuffle it</text>
 		<quantity>1</quantity>
 		<quote>
 			<text></text>
@@ -88,7 +88,7 @@
 	<card>
 		<name>An Unfortunate Malfunction</name>
 		<type>Condition</type>
-		<text>When this card is revealed if there are at least H Equipment cards in play, flip over a face-down trap card. Then return this card to the Condition deck and shuffle it</text>
+		<text>When this card is revealed if there are at least H Equipment cards in play, flip over a face-down trap card and remove this card from the game. Otherwise return this card to the Condition deck and shuffle it</text>
 		<quantity>1</quantity>
 		<quote>
 			<text></text>
@@ -146,7 +146,7 @@
 	<card>
 		<name>A Tragic End</name>
 		<type>Trap</type>
-		<text><p>When this card is flipped, destroy every non-character-card target in play. Deal X psychic damage to all hero targets, where X = the number of targets destroyed in this way</p>
+		<text><p>When this card is flipped, destroy every non-character-card target in play. The Simurgh deals X psychic damage to all hero targets, where X = the number of targets destroyed in this way</p>
 		<p>This card is indestructible</p></text>
 		<quantity>1</quantity>
 		<quote>
@@ -202,8 +202,8 @@
 		<class>One-Shot</class>
 		<text>
 			<p>2 ⚠</p>
-			<p>Deal X instances of 1 psychic damage spread out over all hero targets, where X = H * H</p>
-			<p>Deal X instances of 1 irreducible psychic damage spread out over all hero targets, where X = (H-1) * (H-1)</p>
+			<p>The environment deals X instances of 1 projectile damage spread out over all hero targets, where X = 2 * H - 1</p>
+			<p>The environment deals X instances of 1 irreducible projectile damage spread out over all hero targets, where X = (H-1) * (H-1)</p>
 		</text>
 		<quantity>3</quantity>
 		<quote>
@@ -261,7 +261,7 @@
 		<text>
 			<p>6 ⚠</p>
 			<p>When this card is revealed, play it</p>
-			<p>Deal X psychic damage to all hero targets, where X = the number of revealed trap cards + 1</p>
+			<p>The Simurgh deals X psychic damage to all hero targets, where X = the number of revealed trap cards + 1</p>
 		</text>
 		<quantity>4</quantity>
 		<quote>
@@ -275,7 +275,7 @@
 		<class>One-Shot</class>
 		<text>
 			<p>7 ⚠</p>
-			<p>Deal H psychic damage to the hero with the least cards in play</p>
+			<p>The Simurgh deals H psychic damage to the hero with the least cards in play</p>
 		</text>
 		<quantity>3</quantity>
 		<quote>
