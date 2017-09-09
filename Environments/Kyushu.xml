@@ -4,7 +4,7 @@
 
 <deck>
 	<deckname>Kyushu</deckname>
-	<version>2.0.0</version>
+	<version>2.0.1</version>
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>
@@ -19,8 +19,8 @@
 			<p>The first time Black Kaze would be damaged each round, redirect the damage to the target Black Kaze is next to</p>
 		</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>Nobody knew her real body count, but conservative estimates put it in the tens of thousands. She’d roamed the remains of the landscape, killing survivors, killing rescuers, boarding the ships that approached too close to the ruined area and killing the crews, and rendering a widespread area devoid of life.</text>
+			<source>Extinction 27.3</source>
 		</quote>
 	</card>
 
@@ -70,8 +70,8 @@
 			<p>When this card would be destroyed, if there are other environment cards in play, destroy one of them instead</p>
 		</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>"May ninth, 2005. Nearly half a million dead. The Canadian island simply gone, after the shelf of land holding it up cracked in the face of what we now understand were incredible pressures beneath the water level."</text>
+			<source>Legend, Extermination 8.2</source>
 		</quote>
 	</card>
 	
@@ -84,8 +84,8 @@
 			<p>When a target is destroyed, destroy this card</p>
 		</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>The only ones left were the indomitable, and for now, Lung was among them.</text>
+			<source>Interlude 22</source>
 		</quote>
 	</card>
 	
@@ -97,8 +97,8 @@
 			<p>At the end of the environment turn, destroy this card</p>
 		</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>A pre-battle speech from Legend. It almost made the lousiest, most painful and dangerous situations I’d put up with since putting on my costume worth it.</text>
+			<source>Extermination 8.1</source>
 		</quote>
 	</card>
 	
@@ -110,8 +110,8 @@
 			<p>At the end of the environment turn, destroy this card</p>
 		</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>"You’re going to die!" the Sentai in black and yellow shouted.</text>
+			<source>Interlude 22</source>
 		</quote>
 	</card>
 	<card>
@@ -122,8 +122,8 @@
 			<p>At the end of the environment turn, deal 4 irreducible melee damage to the target with the second highest HP</p>
 		</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text><i>Depart from the rooftops, buildings may come down imminently</i></text>
+			<source>Dragon, Extermination 8.3</source>
 		</quote>
 	</card>
 	<card>
@@ -135,8 +135,8 @@
 			<p>At the end of the environment turn, destroy this card</p>
 		</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>It was my armband.  The screen was ringed by a square of yellow, a yellow triangle with a black exclamation mark pointing in Leviathan’s general direction.</text>
+			<source>Extermination 8.3</source>
 		</quote>
 	</card>
 	<!--
