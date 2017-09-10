@@ -72,7 +72,7 @@
 
 <xsl:template match="quote">
 	<div class="quotediv inbox">
-		<p><xsl:value-of select="text/node()" /></p>
+		<p><xsl:copy-of select="text/node()" /></p>
 		<strong>--<xsl:value-of select="source/node()" /></strong>
 	</div>
 </xsl:template>
