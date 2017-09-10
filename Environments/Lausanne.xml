@@ -19,6 +19,10 @@
 				<p>At the end of the Environment turn, this card deals 3 projectile damage to the hero target with the lowest HP</p>
 				<p>When this card is flipped to this side destroy 1 hero card</p>
 			</text>
+			<quote>
+				<text>"I'm sure you heard about it, you're not that young. Suicide bombers, dirty bombs. Terrorism, if you will. Eleven year olds and old men making their way to Amsterdam or London and opening fire in a crowded area."</text>
+				<source></source>
+			</quote>
 		</front>
 		<back>
 			<type>Citizen</type>
@@ -39,6 +43,10 @@
 			<text>
 				<p>When this card is destroyed, deal 1 psychic damage to all heroes</p>
 			</text>
+			<quote>
+				<text>"It's what happened in... what was that place called? Lausanne? Switzerland. She showed up, and nobody wanted to pick a fight with her, and they were curious, so they studied her, and tried to communicate with her."</text>
+				<source>Jess, Migration 17.3</source>
+			</quote>
 		</front>
 		<back>
 			<type>Citizen</type>
@@ -59,6 +67,10 @@
 			<text>
 				<p>The first time damage would be dealt to a hero target each round, reduce the damage by 1</p>
 			</text>
+			<quote>
+				<text>"Defiant and Dragon wanted to use the hostages against me, putting me in a lose-lose situation where I was caught between them and having to hurt people to try to escape. I think I'm turning the tables, now. We're going to walk out of this school as a group. If you want to stop us, you're going to have to hurt us, and you aren't capable of doing that to people any more than I am."</text>
+				<source>Skitter, Chrysalis 20.5</source>
+			</quote>
 		</front>
 		<back>
 			<type>Citizen</type>
@@ -81,6 +93,10 @@
 				<p>Increase damage dealt to hero targets by 1</p>
 				<p>When this card is flipped to this side, destroy all Citizens that aren't also Broken</p>
 			</text>
+			<quote>
+				<text>"...Tons of people gathered. Then she... sang? Screamed? Whatever this is. There was chaos, people didn't know what was happening, so they weren't able to evacuate that well. Roads clogged. And then they started flipping out. Emotions ramped up, inhibitions lowered, flashbacks to old traumas. And a lot of the emotion that got juiced up was fear."</text>
+				<source>Jess, Migration 17.3</source>
+			</quote>
 		</front>
 		<back>
 			<type>Citizen</type>
@@ -101,6 +117,10 @@
 			<text>
 				<p>The first time each round a hero card enters play, that hero may draw a card</p>
 			</text>
+			<quote>
+				<text>The man who'd helped me with Mannequin had the concrete block in his hand, and for the third time, be brought it down on Mannequin's head. The head came free of the chain and fell to the ground, rolling briefly.</text>
+				<source>Plague 12.7</source>
+			</quote>
 		</front>
 		<back>
 			<type>Citizen</type>
@@ -123,6 +143,10 @@
 				<p>The first time a hero card enters play each turn, that hero discards a card</p>
 				<p>When this card is flipped to this side, remove the top card of each hero deck from the game</p>
 			</text>
+			<quote>
+				<text>"It keeps happening. Every time she shows up. Every time, people who've heard this song that's in our head? Things go wrong. They snap, they break, their lives fall apart, or they do something, and it makes something else happen, and there's a major disaster. That guy who was supposedly making a clean energy source that could power whole cities? His wife and kids got killed and he became a supervillain who made it a life goal to murder anyone who tries to better society with their powers."</text>
+				<source>Jess, Migration 17.5</source>
+			</quote>
 		</front>
 		<back>
 			<type>Citizen</type>
@@ -143,6 +167,15 @@
 			<p>At the end of the environment turn, take all Citizen cards from the the Environment deck and trash, shuffle them, and put them into play</p>
 			<p>When a Citizen card is destroyed, destroy this card</p>
 		</text>
+		<quote>
+			<text>
+				<p>"How the fuck is she not a tinker!?"</p>
+				<p>"She isn't! She's never done anything like this before!"</p>
+			</text>
+			<source>
+				Krouse &amp; Jess, Migration 17.2
+			</source>
+		</quote>
 	</card>
 
 	<card>
@@ -154,6 +187,10 @@
 			<p>Otherwise, all heroes take 2 psychic damage, then flip all Citizen cards in play</p>
 			<p>Then destroy this card</p>
 		</text>
+		<quote>
+			<text>"Step away from the fence! This area is under quarantine! Seek shelter and wait for further instructions! If you approach or touch the fence, you will be shot!"</text>
+			<source>A soldier, Migration 17.2</source>
+		</quote>
 	</card>
 
 	<specialcard>
@@ -169,6 +206,10 @@
 				<p>At the end of the Environment turn, place a Fate token on The Simurgh</p>
 				<p>When there are 3 Fate tokens on the Simurgh, flip her</p>
 			</text>
+			<quote>
+				<text>"...When she first showed up, she just appeared and hovered there. Some place in Switzerland. They thought she was like Scion. Maybe someone who got a concentrated dose of whatever gives people powers, maybe someone who was in just the right mental state for a trigger event."</text>
+				<source>Jess, Migration 17.2</source>
+			</quote>
 		</front>
 		<back>
 			<type>Newest Endbringer</type>
@@ -178,6 +219,10 @@
 				<p>At the end of the environment turn, deal X psychic damage to every hero, where X is the number of Fate tokens on this card</p>
 				<p>When a Citizen card enters play, place a Fate token on this card</p>
 			</text>
+			<quote>
+				<text>"...And when we thought things would be okay, she made a move. The entire population of the city around her, with all the people who had come to talk with her and research her..."</text>
+				<source>Jess, Migration 17.2</source>
+			</quote>
 		</back>
 	</specialcard>
 
@@ -189,6 +234,10 @@
 			<p>When this card is destroyed, all heroes discard a card</p>
 			<p>When a hero target is destroyed, destroy this card</p>
 		</text>
+		<quote>
+			<text>With a sound like a muffled thunderclap, a half dozen people appeared in the center of the empty lot.</text>
+			<source>Extermination 8.1</source>
+		</quote>
 	</card>
 
 	<card>
@@ -196,10 +245,14 @@
 		<hp>4</hp>
 		<quantity>2</quantity>
 		<text>
-			<p>At the end of the environment turn, this card deals 1 melee damage to the targettable hero with the most cards in play</p>
+			<p>At the end of the environment turn, this card deals 1 melee damage to the hero with the most cards in play</p>
 			<p>When this card deals damage to a hero, destroy a card owned by that hero</p>
 			<p>When this card deals damage to a villain target, destroy a villain non-character card</p>
 		</text>
+		<quote>
+			<text>They'd raided countless homes and businesses, taken everything of value they could uncover. Phone lines were down everywhere, police response times far slower with the roads in the condition they were. The looters had amassed a small fortune in stolen possessions</text>
+			<source>Parasite 10.2</source>
+		</quote>
 	</card>
 
 	<card>
@@ -209,5 +262,9 @@
 		<text>
 			<p>At the end of the environment turn, destroy a Civilian card</p>
 		</text>
+		<quote>
+			<text>"We shot them, the people who heard too much of the Simurgh's song, who weren't just walking disaster areas, but who'd listened long enough that they lost something. Men, women and children missing that moral center that people like Miss Militia and I have"</text>
+			<source>Director Tagg, Cell 22.2</source>
+		</quote>
 	</card>
 </deck>
