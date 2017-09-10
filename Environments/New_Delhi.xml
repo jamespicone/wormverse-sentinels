@@ -4,7 +4,7 @@
 
 <deck>
 	<deckname>New Delhi</deckname>
-	<version>2.0.0</version>
+	<version>2.0.1</version>
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>
@@ -16,6 +16,10 @@
 		<text><p>At the start of the environment turn, place 2 tokens on this card</p>
 		<p>At the end of the environment turn, move this card next to the target with the highest HP</p>
 		<p>When this card is destroyed, it deals X damage to the target it is next to, where X is the number of tokens on this card</p></text>
+		<quote>
+			<text>"A weapon, A... how do you Americans say it? Time bomb? Only this is joke."</text>
+			<source>Phir Sē, Crushed 24.3</source>
+		</quote>
 	</card>
 	
 	<card>
@@ -25,6 +29,10 @@
 		<text><p>At the start of the environment turn, remove this card from the game (even if it is indestructible)</p>
 		<p>All cards are indestructible</p>
 		<p>All cards are immune to damage</p></text>
+		<quote>
+			<text>Scion didn't move or speak. He walked forward, and ripples extended from his footsteps, soared past us with some strange motive force. The ripple touched the wave, and the tower of water collapsed before it got halfway to us, dropping straight down. Liquid as far as the eye could see was being flattened out into a disquieting stillness by the ripples of Scion's footsteps, like a great pane of glass.</text>
+			<source>Extermination 8.5</source>
+		</quote>
 	</card>
 	
 	<card>
@@ -34,6 +42,10 @@
 		<hp>8</hp>
 		<text><p>Reduce damage dealt to this card by 1</p>
 		<p>Whenever damage would be dealt to heroes, redirect it to this card</p></text>
+		<quote>
+			<text>He tried to move, to raise his blade, only to find his armor refusing to cooperate. It had melted, the joints and joins flowing into one another. His sword wasn't much better. The ceramic properties he'd applied to the edge were heat-resistant, but the remainder of the weapon were growing more nebulous in shape, the hottest parts of the metal flowing down to obscure the edge.</text>
+			<source>Interlude 24</source>
+		</quote>
 	</card>
 	
 	<card>
@@ -43,6 +55,10 @@
 		<p>When this card enters play reveal the top card of each deck, starting from the villain, in turn order. If the card is an Ongoing, Equipment or Device, put it into play. Otherwise shuffle it back into the deck</p>
 		<p>At the end of the environment turn, destroy this card</p>
 		</text>
+		<quote>
+			<text>He'd taken the time one afternoon to solve world hunger. Six hours and twenty-six minutes with the internet and a phone on hand, and he'd been able to wrap his head around the key elements of the problem. He'd drafted a document in the nine hours that followed, doing little more than typing and tracking down exact numbers. A hundred and fifty pages, formatted and clear, detailing who would need to do what, and the costs therein.</text>
+			<source>Interlude 20</source>
+		</quote>
 	</card>
 	
 	<card>
@@ -55,6 +71,10 @@
 		<p>At the end of the environment turn this card deals 1 lightning damage to the target with the highest HP</p>
 		<p>At the end of the environment turn this card deals 1 energy damage to the target with the highest HP</p>
 		</text>
+		<quote>
+			<text>"For years, we have boasted of the strength the Yàngbǎn offers the world.  But we are small, and too many citizens with powers flee or fight rather than cooperate.  Today, we hope to show our strength.  We have extended our support, and we ask for trust in exchange"</text>
+			<source>Thirty-two, Interlude 23</source>
+		</quote>
 	</card>
 	<!--good cards-->
 	
@@ -66,6 +86,10 @@
 		<text>
 		<p>Whenever a target would be dealt lightning damage, redirect the damage to this card</p>
 		</text>
+		<quote>
+			<text>"His lightning doesn’t follow regular channels. We’re <em>all</em> lightning rods to him."</text>
+			<source>Skitter, Crushed 24.1</source>
+		</quote>
 	</card>
 	
 	<card>
@@ -75,6 +99,10 @@
 		<p>At the end of the environment turn, this card deals all targets 2 fire damage</p>
 		<p>If a target is dealt cold damage, destroy this card</p>
 		</text>
+		<quote>
+			<text>They were getting roasted, by hot air and scorching smoke if not the fires themselves.</text>
+			<source>Crushed 24.1</source>
+		</quote>
 	</card>
 	
 	<card>
@@ -82,6 +110,10 @@
 		<name>Thanda</name>
 		<text><p>When this card enters play, place three tokens on it. If it ever has no tokens on it, remove it from the game</p>
 		<p>At the end of the environment turn, remove the non-character-card Parahuman with the lowest HP from the game. If you do, remove a token from this card</p></text>
+		<quote>
+			<text>"We need the ones with killer instinct, the ones who fight for real, not for play. The cold capes."</text>
+			<source>Defiant, Drone 23.5</source>
+		</quote>
 	</card>
 	
 	<card>
@@ -89,6 +121,10 @@
 		<name>A Chaotic Environment</name>
 		<text><p>At the end of the environment turn, play the top card of the environment deck</p>
 		<p>At the start of the environment turn, if this is the only environment card in play, destroy it</p></text>
+		<quote>
+			<text>We don’t have the organization. Our command structure is down. Tattletale is gone, either dead or too hurt to fight.</text>
+			<source>Crushed 24.2</source>
+		</quote>
 	</card>
 	
 	<card>
@@ -97,6 +133,10 @@
 		<text><p>At the end of the environment turn, place a token on this card</p>
 		<p>At the start of the environment turn, deal X energy damage to all targets, where X is the number of tokens on this card. If there are no tokens on this card, destroy it</p>
 		<p>Whenever a target regains HP, remove a token from this card</p></text>
+		<quote>
+			<text>The radiation was generally observed to be concentrated, limited to a certain range, manipulated to strike only those within a hundred feet or so of Behemoth, to saturate the landscape and render it uninhabitable.</text>
+			<source>Interlude 24</source>
+		</quote>
 	</card>
 	<!-- neutral cards-->
 	
@@ -106,6 +146,10 @@
 		<type>Parahuman</type>
 		<hp>6</hp>
 		<text><p>At the start of the environment turn, play the top card of the villain trash</p></text>
+		<quote>
+			<text>"Directed time travel, anyways. Backwards only, a few seconds at a time. You teleport away, I set you back to where you were, then kick you in the balls for being an asshole"</text>
+			<source>Perditon, Migration 17.7</source>
+		</quote>
 	</card>
 	
 	<card>
@@ -113,6 +157,10 @@
 		<name>Devastation</name>
 		<text><p>When this card is put into play, destroy all non-character-card cards in play except this card</p>
 		<p>At the end of the environment turn, destroy this card</p></text>
+		<quote>
+			<text>The temple was the one building that stood. Everywhere else, there was devastation.</text>
+			<source>Crushed 24.5</source>
+		</quote>
 	</card>
 	
 	<card>
@@ -120,6 +168,10 @@
 		<name>Crackling Lightning</name>
 		<text><p>When this card is put into play, deal 3 lightning damage to all hero targets</p>
 		<p>At the end of the environment turn, destroy this card</p></text>
+		<quote>
+			<text>More lightning was unleashed, each doing successively more damage to the craft. By the fourth blast, it wasn’t operational. The fifth split it down the middle. Insulation was little use against a dynakinetic that could redirect the natural course of electricity.</text>
+			<source>Drone 23.5</source>
+		</quote>
 	</card>
 	
 	<card>
@@ -127,6 +179,10 @@
 		<name>Unstoppable</name>
 		<text><p>Reduce damage dealt to the villain target with the highest HP by 1</p>
 		<p>If the villain target with the highest HP is dealt 4 or more damage in a single instance, destroy this card</p></text>
+		<quote>
+			<text>hes here. defenses crumbled in a minute. rime dead. melted off more than half his outer body and he still fighting. last stand to protect hosp’l for evac and he cutting them down</text>
+			<source>Tattletale, Interlude 24</source>
+		</quote>
 	</card>
 	
 	<card>
@@ -134,6 +190,10 @@
 		<name>Heroic Sacrifice</name>
 		<text><p>Whenever damage would be redirected from one hero target to another, increase the damage by 2</p>
 		<p>If a hero target deals damage to another hero target, destroy this card</p></text>
+		<quote>
+			<text>"Fuck it" Regent said, his voice almost inaudible. He was looking at Imp.</text>
+			<source>Crushed 24.4</source>
+		</quote>
 	</card>
 	
 	<!-- bad cards -->
