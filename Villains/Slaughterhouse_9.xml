@@ -201,7 +201,7 @@
 		<type>Attack</type>
 		<text>Each hero may destroy any number of Equipment cards. Then, the Nine card with the highest HP deals each hero target X projectile damage, where X = 2 * the number of Equipment cards in play</text>
 		<quote>
-			<text>It was as though the glass broke in response to some invisible tidal wave, caught in the nonexistent ‘water', carried along, shattering on impacts with surfaces, slashing anything that would cut, piercing deep into any surface soft enough. I could feel it roll past me, south to north.</text>
+			<text>It was as though the glass broke in response to some invisible tidal wave, caught in the nonexistent 'water', carried along, shattering on impacts with surfaces, slashing anything that would cut, piercing deep into any surface soft enough. I could feel it roll past me, south to north.</text>
 			<source>Plague 12.5</source>
 		</quote>
 	</card>
@@ -255,9 +255,9 @@
 		<class>One-Shot</class>
 		<text><p>Play the top card of the Nine deck.</p><p>Play the top card of the villain deck</p></text>
 		<quote>
-			<text>He raised one hand, and Burnscar slapped it in a lazy high-five.
+			<text><p>He raised one hand, and Burnscar slapped it in a lazy high-five.</p>
 
-				She turned towards us. "There. He just tagged me in. Forfeited his turn."</text>
+				<p>She turned towards us. "There. He just tagged me in. Forfeited his turn."</p></text>
 			<source>Snare 13.3</source>
 		</quote>
 	</card>
