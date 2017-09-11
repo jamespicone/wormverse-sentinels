@@ -80,9 +80,9 @@
 		<quantity>1</quantity>
 		<text><p>This card is immune to fire damage.</p><p>At the end of the villain turn, this card deals 2 fire damage to all hero targets</p></text>
 		<quote>
-			<text>Directly below Sundancer, the floor was normal. Starting around five feet from her, though, the ground looked wet, glassy.
+			<text><p>Directly below Sundancer, the floor was normal. Starting around five feet from her, though, the ground looked wet, glassy.</p>
 
-The asphalt was melting.</text>
+<p>The asphalt was melting.</p></text>
 			<source>Hive 5.9</source>
 		</quote>
 	</card>
@@ -93,9 +93,9 @@ The asphalt was melting.</text>
 		<quantity>1</quantity>
 		<text><p>The first time Trickster would be dealt damage each round, redirect it to the hero target with the lowest HP.</p><p>At the end of the villain turn, the hero with most cards in play destroys one of their cards</p></text>
 		<quote>
-			<text>"A shame," Trickster bowed.
+			<text><p>"A shame," Trickster bowed.</p>
 
-In the blink of an eye, Weld disappeared, and Genesis loomed in his place</text>
+<p>In the blink of an eye, Weld disappeared, and Genesis loomed in his place</p></text>
 			<source>Sentinel 9.3</source>
 		</quote>
 	</card>
