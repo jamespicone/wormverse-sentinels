@@ -47,8 +47,8 @@
 		<text>When this card is revealed if there are at least H Ongoing cards in play, flip over a face-down trap card and remove this card from the game. Otherwise return this card to the Condition deck and shuffle it</text>
 		<quantity>1</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>She requires resources. This requires patience.</text>
+			<source>Interlude 28</source>
 		</quote>
 	</card>
 	
@@ -58,8 +58,8 @@
 		<text>When this card is revealed if the Simurgh took damage last round, flip over a face-down trap card and remove this card from the game. Otherwise return this card to the Condition deck and shuffle it</text>
 		<quantity>1</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>She must be unmolested. This is given freely to her.</text>
+			<source>Interlude 28</source>
 		</quote>
 	</card>
 	
@@ -69,8 +69,8 @@
 		<text>When this card is revealed if any hero has multiple copies of the same card in their hand, flip over a face-down trap card and remove this card from the game. Otherwise return this card to the Condition deck and shuffle it</text>
 		<quantity>1</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>The heroes had cut the power, and the Simurgh was still managing to activate the thing.</text>
+			<source>Migration 17.2</source>
 		</quote>
 	</card>
 	
@@ -80,8 +80,8 @@
 		<text>When this card is revealed if there are at least H non-character-card targets in play, flip over a face-down trap card and remove this card from the game. Otherwise return this card to the Condition deck and shuffle it</text>
 		<quantity>1</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>With study and careful precision, each ball can find its pocket. Spheres of synthetic resin meet the furthest point of a ledge covered by woven wool, perching on the edge as they spend their momentum.</text>
+			<source>Interlude 28</source>
 		</quote>
 	</card>
 	
@@ -91,8 +91,8 @@
 		<text>When this card is revealed if there are at least H Equipment cards in play, flip over a face-down trap card and remove this card from the game. Otherwise return this card to the Condition deck and shuffle it</text>
 		<quantity>1</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>She requires access to particular information. This can be arranged by positioning targets carefully.</text>
+			<source>Interlude 28</source>
 		</quote>
 	</card>
 	
@@ -105,8 +105,8 @@
 		</text>
 		<quantity>1</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>An obstacle must be removed. This is critical, but she is blind to it. This is the greatest problem she faces.</text>
+			<source>Interlude 28</source>
 		</quote>
 	</card>
 	<card>
@@ -116,8 +116,8 @@
 		<p>This card is indestructible</p></text>
 		<quantity>1</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>One cape began to launch ice crystals towards the hoop, and the Simurgh caught the shards out of the air with her telekinesis. The crystals flew into the man with the forcefield bubble, shattering. The resulting shards and flakes of crystal didn't fly away, however. They turned around in the air and condensed in a thick shell around the force field.</text>
+			<source>Migration 17.2</source>
 		</quote>
 	</card>
 	<card>
@@ -127,8 +127,8 @@
 		<p>This card is indestructible</p></text>
 		<quantity>1</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>"It's going to backfire. I've said it before, I'll say it now, and I'll remind you all I said it with every chance I get, from now until the day I die. It's going to backfire."</text>
+			<source>Myrddin, Migration 17.4</source>
 		</quote>
 	</card>
 	<card>
@@ -139,8 +139,8 @@
 		<p>This card is indestructible</p></text>
 		<quantity>1</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>"If she's answering questions for us, we don't want to know"</text>
+			<source>Myrddin, Migration 17.4</source>
 		</quote>
 	</card>
 	<card>
@@ -150,8 +150,8 @@
 		<p>This card is indestructible</p></text>
 		<quantity>1</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>A tide of snow and ice hit him like a truck, driving him into the ragged edge of the building. Oliver yelped as he threw himself out of the way. Marissa's shriek seemed oddly delayed, until Krouse noted what had happened to the man. The cape, in a bodysuit of velvet blue with gold armor, had been impaled on a tangled mess of rebar, his intestines pushed out the front of his stomach.</text>
+			<source>Migration 17.2</source>
 		</quote>
 	</card>
 	
@@ -164,8 +164,10 @@
 		<p>This card is indestructible</p></text>
 		<quantity>1</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text><p>The bubble-man formed another shield around himself, but he left his companion out of it, choosing to interject himself between the Simurgh and the woman.</p>
+
+<p>A section of concrete from a building to the right of the heroes flew free and caved in the costumed woman's skull.</p></text>
+			<source>Migration 17.2</source>
 		</quote>
 	</card>
 	
@@ -176,8 +178,8 @@
 		<p>This card is indestructible</p></text>
 		<quantity>1</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>The circle flared with more light than before, and the resulting shockwave threw Krouse and his friends into the air. Windows shattered and snow was kicked up into clouds as tall as the high rises around them. The sky visibly darkened with the clouds that had been kicked up, heaping snowbanks dissolved into their constituent snowflakes and water molecules. The indistinct and distant noises of the heroes firing on the Simurgh had stopped all at once, as the heroes were killed or left reeling from the aftershock of the device's activation.</text>
+			<source>Migration 17.2</source>
 		</quote>
 	</card>
 	
@@ -192,8 +194,8 @@
 		</text>
 		<quantity>1</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>He glanced over his shoulder, saw the various components of the circle crackling with current as it rose behind the Simurgh, like a gargantuan halo, wide enough that it nearly exceeded her wingspan.</text>
+			<source>Migration 17.2</source>
 		</quote>
 	</card>
 	
@@ -207,8 +209,8 @@
 		</text>
 		<quantity>3</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>There was a sudden movement from the Simurgh, tearing sections of wall free from the nearest building, maneuvering them to form a makeshift barrier in mid-air. Not one second after the barrier was in place, a pair of heroes flew around the corner.</text>
+			<source>Migration 17.2</source>
 		</quote>
 	</card>
 	
@@ -221,8 +223,8 @@
 		</text>
 		<quantity>2</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>The Simurgh stopped and raised one hand. Pieces of machinery began to flow out of a gaping hole in the side of the building nearest where she'd landed, stopping when they reached her immediate vicinity. A massive box that looked like an oversized washing machine, a large engine with blue L.E.D.s lining it, and tendrils of electrical cords with frayed ends still sparking with live current.</text>
+			<source>Migration 17.2</source>
 		</quote>
 	</card>
 	
@@ -236,8 +238,8 @@
 		</text>
 		<quantity>2</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>Pretercognition. Spread out over several targets at once, it serves as her primary sense. Each target is conceptualized in the context of twelve to eighty years of history.</text>
+			<source>Interlude 28</source>
 		</quote>
 	</card>
 	
@@ -250,8 +252,8 @@
 		</text>
 		<quantity>2</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>Another power extends in the other direction, and this is not one that can be sensed by most. Possibilities, as another jumble of images. These clarify as the others do, as eventualities are discarded, the targets around her coming into focus.</text>
+			<source>Interlude 28</source>
 		</quote>
 	</card>
 	
@@ -265,8 +267,8 @@
 		</text>
 		<quantity>4</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>The Simurgh lifted Lucas' apartment building into the air and tore it into shreds. The various fragments, the little things, the bodies and pieces of furniture, they became part of a protective maelstrom around the Simurgh, orbiting her and blocking the barrage of long-range fire that the good guys were directing at her.</text>
+			<source>Migration 17.2</source>
 		</quote>
 	</card>
 	
@@ -279,8 +281,8 @@
 		</text>
 		<quantity>3</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>The result is hallucinations, momentary or sustained. Hearing sounds, seeing things, smelling something, where none truly exist. Fight or flight response feeds need for escapism. A hallucination serves as the first step into a daydream.</text>
+			<source>Interlude 28</source>
 		</quote>
 	</card>
 	
@@ -293,8 +295,8 @@
 		</text>
 		<quantity>4</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>Frame a situation to put a target under optimal fear and stress. Hormone secretions increase. Manipulate situation to a position where they will connect familiar visual, olfactory and auditory cues to their immediate environment.</text>
+			<source>Interlude 28</source>
 		</quote>
 	</card>
 	
@@ -307,8 +309,8 @@
 		</text>
 		<quantity>4</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>Telekinesis. She'd created a false image of herself out of snow and ice, baiting Scion away. Judging by the sound of Scion's continued onslaught, she was still controlling it. Controlling it even though there was no way she could see what it was doing by eyesight alone.</text>
+			<source>Migration 17.2</source>
 		</quote>
 	</card>
 
