@@ -47,6 +47,8 @@
 		<type>Movement</type>
 		<quantity>2</quantity>
 		<text>Place a proximity token on every hero</text>
+		
+		 Maintain a distance of at least a hundred feet from Behemoth at the very minimum. 
 	</card>
 	<card>
 		<name>Leap</name>
@@ -54,6 +56,10 @@
 		<type>Movement</type>
 		<quantity>2</quantity>
 		<text>Place 2 proximity tokens on a hero. Place 1 proximity token on the hero before and after that hero in the turn order</text>
+		<quote>
+			<text> With his claws and feet now on firm ground, he leaped. The shockwave of his departure toppled the slipshod buildings around him in his wake.</text>
+			<source>Drone 23.5</source>
+		</quote>
 	</card>
 	
 	<card>
@@ -62,6 +68,10 @@
 		<type>Movement</type>
 		<quantity>2</quantity>
 		<text>Remove every proximity token from a hero. Place them all on a different hero</text>
+		<quote>
+			<text>This was his new tactic, burrowing, surfacing. But where was the retaliation? Their whole damn pattern centered around repaying us twice over for any abuse we inflicted on them.</text>
+			<source>Crushed 24.5</source>
+		</quote>
 	</card>
 	
 	<card>
@@ -70,6 +80,10 @@
 		<type>Movement</type>
 		<quantity>1</quantity>
 		<text>Move 1 proximity token from every hero to the hero with the least proximity tokens</text>
+		<quote>
+			<text>"...Assume every structure will fall down in a heartbeat, and know that there's no good place to hide and wait for this to be over."</text>
+			<source>Chevalier, Drone 23.5</source>
+		</quote>
 	</card>
 	
 	<card>
@@ -78,6 +92,11 @@
 		<type>Movement</type>
 		<quantity>1</quantity>
 		<text>Move all proximity tokens on each hero to the hero to their right</text>
+		
+		<quote>
+			<text>"...Get any closer, you probably won't have a chance of escaping if he decides to close the gap..."</text>
+			<source>Chevalier, Drone 23.5</source>
+		</quote>
 	</card>
 	
 	<card>
@@ -86,6 +105,11 @@
 		<type>Movement</type>
 		<quantity>2</quantity>
 		<text>Place a proximity token on a hero</text>
+		
+		<quote>
+			<text>"...Be mindful of line of sight, because he can and will tag you with a lightning bolt, and it's not something you can dodge..."</text>
+			<source>Chevalier, Drone 23.5</source>
+		</quote>	
 	</card>
 	<!-- 5 one-shots -->
 	
@@ -98,8 +122,8 @@
 		</text>
 		<quantity>2</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>The creature roared, and as invulnerable as she was, it almost hurt.</text>
+			<source>Interlude 15</source>
 		</quote>
 	</card>
 	
@@ -112,8 +136,8 @@
 		</text>
 		<quantity>2</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>A lightning bolt flashed from the tip of Behemoth's claw, arcing around her and striking one of her subordinates in a single heartbeat, before leaving only the smell of ozone.</text>
+			<source>Interlude 15</source>
 		</quote>
 	</card>
 	
@@ -126,8 +150,8 @@
 		</text>
 		<quantity>2</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>"He's a dynakinetic! He manipulates energy! No Manton limitation!"</text>
+			<source>Alexandria, Interlude 15</source>
 		</quote>
 	</card>
 	
@@ -140,8 +164,8 @@
 		</text>
 		<quantity>1</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>When I looked back at the screen, nearly half of the city was on fire. Black smoke choked the skies, a stark contrast to the cloudy sky of only minutes ago.</text>
+			<source>Drone 23.5</source>
 		</quote>
 	</card>
 	
@@ -156,8 +180,8 @@
 		</text>
 		<quantity>1</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>Cryogenic beams, containment foam and more served to slow him down. Not stopping him. No, that was too much to hope for.</text>
+			<source>Drone 23.5</source>
 		</quote>
 	</card>
 	
@@ -171,8 +195,8 @@
 		</text>
 		<quantity>1</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>Forty-five feet tall at the very least, he climbed forth from underground. His skin was crusted with black stone that might have been obsidian, layers of what might have been cooled magma sloughing off of him as he planted his feet on the ground and stood straight.</text>
+			<source>Interlude 15</source>
 		</quote>
 	</card>
 	
@@ -185,8 +209,8 @@
 		</text>
 		<quantity>1</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>I took off. Again, I tried my armband. Static. Better than nothing, but not ideal.</text>
+			<source>Crushed 24.4</source>
 		</quote>
 	</card>
 	
@@ -201,8 +225,8 @@
 		</text>
 		<quantity>2</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>The Endbringer's path of destruction had continued more or less in one general direction, but beyond that, the damage was indiscriminate, indeterminate.</text>
+			<source>Crushed 24.2</source>
 		</quote>
 	</card>
 	
@@ -217,8 +241,8 @@
 		</text>
 		<quantity>1</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>As far as the eye could see in every direction, terrain shifted. Hillsides abruptly tilted, standing structures fell like collapsing houses of cards.</text>
+			<source>Crushed 24.5</source>
 		</quote>
 	</card>
 	
@@ -231,8 +255,8 @@
 		</text>
 		<quantity>2</quantity>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>The man ignited from the inside out, flame and smoke pouring from every orifice as he was turned into a burned-out husk in a matter of seconds. His skeleton disintegrated into fine dust and ash as it crashed to the ground.</text>
+			<source>Interlude 15</source>
 		</quote>
 	</card>
 </deck>
