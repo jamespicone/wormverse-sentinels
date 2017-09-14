@@ -59,6 +59,31 @@
 			</text>
 		</back>
 	</charactercard>
+	<charactercard>
+		<name>Armmaster</name>
+		<front>
+			<hp>26</hp>
+			<text><p>When a Halberd would enter play, return any other Halberds, and the modules attached to them, to your hand</text>
+			<power>
+				<name>Short-Handed</name>
+				<text><p>Put a Halberd into play from your hand</p><p>You may put a Module into play from your hand</p><p>You may activate a Halberd</p></text>
+			</power>
+			
+			<power>
+				<name>Humility</name>
+				<text><p>Destroy a Halberd. If you do, another player may draw 2 cards</p></text>
+			</power>
+		</front>
+		<back>
+			<text>
+				<ul>
+					<li>A player may draw a card</li>
+					<li>Put the top card of a player's deck into play</li>
+					<li>Destroy all but one card from each deck</li>
+				</ul>
+			</text>
+		</back>
+	</charactercard>
 	<card>
 		<quantity>1</quantity>
 		<class>Equipment</class>
