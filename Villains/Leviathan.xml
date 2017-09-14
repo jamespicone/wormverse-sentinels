@@ -37,6 +37,10 @@
 		<type>Tactic</type>
 		<text>Whenever Leviathan would deal melee damage to a target, this card deals that target 2 irreducible melee damage. This card is indestructible</text>
 		<quantity>1</quantity>
+		<quote>
+			<text>It was Alexandria who speared forward to confront Leviathan. He saw her coming, ceased his onslaught to rear back and then lunge ahead to meet her. When they were only fifteen feet apart, he stopped, let his water echo rush forward to meet her.</text>
+			<source>Extermination 8.3</source>
+		</quote>
 	</card>
 	<card>
 		<name>Torrential Downpour</name>
@@ -44,6 +48,10 @@
 		<type>Tactic</type>
 		<text>Whenever a player would draw a card, Leviathan deals that player's character card 1 cold damage. This card is indestructible</text>
 		<quantity>1</quantity>
+		<quote>
+			<text>The windows were rattling with the force of the rain against them. It was almost impossible to see through them with the water that streamed down, and the overall gloom beyond.</text>
+			<source>Extermination 8.2</source>
+		</quote>
 	</card>
 	<card>
 		<name>Lose the War</name>
@@ -53,6 +61,10 @@
 		<p>Players may skip any of their phases (play, power, draw). Any time a player skips a phase, they may take a card from the environment trash and shuffle it back into the environment deck</p>
 		<p>This card is indestructible</p></text>
 		<quantity>1</quantity>
+		<quote>
+			<text>"These were errors, grave mistakes from defending heroes. We had but one strategy at the time - to hem him in, minimizing the effects of growing waves and casualties until Leviathan was beaten into a retreat or Scion arrived. These areas, however, were too vulnerable. Waiting let Leviathan build up the strength of his attacks, and we lost."</text>
+			<source>Legend, Extermination 8.2</source>
+		</quote>
 	</card>
 	<card>
 		<name>Faster Than You'd Think</name>
@@ -60,24 +72,41 @@
 		<type>Tactic</type>
 		<text>The first time Leviathan would be dealt damage each round, prevent that damage. This card is indestructible</text>
 		<quantity>1</quantity>
+		<quote>
+			<text>"...At the speeds Leviathan can move, surface tension and compressibility make water harder than concrete."</text>
+			<source>Legend, Extermination 8.2</source>
+		</quote>
 	</card>
 	<card>
 		<name>Impossible Strength</name>
 		<class>Ongoing</class>
 		<text>Increase damage dealt by villain cards by 1</text>
 		<quantity>2</quantity>
+		<quote>
+			<text>Leviathan grabbed a car, twisted his entire upper body to toss it in the style of an olympic hammer-throw.</text>
+			<source>Extermination 8.5</source>
+		</quote>
 	</card>
 	<card>
 		<name>Impossible Toughness</name>
 		<class>Ongoing</class>
 		<text>Reduce damage dealt to Leviathan by 1</text>
 		<quantity>2</quantity>
+		<quote>
+			<text>Leviathan, nonstandard cardiac, nervous systems: irregular biology. No standard organs or weak points. No brain, heart or center of operations for rest of his body.
+Irregular biology, no vulnerable organs: body divided into layers, extending down to hyperdurable core body, each layer down is slightly more than twice as durable as previous. Exterior skin is hard as aluminum alloy, but flexible, lets him move. 3% deeper in toward core of arms, legs, claws, tail, or .5% in toward core of head, trunk, neck, tissues are hard as steel. 6% in toward core of extremities or 1% toward core of main body/head, tissues strong as tungsten. 9% toward core of extremities, 1.5% toward core of main body, head, tissues strong as boron. 12%-</text>
+			<source>Interlude 8 (Bonus)</source>
+		</quote>
 	</card>
 	<card>
 		<name>Impossible Endurance</name>
 		<class>Ongoing</class>
 		<quantity>2</quantity>
 		<text>At the start of the villain turn, reveal cards from the top of the villain trash until you reveal a one-shot. Play it, and then shuffle the other revealed cards back into the villain trash</text>
+		<quote>
+			<text>The Endbringer stood, showing none of the frailty or pain it had been displaying seconds ago. The injuries were there, to be sure, his head hung at an angle because of the way the weight of his head hung on the intact portions of his neck, but he wasn't suffering, had no trouble putting his full weight on his more injured leg. Had it been an act?</text>
+			<source>Extermination 8.4</source>
+		</quote>
 	</card>
 	
 	<card>
@@ -85,29 +114,49 @@
 		<class>One-Shot</class>
 		<text>Destroy all environment targets. Leviathan deals X cold damage to all non-villain targets, where X = 1 + the number of cards destroyed in this way</text>
 		<quantity>3</quantity>
+		<quote>
+			<text>Layers of forcefields went up around the far wall in front of and behind the front windows, and they weren't enough to take the hit. The building rocked with an impact, the forcefields to the left collapsed, and the water began to rush in, carrying chunks of brick, glass and the metal windowframes into the lobby.</text>
+			<source>Extermination 8.2</source>
+		</quote>
 	</card>
 	<card>
 		<name>Cunning</name>
 		<class>One-Shot</class>
 		<text>Play the top 2 cards of the villain deck</text>
 		<quantity>3</quantity>
+		<quote>
+			<text>"...I want to be clear that despite the image he might convey, he is not stupid, and he can display a level of cunning and tactics that can and will catch you off guard."</text>
+			<source>Legend, Extermination 8.2</source>
+		</quote>
 	</card>
 	<card>
 		<name>Anyone Can Die</name>
 		<class>One-Shot</class>
 		<text>Leviathan deals the hero target with the highest HP 5 irreducible melee damage</text>
 		<quantity>3</quantity>
+		<quote>
+			<text>Jotun deceased, CD-6. Dauntless deceased, CD-6. Alabaster deceased, CD-6.</text>
+			<source>Extermination 8.3</source>
+		</quote>
 	</card>
 	<card>
 		<name>Guile</name>
 		<class>One-Shot</class>
 		<text>Flip Leviathan</text>
 		<quantity>3</quantity>
+		<quote>
+			<text>"...The primary message I want to convey, even more than briefing you on the particulars of his abilities, organizing formations and battle plans, is that I do not want you to underestimate Leviathan."</text>
+			<source>Legend, Extermination 8.2</source>
+		</quote>
 	</card>
 	<card>
 		<name>Whipping Tail</name>
 		<class>One-Shot</class>
 		<text>Leviathan deals 2 melee damage to the 2 hero targets with the lowest HP</text>
 		<quantity>3</quantity>
+		<quote>
+			<text>Leviathan retaliated with a whiplike lash of his tail, bisecting the man. Of the twelve or so that had been on the roof a minute ago, only three remained.</text>
+			<source>Interlude 8 (Bonus)</source>
+		</quote>
 	</card>
 </deck>
