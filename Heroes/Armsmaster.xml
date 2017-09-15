@@ -63,7 +63,7 @@
 		<name>Armmaster</name>
 		<front>
 			<hp>26</hp>
-			<text><p>When a Halberd would enter play, return any other Halberds, and the modules attached to them, to your hand</text>
+			<text><p>When a Halberd would enter play, return any other Halberds, and the modules attached to them, to your hand</p></text>
 			<power>
 				<name>Short-Handed</name>
 				<text><p>Put a Halberd into play from your hand</p><p>You may put a Module into play from your hand</p><p>You may activate a Halberd</p></text>
