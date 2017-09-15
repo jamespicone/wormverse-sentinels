@@ -198,7 +198,7 @@
 		<name>Teleporter</name>
 		<hp>8</hp>
 		<type>Device</type>
-		<text>At the start of the villain turn, reveal cards from the top of the villain deck until you have revealed H targets. Put the revealed targets into play and shuffle the rest of the revealed cards back into the villain deck</text>
+		<text>At the start of the villain turn, reveal cards from the top of the villain deck until you have revealed H non-Teleporter targets. Put the revealed non-Teleporter targets into play and shuffle the rest of the revealed cards back into the villain deck</text>
 		<quantity>2</quantity>
 		<quote>
 			<text>He snapped his fingers, and soldiers began to teleport down to the edges of the market.</text>
