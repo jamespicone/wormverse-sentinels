@@ -268,8 +268,8 @@
 			<p>If this card is not next to a hero target, destroy it</p>
 			</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>“The capes she keeps spitting out.  Circus, Über, Leet and Vista.  She’s holding the four of them inside her, so she can keep creating more clones.”</text>
+			<source>Skitter, Queen 18.7</source>
 		</quote>
 	</card>
 	<card>
@@ -311,8 +311,8 @@
 		<name>Squad Tactics</name>
 		<text>Increase damage dealt by villain targets by 1</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>“She was the leader before all of this started, yeah.  You have to understand, she’s a natural tactician, and tacticians come in two varieties.  There’s the strategists that think things through, innovate, and analyze.  Then there’s ones that go by instinct.  Noelle’s the latter.  Not to say she isn’t good if given a chance to plan, but she can get a sense of the current dynamic on an intuitive level, play things by ear while making spur of the moment calls.  Those calls turn out to be the right ones, not because she’s lucky, but because she grasps the situation so quickly that it looks like she didn’t give it any thought at all.”</text>
+			<source>Ballistic, Queen 18.2</source>
 		</quote>
 	</card>
 	<card>
@@ -321,8 +321,8 @@
 		<name>Crush</name>
 		<text>Echidna deals H damage to any hero target with an 'Engulfed' card next to them</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>Noelle tagged several of the bodies in her internal stomachs, felt flesh constrict tight against them</text>
+			<source>Interlude 18</source>
 		</quote>
 	</card>
 	<card>
@@ -331,8 +331,8 @@
 		<name>Psychological Warfare</name>
 		<text>At the start of the villain turn Echidna deals 2 psychic damage to all hero targets</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>"...I’ll hunt you down, I’ll copy you until you’re all used up, let your copies ruin your reputations and your lives, and then I’ll eat you.  I’ll do it to each of you, one by one, until you realize it’s easier to go after the Undersiders than to come after me.  Give me my revenge, and this ends."</text>
+			<source>Echidna, Queen 18.4</source>
 		</quote>
 	</card>
 	<card>
@@ -341,8 +341,8 @@
 		<name>Clone Army</name>
 		<text>At the end of the villain turn, play the top card of the Twisted side-deck</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>"...If she absorbs something alive, she clones it.  More clones if she’s angrier, we think.  We don’t have a large sample size of incidents."</text>
+			<source>Ballistic, Queen 18.2</source>
 		</quote>
 	</card>
 	<card>
