@@ -278,8 +278,8 @@
 		<quantity>2</quantity>
 		<text>Reduce damage dealt to Echidna by 2. A the end of the villain turn, Echidna regains 2 HP</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>The head of an animal, half-bovine and half-canine, extended from the front, large as a horse from the back of its skull to the tip of its flaring nostrils.  Another head was in progress, emerging just to the left.  Two forelegs extended to either side of the heads, rippling with powerful muscle, ending in something that fell between claw and hoof, massive and easily capable of tearing through steel.</text>
+			<source>Migration 17.8</source>
 		</quote>
 	</card>
 	<card>
@@ -288,8 +288,8 @@
 		<quantity>3</quantity>
 		<text>Reveal the top X cards of the villain deck, where X is the number of Twisted cards in play + 1. Put any revealed One-Shot cards or Engulfed cards into play. Shuffle the remaining cards back into the deck</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>If one in a hundred capes met that kind of standard where they were just that much more versatile or powerful, then Echidna could make a hundred capes, and chances were good that one of those would be exceptional in that way.</text>
+			<source>Scourge 19.5</source>
 		</quote>
 	</card>
 	<card>
@@ -301,8 +301,8 @@
 			<p>search the villain deck for an 'Engulfed' card and put it into play. Shuffle the villain deck</p>
 		</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>That said, she charged.  The ground shook with her advance, and the heroes only stood and watched, no doubt considering the possibility that I was right, that they could negotiate their way out of all this.</text>
+			<source>Scourge 19.6</source>
 		</quote>
 	</card>
 	<card>
@@ -351,8 +351,8 @@
 		<type>One-Shot</type>
 		<text>A hero may discard their hand. If they don't, Echidna is immune to damage until the start of her next turn</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>But the Kudzu’s death wasn’t instantaneous, and she had time for one last gesture.  Echidna vibrated, and then split off into four copies.</text>
+			<source>Scourge 19.5</source>
 		</quote>
 	</card>
 </deck>
