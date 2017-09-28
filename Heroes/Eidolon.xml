@@ -23,7 +23,7 @@
 			
 			<text>
 				<p>Whenever a Power card enters play, if there are more than 3 Power cards already in play, return one of your Power cards to your hand</p>
-				<p>If you use a power on a Power card the same turn it enters play, it from the game</p>
+				<p>If you use a power on a Power card the same turn it enters play, remove it from the game</p>
 			</text>
 		</front>
 		<back>
