@@ -39,7 +39,7 @@
 		<text>
 			<p>Attach this card to an Environment card. Treat that card as if it had no text.</p>
 			<p>This card is an Environment card, not a hero card</p>
-			<p>At the end of Labyrinth's turn, pick a target. If you destroy an Environment card, each Environment card in play deals 1 melee damage to that target</p>
+			<p>At the end of Labyrinth's turn, pick a target. Then you may destroy an Environment card. If you do each Environment card in play deals exactly 1 melee damage to that target</p>
 		</text>
 	</card>
 
