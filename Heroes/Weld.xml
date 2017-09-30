@@ -149,7 +149,7 @@
 		<name>Bronze Spear</name>
 		<ability>
 			<title>Sacrifice</title>
-			<text>At any time during your turn you may destroy this card to deal 2 ranged damage to up to 3 targets</text>
+			<text>At any time during your turn you may destroy this card. If you do, deal 2 ranged damage to up to 3 targets</text>
 		</ability>
 		<power>Deal 3 melee damage to a target</power>
 		<quote>
@@ -168,7 +168,7 @@
 		</text>	
 		<ability>
 			<title>Sacrifice</title>
-			<text>At any time during your turn you may destroy this card to destroy 1 ongoing or environment card</text>
+			<text>At any time during your turn you may destroy this card. If you do, destroy 1 ongoing or environment card</text>
 		</ability>
 		<quote>
 			<text></text>
@@ -202,7 +202,7 @@
 		</text>
 		<ability>
 			<title>Sacrifice</title>
-			<text>Whenever a villain card would enter play you may destroy this card to put that card on the bottom of the villain deck; then play the top card of the villain deck</text>
+			<text>Whenever a villain card would enter play you may destroy this card. If you do, put that card on the bottom of the villain deck and then play the top card of the villain deck</text>
 		</ability>
 		<quote>
 			<text></text>
@@ -220,7 +220,7 @@
 		</text>
 		<ability>
 			<title>Sacrifice</title>
-			<text>During your turn you may destroy this card to deal 4 ranged damage to a target</text>
+			<text>During your turn you may destroy this card. If you do, deal 4 ranged damage to a target</text>
 		</ability>
 		<quote>
 			<text></text>
@@ -238,7 +238,7 @@
 		</text>
 		<ability>
 			<title>Sacrifice</title>
-			<text>At any time you may destroy this card to regain 3 HP and draw a card</text>
+			<text>At any time you may destroy this card. If you do, regain 3 HP and draw a card</text>
 		</ability>
 		<quote>
 			<text></text>
