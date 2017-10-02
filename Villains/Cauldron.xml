@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="cards.xslt"?>
+
+<!-- LOGO: Upside-down omega -->
+
+<deck>
+	<deckname>Cauldron</deckname>
+	<version>2.0.0</version>
+	<textcolour>black</textcolour>
+	<cardcolour>white</cardcolour>
+	<boxcolour>white</boxcolour>
+	<villain>
+		<name>Cauldron</name>
+		<front>
+			<title>Mysterious Rumour</title>
+			<setup>
+				<p>Remove all Lead cards from the villain deck, shuffle them, and put them aside as the Lead deck.</p>
+				<p>Put the top H cards of the Lead deck into play.</p>
+				<p>Search the villain deck for "Other Plans for You" and put it into play.</p>
+				<p>Take Contessa out of the villain deck, shuffle the villain deck, and put Contessa on the bottom</p></setup>
+			<gameplay>When all Lead cards have been flipped, flip this card</gameplay>
+			<advanced>When Contessa would be placed on the bottom of the villain deck, shuffle Contessa in instead</advanced>
+		</front>
+		<back>
+			<title>Malevolent Conspiracy</title>
+			<gameplay>
+				<p>At the start of the villain turn, if there are H Knowledge tokens on this card, the heroes win the game</p>
+				<p>At the start of the villain turn, place a Knowledge token on this card.</p>
+				<p>At the end of the villain turn, put the top card of the villain deck into play</p>
+			</gameplay>
+			<advanced>At the end of the villain turn, reveal the top H-2 cards of the villain deck. If Contessa is revealed, play her. Shuffle the other cards back into the villain deck</advanced>
+		</back>
+	</villain>
+
+	<specialcard>
+		<name>Other Plans for You</name>
+		<front>
+			<text>
+				<p>This card is indestructible</p>
+				<p>
+					When Contessa would enter play, you may instead choose one of the following options (as long as it doesn't have a token on it), place a token on it, and then put Contessa on the bottom of the Cauldron deck:
+					<ul>
+						<li>Put the top 2 cards of the villain deck into play</li>
+						<li>This card deals 5 irreducible melee damage to the player with the lowest HP</li>
+						<li>Each player destroys one of their cards</li>
+						<li>A player destroys all of their cards</li>
+						<li>A player discards their hand</li>
+					</ul>
+				</p>
+			</text>
+		</front>
+	</specialcard>
+
+	<specialcard>
+		<name>Case 53s</name>
+		<front>
+			<title>Monstrous Parahumans</title>
+			<type>Lead</type>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Whenever a Parahuman enters play, place an Information token on this card.</p>
+				<p>When there are H-2 tokens on this card, flip it</p>
+			</text>
+		</front>
+		<back>
+			<title>Made by Cauldron</title>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Powers on this card may be used by any player</p>
+			</text>
+			<power>
+				<name>Monstrous Backup</name>
+				<text>A player may use a power</text>
+			</power>
+		</back>
+	</specialcard>
+
+	<specialcard>
+		<name>Powers for Sale</name>
+		<front>
+			<title>Mysterious Vials</title>
+			<type>Lead</type>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Whenever a a power that isn't on a character card is used, place an Information token on this card</p>
+				<p>When there are H tokens on this card, flip it</p>
+			</text>
+		</front>
+		<back>
+			<title>Sold by Cauldron</title>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Powers on this card may be used by any player</p>
+			</text>
+			<power>
+				<name>Cauldron cape</name>
+				<text>A player play a card with a power on it</text>
+			</power>
+		</back>
+	</specialcard>
+
+	<specialcard>
+		<name>Powers for Sale</name>
+		<front>
+			<title>Mysterious Vials</title>
+			<type>Lead</type>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Whenever a power that isn't on a character card is used, place an Information token on this card</p>
+				<p>When there are H tokens on this card, flip it</p>
+			</text>
+		</front>
+		<back>
+			<title>Sold by Cauldron</title>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Powers on this card may be used by any player</p>
+			</text>
+			<power>
+				<name>Cauldron cape</name>
+				<text>You may play a card with a power on it</text>
+			</power>
+		</back>
+	</specialcard>
+
+	<specialcard>
+		<name>Parahumans Online</name>
+		<front>
+			<title>Normal Forum</title>
+			<type>Lead</type>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Whenever a player discards a card, place an Information token on this card</p>
+				<p>When there are 2*H tokens on this card, flip it</p>
+				<p>At the start of their turn a player may discard up to 2 cards</p>
+			</text>
+		</front>
+		<back>
+			<title>Censored by Cauldron</title>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Powers on this card may be used by any player</p>
+			</text>
+			<power>
+				<name>Forum search</name>
+				<text>You may discard a card. If you do, you may draw a card</text>
+			</power>
+		</back>
+	</specialcard>
+
+	<specialcard>
+		<name>Conspiracy Theories</name>
+		<front>
+			<title>Director Costa-Brown?</title>
+			<type>Lead</type>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Whenever a villain card enters play, place an Information token on this card</p>
+				<p>When there are H - 1 tokens on this card, flip it</p>
+			</text>
+		</front>
+		<back>
+			<title>Actually Alexandria</title>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Powers on this card may be used by any player</p>
+			</text>
+			<power>
+				<name>Public Outrage</name>
+				<text>Return an environment card to the top of the environment deck</text>
+			</power>
+		</back>
+	</specialcard>
+
+	<specialcard>
+		<name>Missing People</name>
+		<front>
+			<title>Informants?</title>
+			<type>Lead</type>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Whenever a target is destroyed, place an Information token on this card</p>
+				<p>When there are H tokens on this card, flip it</p>
+			</text>
+		</front>
+		<back>
+			<title>Silenced by Cauldron</title>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Powers on this card may be used by any player</p>
+			</text>
+			<power>
+				<name>Confessions</name>
+				<text>Search your trash for a target and put it in your hand</text>
+			</power>
+		</back>
+	</specialcard>
+
+	<!-- More leads along those lines -->
+
+
+	<!-- Contesssssaaaaaaa! -->
+	<card>
+		<name>Contessa</name>
+		<type>Parahuman</type>
+		<quantity>1</quantity>
+		<text>
+			<p>When Contessa enters play the heroes lose the game</p>
+		</text>
+		<quote>
+			<text></text>
+			<source></source>
+		</quote>
+	</card>	
+
+	<card>
+		<name>Number Man</name>
+		<type>Parahuman</type>
+		<hp>8</hp>
+		<quantity>1</quantity>
+		<text>
+			<p>If the Number Man would be damaged by a target with an even HP, prevent the damage</p>
+			<p>At the start of the villain turn, Number Man deals 3 melee damage to all non-villain targets with a HP divisible by 3</p>
+			<p>At the end of the villain turn, if a hero has a HP divisible by 5, play the top card of the villain deck</p>
+		</text>
+	</card>
+
+	<card>
+		<name>The Custodian</name>
+		<type>Parahuman</type>
+		<class>Ongoing</class>
+		<quantity>1</quantity>
+		<text>
+			<p>At the start of the villain turn, destroy all environment cards, then play the top X cards of the villain deck, where X is the number of environment cards destroyed in this way</p>
+		</text>
+	</card>
+
+	<card>
+		<name>Ominious Warning</name>
+		<class>One-Shot</class>
+		<quantity>4</quantity>
+		<text>
+			<p>Reveal the top H cards of the villain deck. If Contessa is revealed, put her into play. Discard the other cards</p>
+		</text>
+	</card>
+
+	<card>
+
+	</card>
+
+</deck>
