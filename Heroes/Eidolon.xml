@@ -271,7 +271,7 @@
 		<name>Accelerate Time</name>
 		<power>
 			<p>Play the top card of the villain deck</p>
-			<p>Each hero (other than Eidolon) may use a power in turn order</p>
+			<p>Each hero may use a power in turn order</p>
 		</power>
 	</card>
 
@@ -357,6 +357,66 @@
 		</power>
 	</card>
 		
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Throw Through Time</name>
+		<power>
+			<p>Place a non-character-card target on the bottom of its deck</p>
+		</power>
+	</card>
 	
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Vacuum</name>
+		<power>
+			<p>Destroy all targets with 3 or less HP</p>
+		</power>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Dimensional Search</name>
+		<power>
+			<p>Reveal the top 3 cards of a player deck. Put 1 into their hand, shuffle the others back into their deck</p>
+		</power>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Time Lock</name>
+		<power>
+			<p>Select a non-character-card target. Until the start of your next turn that target is immune to damage and has no card text</p>
+		</power>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Faith</name>
+		<power>
+			<p>Discard your hand. Draw X cards, where X = the number of cards you just discarded</p>
+		</power>
+	</card>
+	
+	<card>
+		<quantity>1</quantity>
+		<class>Ongoing</class>
+		<type>Power</type>
+		<name>Use it All</name>
+		<power>
+			<p>Discard your 2 cards. If you do, you may use 2 powers</p>
+		</power>
+	</card>
+	
+	<!-- 31 cards -->
 
 </deck>
