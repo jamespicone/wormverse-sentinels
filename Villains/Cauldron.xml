@@ -19,7 +19,7 @@
 				<p>Put the top H cards of the Lead deck into play.</p>
 				<p>Search the villain deck for "Other Plans for You" and put it into play.</p>
 				<p>Take Contessa out of the villain deck, shuffle the villain deck, and put Contessa on the bottom</p></setup>
-			<gameplay>When all Lead cards have been flipped, flip this card</gameplay>
+			<gameplay>At the start of the villain turn, if all Lead cards have been flipped, flip this card</gameplay>
 			<advanced>When Contessa would be placed on the bottom of the villain deck, shuffle Contessa in instead</advanced>
 		</front>
 		<back>
@@ -29,10 +29,11 @@
 				<p>At the start of the villain turn, place a Knowledge token on this card.</p>
 				<p>At the end of the villain turn, put the top card of the villain deck into play</p>
 			</gameplay>
-			<advanced>At the end of the villain turn, reveal the top H-2 cards of the villain deck. If Contessa is revealed, play her. Shuffle the other cards back into the villain deck</advanced>
+			<advanced>At the end of the villain turn, reveal the top H-2 cards of the villain deck, then shuffle the revealed cards back into the villain deck</advanced>
 		</back>
 	</villain>
 
+	<!-- Contessa brake -->
 	<specialcard>
 		<name>Other Plans for You</name>
 		<front>
@@ -41,16 +42,18 @@
 				<p>
 					When Contessa would enter play, you may instead choose one of the following options (as long as it doesn't have a token on it), place a token on it, and then put Contessa on the bottom of the Cauldron deck:
 					<ul>
-						<li>Put the top 2 cards of the villain deck into play</li>
-						<li>This card deals 5 irreducible melee damage to the player with the lowest HP</li>
+						<li>Shuffle the villain trash back into the villain deck, then put the top 2 cards of the villain deck into play</li>
 						<li>Each player destroys one of their cards</li>
 						<li>A player destroys all of their cards</li>
 						<li>A player discards their hand</li>
+						<li>This card deals 4 irreducible melee damage to all non-villain targets</li>
 					</ul>
 				</p>
 			</text>
 		</front>
 	</specialcard>
+	
+	<!-- one contessa brake -->
 
 	<specialcard>
 		<name>Case 53s</name>
@@ -95,31 +98,7 @@
 			</text>
 			<power>
 				<name>Cauldron cape</name>
-				<text>A player play a card with a power on it</text>
-			</power>
-		</back>
-	</specialcard>
-
-	<specialcard>
-		<name>Powers for Sale</name>
-		<front>
-			<title>Mysterious Vials</title>
-			<type>Lead</type>
-			<text>
-				<p>This card is indestructible</p>
-				<p>Whenever a power that isn't on a character card is used, place an Information token on this card</p>
-				<p>When there are H tokens on this card, flip it</p>
-			</text>
-		</front>
-		<back>
-			<title>Sold by Cauldron</title>
-			<text>
-				<p>This card is indestructible</p>
-				<p>Powers on this card may be used by any player</p>
-			</text>
-			<power>
-				<name>Cauldron cape</name>
-				<text>You may play a card with a power on it</text>
+				<text>A player may play a card with a power on it</text>
 			</power>
 		</back>
 	</specialcard>
@@ -196,9 +175,129 @@
 			</power>
 		</back>
 	</specialcard>
+	
+	<specialcard>
+		<name>Slaughterhouse 9</name>
+		<front>
+			<title>Parahuman Serial Killers</title>
+			<type>Lead</type>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Whenever an environment card is destroyed, place an Information token on this card</p>
+				<p>When there are H tokens on this card, flip it</p>
+			</text>
+		</front>
+		<back>
+			<title>Protected by Cauldron</title>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Powers on this card may be used by any player</p>
+			</text>
+			<power>
+				<name>Hunt</name>
+				<text>Discard a card. If you do, destroy a Parahuman</text>
+			</power>
+		</back>
+	</specialcard>
 
-	<!-- More leads along those lines -->
-
+	<specialcard>
+		<name>End of the World</name>
+		<front>
+			<title>Predicted by Dinah</title>
+			<type>Lead</type>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Whenever any card is destroyed, place an Information token on this card</p>
+				<p>When there are 2*H tokens on this card, flip it</p>
+			</text>
+		</front>
+		<back>
+			<title>Known to Cauldron</title>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Powers on this card may be used by any player</p>
+			</text>
+			<power>
+				<name>Preparation</name>
+				<text>Draw a card</text>
+			</power>
+		</back>
+	</specialcard>
+	
+	<specialcard>
+		<name>Coil's Takeover</name>
+		<front>
+			<title>City in his Grasp</title>
+			<type>Lead</type>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Whenever an Ongoing card enters play, place an Information token on this card</p>
+				<p>When there are H tokens on this card, flip it</p>
+			</text>
+		</front>
+		<back>
+			<title>Backed by Cauldron</title>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Powers on this card may be used by any player</p>
+			</text>
+			<power>
+				<name>Funding</name>
+				<text>Search your trash for an Ongoing card and put it into your hand</text>
+			</power>
+		</back>
+	</specialcard>
+	
+	<specialcard>
+		<name>The Number Man</name>
+		<front>
+			<title>Villain Accountant</title>
+			<type>Lead</type>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Whenever a player draws a card, place an Information token on this card</p>
+				<p>When there are 5*H tokens on this card, flip it</p>
+			</text>
+		</front>
+		<back>
+			<title>Part of Cauldron</title>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Powers on this card may be used by any player</p>
+			</text>
+			<power>
+				<name>Loan</name>
+				<text>Draw 2 cards. At the start of your next turn, discard 2 cards</text>
+			</power>
+		</back>
+	</specialcard>
+	
+	<specialcard>
+		<name>The Endbringers</name>
+		<front>
+			<title>Natural Disaster</title>
+			<type>Lead</type>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Whenever a player card is destroyed, place an Information token on this card</p>
+				<p>When there are H tokens on this card, flip it</p>
+				<p>At the start of their turn, a player may destroy one of their cards</p>
+			</text>
+		</front>
+		<back>
+			<title>Planned for by Cauldron</title>
+			<text>
+				<p>This card is indestructible</p>
+				<p>Powers on this card may be used by any player</p>
+			</text>
+			<power>
+				<name>Attack</name>
+				<text>Destroy a hero card. If you do, you may destroy a villain non-character-card</text>
+			</power>
+		</back>
+	</specialcard>
+	
+	<!-- 10 leads -->
 
 	<!-- Contesssssaaaaaaa! -->
 	<card>
@@ -206,11 +305,13 @@
 		<type>Parahuman</type>
 		<quantity>1</quantity>
 		<text>
-			<p>When Contessa enters play the heroes lose the game</p>
+			<p>When Contessa enters play the villain wins the game</p>
+			<p>When Contessa is revealed, put her into play</p>
+			<p>When Contessa would be put into the trash or removed from the game, put her on top of the villain deck</p>
 		</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>"I win"</text>
+			<source>Contessa, Crushed 24.2</source>
 		</quote>
 	</card>	
 
@@ -235,18 +336,120 @@
 			<p>At the start of the villain turn, destroy all environment cards, then play the top X cards of the villain deck, where X is the number of environment cards destroyed in this way</p>
 		</text>
 	</card>
+	
+	<card>
+		<name>Doormaker</name>
+		<type>Parahuman</type>
+		<hp>6</hp>
+		<quantity>1</quantity>
+		<text>
+			<p>At the start of the villain turn, shuffle a villain target into the villain deck</p>
+			<p>At the start of the villain turn, play the top 2 cards of the villain deck</p>
+		</text>
+	</card>
+	
+	<card>
+		<name>The Slug</name>
+		<type>Parahuman</type>
+		<hp>8</hp>
+		<quantity>1</quantity>
+		<text>
+			<p>Heroes cannot play Ongoing cards</p>
+		</text>
+	</card>
+	
+	<card>
+		<name>The Clairvoyant</name>
+		<type>Parahuman</type>
+		<hp>6</hp>
+		<quantity>1</quantity>
+		<text>
+			<p>Whenever a hero draws a card, play the top card of the villain deck</p>
+		</text>
+	</card>
+	
+	<card>
+		<name>Case 53</name>
+		<type>Parahuman</type>
+		<hp>6</hp>
+		<quantity>4</quantity>
+		<text>
+			<p>At the end of the villain turn, this card deals 2 melee damage to the hero target with the lowest HP</p>
+		</text>
+	</card>
+	
+	<!-- 10 parahumans -->
 
 	<card>
 		<name>Ominious Warning</name>
 		<class>One-Shot</class>
-		<quantity>4</quantity>
+		<quantity>3</quantity>
 		<text>
 			<p>Reveal the top H cards of the villain deck. If Contessa is revealed, put her into play. Discard the other cards</p>
 		</text>
 	</card>
 
 	<card>
-
+		<name>Triumvirate Backing</name>
+		<class>One-Shot</class>
+		<quantity>3</quantity>
+		<text>
+			<p>Deal 3 energy damage to all hero targets</p>
+			<p>The villain target with the lowest HP is immune to damage until the start of the next villain turn</p>
+			<p>Deal 5 psychic damage to the hero target with the highest HP</p>
+		</text>
+	</card>
+	
+	<card>
+		<name>The Ends Justify the Means</name>
+		<class>One-Shot</class>
+		<quantity>2</quantity>
+		<text>
+			<p>Each villain Parahuman in play deals 2 psychic damage to the hero target with the highest HP</p>
+			<p>Cauldron deals 3 psychic damage to the hero target with the lowest HP</p>
+		</text>
+	</card>
+	
+	<card>
+		<name>A Lead Lost</name>
+		<class>One-Shot</class>
+		<quantity>2</quantity>
+		<text>
+			<p>Remove a Lead card from the game</p>
+			<p>Put the top card of the Lead deck into play</p>
+		</text>
+	</card>
+	
+	<!-- 10 one-shots -->
+	
+	<card>
+		<name>Interdimensional Base</name>
+		<type>Device</type>
+		<quantity>1</quantity>
+		<text>
+			<p>Villain targets, except for the most-recently-played villain target, are immune to damage</p>
+		</text>
+	</card>
+	
+	<!-- 1 device -->
+	
+	<card>
+		<name>Power Research</name>
+		<type>Ongoing</type>
+		<quantity>2</quantity>
+		<text>
+			<p>Whenever a hero would use a power, play the top card of the villain deck</p>
+		</text>
+	</card>
+	
+	<card>
+		<name>Well-Targeted Retaliation</name>
+		<type>Ongoing</type>
+		<quantity>2</quantity>
+		<text>
+			<p>Whenever a villain Parahuman would enter play, destroy a hero non-character card</p>
+		</text>
 	</card>
 
+	<!-- 4 ongoings -->
 </deck>
