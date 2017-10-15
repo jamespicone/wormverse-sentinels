@@ -68,6 +68,7 @@
 		</front>
 		<back>
 			<title>Made by Cauldron</title>
+			<type>Lead</type>
 			<text>
 				<p>This card is indestructible</p>
 				<p>Powers on this card may be used by any player</p>
@@ -92,6 +93,7 @@
 		</front>
 		<back>
 			<title>Sold by Cauldron</title>
+			<type>Lead</type>
 			<text>
 				<p>This card is indestructible</p>
 				<p>Powers on this card may be used by any player</p>
@@ -117,6 +119,7 @@
 		</front>
 		<back>
 			<title>Censored by Cauldron</title>
+			<type>Lead</type>
 			<text>
 				<p>This card is indestructible</p>
 				<p>Powers on this card may be used by any player</p>
@@ -141,6 +144,7 @@
 		</front>
 		<back>
 			<title>Actually Alexandria</title>
+			<type>Lead</type>
 			<text>
 				<p>This card is indestructible</p>
 				<p>Powers on this card may be used by any player</p>
@@ -165,6 +169,7 @@
 		</front>
 		<back>
 			<title>Silenced by Cauldron</title>
+			<type>Lead</type>
 			<text>
 				<p>This card is indestructible</p>
 				<p>Powers on this card may be used by any player</p>
@@ -189,6 +194,7 @@
 		</front>
 		<back>
 			<title>Protected by Cauldron</title>
+			<type>Lead</type>
 			<text>
 				<p>This card is indestructible</p>
 				<p>Powers on this card may be used by any player</p>
@@ -213,6 +219,7 @@
 		</front>
 		<back>
 			<title>Known to Cauldron</title>
+			<type>Lead</type>
 			<text>
 				<p>This card is indestructible</p>
 				<p>Powers on this card may be used by any player</p>
@@ -237,6 +244,7 @@
 		</front>
 		<back>
 			<title>Backed by Cauldron</title>
+			<type>Lead</type>
 			<text>
 				<p>This card is indestructible</p>
 				<p>Powers on this card may be used by any player</p>
@@ -261,6 +269,7 @@
 		</front>
 		<back>
 			<title>Part of Cauldron</title>
+			<type>Lead</type>
 			<text>
 				<p>This card is indestructible</p>
 				<p>Powers on this card may be used by any player</p>
@@ -286,6 +295,7 @@
 		</front>
 		<back>
 			<title>Planned for by Cauldron</title>
+			<type>Lead</type>
 			<text>
 				<p>This card is indestructible</p>
 				<p>Powers on this card may be used by any player</p>
