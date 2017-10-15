@@ -50,8 +50,8 @@
 		<text><p>At the end of the villain turn, Alexandria deals 2 melee damage to the hero with the highest HP</p>
 		<p>The hero with the highest HP cannot use powers</p></text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>An Alexandria.  Had to be, with that long black hair.  The woman stood, and I could see how she was missing an eye.  She brushed her hair to one side, so it covered half her face, and I could hear a murmur.</text>
+			<source>Scourge 19.5</source>
 		</quote>
 	</card>
 
@@ -64,8 +64,8 @@
 		<text><p>At the end of the villain turn, destroy a hero Equipment card</p>
 		<p>Whenever an equipment card is put into play, Armsmaster regains 5 HP</p></text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>“She’s ambushing him.  There’s a Leet with a gun inside the building behind him.  Tinker made, has to be.”</text>
+			<source>Skitter, Queen 18.7</source>
 		</quote>
 	</card>
 
@@ -123,8 +123,8 @@
 			<p>At the start of the villain turn, if there's a Power token on Eidolon, lose the game. Otherwise, put a Power token on Eidolon</p>
 		</text>
 		<quote>
-			<text></text>
-			<source></source>
+			<text>We charged.  There was no other choice.  If we didn’t win now, everyone lost.</text>
+			<source>Scourge 19.5</source>
 		</quote>
 	</card>
 
@@ -268,7 +268,7 @@
 			<p>If this card is not next to a hero target, destroy it</p>
 			</text>
 		<quote>
-			<text>“The capes she keeps spitting out.  Circus, Über, Leet and Vista.  She’s holding the four of them inside her, so she can keep creating more clones.”</text>
+			<text>"The capes she keeps spitting out. Circus, Über, Leet and Vista. She's holding the four of them inside her, so she can keep creating more clones."</text>
 			<source>Skitter, Queen 18.7</source>
 		</quote>
 	</card>
@@ -278,7 +278,7 @@
 		<quantity>2</quantity>
 		<text>Reduce damage dealt to Echidna by 2. A the end of the villain turn, Echidna regains 2 HP</text>
 		<quote>
-			<text>The head of an animal, half-bovine and half-canine, extended from the front, large as a horse from the back of its skull to the tip of its flaring nostrils.  Another head was in progress, emerging just to the left.  Two forelegs extended to either side of the heads, rippling with powerful muscle, ending in something that fell between claw and hoof, massive and easily capable of tearing through steel.</text>
+			<text>The head of an animal, half-bovine and half-canine, extended from the front, large as a horse from the back of its skull to the tip of its flaring nostrils. Another head was in progress, emerging just to the left. Two forelegs extended to either side of the heads, rippling with powerful muscle, ending in something that fell between claw and hoof, massive and easily capable of tearing through steel.</text>
 			<source>Migration 17.8</source>
 		</quote>
 	</card>
@@ -301,7 +301,7 @@
 			<p>search the villain deck for an 'Engulfed' card and put it into play. Shuffle the villain deck</p>
 		</text>
 		<quote>
-			<text>That said, she charged.  The ground shook with her advance, and the heroes only stood and watched, no doubt considering the possibility that I was right, that they could negotiate their way out of all this.</text>
+			<text>That said, she charged. The ground shook with her advance, and the heroes only stood and watched, no doubt considering the possibility that I was right, that they could negotiate their way out of all this.</text>
 			<source>Scourge 19.6</source>
 		</quote>
 	</card>
@@ -311,7 +311,7 @@
 		<name>Squad Tactics</name>
 		<text>Increase damage dealt by villain targets by 1</text>
 		<quote>
-			<text>“She was the leader before all of this started, yeah.  You have to understand, she’s a natural tactician, and tacticians come in two varieties.  There’s the strategists that think things through, innovate, and analyze.  Then there’s ones that go by instinct.  Noelle’s the latter.  Not to say she isn’t good if given a chance to plan, but she can get a sense of the current dynamic on an intuitive level, play things by ear while making spur of the moment calls.  Those calls turn out to be the right ones, not because she’s lucky, but because she grasps the situation so quickly that it looks like she didn’t give it any thought at all.”</text>
+			<text>"She was the leader before all of this started, yeah. You have to understand, she's a natural tactician, and tacticians come in two varieties. There's the strategists that think things through, innovate, and analyze. Then there's ones that go by instinct. Noelle's the latter. Not to say she isn't good if given a chance to plan, but she can get a sense of the current dynamic on an intuitive level, play things by ear while making spur of the moment calls. Those calls turn out to be the right ones, not because she's lucky, but because she grasps the situation so quickly that it looks like she didn't give it any thought at all."</text>
 			<source>Ballistic, Queen 18.2</source>
 		</quote>
 	</card>
@@ -331,7 +331,7 @@
 		<name>Psychological Warfare</name>
 		<text>At the start of the villain turn Echidna deals 2 psychic damage to all hero targets</text>
 		<quote>
-			<text>"...I’ll hunt you down, I’ll copy you until you’re all used up, let your copies ruin your reputations and your lives, and then I’ll eat you.  I’ll do it to each of you, one by one, until you realize it’s easier to go after the Undersiders than to come after me.  Give me my revenge, and this ends."</text>
+			<text>"...I'll hunt you down, I'll copy you until you're all used up, let your copies ruin your reputations and your lives, and then I'll eat you. I'll do it to each of you, one by one, until you realize it's easier to go after the Undersiders than to come after me. Give me my revenge, and this ends."</text>
 			<source>Echidna, Queen 18.4</source>
 		</quote>
 	</card>
@@ -341,7 +341,7 @@
 		<name>Clone Army</name>
 		<text>At the end of the villain turn, play the top card of the Twisted side-deck</text>
 		<quote>
-			<text>"...If she absorbs something alive, she clones it.  More clones if she’s angrier, we think.  We don’t have a large sample size of incidents."</text>
+			<text>"...If she absorbs something alive, she clones it. More clones if she's angrier, we think. We don't have a large sample size of incidents."</text>
 			<source>Ballistic, Queen 18.2</source>
 		</quote>
 	</card>
@@ -351,7 +351,7 @@
 		<type>One-Shot</type>
 		<text>A hero may discard their hand. If they don't, Echidna is immune to damage until the start of her next turn</text>
 		<quote>
-			<text>But the Kudzu’s death wasn’t instantaneous, and she had time for one last gesture.  Echidna vibrated, and then split off into four copies.</text>
+			<text>But the Kudzu's death wasn't instantaneous, and she had time for one last gesture. Echidna vibrated, and then split off into four copies.</text>
 			<source>Scourge 19.5</source>
 		</quote>
 	</card>
