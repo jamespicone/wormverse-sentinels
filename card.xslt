@@ -89,25 +89,18 @@
 					<xsl:apply-templates select="hp" />
 				</div>
 				
-				<xsl:choose>
-					<xsl:when test="title | nemesis">
-						<div class="nemesisdiv inbox"><em>
-							<xsl:apply-templates select="title" />
-							<xsl:if test="not(../title)">
-								<em><xsl:apply-templates select="class | type"/></em>
-							</xsl:if>
-							<span class="nemesis"><xsl:apply-templates select="nemesis" /></span>
-						</em></div>
-					</xsl:when>
+				<xsl:if test="title | nemesis">
+					<div class="nemesisdiv inbox"><em>
+						<xsl:apply-templates select="title" />
+						<span class="nemesis"><xsl:apply-templates select="nemesis" /></span>
+					</em></div>
+				</xsl:if>
 				
-					<xsl:otherwise>
-						<xsl:if test="class | type">
-							<div class="classdiv inbox"><em>
-							<xsl:apply-templates select="class | type"/>
-							</em></div>
-						</xsl:if>
-					</xsl:otherwise>
-				</xsl:choose>
+				<xsl:if test="class | type">
+					<div class="classdiv inbox"><em>
+					<xsl:apply-templates select="class | type"/>
+					</em></div>
+				</xsl:if>
 				
 				<xsl:apply-templates select="setup" />
 				<xsl:apply-templates select="text" />
@@ -143,25 +136,18 @@
 				<xsl:apply-templates select="hp" />
 			</div>
 			
-			<xsl:choose>
-				<xsl:when test="title | nemesis">
-					<div class="nemesisdiv inbox"><em>
-						<xsl:apply-templates select="title" />
-						<xsl:if test="not(../title)">
-							<em><xsl:apply-templates select="class | type"/></em>
-						</xsl:if>
-						<span class="nemesis"><xsl:apply-templates select="nemesis" /></span>
-					</em></div>
-				</xsl:when>
+			<xsl:if test="title | nemesis">
+				<div class="nemesisdiv inbox"><em>
+					<xsl:apply-templates select="title" />
+					<span class="nemesis"><xsl:apply-templates select="nemesis" /></span>
+				</em></div>
+			</xsl:if>
 			
-				<xsl:otherwise>
-					<xsl:if test="class | type">
-						<div class="classdiv inbox"><em>
-						<xsl:apply-templates select="class | type"/>
-						</em></div>
-					</xsl:if>
-				</xsl:otherwise>
-			</xsl:choose>
+			<xsl:if test="class | type">
+				<div class="classdiv inbox"><em>
+				<xsl:apply-templates select="class | type"/>
+				</em></div>
+			</xsl:if>
 			
 			<xsl:apply-templates select="setup" />
 			<xsl:apply-templates select="text" />
@@ -185,25 +171,18 @@
 			<xsl:apply-templates select="hp" />
 		</div>
 		
-		<xsl:choose>
-			<xsl:when test="title | nemesis">
-				<div class="nemesisdiv inbox"><em>
-					<xsl:apply-templates select="title" />
-					<xsl:if test="not(../title)">
-						<em><xsl:apply-templates select="class | type"/></em>
-					</xsl:if>
-					<span class="nemesis"><xsl:apply-templates select="nemesis" /></span>
-				</em></div>
-			</xsl:when>
-		
-			<xsl:otherwise>
-				<xsl:if test="class | type">
-					<div class="classdiv inbox"><em>
-					<xsl:apply-templates select="class | type"/>
-					</em></div>
-				</xsl:if>
-			</xsl:otherwise>
-		</xsl:choose>
+		<xsl:if test="title | nemesis">
+			<div class="nemesisdiv inbox"><em>
+				<xsl:apply-templates select="title" />
+				<span class="nemesis"><xsl:apply-templates select="nemesis" /></span>
+			</em></div>
+		</xsl:if>
+	
+		<xsl:if test="class | type">
+			<div class="classdiv inbox"><em>
+			<xsl:apply-templates select="class | type"/>
+			</em></div>
+		</xsl:if>
 		
 		<xsl:apply-templates select="setup" />
 		<xsl:apply-templates select="text" />
