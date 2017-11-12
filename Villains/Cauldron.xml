@@ -18,9 +18,9 @@
 				<p>Remove all Lead cards from the villain deck, shuffle them, and put them aside as the Lead deck.</p>
 				<p>Put the top H cards of the Lead deck into play.</p>
 				<p>Search the villain deck for "Other Plans for You" and put it into play.</p>
-				<p>Take Contessa out of the villain deck, shuffle the villain deck, and put Contessa on the bottom</p></setup>
+			</setup>
 			<gameplay>At the start of the villain turn, if all Lead cards have been flipped, flip this card</gameplay>
-			<advanced>When Contessa would be placed on the bottom of the villain deck, shuffle Contessa in instead</advanced>
+			<advanced>At the start of the villain turn, put the top card of the Lead deck into play</advanced>
 		</front>
 		<back>
 			<title>Malevolent Conspiracy</title>
@@ -40,7 +40,7 @@
 			<text>
 				<p>This card is indestructible</p>
 				<p>
-					When Contessa would enter play, you may instead choose one of the following options (as long as it doesn't have a token on it), place a token on it, and then put Contessa on the bottom of the Cauldron deck:
+					When Contessa would enter play, you may instead choose one of the following options (as long as it doesn't have a token on it), place a token on it, and then shuffle Contessa into the Cauldron deck:
 					<ul>
 						<li>Shuffle the villain trash back into the villain deck, then put the top 2 cards of the villain deck into play</li>
 						<li>Each player destroys one of their cards</li>
@@ -49,7 +49,6 @@
 						<li>This card deals 4 irreducible melee damage to all non-villain targets</li>
 					</ul>
 				</p>
-				<p>After returning Contessa to the villain deck, shuffle the villain trash and put the top 5 cards in it on top of the villain deck</p>
 			</text>
 		</front>
 	</specialcard>
@@ -344,7 +343,7 @@
 		<class>Ongoing</class>
 		<quantity>1</quantity>
 		<text>
-			<p>At the start of the villain turn, destroy all environment cards, then play the top X cards of the villain deck, where X is the number of environment cards destroyed in this way</p>
+			<p>At the start of the villain turn destroy all environment cards, then play the top X cards of the villain deck, where X is the number of environment cards destroyed in this way</p>
 		</text>
 	</card>
 	
@@ -396,7 +395,7 @@
 		<class>One-Shot</class>
 		<quantity>3</quantity>
 		<text>
-			<p>Reveal the top H cards of the villain deck. If Contessa is revealed, put her into play. Discard the other cards</p>
+			<p>Reveal the top H cards of the villain deck. Discard the revealed cards</p>
 		</text>
 	</card>
 
