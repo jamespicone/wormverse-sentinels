@@ -353,7 +353,7 @@
 		<hp>6</hp>
 		<quantity>1</quantity>
 		<text>
-			<p>At the start of the villain turn, shuffle a villain target into the villain deck</p>
+			<p>At the start of the villain turn, shuffle a villain target other than Doormaker into the villain deck</p>
 			<p>At the start of the villain turn, play the top 2 cards of the villain deck</p>
 		</text>
 	</card>
