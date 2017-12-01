@@ -4,9 +4,14 @@
 
 <!-- LOGO: +|- in a circle -->
 
-<deck>
-	<deckname>Battery</deckname>
+<deck
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.jamespicone.name/parahumans"
+xs:noNamespaceSchemaLocation="../hero.xsd">
+	<name>Battery</name>
 	<version>2.0.0</version>
+	<logo>nul</logo>
+	<author>James Picone</author>
 	<textcolour>black</textcolour>
 	<cardcolour>slategrey</cardcolour>
 	<boxcolour>steelblue</boxcolour>
@@ -172,7 +177,8 @@
 	</card>
 	<card>
 		<quantity>3</quantity>
-		<class>Ongoing, Limited</class>
+		<class>Ongoing</class>
+		<class>Limited</class>
 		<name>Static Charge</name>
 		<text>At the start of your turn, if Battery has used her Discharge power since the start of your last turn, deal 2 lightning damage to all non-hero targets</text>
 		<quote>
@@ -182,7 +188,8 @@
 	</card>
 	<card>
 		<quantity>2</quantity>
-		<class>Equipment, Limited</class>
+		<class>Equipment</class>
+		<class>Limited</class>
 		<name>Glowing Threads</name>
 		<text>When Battery uses her Discharge power reduce damage dealt to her by 2 until the start of her next turn</text>
 		<quote>

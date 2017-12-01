@@ -2,8 +2,11 @@
 
 <?xml-stylesheet type="text/xsl" href="cards.xslt"?>
 
-<deck>
-	<deckname>Coil's Base</deckname>
+<deck
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.jamespicone.name/parahumans"
+xs:noNamespaceSchemaLocation="../hero.xsd">
+	<name>Coil's Base</name>
 	<version>2.0.0</version>
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>

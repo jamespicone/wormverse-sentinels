@@ -4,13 +4,17 @@
 
 <!-- LOGO: Fe symbol? -->
 
-<deck>
-	<deckname>Weld</deckname>
+<deck
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.jamespicone.name/parahumans"
+xs:noNamespaceSchemaLocation="../hero.xsd">
+	<name>Weld</name>
 	<version>2.0.0</version>
+	<logo>nul</logo>
+	<author>Ethan Levy</author>
 	<textcolour>black</textcolour>
 	<cardcolour>grey</cardcolour>
 	<boxcolour>lightgrey</boxcolour>
-	<author>Ethan Levy</author>
 	<charactercard>
 		<name>Weld</name>
 		<front>

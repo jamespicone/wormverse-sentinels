@@ -4,8 +4,11 @@
 
 <!-- LOGO: Capital M with vertical lines through it (like $) -->
 
-<deck>
-	<deckname>The Merchants</deckname>
+<deck
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.jamespicone.name/parahumans"
+xs:noNamespaceSchemaLocation="../hero.xsd">
+	<name>The Merchants</name>
 	<version>2.0.0</version>
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
