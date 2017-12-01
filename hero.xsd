@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+
+<xs:schema
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+vc:minVersion="1.0"
+targetNamespace="http://www.jamespicone.name/hero"
+xmlns="http://www.jamespicone.name/hero"
+elementFormDefault="qualified">
+
+<xs:element name="name" type="xs:token" />
+<xs:element name="version" type="xs:token" />
+<xs:element name="textcolour" type="xs:token" />
+<xs:element name="cardcolour" type="xs:token" />
+<xs:element name="boxcolour" type="xs:token" />
+<xs:element name="quantity" type="xs:positiveInteger" />
+<xs:element name="hp" type="xs:positiveInteger" />
+<xs:element name="type" type="xs:token" />
+
+<xs:element name="class">
+	<xs:simpleType>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="One-Shot" />
+			<xs:enumeration value="Ongoing" />
+			<xs:enumeration value="Equipment" />
+			<xs:enumeration value="Limited" />
+		</xs:restriction>
+	</xs:simpleType>
+</xs:element>
+
+
+<xs:element name="text">
+	<xs:complexType mixed="true">
+		<xs:sequence>
+			<xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="power">
+	<xs:complexType>
+		<xs:all>
+			<xs:element ref="name" />
+			<xs:element ref="text" />
+		</xs:all>
+	</xs:complexType>
+</xs:element>
+
+<xs:group name="cardElements">
+	<xs:sequence>
+		<xs:choice maxOccurs="unbounded">
+			<xs:element ref="power" />
+			<xs:element ref="hp" />
+			<xs:element ref="type" />
+			<xs:element ref="class" />
+			<xs:element ref="text" />
+		</xs:choice>
+	</xs:sequence>
+</xs:group>
+
+<xs:element name="card">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element ref="name" />
+				<xs:element ref="quantity" />
+				<xs:group ref="cardElements" />
+			</xs:choice>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="front">
+	<xs:complexType>
+		<xs:group ref="cardElements" />
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="back">
+	<xs:complexType>
+		<xs:group ref="cardElements" />
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="charactercard">
+	<xs:complexType>
+		<xs:all>
+			<xs:element ref="name" />
+			<xs:element ref="front" />
+			<xs:element ref="back" />
+		</xs:all>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="deck">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="name" />
+			<xs:element ref="version" />
+			<xs:element ref="textcolour" />
+			<xs:element ref="cardcolour" />
+			<xs:element ref="boxcolour" />
+			<xs:element ref="charactercard" minOccurs="1" maxOccurs="unbounded" />
+			<xs:element ref="card" minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>
