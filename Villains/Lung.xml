@@ -4,8 +4,11 @@
 
 <!-- LOGO: Does the ABB have a logo? Dragon head? Claw? -->
 
-<deck>
-	<deckname>Lung</deckname>
+<deck
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.jamespicone.name/parahumans"
+xs:noNamespaceSchemaLocation="../hero.xsd">
+	<name>Lung</name>
 	<version>2.0.0</version>
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>

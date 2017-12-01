@@ -4,9 +4,14 @@
 
 <!-- LOGO: Code? -->
 
-<deck>
-	<deckname>Dragon</deckname>
+<deck
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.jamespicone.name/parahumans"
+xs:noNamespaceSchemaLocation="../hero.xsd">
+	<name>Dragon</name>
 	<version>2.0.0</version>
+	<logo>nul</logo>
+	<author>James Picone</author>
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>

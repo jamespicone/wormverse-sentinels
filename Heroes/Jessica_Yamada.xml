@@ -4,16 +4,20 @@
 
 <!-- LOGO: Psych symbol (a psi IIRC) -->
 
-<deck>
-	<deckname>Jessica Yamada</deckname>
+<deck
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.jamespicone.name/parahumans"
+xs:noNamespaceSchemaLocation="../hero.xsd">
+	<name>Jessica Yamada</name>
 	<version>2.0.0</version>
+	<logo>nul</logo>
+	<author>James Picone</author>
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>
 	<charactercard>
 		<name>Jessica Yamada</name>
 		<front>
-			<!--<hp>26</hp>-->
 			<text>
 				<p>Jessica Yamada does not have HP and is not a target</p>
 				<p>Jessica Yamada counts as incapacitated when determining whether the heroes have lost</p>

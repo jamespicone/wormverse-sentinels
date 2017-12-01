@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xpath-default-namespace="http://www.jamespicone.name/parahumans">
 
 <xsl:template match="class | type">
 	<xsl:value-of select="." />
@@ -85,7 +85,7 @@
 			<div class="carddiv">
 				<div class="cardinner">
 				<div class="titlediv inbox">
-					<xsl:apply-templates select="name | ../name" />
+					<xsl:apply-templates select="(../name | name)[last()]" />
 					<xsl:apply-templates select="hp" />
 				</div>
 				
@@ -119,7 +119,7 @@
 			<div class="carddiv">
 			<div class="cardinner">
 				<div class="backtext">
-					<xsl:value-of select="/deck/deckname" />
+					<xsl:value-of select="/deck/name" />
 				</div>
 			</div>
 			</div>
@@ -132,7 +132,7 @@
 		<div class="carddiv">
 			<div class="cardinner">
 			<div class="titlediv inbox">
-				<xsl:apply-templates select="name | ../name" />
+				<xsl:apply-templates select="(../name | name)[last()]" />
 				<xsl:apply-templates select="hp" />
 			</div>
 			
@@ -167,7 +167,7 @@
 <xsl:template match="card | charactercard/front | charactercard/back | villain/front | villain/back | specialcard/front | specialcard/back">
 	<div class="carddiv">
 		<div class="titlediv inbox">
-			<xsl:apply-templates select="name | ../name" />
+			<xsl:apply-templates select="(../name | name)[last()]" />
 			<xsl:apply-templates select="hp" />
 		</div>
 		
@@ -198,12 +198,12 @@
 </xsl:template>
 
 <xsl:template match="/deck">
-	<title><xsl:value-of select="deckname" /></title>
+	<title><xsl:value-of select="name" /></title>
 	<link rel="stylesheet" type="text/css" href="../cards.css" />
 </xsl:template>
 
 <xsl:template match="/deck" mode="image">
-	<title><xsl:value-of select="deckname" /></title>
+	<title><xsl:value-of select="name" /></title>
 	<link rel="stylesheet" type="text/css" href="../cards.css" />
 	<link rel="stylesheet" type="text/css" href="../images.css" />
 	

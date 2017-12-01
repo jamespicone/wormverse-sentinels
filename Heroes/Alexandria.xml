@@ -4,9 +4,14 @@
 
 <!-- LOGO: Tower -->
 
-<deck>
-	<deckname>Alexandria</deckname>
+<deck
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.jamespicone.name/parahumans"
+xs:noNamespaceSchemaLocation="../hero.xsd">
+	<name>Alexandria</name>
 	<version>2.0.0</version>
+	<logo>nul</logo>
+	<author>James Picone</author>
 	<textcolour>black</textcolour>
 	<cardcolour>slategrey</cardcolour>
 	<boxcolour>lightgrey</boxcolour>
@@ -21,11 +26,11 @@
 		</front>
 		<back>
 			<text>
-			<ul>
-				<li>Select a target. Until the start of your next turn, reduce damage dealt to that target by 1</li>
-				<li>One player may search their deck for a card and put it into their hand</li>
-				<li>Deal 2 melee damage to a target</li>
-			</ul>
+				<ul>
+					<li>Select a target. Until the start of your next turn, reduce damage dealt to that target by 1</li>
+					<li>One player may search their deck for a card and put it into their hand</li>
+					<li>Deal 2 melee damage to a target</li>
+				</ul>
 			</text>
 		</back>
 	</charactercard>
