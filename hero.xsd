@@ -9,13 +9,24 @@ xmlns="http://www.jamespicone.name/hero"
 elementFormDefault="qualified">
 
 <xs:element name="name" type="xs:token" />
+<xs:element name="title" type="xs:token" />
+<xs:element name="logo" type="xs:token" />
+<xs:element name="author" type="xs:token" />
 <xs:element name="version" type="xs:token" />
 <xs:element name="textcolour" type="xs:token" />
 <xs:element name="cardcolour" type="xs:token" />
 <xs:element name="boxcolour" type="xs:token" />
 <xs:element name="quantity" type="xs:positiveInteger" />
-<xs:element name="hp" type="xs:positiveInteger" />
 <xs:element name="type" type="xs:token" />
+<xs:element name="source" type="xs:token" />
+
+<xs:element name="hp">
+	<xs:simpleType>
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\*|[1-9][0-9]*" />
+		</xs:restriction>
+	</xs:simpleType>
+</xs:element>
 
 <xs:element name="class">
 	<xs:simpleType>
@@ -28,6 +39,16 @@ elementFormDefault="qualified">
 	</xs:simpleType>
 </xs:element>
 
+<xs:element name="tag">
+	<xs:simpleType>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Character" />
+			<xs:enumeration value="Hero" />
+			<xs:enumeration value="Villain" />
+			<xs:enumeration value="Environment" />
+		</xs:restriction>
+	</xs:simpleType>
+</xs:element>
 
 <xs:element name="text">
 	<xs:complexType mixed="true">
@@ -37,23 +58,40 @@ elementFormDefault="qualified">
 	</xs:complexType>
 </xs:element>
 
-<xs:element name="power">
+<xs:element name="quote">
 	<xs:complexType>
 		<xs:all>
-			<xs:element ref="name" />
+			<xs:element ref="source" />
 			<xs:element ref="text" />
 		</xs:all>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="ability">
+	<xs:complexType>
+		<xs:all>
+			<xs:element ref="title" />
+			<xs:element ref="text" />
+		</xs:all>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="tags">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="tag" maxOccurs="unbounded" minOccurs="1" />
+		</xs:sequence>
 	</xs:complexType>
 </xs:element>
 
 <xs:group name="cardElements">
 	<xs:sequence>
 		<xs:choice maxOccurs="unbounded">
-			<xs:element ref="power" />
 			<xs:element ref="hp" />
 			<xs:element ref="type" />
 			<xs:element ref="class" />
 			<xs:element ref="text" />
+			<xs:element ref="ability" />
 		</xs:choice>
 	</xs:sequence>
 </xs:group>
@@ -64,7 +102,16 @@ elementFormDefault="qualified">
 			<xs:choice maxOccurs="unbounded">
 				<xs:element ref="name" />
 				<xs:element ref="quantity" />
+				<xs:element name="power">
+					<xs:complexType mixed="true">
+						<xs:sequence>
+							<xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
 				<xs:group ref="cardElements" />
+				<xs:element ref="quote" />
+				<xs:element ref="tags" />
 			</xs:choice>
 		</xs:sequence>
 	</xs:complexType>
@@ -72,7 +119,19 @@ elementFormDefault="qualified">
 
 <xs:element name="front">
 	<xs:complexType>
-		<xs:group ref="cardElements" />
+		<xs:sequence>
+			<xs:choice maxOccurs="unbounded">
+				<xs:group ref="cardElements" />
+				<xs:element name="power">
+					<xs:complexType>
+						<xs:all>
+							<xs:element ref="name" />
+							<xs:element ref="text" />
+						</xs:all>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:sequence>
 	</xs:complexType>
 </xs:element>
 
@@ -88,6 +147,7 @@ elementFormDefault="qualified">
 			<xs:element ref="name" />
 			<xs:element ref="front" />
 			<xs:element ref="back" />
+			<xs:element ref="tags" minOccurs="0" />
 		</xs:all>
 	</xs:complexType>
 </xs:element>
@@ -97,6 +157,8 @@ elementFormDefault="qualified">
 		<xs:sequence>
 			<xs:element ref="name" />
 			<xs:element ref="version" />
+			<xs:element ref="logo" />
+			<xs:element ref="author" />
 			<xs:element ref="textcolour" />
 			<xs:element ref="cardcolour" />
 			<xs:element ref="boxcolour" />
