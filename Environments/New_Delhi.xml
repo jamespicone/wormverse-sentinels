@@ -2,7 +2,7 @@
 
 <?xml-stylesheet type="text/xsl" href="cards.xslt"?>
 
-<deck
+<environment
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -55,7 +55,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<quantity>1</quantity>
 		<name>Accord's Plan</name>
 		<text>
-		<p>When this card enters play reveal the top card of each deck, starting from the villain, in turn order. If the card is an Ongoing, Equipment or Device, put it into play. Otherwise shuffle it back into the deck</p>
+		<p>When this card enters play reveal the top card of each environment, starting from the villain, in turn order. If the card is an Ongoing, Equipment or Device, put it into play. Otherwise shuffle it back into the environment</p>
 		<p>At the end of the environment turn, destroy this card</p>
 		</text>
 		<quote>
@@ -122,7 +122,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	<card>
 		<quantity>1</quantity>
 		<name>A Chaotic Environment</name>
-		<text><p>At the end of the environment turn, play the top card of the environment deck</p>
+		<text><p>At the end of the environment turn, play the top card of the environment environment</p>
 		<p>At the start of the environment turn, if this is the only environment card in play, destroy it</p></text>
 		<quote>
 			<text>We don't have the organization. Our command structure is down. Tattletale is gone, either dead or too hurt to fight.</text>
@@ -211,4 +211,4 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	
 	-->
 	
-</deck>
+</environment>

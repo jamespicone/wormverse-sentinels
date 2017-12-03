@@ -4,7 +4,7 @@
 
 <!-- LOGO: Caduceus with aura? -->
 
-<deck
+<hero
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -186,4 +186,4 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<name>Flight</name>
 		<power>Draw 3 cards. Discard a card</power>
 	</card>
-</deck>
+</hero>

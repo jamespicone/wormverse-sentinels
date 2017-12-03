@@ -3,7 +3,7 @@
 
 <!-- LOGO: A crown? A scepter? -->
 
-<deck
+<hero
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -186,4 +186,4 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<source>Interlude 10</source>
 		</quote>
 	</card>
-</deck>
+</hero>

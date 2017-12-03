@@ -6,7 +6,7 @@
 
 <!-- Elle mechanics suggestion: give every player a secret trap card, forbid them from telling other players about them -->
 
-<deck
+<villain
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -15,7 +15,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>
-	<villain>
+	<villaincard>
 		<name>The Simurgh</name>
 		<front>
 			<title>The Strategist</title>
@@ -41,7 +41,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<p>At the end of the villain turn, place a token on the Simurgh. Then all heroes deal themselves X psychic damage, where X is the number of tokens on the Simurgh</p></gameplay>
 			<advanced>Players may not discuss strategy or tactics</advanced>
 		</back>
-	</villain>
+	</villaincard>
 	
 	<!-- CONDITIONS -->
 	<card>
@@ -329,4 +329,4 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		Trap deck, condition deck. Deal out H trap cards from the trap deck, put the rest aside. At the start of every villain turn, reveal the top of the condition deck. If the condition on it is met, activate a trap card. Conditions should ideally be visible from current board state - "If a hero has more than X ongoings", "If a hero has two of the same card in hand", "If there are no environment cards in play". Maybe some procedural that are hopefully rememberable?
 	
 	-->
-</deck>
+</villain>

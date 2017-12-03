@@ -4,7 +4,7 @@
 
 <!-- LOGO: Domino mask? question mark? -->
 
-<deck
+<hero
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -234,4 +234,4 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<source>Interlude 8</source>
 		</quote>
 	</card>
-</deck>
+</hero>

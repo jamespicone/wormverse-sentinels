@@ -4,7 +4,7 @@
 
 <!-- LOGO: Do the travellers have a logo? A hydra? -->
 
-<deck
+<villain
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -13,7 +13,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>
-	<villain>
+	<villaincard>
 		<name>Echidna</name>
 		<front>
 			<title>Mother of Monsters</title>
@@ -42,7 +42,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			</gameplay>
 			<advanced>When flipped to this side, search the villain deck for an 'Engulfed' card and put it into play. Shuffle the villain deck</advanced>
 		</back>
-	</villain>
+	</villaincard>
 
 	<card>
 		<quantity>1</quantity>
@@ -358,4 +358,4 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<source>Scourge 19.5</source>
 		</quote>
 	</card>
-</deck>
+</villain>

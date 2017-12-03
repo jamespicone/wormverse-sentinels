@@ -10,6 +10,7 @@ elementFormDefault="qualified">
 
 <xs:element name="name" type="xs:token" />
 <xs:element name="title" type="xs:token" />
+<xs:element name="nemesis" type="xs:token" />
 <xs:element name="logo" type="xs:token" />
 <xs:element name="author" type="xs:token" />
 <xs:element name="version" type="xs:token" />
@@ -51,6 +52,30 @@ elementFormDefault="qualified">
 </xs:element>
 
 <xs:element name="text">
+	<xs:complexType mixed="true">
+		<xs:sequence>
+			<xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="setup">
+	<xs:complexType mixed="true">
+		<xs:sequence>
+			<xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="gameplay">
+	<xs:complexType mixed="true">
+		<xs:sequence>
+			<xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="advanced">
 	<xs:complexType mixed="true">
 		<xs:sequence>
 			<xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
@@ -152,7 +177,51 @@ elementFormDefault="qualified">
 	</xs:complexType>
 </xs:element>
 
-<xs:element name="deck">
+<xs:element name="specialcard">
+	<xs:complexType>
+		<xs:all>
+			<xs:element ref="name" />
+			<xs:element ref="front" />
+			<xs:element ref="back" />
+			<xs:element ref="tags" minOccurs="0" />
+		</xs:all>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="villaincard">
+	<xs:complexType>
+		<xs:all>
+			<xs:element ref="name" />
+			<xs:element name="front">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element ref="title" />
+						<xs:element ref="hp" />
+						<xs:element ref="nemesis" />
+						<xs:element ref="setup" />
+						<xs:element ref="gameplay" />
+						<xs:element ref="advanced" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="back">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element ref="title" />
+						<xs:element ref="hp" />
+						<xs:element ref="nemesis" />
+						<xs:element ref="setup" />
+						<xs:element ref="gameplay" />
+						<xs:element ref="advanced" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="tags" minOccurs="0" />
+		</xs:all>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="hero">
 	<xs:complexType>
 		<xs:sequence>
 			<xs:element ref="name" />
@@ -163,6 +232,23 @@ elementFormDefault="qualified">
 			<xs:element ref="cardcolour" />
 			<xs:element ref="boxcolour" />
 			<xs:element ref="charactercard" minOccurs="1" maxOccurs="unbounded" />
+			<xs:element ref="card" minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="villain">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="name" />
+			<xs:element ref="version" />
+			<xs:element ref="logo" />
+			<xs:element ref="author" />
+			<xs:element ref="textcolour" />
+			<xs:element ref="cardcolour" />
+			<xs:element ref="boxcolour" />
+			<xs:element ref="villaincard" minOccurs="1" maxOccurs="unbounded" />
+			<xs:element ref="specialcard" minOccurs="1" maxOccurs="unbounded" />
 			<xs:element ref="card" minOccurs="1" maxOccurs="unbounded" />
 		</xs:sequence>
 	</xs:complexType>

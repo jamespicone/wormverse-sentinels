@@ -4,7 +4,7 @@
 
 <!-- LOGO: Tidal wave -->
 
-<deck
+<villain
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -13,7 +13,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>
-	<villain>
+	<villaincard>
 		<name>Leviathan</name>
 		<front>
 			<title>Citykiller</title>
@@ -32,7 +32,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<p>Reduce damage dealt to Leviathan by 1</p></gameplay>
 			<advanced>The first time Leviathan would flip each turn, play the top card of the villain deck first</advanced>
 		</back>
-	</villain>
+	</villaincard>
 	
 	<card>
 		<name>Water Shadow</name>
@@ -162,4 +162,4 @@ Irregular biology, no vulnerable organs: body divided into layers, extending dow
 			<source>Interlude 8 (Bonus)</source>
 		</quote>
 	</card>
-</deck>
+</villain>

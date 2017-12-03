@@ -4,7 +4,7 @@
 
 <!-- LOGO: Bared teeth -->
 
-<deck
+<hero
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -281,4 +281,4 @@ AXIL GINGIR</text>
 			<source>Interlude 11a</source>
 		</quote>
 	</card>
-</deck>
+</hero>

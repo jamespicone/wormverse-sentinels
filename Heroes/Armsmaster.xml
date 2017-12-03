@@ -4,7 +4,7 @@
 
 <!-- LOGO: Gear -->
 
-<deck
+<hero
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -334,4 +334,4 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<text>Attach this card to a Halberd</text>
 		<quote><text>They could communicate without talking. Some kind of system built into their masks. It made this harder. I couldn't listen in and anticipate what they were saying.</text><source>Cell 22.5</source></quote>
 	</card>
-</deck>
+</hero>

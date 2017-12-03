@@ -2,7 +2,7 @@
 
 <?xml-stylesheet type="text/xsl" href="cards.xslt"?>
 
-<deck
+<environment
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -63,13 +63,13 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<p>
 				At the end of the environment turn:
 				<ul>
-					<li>Play the top card of the environment deck, then</li>
-					<li>Shuffle the top 2 cards of the environment trash back into the environment deck, then</li>
-					<li>Remove the top card of the environment deck from the game</li>
+					<li>Play the top card of the environment environment, then</li>
+					<li>Shuffle the top 2 cards of the environment trash back into the environment environment, then</li>
+					<li>Remove the top card of the environment environment from the game</li>
 				</ul>
 			</p>
 			
-			<p>At the start of the environment turn, if there are no cards left in the environment deck, the heroes lose the game</p>
+			<p>At the start of the environment turn, if there are no cards left in the environment environment, the heroes lose the game</p>
 			<p>When this card would be destroyed, if there are other environment cards in play, destroy one of them instead</p>
 		</text>
 		<quote>
@@ -150,4 +150,4 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		Lung
 	
 	-->
-</deck>
+</environment>

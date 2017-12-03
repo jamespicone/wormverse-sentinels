@@ -2,7 +2,7 @@
 
 <?xml-stylesheet type="text/xsl" href="cards.xslt"?>
 
-<deck
+<environment
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -70,10 +70,10 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	<card>
 		<name>Sound Carries</name>
 		<quantity>2</quantity>
-		<text><p>Whenever a target is put into play, play the top card of the environment deck.</p><p>At the end of the environment turn, a player may discard 2 cards to destroy this card</p></text>
+		<text><p>Whenever a target is put into play, play the top card of the environment environment.</p><p>At the end of the environment turn, a player may discard 2 cards to destroy this card</p></text>
 		<quote>
 			<text>"...She knows where we are."</text>
 			<source>Tattletale, Prey 14.11</source>
 		</quote>
 	</card>
-</deck>
+</environment>

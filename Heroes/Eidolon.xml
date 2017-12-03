@@ -4,7 +4,7 @@
 
 <!-- LOGO: Infinity sign? Some kind of temple? Hands in prayer?  -->
 
-<deck
+<hero
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -424,4 +424,4 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	
 	<!-- 31 cards -->
 
-</deck>
+</hero>

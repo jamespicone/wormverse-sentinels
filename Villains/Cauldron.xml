@@ -4,7 +4,7 @@
 
 <!-- LOGO: Upside-down omega -->
 
-<deck
+<villain
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -13,7 +13,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>
-	<villain>
+	<villaincard>
 		<name>Cauldron</name>
 		<front>
 			<title>Mysterious Rumour</title>
@@ -34,7 +34,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			</gameplay>
 			<advanced>At the end of the villain turn, reveal the top H-2 cards of the villain deck, then shuffle the revealed cards back into the villain deck</advanced>
 		</back>
-	</villain>
+	</villaincard>
 
 	<!-- Contessa brake -->
 	<specialcard>
@@ -465,4 +465,4 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	</card>
 
 	<!-- 4 ongoings -->
-</deck>
+</villain>
