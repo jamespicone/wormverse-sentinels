@@ -4,7 +4,7 @@
 
 <!-- LOGO: Does the ABB have a logo? Dragon head? Claw? -->
 
-<deck
+<villain
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -13,7 +13,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>
-	<villain>
+	<villaincard>
 		<name>Lung</name>
 		<front>
 			<title>Gang Leader</title>
@@ -33,7 +33,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			</gameplay>
 			<advanced>When flipped to this side, the heroes lose the game</advanced>
 		</back>
-	</villain>
+	</villaincard>
 	<specialcard>
 		<name>Brute</name>
 		<front>
@@ -175,4 +175,4 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<source>Bakuda, Interlude 22</source>
 		</quote>
 	</card>	
-</deck>
+</villain>

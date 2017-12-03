@@ -4,7 +4,7 @@
 
 <!-- LOGO: Snake -->
 
-<deck
+<villain
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -13,7 +13,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>
-	<villain>
+	<villaincard>
 		<name>Coil</name>
 		<front>
 			<setup>
@@ -24,7 +24,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		</front>
 		<back>
 		</back>
-	</villain>
+	</villaincard>
 	
 	<specialcard>
 		<name>Coil: Scheming</name>
@@ -228,4 +228,4 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<source>Monarch 16.11</source>
 		</quote>
 	</card>
-</deck>
+</villain>

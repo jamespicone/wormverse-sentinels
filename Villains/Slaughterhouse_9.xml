@@ -4,7 +4,7 @@
 
 <!-- LOGO: Stylised 9 -->
 
-<deck
+<villain
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -13,7 +13,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>
-	<villain>
+	<villaincard>
 		<name>Slaughterhouse 9</name>
 		<front>
 			<title>Parahuman Murder Squad</title>
@@ -22,7 +22,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<advanced>At the end of the villain turn, put the top card of the Nine deck into play</advanced></front>
 		<back>
 		</back>
-	</villain>
+	</villaincard>
 	
 	<specialcard>
 		<name>Jack Slash</name>
@@ -297,4 +297,4 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<source>Bonesaw, Interlude 25</source>
 		</quote>
 	</card>
-</deck>
+</villain>

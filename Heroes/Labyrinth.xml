@@ -4,7 +4,7 @@
 
 <!-- LOGO: Maze -->
 
-<deck
+<hero
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -212,4 +212,4 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<name>Tactical Shift</name>
 		<text>Destroy an Environment card. If you do, you may destroy an Ongoing card</text>
 	</card>
-</deck>
+</hero>

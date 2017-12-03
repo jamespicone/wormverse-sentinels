@@ -4,7 +4,7 @@
 
 <!-- LOGO: Capital M with vertical lines through it (like $) -->
 
-<deck
+<villain
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -13,7 +13,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>
-	<villain>
+	<villaincard>
 		<name>Skidmark</name>
 		<front>
 			<title>Superpowered Drug Lord</title>
@@ -35,7 +35,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 				<p>If there are no villain targets in play, the heroes win the game</p>
 			</gameplay>
 		</back>
-	</villain>
+	</villaincard>
 	<card>
 		<name>Festival of Blood</name>
 		<class>Ongoing</class>
@@ -154,4 +154,4 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<source>Infestation 11.6</source>
 		</quote>
 	</card>
-</deck>
+</villain>

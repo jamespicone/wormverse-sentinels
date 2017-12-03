@@ -4,7 +4,7 @@
 
 <!-- LOGO: Psych symbol (a psi IIRC) -->
 
-<deck
+<hero
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -184,4 +184,4 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<source>Jessica, Teneral e.1</source>
 		</quote>
 	</card>
-</deck>
+</hero>

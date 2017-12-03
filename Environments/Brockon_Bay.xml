@@ -2,7 +2,7 @@
 
 <?xml-stylesheet type="text/xsl" href="cards.xslt"?>
 
-<deck
+<environment
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -32,7 +32,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	<card>
 		<name>Attention</name>
 		<quantity>1</quantity>
-		<text>At the end of the environment turn, reveal the top card of every deck, starting at the villain deck and going clockwise (and ignoring villain side decks). If the revealed card is a target, put it into play. Otherwise, shuffle it back into its deck. Then, destroy this card</text>
+		<text>At the end of the environment turn, reveal the top card of every environment, starting at the villain environment and going clockwise (and ignoring villain side environments). If the revealed card is a target, put it into play. Otherwise, shuffle it back into its environment. Then, destroy this card</text>
 		<quote>
 			<text>"That's the kind of thing you're supposed to inform us of well in advance," Grue hissed at her, "And there's not supposed to be six of them."</text>
 			<source>Agitation 3.8</source>
@@ -61,7 +61,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	<card>
 		<name>The Outskirts</name>
 		<quantity>1</quantity>
-		<text><p>When this card enters play, destroy all other Suburb cards.</p><p>At the end of the environment turn, play the top card of the environment deck</p></text>
+		<text><p>When this card enters play, destroy all other Suburb cards.</p><p>At the end of the environment turn, play the top card of the environment environment</p></text>
 		<type>Suburb</type>
 		<quote>
 			<text>"The howling. If you can hear the howling, you're too fucking close. Leave."</text>
@@ -113,4 +113,4 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<source>Tattletale, Shell 4.6</source>
 		</quote>
 	</card>
-</deck>
+</environment>

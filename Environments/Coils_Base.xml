@@ -2,7 +2,7 @@
 
 <?xml-stylesheet type="text/xsl" href="cards.xslt"?>
 
-<deck
+<environment
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -115,7 +115,7 @@ Did I really want to know?</text>
 	<card>
 		<name>Construction Work</name>
 		<quantity>1</quantity>
-		<text>At the end of the environnment turn, reveal cards from the top of the environment deck until you reveal three Structure cards. Put them into play and shuffle the other revealed cards back into the deck. Then, destroy this card</text>
+		<text>At the end of the environnment turn, reveal cards from the top of the environment environment until you reveal three Structure cards. Put them into play and shuffle the other revealed cards back into the environment. Then, destroy this card</text>
 		<quote>
 			<text>"And the containment facility?" he asked, though he already knew the answer, from the interruptions while he spent the night in the facility. He'd heard the noise of the work just hours ago, been informed that people were arriving.</text>
 			<source>Coil, Interlude 8</source>
@@ -133,10 +133,10 @@ Did I really want to know?</text>
 	<card>
 		<name>Stranger and Master Protocols</name>
 		<quantity>1</quantity>
-		<text><p>Heroes cannot cause other heroes to draw cards, search their deck, regain HP, use a power, or play a card</p><p>At the start of their turn, a player may skip the rest of their turn to destroy this card</p></text>
+		<text><p>Heroes cannot cause other heroes to draw cards, search their environment, regain HP, use a power, or play a card</p><p>At the start of their turn, a player may skip the rest of their turn to destroy this card</p></text>
 		<quote>
 			<text>"This is what hell is like," Revel said. "Listen to me."</text>
 			<source>Revel, Sting 26.1</source>
 		</quote>
 	</card>
-</deck>
+</environment>

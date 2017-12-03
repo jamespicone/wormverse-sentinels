@@ -2,7 +2,7 @@
 
 <?xml-stylesheet type="text/xsl" href="cards.xslt"?>
 
-<deck
+<environment
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -144,7 +144,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<type>Broken</type>
 			<text>
 				<p>The first time a hero card enters play each turn, that hero discards a card</p>
-				<p>When this card is flipped to this side, remove the top card of each hero deck from the game</p>
+				<p>When this card is flipped to this side, remove the top card of each hero environment from the game</p>
 			</text>
 			<quote>
 				<text>"It keeps happening. Every time she shows up. Every time, people who've heard this song that's in our head? Things go wrong. They snap, they break, their lives fall apart, or they do something, and it makes something else happen, and there's a major disaster. That guy who was supposedly making a clean energy source that could power whole cities? His wife and kids got killed and he became a supervillain who made it a life goal to murder anyone who tries to better society with their powers."</text>
@@ -167,7 +167,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<name>A Strategem Unveiled</name>
 		<text>
 			<p>When this card is revealed, put it into play</p>
-			<p>At the end of the environment turn, take all Citizen cards from the the Environment deck and trash, shuffle them, and put them into play</p>
+			<p>At the end of the environment turn, take all Citizen cards from the the Environment environment and trash, shuffle them, and put them into play</p>
 			<p>When a Citizen card is destroyed, destroy this card</p>
 		</text>
 		<quote>
@@ -205,7 +205,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 				<p>At the start of the game, put this card into play, this side up</p>
 				<p>All environment cards are indestructible</p>
 				<p>Citizen cards cannot flip</p>
-				<p>Whenever the top card of the Environment deck would be played, instead search the Environment deck for a Citizen card and put it into play</p>
+				<p>Whenever the top card of the Environment environment would be played, instead search the Environment environment for a Citizen card and put it into play</p>
 				<p>At the end of the Environment turn, place a Fate token on The Simurgh</p>
 				<p>When there are 3 Fate tokens on the Simurgh, flip her</p>
 			</text>
@@ -270,4 +270,4 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<source>Director Tagg, Cell 22.2</source>
 		</quote>
 	</card>
-</deck>
+</environment>

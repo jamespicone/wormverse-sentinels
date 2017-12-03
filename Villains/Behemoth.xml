@@ -3,7 +3,7 @@
 
 <!-- LOGO: Lightning bolt -->
 
-<deck
+<villain
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -12,7 +12,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>
-	<villain>
+	<villaincard>
 		<name>Behemoth</name>
 		<front>
 			<title>Herokiller</title>
@@ -40,7 +40,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			</gameplay>
 			<advanced>If a hero ever has 6 proximity tokens on them, they are immediately incapacitated</advanced>
 		</back>
-	</villain>
+	</villaincard>
 	
 	<!-- 10 movement cards -->
 	
@@ -262,4 +262,4 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<source>Interlude 15</source>
 		</quote>
 	</card>
-</deck>
+</villain>

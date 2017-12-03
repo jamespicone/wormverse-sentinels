@@ -2,7 +2,7 @@
 
 <?xml-stylesheet type="text/xsl" href="cards.xslt"?>
 
-<deck
+<environment
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -123,11 +123,11 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	<card>
 		<quantity>1</quantity>
 		<type>Device</type>
-		<text><p>At the start of the environment turn reveal cards from the top of the Environment deck until you reveal a Parahuman. Put the Parahuman into play and shuffle the other cards back into the environment deck.</p><p> At the start of a player turn that player may skip the rest of their turn to destroy this card</p></text>
+		<text><p>At the start of the environment turn reveal cards from the top of the Environment environment until you reveal a Parahuman. Put the Parahuman into play and shuffle the other cards back into the environment environment.</p><p> At the start of a player turn that player may skip the rest of their turn to destroy this card</p></text>
 		<name>Base Alarm</name>
 		<quote>
 			<text>Colin moved quickly, spinning in his chair to reach a small console. He opened a glass panel and flipped a switch. Air raid sirens immediately began their ominous whine.</text>
 			<source>Interlude 7</source>
 		</quote>
 	</card>
-</deck>
+</environment>

@@ -3,7 +3,7 @@
 
 <!-- LOGO: A bug? A spider? -->
 
-<deck
+<hero
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -232,4 +232,4 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<source>Prey 14.6</source>
 		</quote>
 	</card>
-</deck>
+</hero>

@@ -4,7 +4,7 @@
 
 <!-- LOGO: Flag? A gun? -->
 
-<deck
+<hero
 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
@@ -202,4 +202,4 @@ This is why I don't sleep.</text>
 			<source>Interlude 7.x</source>
 		</quote>
 	</card>
-</deck>
+</hero>
