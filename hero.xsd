@@ -44,9 +44,40 @@ elementFormDefault="qualified">
 	<xs:simpleType>
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="Character" />
+			
+			<xs:enumeration value="Target" />
+			
 			<xs:enumeration value="Hero" />
 			<xs:enumeration value="Villain" />
 			<xs:enumeration value="Environment" />
+			
+			<xs:enumeration value="ReduceDamage" />
+			<xs:enumeration value="RedirectDamage" />
+			<xs:enumeration value="PreventDamage" />
+			
+			<xs:enumeration value="ColdDamage" />
+			<xs:enumeration value="AreaDamage" />
+			
+			<xs:enumeration value="StartHeroTurn" />
+			<xs:enumeration value="EndHeroTurn" />
+			
+			<xs:enumeration value="StartEnvironmentTurn" />
+			<xs:enumeration value="EndEnvironmentTurn" />
+
+			<xs:enumeration value="DestroySelf" />
+			
+			<xs:enumeration value="PreventPhase" />
+			<xs:enumeration value="SkipTurn" />
+			
+			<xs:enumeration value="Draw" />
+			<xs:enumeration value="Discard" />
+			
+			<xs:enumeration value="DestroyCard" />
+			
+			<xs:enumeration value="PlayEnvironment" />
+			
+			<xs:enumeration value="WhenDestroyed" />
+			<xs:enumeration value="WhenTargetPlayed" />
 		</xs:restriction>
 	</xs:simpleType>
 </xs:element>
@@ -249,6 +280,21 @@ elementFormDefault="qualified">
 			<xs:element ref="boxcolour" />
 			<xs:element ref="villaincard" minOccurs="1" maxOccurs="unbounded" />
 			<xs:element ref="specialcard" minOccurs="1" maxOccurs="unbounded" />
+			<xs:element ref="card" minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="environment">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="name" />
+			<xs:element ref="version" />
+			<xs:element ref="logo" />
+			<xs:element ref="author" />
+			<xs:element ref="textcolour" />
+			<xs:element ref="cardcolour" />
+			<xs:element ref="boxcolour" />
 			<xs:element ref="card" minOccurs="1" maxOccurs="unbounded" />
 		</xs:sequence>
 	</xs:complexType>
