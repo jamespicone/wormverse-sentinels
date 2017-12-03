@@ -8,6 +8,9 @@ xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
 	<name>Boat Graveyard</name>
 	<version>2.0.0</version>
+	<!--a boat?-->
+	<logo>TODO</logo>
+	<author>James Picone</author>
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>
@@ -19,6 +22,13 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<text>Ragged edges of rusty sheet metal waited under every step I took, scraping and stabbing against the soles of my costumed feet.</text>
 			<source>Prey 14.11</source>
 		</quote>
+		<tags>
+			<tag>ReduceDamage</tag>
+			<tag>Discard</tag>
+			<tag>EndHeroTurn</tag>
+			<tag>DestroySelf</tag>
+			<tag>Environment</tag>
+		</tags>
 	</card>
 	<card>
 		<name>Rusted Hulk</name>
@@ -29,6 +39,12 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<text>...forty or fifty derelict ships, some bigger in sheer mass than the skyscrapers downtown</text>
 			<source>Prey 14.11</source>
 		</quote>
+		<tags>
+			<tag>RedirectDamage</tag>
+			<tag>PreventDamage</tag>
+			<tag>Environment</tag>
+			<tag>Target</tag>
+		</tags>
 	</card>
 	<card>
 		<name>Aquatic Environment</name>
@@ -38,6 +54,12 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<text>The floor sloped one way. Half of the room was metal flooring covered in sand, the lowest half was submerged.</text>
 			<source>Prey 14.11</source>
 		</quote>
+		<tags>
+			<tag>PreventPhase</tag>
+			<tag>Discard</tag>
+			<tag>DestroySelf</tag>
+			<tag>Environment</tag>
+		</tags>
 	</card>
 	<card>
 		<name>Cold and Unpleasant</name>
@@ -47,6 +69,15 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<text>...the Boat Graveyard - an entire section of the coastline where boats had sat for so long that they'd rusted or taken on water.</text>
 			<source>Prey 14.11</source>
 		</quote>
+		<tags>
+			<tag>StartEnvironmentTurn</tag>
+			<tag>ColdDamage</tag>
+			<tag>AreaDamage</tag>
+			<tag>StartHeroTurn</tag>
+			<tag>SkipTurn</tag>
+			<tag>DestroySelf</tag>
+			<tag>Environment</tag>
+		</tags>
 	</card>
 	<card>
 		<name>Useful Cache</name>
@@ -56,24 +87,43 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<text>"...I'll use my bugs to mark out the traps that Bonesaw set up inside."</text>
 			<source>Skitter, Prey 14.11</source>
 		</quote>
+		<tags>
+			<tag>Draw</tag>
+			<tag>WhenDestroyed</tag>
+			<tag>Environment</tag>
+		</tags>
 	</card>
 	<card>
 		<name>Smugglers</name>
 		<quantity>3</quantity>
 		<hp>5</hp>
-		<text>At the end of the environment turn, this card destroys 1 hero card in play</text>
+		<text>At the end of the environment turn, this card destroys 1 non-character hero card</text>
 		<quote>
 			<text>Police had made arrests, but actually moving the ships out of the way required sailors, and the move had mobilized enough of them that clearing the upper areas of the docks of the ships became all but impossible.</text>
 			<source>Prey 14.11</source>
 		</quote>
+		<tags>
+			<tag>EndEnvironmentTurn</tag>
+			<tag>DestroyCard</tag>
+			<tag>Environment</tag>
+			<tag>Target</tag>
+		</tags>
 	</card>
 	<card>
 		<name>Sound Carries</name>
 		<quantity>2</quantity>
-		<text><p>Whenever a target is put into play, play the top card of the environment environment.</p><p>At the end of the environment turn, a player may discard 2 cards to destroy this card</p></text>
+		<text><p>Whenever a target is put into play, play the top card of the environment.</p><p>At the end of the environment turn, a player may discard 2 cards to destroy this card</p></text>
 		<quote>
 			<text>"...She knows where we are."</text>
 			<source>Tattletale, Prey 14.11</source>
 		</quote>
+		<tags>
+			<tag>EndEnvironmentTurn</tag>
+			<tag>DestroySelf</tag>
+			<tag>Discard</tag>
+			<tag>PlayEnvironment</tag>
+			<tag>WhenTargetPlayed</tag>
+			<tag>Environment</tag>
+		</tags>
 	</card>
 </environment>
