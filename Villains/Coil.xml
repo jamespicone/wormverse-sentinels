@@ -9,7 +9,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
 	<name>Coil</name>
-	<version>2.0.0</version>
+	<version>2.0.1</version>
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>
@@ -140,7 +140,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<type>Parahuman</type>
 		<hp>4</hp>
 		<quantity>1</quantity>
-		<text><p>Whenever a hero card is played, this card deals that hero 1 projectile damage</p></text>
+		<text><p>After a hero card has been played, this card deals that hero 1 projectile damage</p></text>
 		<quote>
 			<text>Dauntless parried Circus' sledgehammer with his Arclance, and the sledgehammer was gone in the next second, as though it had never existed. At some point in the meantime, though, she'd managed to slip a lit torch into one hand.</text>
 			<source>Tangle 6.7</source>
