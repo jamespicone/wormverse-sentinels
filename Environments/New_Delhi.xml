@@ -67,6 +67,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	<card>
 		<quantity>1</quantity>
 		<name>Yàngbǎn</name>
+		<type>Parahuman</type>
 		<hp>10</hp>
 		<text>
 		<p>At the end of the environment turn this card deals 1 fire damage to the target with the highest HP</p>
