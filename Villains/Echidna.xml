@@ -9,7 +9,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
 	<name>Echidna</name>
-	<version>2.0.0</version>
+	<version>2.0.1</version>
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>
@@ -268,7 +268,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<p>Place this card next to a hero that does not already have an 'Engulfed' card next to them. If you do, play the top card of the Twisted side-deck.</p>
 			<p>The hero this card is next to must skip a phase (play, power, draw) each turn.</p>
 			<p>Whenever the hero this card is next to skips a phase, they deal themselves 2 psychic damage</p>
-			<p>If this card is not next to a hero target, destroy it</p>
+			<p>If this card is not next to a hero, destroy it</p>
 			</text>
 		<quote>
 			<text>"The capes she keeps spitting out. Circus, Über, Leet and Vista. She's holding the four of them inside her, so she can keep creating more clones."</text>
