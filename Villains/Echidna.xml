@@ -180,7 +180,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<name>Labyrinth</name>
 		<hp>10</hp>
 		<text><p>Villain cards cannot be damaged or destroyed by environment cards</p>
-		<p>Put the top card of the Environment deck into play</p></text>
+		<p>At the end of the villain turn put the top card of the Environment deck into play</p></text>
 		<quote>
 			<text></text>
 			<source></source>
