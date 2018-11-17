@@ -9,7 +9,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
 	<name>Alexandria</name>
-	<version>2.0.1</version>
+	<version>2.0.2</version>
 	<logo>nul</logo>
 	<author>James Picone</author>
 	<textcolour>black</textcolour>
@@ -65,6 +65,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	<card>
 		<quantity>3</quantity>
 		<class>Ongoing</class>
+		<class>Limited</class>
 		<name>Invincible</name>
 		<text><p>From when this card enters play until the start of your next turn, when Alexandria would take damage you may discard a card. If you do, prevent the damage.</p>
 		<p>Reduce damage dealt to Alexandria by 1</p>
