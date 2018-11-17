@@ -7,7 +7,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
 	<name>Kyushu</name>
-	<version>2.0.1</version>
+	<version>2.0.2</version>
 	<textcolour>black</textcolour>
 	<cardcolour>white</cardcolour>
 	<boxcolour>white</boxcolour>
@@ -122,7 +122,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<name>Collapsing Building</name>
 		<text>
 			<p>When this card enters play, a player may discard 2 cards. If they do, destroy this card</p>
-			<p>At the end of the environment turn, deal 4 irreducible melee damage to the target with the second highest HP</p>
+			<p>At the end of the environment turn, deal 4 irreducible melee damage to the target with the second highest HP, then destroy this card</p>
 		</text>
 		<quote>
 			<text><i>Depart from the rooftops, buildings may come down imminently</i></text>
