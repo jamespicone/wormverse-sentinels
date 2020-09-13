@@ -57,7 +57,7 @@ ol, ul, li {
 }
 
 ul, ol {
-	margin: 10px;
+	margin-left: 1em;
 }
 
 .carddiv {

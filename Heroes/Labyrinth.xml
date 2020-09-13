@@ -43,7 +43,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<name>Giant Chessboard</name>
 		<text>
 			<p>Attach this card to an Environment card. Treat that card as if it had no text.</p>
-			<p>This card is an Environment card, not a hero card</p>
+			<p>While in play this card is an Environment card, not a hero card</p>
 			<p>At the end of Labyrinth's turn, pick a target. Then you may destroy an Environment card. If you do each Environment card in play deals exactly 1 melee damage to that target</p>
 		</text>
 	</card>
@@ -54,7 +54,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<name>Devious Labyrinth</name>
 		<text>
 			<p>Attach this card to an Environment card. Treat that card as if it had no text.</p>
-			<p>This card is an Environment card, not a hero card</p>
+			<p>While in play this card is an Environment card, not a hero card</p>
 			<p>When a target enters play, you may place it next to this card. While next to this card, treat it as if it had no text</p>
 			<p>At the start of the Environment turn, take 2 cards from next to this card and put them in their normal play area</p> 
 		</text>
@@ -66,7 +66,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<name>Beautiful Garden</name>
 		<text>
 			<p>Attach this card to an Environment card. Treat that card as if it had no text.</p>
-			<p>This card is an Environment card, not a hero card</p>
+			<p>While in play this card is an Environment card, not a hero card</p>
 			<p>Do not consider hero targets when Environment cards deal damage. Environment cards cannot destroy hero cards.</p>
 		</text>
 	</card>
@@ -77,7 +77,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<name>The Room</name>
 		<text>
 			<p>Attach this card to an Environment card. Treat that card as if it had no text.</p>
-			<p>This card is an Environment card, not a hero card</p>
+			<p>While in play this card is an Environment card, not a hero card</p>
 			<p>At the end of Labyrinth's turn, this card deals 2 psychic damage to all villain targets</p>
 			<p>At the end of Labyrinth's turn, this card deals 3 irreducible psychic damage to Labyrinth</p>
 		</text>
@@ -89,7 +89,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<name>Mighty Castle</name>
 		<text>
 			<p>Attach this card to an Environment card. Treat that card as if it had no text.</p>
-			<p>This card is an Environment card, not a hero card</p>
+			<p>While in play this card is an Environment card, not a hero card</p>
 			<p>At the end of Labyrinth's turn, pick a target. Until the start of Labyrinth's next turn, reduce damage dealt to that target by 1</p>
 		</text>
 	</card>

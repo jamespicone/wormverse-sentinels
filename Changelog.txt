@@ -1,9 +1,49 @@
-Version next
-- Experimental Labyrinth hero (Makes the environment work for you!)
-- Experimental Echidna villain (Heals off your discards, plays evil versions of your heroes)
-- Minor Legend updates (Fix a typo, balance changes)
-- Replace "Battery, Untrained" variant with "Battery, Cauldron Cape" variant (builds up a stock of unknown cards, and then plays them in one burst)
-- Experimental Kyushu environment
-- Experimental Dragon hero (with Dragon Unchained variant)
-- Experimental Jessica Yamada hero
-- Work on generating card forward and back images for Tabletop Simulator
+Version 2.1.0:
+
+Alexandria:
+	- Hypersonic Flight now destroys Ongoings or Devices.
+	
+Armsmaster:
+	- Make Quick Adjustment an end-of-turn effect, not a power
+	- Change 'Grappling Hook' to 'Grapple' for base-sentinels reasons
+	
+Battery:
+	- Cool Toys now only does anything if you're charged, and it doesn't destroy equipment/devices, and it costs you your charge
+	
+Dauntless:
+	- Charge renamed to Crystallization for base-sentinels reasons
+	
+Dragon:
+	- Change the way focus points work slightly; now Dragon gains 4 at the start of her turn and loses all of them at the end of her turn. This allows gaining focus-points off-turn to do something.
+	- Reword Server Farm a bit to try to clarify the intended behaviour
+	- Fix Pythios not specifying where non-target revealed cards go.
+	- Reword Pythios a bit to reduce the amount of vertical space required (should be no gameplay effect)
+	
+Guts & Glory:
+	- Allow use of incap abilities when only one member is incapacitated.
+	- Reword 'No' a bit to make the hero/player distinction clearer and make the reshuffle/draw optional for the case where Panacea uses it on Victoria.
+	
+Jessica Yamada:
+	- Support and Stability now only works the first time each turn; explicitly say 'hero' instead of 'player' on the card.
+	
+Labyrinth:
+	- Clarify that Shaping cards are only environment cards while in play.
+	
+
+Behemoth:
+	- Clarify where tokens come from for unsourced moves
+	- Add damage to Earthquake
+	- Change Twisted Wreckage to only remove one of the destroyed cards from the game
+	- Add hero target damage to Wildfire
+	
+Slaughterhouse Nine:
+	- Slightly change the text on Jack Slash for hero/player distinction
+	
+The Simurgh:
+	- Add some damage to the unflipped side.
+	- Change flipped side to damage all hero targets instead of all heroes
+	- Change damage types on a number of cards so she's less locked to psychic damage
+	
+
+Lausanne:
+	- Rename 'Simurgh' to 'Angelic Figure'

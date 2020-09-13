@@ -83,7 +83,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<quantity>4</quantity>
 		<class>Ongoing</class>
 		<type>Charge</type>
-		<name>Charge</name>
+		<name>Crystallization</name>
 		<text><p>When you play this card either attach it to Dauntless or to one of your Relics.</p><p>This card is indestructible</p></text>
 		<quote>
 			<text>His power let him, according to details he'd leaked when he'd appeared on TV and in magazines, imbue his gear with a little bit of power every day.</text>

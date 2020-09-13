@@ -170,7 +170,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<quantity>4</quantity>
 		<class>Ongoing</class>
 		<name>Quick Adjustment</name>
-		<power>Return a Module in play to your hand. You may play a Module</power>
+		<text>At the end of your turn, you may return a Module in play to your hand. If you do, you may play a Module.</text>
 		<text>Whenever an Equipment card would be destroyed, you may destroy this card instead</text>
 		<quote><text>"Ear buds," Tattletale sighed, "Armsmaster told him to wear ear buds, so Dauntless can't hear anyone but him. That's both brilliant and incredibly depressing."</text><source>Tattletale, Tangle 6.7</source></quote>
 	</card>
@@ -204,7 +204,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<text>Until the start of your next turn, reduce damage dealt to Armsmaster by villain cards by 1</text>
 		</ability>
 		<text>Attach this card to a Halberd</text>
-		<quote><text>"I've got a computer on my back that's relaying to a supernetwork, noting your every move, using subsonic pulses to read every aspect of the street, the surrounding buildings, every feature of the terrain. I know exactly what you're going to do next – you're going to try to catch me from behind with a wave."</text><source>Armsmaster, Extermination 8.4</source></quote>
+		<quote><text>"I know exactly what you're going to do next – you're going to try to catch me from behind with a wave."</text><source>Armsmaster, Extermination 8.4</source></quote>
 	</card>
 	<card>
 		<quantity>2</quantity>
@@ -242,7 +242,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<quantity>2</quantity>
 		<class>Equipment</class>
 		<type>Module</type>
-		<name>Grappling Hook</name>
+		<name>Grapple</name>
 		<ability>
 			<title>Primary</title>
 			<text>Deal 1 projectile damage to up to 2 non-hero targets</text>

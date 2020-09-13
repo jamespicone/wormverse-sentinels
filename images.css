@@ -1,6 +1,6 @@
 .carddiv {
 	font-weight: bold;
-	line-height: 1.2;
+	line-height: 1.1;
 	
 	height: 172mm;
 	width: 118mm;
@@ -31,6 +31,10 @@
 	margin-left: -0.5em;
 	margin-right: -0.5em;
 	margin-bottom: 1em;
+}
+
+.abilitytext ul, .abilitytext ol {
+	margin-left: 0em;
 }
 
 .versiondiv {

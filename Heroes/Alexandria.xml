@@ -9,7 +9,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
 	<name>Alexandria</name>
-	<version>2.0.2</version>
+	<version>2.1.0</version>
 	<logo>nul</logo>
 	<author>James Picone</author>
 	<textcolour>black</textcolour>
@@ -77,7 +77,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<class>Ongoing</class>
 		<name>Hypersonic Flight</name>
 		<text><p>After this card is played you may deal 2 damage to a target</p>
-		<p>When Alexandria deals damage to a villain target you may destroy an Equipment or Ongoing card</p></text>
+		<p>When Alexandria deals damage to a villain target you may destroy a Device or Ongoing card</p></text>
 	</card>
 	
 	<card>

@@ -23,6 +23,9 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 				<name>Terror</name>
 				<text>Deal 1 psychic damage to up to 3 targets</text>
 			</power>
+			<text>
+				At the end of your turn, if Panacea isn't active, you may use a single incapacitation ability on Panacea's card
+			</text>
 		</front>
 		<back>
 			<text>
@@ -42,6 +45,9 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 				<name>Healing Touch</name>
 				<text>1 target regains 2 HP</text>
 			</power>
+			<text>
+				At the end of your turn, if Glory Girl isn't active, you may use a single incapacitation ability on Glory Girl's card
+			</text>
 		</front>
 		<back>
 			<text>
@@ -141,7 +147,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<quantity>1</quantity>
 		<class>One-Shot</class>
 		<name>No</name>
-		<text>If Panacea is active, flip an incapacitated hero card. Give that hero 5 HP, reshuffle their deck, and they draw an initial hand of 4 cards</text>
+		<text>If Panacea is active, flip an incapacitated hero card. Give that hero 5 HP. That player may reshuffle their deck and draw 4 cards</text>
 	</card>
 	
 	<card>

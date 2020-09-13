@@ -51,7 +51,10 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<quantity>2</quantity>
 		<text>Place a proximity token on every hero</text>
 		
-		 Maintain a distance of at least a hundred feet from Behemoth at the very minimum. 
+		<quote>
+			<text>"Maintain a distance of at least a hundred feet from Behemoth at the very minimum."</text>
+			<source>Chevalier, Drone 23.5</source>
+		</quote>
 	</card>
 	<card>
 		<name>Leap</name>
@@ -60,7 +63,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<quantity>2</quantity>
 		<text>Place 2 proximity tokens on a hero. Place 1 proximity token on the hero before and after that hero in the turn order</text>
 		<quote>
-			<text> With his claws and feet now on firm ground, he leaped. The shockwave of his departure toppled the slipshod buildings around him in his wake.</text>
+			<text>With his claws and feet now on firm ground, he leaped. The shockwave of his departure toppled the slipshod buildings around him in his wake.</text>
 			<source>Drone 23.5</source>
 		</quote>
 	</card>
@@ -164,6 +167,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<text>
 			<p>Behemoth's damage type is Fire.</p>
 			<p>Behemoth deals H damage to any hero with 3 or more proximity tokens.</p>
+			<p>Behemoth deals H damage to all non-character hero targets</p> 
 		</text>
 		<quantity>1</quantity>
 		<quote>
@@ -179,7 +183,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<class>Ongoing</class>
 		<text>
 			<p>When this card enters play, change Behemoth's damage type to Melee.</p>
-			<p>At the end of the villain turn, move a proximity token to the hero with the most proximity tokens</p>
+			<p>At the end of the villain turn, move a proximity token to the hero with the most proximity tokens from any other hero</p>
 		</text>
 		<quantity>1</quantity>
 		<quote>
@@ -194,7 +198,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<text>
 			<p>When this card enters play, change Behemoth's damage type to Sonic.</p>
 			<p>Reduce damage dealt to Behemoth by 1</p>
-			<p>Whenever a hero deals damage to Behemoth, move a proximity token to that hero.</p>
+			<p>Whenever a hero deals damage to Behemoth, move a proximity token to that hero from any other hero.</p>
 		</text>
 		<quantity>1</quantity>
 		<quote>
@@ -224,7 +228,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<class>One-Shot</class>
 		<text>
 			<p>Behemoth's damage type is Lightning.</p>
-			<p>Destroy 2 hero cards and remove them from the game. Move 1 proximity token to a hero who owned one of the destroyed cards</p>
+			<p>Destroy 2 hero non-character cards and remove one of them from the game. Move 1 proximity token to a hero who owned one of the destroyed cards from any other hero</p>
 		</text>
 		<quantity>2</quantity>
 		<quote>
@@ -241,6 +245,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<p>Destroy all environment cards</p>
 			<p>Destroy all ongoing cards</p>
 			<p>Destroy all equipment cards</p>
+			<p>Deal 2 damage to all hero targets</p>
 		</text>
 		<quantity>1</quantity>
 		<quote>

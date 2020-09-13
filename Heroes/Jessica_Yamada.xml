@@ -125,7 +125,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<class>Limited</class>
 		<name>Support and Stability</name>
 		<text>
-			<p>Whenever a player would deal themselves damage, you may prevent that damage</p>
+			<p>The first time each turn a hero would deal themselves damage, you may prevent that damage</p>
 		</text>
 		<quote>
 			<text>"I'm not so sure I like the word 'judge'. Evaluate is a better word. Listen is better still. I want to listen to you, because I can't help you if I don't understand you, and I want my understanding of you to come from <em>your</em> words"</text>

@@ -9,7 +9,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
 	<name>Dragon</name>
-	<version>2.0.0</version>
+	<version>2.1.0</version>
 	<logo>nul</logo>
 	<author>James Picone</author>
 	<textcolour>black</textcolour>
@@ -22,7 +22,8 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<text>
 				<p>Dragon does not have a Play, Power, or Draw phase</p>
 				<p>Dragon has a Focus phase between her Start and End phases, during which she can activate Focus effects on cards by spending a Focus point</p>
-				<p>Dragon starts each turn with 4 focus points.</p>
+				<p>At the start of your turn, gain 4 focus points.</p>
+				<p>At the end of your turn, lose all your focus points.</p>
 			</text>
 				<power>
 					<name>Overclock</name>
@@ -258,7 +259,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<ability>
 			<title>Focus</title>
 			<text>
-				<p>Gain 3 focus points after destroying this card</p>
+				<p>Destroy this card. When it goes to the trash, gain 3 focus points</p>
 			</text>
 		</ability>
 		
@@ -424,6 +425,18 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<p>At the start of your turn, lose 1 Focus point</p>
 			<p>At the end of your turn, this card deals 1 lightning damage to all targets with 3 or less HP</p>
 		</text>
+		
+		<ability>
+			<title>Focus</title>
+			<text>Choose one:
+			<ul>
+				<li>Return this card to your hand</li>
+				<li>Select a non-character-card target in play and put it on top of its deck</li>
+				<li>Reveal cards from the top of a deck until you reveal a target. You may either discard it or put it into play. Shuffle the other cards back into the deck.</li>
+			</ul></text>
+		</ability>
+		
+		<!--
 		<ability>
 			<title>Focus</title>
 			<text>Return this card to your hand</text>
@@ -434,8 +447,8 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		</ability>
 		<ability>
 			<title>Focus</title>
-			<text>Reveal cards from the top of a deck until you reveal a target. You may either discard it or put it into play</text>
-		</ability>
+			<text>Reveal cards from the top of a deck until you reveal a target. You may either discard it or put it into play. Shuffle the other cards back into the deck.</text>
+		</ability> -->
 		<quote>
 			<text>The wheel blazed with a wreath of electricity, the entire suit thrumming with enough charge to kill every bug touching it. Without warning, the wheel flared and Grue was yanked over the edge of the rooftop by an invisible force.</text>
 			<source>Monarch 16.2</source>

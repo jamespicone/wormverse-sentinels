@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="cards.xslt"?>
+
+<hero
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.jamespicone.name/parahumans"
+xs:noNamespaceSchemaLocation="../hero.xsd">
+	<name>Assault</name>
+	<version>2.0.0</version>
+	<logo>Assault.svg</logo>
+	<author>Kendal Reed</author>
+	<textcolour>black</textcolour>
+	<cardcolour>crimson</cardcolour>
+	<boxcolour>tomato</boxcolour>
+	<charactercard>
+		<name>Assault</name>
+		<front>
+			<hp>28</hp>
+			<power>
+				<name>Reflexes</name>
+				<text><p>Draw 2 cards, then discard a card.</p><p>The next time a villain card enters play you may play a card</p></text>
+			</power>
+		</front>
+		<back>
+			<text>
+			<ul>
+				<li>Select a hero. Increase the next damage dealt by that hero by 2</li>
+				<li>Select a hero. Reduce the next damage dealt to that hero by 2</li>
+				<li>One player may use a power</li>
+			</ul>
+			</text>
+		</back>
+	</charactercard>
+	<charactercard>
+		<name>Madcap</name>
+		<front>
+			<hp>29</hp>
+			<power>
+				<name>Escort</name>
+				<text>The next time a hero target would be dealt damage, redirect that damage to Madcap, then you may draw a card and play a card.</text>
+			</power>
+		</front>
+		<back>
+			<text>
+				<ul>
+					<li>Redirect the next damage dealt to a hero target to another hero target.</li>
+					<li>Select a hero. The next damage dealt to that hero is irreducible.</li>
+					<li>Play the top card of the villain deck. One player may take a full turn now.</li>
+				</ul>
+			</text>
+		</back>
+	</charactercard>
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<name>Slam!</name>
+		<text><p>Assault deals 1 target 4 melee damage.</p><p>If it's not your turn, redirect all damage dealt by that target to Assault until the start of your turn.</p></text>
+		<quote>
+			<text>Assault leapt to meet him, open hand outstretched in some ludicrous parody of a high-five... and launched Leviathan skyward and away with a touch.</text>
+			<source>Cenotaph #35</source>
+		</quote>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<name>Zoom!</name>
+		<text><p>Assault deals 1 target 2 melee damage. The next time that target deals damage, you may play a card.</p><p>If it's not your turn, Assault deals each non-hero target 2 projectile damage.</p></text>
+		<quote>
+			<text>Assault moved to kick one of the desks. It went flying into the air in the same instant I threw myself to the ground.</text>
+			<source>Monarch, 16.2</source>
+		</quote>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Biff!</name>
+		<text><p>Assault deals up to 2 targets 2 melee damage each.</p><p>If it's not your turn, reduce damage dealt by those targets by 1 until the start of your turn.</p></text>
+		<quote>
+			<text>The hit didn't feel that hard, but it sent me sliding across the floor, into a trio of chairs with plastic seats.</text>
+			<source>Monarch, 16.2</source>
+		</quote>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<class>One-Shot</class>
+		<name>Whoosh!</name>
+		<text><p>Assault deals 1 target 1 melee damage.</p><p>If it's not your turn, redirect the next damage dealt by that target to a target of your choice.</p><p>If it's your turn, return this card to your hand.</p></text>
+		<quote>
+			<text>Assault was a kinetic energy manipulator, and could control the energies of motion much like other heroes could manipulate flame or electricity.</text>
+			<source>Tangle, 6.5</source>
+		</quote>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<class>One-Shot</class>
+		<name>Crunch!</name>
+		<text><p>Assault deals 1 target 3 melee damage.</p><p>If it's not your turn, damage dealt to that target is irreducible until the start of your turn.</p></text>
+		<quote>
+			<text>It struck him and the vehicle virtually bounced off of him, the hood crumpling as though it had hit a telephone pole.</text>
+			<source>Interlude 12.5</source>
+		</quote>
+	</card>
+	<card>
+		<quantity>4</quantity>
+		<name>A Change of Pace</name>
+		<class>One-Shot</class>
+		<text><p>Discard any number of cards. Draw X cards, where X = 1 + the number of cards you discarded in this way</p><p>If it's not your turn, you may destroy an Ongoing or environment card.</p></text>
+		<quote>
+			<text>"Felonies, sure, but I haven't killed anyone, and that's got to be worth something. Now, this is just a suggestion, but what if I switched sides?"</text>
+			<source>Madcap, Interlude 12.5</source>
+		</quote>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<name>Set 'Em Up</name>
+		<class>One-Shot</class>
+		<text><p>Select a hero other than Assault. Increase damage dealt by that hero by 1 until the start of your next turn.</p><p>If it's your turn, that hero may play a card or use a power now.</p></text>
+		<quote>
+			<text>Weld was approaching, and Assault stood ready to attack. Not like he had anything to lose.</text>
+			<source>Monarch 16.2</source>
+		</quote>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<name>Unprofessional Behavior</name>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<text>The first time a villain target would deal damage to a hero target each turn, Assault deals that villain target 1 melee damage.</text>
+		<quote>
+			<text>"I'm talking a fast, hard hitting strike. Attack is always preferable over defense."</text>
+			<source>Assault, Interlude 15</source>
+		</quote>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<name>Flow of Combat</name>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<text><p>As long as it's not your turn, increase damage dealt by Assault by 1.</p><p>Whenever Assault is dealt damage, you may play a card. If you do, destroy this card.</p></text>
+		<quote>
+			<text>Two PRT soldiers stepped forward to try to spray him with foam, but he dispatched both with a throw of something that looked like a thick frisbee.</text>
+			<source>Interlude 12.5</source>
+		</quote>
+	</card>
+	<card>
+		<quantity>2</quantity>
+		<name>Kinetic Charge</name>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<text>Whenever Assault would be dealt 2 or more damage at once, you may either reduce that damage by 1 or increase the next damage dealt by Assault to a non-hero target by 1.</text>
+		<quote>
+			<text>He used the energy from Battery's kick to rocket towards us, as Battery moved around to flank.</text>
+			<source>Tangle, 6.5</source>
+		</quote>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<name>Transformer</name>
+		<class>Ongoing</class>
+		<class>Limited</class>
+		<text><p>Whenever damage is redirected, you may increase or reduce that damage by 1.</p><p>Whenever Assault would deal damage, you may change that damage to the type of your choice.</p></text>
+		<quote>
+			<text>Grue directed a stream straight at Assault, but the first second of fire seemed to skim right off the man.</text>
+			<source>Tangle, 6.5</source>
+		</quote>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<name>Tactical Relocation</name>
+		<class>Ongoing</class>
+		<text><p>At the start of the environment turn, you may play a card.</p><p>When an environment card would enter play, you may discard it instead. If you do, destroy this card and Assault deals 1 target 3 projectile damage.</p></text>
+		<quote>
+			<text>Madcap rebounded off of the wall as though he were made of rubber and ducked beneath her incoming kick.</text>
+			<source>Interlude 12.5</source>
+		</quote>
+	</card>
+	<card>
+		<quantity>3</quantity>
+		<name>Madcap Antics</name>
+		<class>Ongoing</class>
+		<text>If the effect of another card would prevent you from playing a card or using a power, you may ignore that effect.</text>
+		<power>Draw 3 cards</power>
+		<quote>
+			<text>She snapped her head to look up and saw him in the middle of a leap over her head. He'd timed it perfectly, so he would be above her when she rounded the corner.</text>
+			<source>Interlude 12.5</source>
+		</quote>
+	</card>
+</hero>

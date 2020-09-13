@@ -26,6 +26,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 				<p>Reduce damage dealt to the Simurgh by 1</p>
 				
 				<p>At the start of the villain turn reveal the top card of the Condition deck. Then reveal the top X cards of the villain deck, where X is the number of revealed trap cards + 1. Return them to the villain deck in ascending order by their ⚠</p>
+				<p>At the end of the villain turn deal H - 1 projectile damage to the hero with the highest HP</p>
 				<p>At the end of the villain turn if all trap cards are revealed flip this card</p>
 				
 			</gameplay>
@@ -38,7 +39,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<gameplay>
 			<p>Reduce damage dealt to the Simurgh by 1</p>
 			<p>At the start of the villain turn, reveal the top H + 1 cards of the villain deck. Put them back on the villain deck in ascending order by their ⚠</p>
-			<p>At the end of the villain turn, place a token on the Simurgh. Then all heroes deal themselves X psychic damage, where X is the number of tokens on the Simurgh</p></gameplay>
+			<p>At the end of the villain turn, place a token on the Simurgh. Then all hero targets deal themselves X psychic damage, where X is the number of tokens on the Simurgh</p></gameplay>
 			<advanced>Players may not discuss strategy or tactics</advanced>
 		</back>
 	</villaincard>
@@ -126,7 +127,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	<card>
 		<name>A Strength Turned to Weakness</name>
 		<type>Trap</type>
-		<text><p>Whenever a hero target would deal more than X damage, where X = 8 - H, that hero target deals itself 1 psychic damage</p>
+		<text><p>Whenever a hero target would deal more than X damage, where X = 8 - H, that hero target deals itself 1 melee damage</p>
 		<p>This card is indestructible</p></text>
 		<quantity>1</quantity>
 		<quote>
@@ -149,7 +150,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 	<card>
 		<name>A Tragic End</name>
 		<type>Trap</type>
-		<text><p>When this card is flipped, destroy every non-character-card target in play. The Simurgh deals X psychic damage to all hero targets, where X = the number of targets destroyed in this way</p>
+		<text><p>When this card is flipped, destroy every non-character-card target in play. The Simurgh deals X projectile damage to all hero targets, where X = the number of targets destroyed in this way</p>
 		<p>This card is indestructible</p></text>
 		<quantity>1</quantity>
 		<quote>
@@ -266,7 +267,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<text>
 			<p>6 ⚠</p>
 			<p>When this card is revealed, play it</p>
-			<p>The Simurgh deals X psychic damage to all hero targets, where X = the number of revealed trap cards + 1</p>
+			<p>The Simurgh deals X fire damage to all hero targets, where X = the number of revealed trap cards + 1</p>
 		</text>
 		<quantity>4</quantity>
 		<quote>
@@ -280,7 +281,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<class>One-Shot</class>
 		<text>
 			<p>7 ⚠</p>
-			<p>The Simurgh deals H psychic damage to the hero with the least cards in play</p>
+			<p>The Simurgh deals H sonic damage to the hero with the least cards in play</p>
 		</text>
 		<quantity>3</quantity>
 		<quote>
