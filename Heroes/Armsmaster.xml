@@ -9,7 +9,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
 	<name>Armsmaster</name>
-	<version>2.0.0</version>
+	<version>2.2.0</version>
 	<logo>Armsmaster.svg</logo>
 	<author>James Picone</author>
 	<textcolour>black</textcolour>
@@ -21,7 +21,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<hp>30</hp>
 			<power>
 				<name>Tinker</name>
-				<text>Activate a Halberd</text>
+				<text>Reveal the top card of your deck. If it's an Equipment card, put it in your hand; otherwise shuffle it back into your deck</text>
 			</power>
 		</front>
 		<back>
@@ -47,11 +47,6 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 				<name>Cyborg</name>
 				<text><p>You may activate the primary text of a module attached on the left of Defiant.</p><p>You may activate the secondary text of a module attached on the right of Defiant</p></text>
 			</power>
-
-			<power>
-				<name>Tinker</name>
-				<text>Activate a Halberd</text>
-			</power>
 		</front>
 		<back>
 			<text>
@@ -70,7 +65,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<text><p>When a Halberd would enter play, return any other Halberds, and the modules attached to them, to your hand</p></text>
 			<power>
 				<name>Short-Handed</name>
-				<text><p>Put a Halberd into play from your hand</p><p>You may put a Module into play from your hand</p><p>You may activate a Halberd</p></text>
+				<text><p>Put a Halberd into play from your hand</p><p>You may put a Module into play from your hand</p><p>You may use a power on a Halberd</p></text>
 			</power>
 			
 			<power>
@@ -93,13 +88,12 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<class>Equipment</class>
 		<type>Halberd</type>
 		<name>Original Halberd</name>
-		<ability>
-			<title>Activate</title>
+		<power>
 			<text>
 				<p>Armsmaster deals 2 melee damage to a target.</p>
 				<p>You may activate the primary text of a Module attached on the left of this Halberd.</p><p>You may activate the secondary text of a Module attached on the right of this Halberd</p>
 			</text>
-		</ability>
+		</power>
 		<text>Modules may be attached to this card, either on the left or right side, but only if there isn't already a module attached on that side</text>
 		<quote><text>His trademark and weapon was his Halberd, which was basically a spear with an axe head on the end, souped up with gadgets and the kind of technology you generally only saw in science fiction</text><source>Gestation 1.6</source></quote>
 	</card>
@@ -108,10 +102,9 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<class>Equipment</class>
 		<type>Halberd</type>
 		<name>Survey Halberd</name>
-		<ability>
-			<title>Activate</title>
+    <power>
 			<text><p>Draw a card</p><p>You may activate the primary text of a Module on the left of this Halberd.</p><p>You may activate the secondary text of a Module on the right of this Halberd</p></text>
-		</ability>
+		</power>
 		<text>Modules may be attached to this card, either on the left or right side, but only if there isn't already a module attached on that side</text>
 		<quote><text>"Let's see... to deal with my buddy Grue, you've made that thing a fancy tuning stick. Sensing vibrations in the air, translating them into images with that fancy helm of yours?"</text><source>Tattletale, Tangle 6.6</source></quote>
 	</card>
@@ -120,13 +113,12 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<class>Equipment</class>
 		<type>Halberd</type>
 		<name>Experimental Halberd</name>
-		<ability>
-			<title>Activate</title>
+    <power>
 			<text>
 				<p>Armsmaster deals 1 irreducible energy damage to a target</p>
 				<p>You may activate the primary text of a Module attached on the left of this Halberd.</p><p>You may activate the secondary text of a Module attached on the right of this Halberd</p>
 			</text>
-		</ability>
+		</power>
 		<text>Modules may be attached to this card, either on the left or right side, but only if there isn't already a module attached on that side</text>
 		<quote><text>...a dull stainless steel from tip to butt end, with no decoration or style to it. The head was surrounded by a strange blur that seemed static, unmoving around the blade and point</text><source>Extermination 8.4</source></quote>
 	</card>
@@ -135,13 +127,12 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<class>Equipment</class>
 		<type>Halberd</type>
 		<name>Grapple Halberd</name>
-		<ability>
-			<title>Activate</title>
+    <power>
 			<text>
 				<p>You may destroy an environment card</p>
 				<p>You may activate the primary text of a Module attached on the left of this Halberd.</p><p>You may activate the secondary text of a Module attached on the right of this Halberd</p>
 			</text>
-		</ability>
+		</power>
 		<text>Modules may be attached to this card, either on the left or right side, but only if there isn't already a module attached on that side</text>
 		<quote><text>It looked as though he flew up onto the roof, but the six-foot long weapon the man held kind of jerked as he landed. I was pretty sure I saw the tines of a grappling hook retreating back into the end of the weapon.</text><source>Gestation 1.6</source></quote>
 	</card>
@@ -163,7 +154,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Dual-Wielding</name>
-		<text>Activate a Halberd</text>
+		<text>Use a power on a Halberd</text>
 		<quote><text>I saw Armsmaster fighting toe to toe with Leviathan, a Halberd in each hand.</text><source>Extermination 8.4</source></quote>
 	</card>
 	<card>

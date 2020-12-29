@@ -18,11 +18,10 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<title>Herokiller</title>
 			<hp>100</hp>
 			<nemesis>Alexandria</nemesis>
-			<setup>Place Behemoth into play, "Herokiller" side up. Remove all Movement cards from the villain deck, shuffle them, and put them aside as the Movement Deck</setup>
+			<setup>Place Behemoth into play, "Herokiller" side up. Remove all Movement cards from the villain deck, shuffle them, and put them aside as the Movement Deck. Put Hero Tactics into play, "Standard" side up.</setup>
 			<gameplay>
 				<p>Whenever Behemoth would deal damage, use Behemoth's current damage type.</p>
-				<p>At the start of the villain turn, if Behemoth has less than 30 HP, flip Behemoth.</p>
-				<p>At the start of the villain turn, play the top card of the Movement deck.</p>
+				<p>At the start of the villain turn play the top card of the Movement deck. Then if Behemoth has less than 30 HP, flip Behemoth and Hero Tactics.</p>
 				<p>At the end of the villain turn, Behemoth deals each hero X damage, where X is the number of proximity tokens on the hero.</p>
 			</gameplay>
 			<advanced>If a hero ever has 6 proximity tokens on them, they are immediately incapacitated</advanced>
@@ -41,6 +40,39 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<advanced>If a hero ever has 6 proximity tokens on them, they are immediately incapacitated</advanced>
 		</back>
 	</villaincard>
+
+  <!-- special movement card -->
+  <specialcard>
+    <name>Hero Tactics</name>
+    <front>
+      <title>Standard</title>
+      <text>
+        <p>This card is indestructible</p>
+        <p>At the start of their turn, a player may skip the rest of their turn to remove 2 proximity tokens from their hero</p>
+        <p>
+          At the end of the environment turn, choose one:
+          <ul>
+            <li>Each player may move a proximity token from their hero to another hero</li>
+            <li>One player may move 2 proximity tokens from their hero to the hero after them in the turn order</li>
+            <li>One player may remove a proximity token from their hero</li>
+          </ul>
+        </p>
+      </text>
+    </front>
+    <back>
+      <title>Panicked</title>
+      <text>
+        <p>This card is indestructible</p>
+        <p>
+          At the end of the environment turn, choose one:
+          <ul>
+            <li>Each player may move a proximity token from their hero to another hero</li>
+            <li>One player may move 2 proximity tokens from their hero to the hero after them in the turn order</li>
+          </ul>
+        </p>
+      </text>
+    </back>
+  </specialcard>
 	
 	<!-- 10 movement cards -->
 	
@@ -61,7 +93,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<class>One-Shot</class>
 		<type>Movement</type>
 		<quantity>2</quantity>
-		<text>Place 2 proximity tokens on a hero. Place 1 proximity token on the hero before and after that hero in the turn order</text>
+		<text>Place 2 proximity tokens on the hero with the most cards in play. Place 1 proximity token on the hero before and after that hero in the turn order</text>
 		<quote>
 			<text>With his claws and feet now on firm ground, he leaped. The shockwave of his departure toppled the slipshod buildings around him in his wake.</text>
 			<source>Drone 23.5</source>
@@ -73,7 +105,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<class>One-Shot</class>
 		<type>Movement</type>
 		<quantity>2</quantity>
-		<text>Remove every proximity token from a hero. Place them all on a different hero</text>
+		<text>Remove every proximity token from the hero with the most tokens. Place them all on the hero 2 turns before them in the turn order</text>
 		<quote>
 			<text>This was his new tactic, burrowing, surfacing. But where was the retaliation? Their whole damn pattern centered around repaying us twice over for any abuse we inflicted on them.</text>
 			<source>Crushed 24.5</source>
@@ -110,7 +142,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<class>One-Shot</class>
 		<type>Movement</type>
 		<quantity>2</quantity>
-		<text>Place a proximity token on a hero</text>
+		<text>Place a proximity token on the hero with the most HP</text>
 		
 		<quote>
 			<text>"...Be mindful of line of sight, because he can and will tag you with a lightning bolt, and it's not something you can dodge..."</text>

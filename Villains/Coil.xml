@@ -32,7 +32,12 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<title>Evil Mastermind</title>
 			<nemesis>Tattletale</nemesis>
 			<hp>50</hp>
-			<text><p>At the start of the villain turn play the top card of the environment deck.</p><p>At the end of the villain turn all villain targets regain 2 HP.</p><p>When this card would be destroyed flip it instead</p></text>
+			<text>
+        <p>If Coil: Scheming's HP is greater than or equal to Coil: Acting's HP, use ⚠ text</p>
+        <p>⚠ At the start of the villain turn, play the top card of the environment deck.</p>
+        <p>At the end of the villain turn all villain targets regain 2 HP.</p>
+        <p>When this card would be destroyed flip it instead</p>
+			</text>
 			<advanced>At the end of the villain turn, if Coil: Acting has more HP than this card, set this card's HP to its HP</advanced>
 		</front>
 		<back>
@@ -47,7 +52,12 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<title>Evil Mastermind</title>
 			<nemesis>Tattletale</nemesis>
 			<hp>50</hp>
-			<text><p>At the start of the villain turn reveal cards from the villain deck until you reveal a Parahuman or you've revealed H-1 cards. Put the Parahuman into play (if there is one) then shuffle the other revealed cards into the villain deck.</p><p>At the end of the villain turn deal H energy damage to the hero target with the highest HP.</p><p>When this card would be destroyed, flip it instead</p></text>
+      <text>
+        <p>If Coil: Acting's HP is greater than or equal to Coil: Scheming's HP, use ⚠ text</p>
+        <p>At the start of the villain turn reveal cards from the villain deck until you reveal a Parahuman or you've revealed 1/⚠H-1 cards. Put revealed Parahumans into play then shuffle the other cards into the villain deck.</p>
+        <p>At the end of the villain turn deal 2/⚠H energy damage to the hero target with the highest HP.</p>
+        <p>When this card would be destroyed, flip it instead</p>
+      </text>
 			<advanced>At the end of the villain turn if Coil: Scheming has more HP than this card set this card's HP to its HP</advanced>
 		</front>
 		<back>

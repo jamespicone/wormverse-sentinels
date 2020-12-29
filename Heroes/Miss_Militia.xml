@@ -9,7 +9,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
 	<name>Miss Militia</name>
-	<version>2.0.0</version>
+	<version>2.2.0</version>
 	<logo>nul</logo>
 	<author>James Picone</author>
 	<textcolour>black</textcolour>
@@ -93,7 +93,11 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<class>Equipment</class>
 		<type>Weapon</type>
 		<name>Sniper Rifle</name>
-		<power><p>Select a target, other than the villain target with the highest HP, unless they are the only villain target. At the start of your next turn, deal 4 projectile damage to that target.</p><p>If you have used the Pistol power since the start of your last turn, draw 2 cards</p></power>
+		<power>
+      <p>Discard a card</p>
+      <p>Select a target. At the start of your next turn, deal 4 projectile damage to that target.</p>
+      <p>If you have used the Pistol power since the start of your last turn, draw 3 cards</p>
+    </power>
 		<quote>
 			<text>Miss Militia turned a sniper rifle on me. I caught her before she could fire.</text>
 			<source>Speck 30.4</source>

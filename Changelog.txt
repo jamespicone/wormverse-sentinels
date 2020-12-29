@@ -1,3 +1,36 @@
+Version 2.2.0:
+
+Card generation:
+	- Minor CSS changes
+	- Generate TTS-ready images where there's only one of each card present and a single unique back with a card listing card quantities, + a separate set of images with the unique cards.
+
+Armsmaster:
+	- Make Halberd activation text a power
+	- Make base Armsmaster power reveal the top card of your deck and draw it if its equipment
+	- Fix Defiant and Armmaster variants to match.
+	- Change text on dual wielding to match
+
+Battery:
+	- Change card wording to use 'charge tokens' rather than talking about Battery being charged or tapping cards
+
+Legend:
+	- Change the way his laser powers work; all the Shapes are now just powers that select effects.
+	- Some minor balance changes on other cards
+	- Change Bounce Back to use 'charge' tokens rather than 'charged' tokens, so hypothetical token manipulation effects can have a synergy between Battery and Legend
+
+Miss Militia:
+	- Changed Sniper Rifle to allow picking arbitrary targets for the 4 delayed damage, but require discarding a card. Increase the draw effect from pistol synergy.
+
+Coil:
+	- Change villain cards to be less mean if they're the lowest HP Coil. Wording very beta.
+
+Behemoth:
+	- Change movement cards to put tokens on specific heroes; add a mechanism for heroes to move tokens around a little bit every turn
+
+The Simurgh:
+	- Change the number of revealed cards to be consistent instead of scaling with trap count; flipped side reveals more and has more damage reduction to compensate for revealing traps not being quite as punishing. Card text length fixes.
+
+
 Version 2.1.0:
 
 Alexandria:

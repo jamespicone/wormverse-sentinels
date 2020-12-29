@@ -92,6 +92,7 @@
 				<xsl:if test="title | nemesis">
 					<div class="nemesisdiv inbox"><em>
 						<xsl:apply-templates select="title" />
+            <span><xsl:text>&#160;</xsl:text></span>
 						<span class="nemesis"><xsl:apply-templates select="nemesis" /></span>
 					</em></div>
 				</xsl:if>
@@ -139,6 +140,9 @@
 			<xsl:if test="title | nemesis">
 				<div class="nemesisdiv inbox"><em>
 					<xsl:apply-templates select="title" />
+          <span>
+            <xsl:text>&#160;</xsl:text>
+          </span>
 					<span class="nemesis"><xsl:apply-templates select="nemesis" /></span>
 				</em></div>
 			</xsl:if>
@@ -174,6 +178,9 @@
 		<xsl:if test="title | nemesis">
 			<div class="nemesisdiv inbox"><em>
 				<xsl:apply-templates select="title" />
+        <span>
+          <xsl:text>&#160;</xsl:text>
+        </span>
 				<span class="nemesis"><xsl:apply-templates select="nemesis" /></span>
 			</em></div>
 		</xsl:if>
@@ -280,6 +287,83 @@
 		</xsl:for-each>
 	</body>
 </html>
+</xsl:template>
+
+<xsl:template name="front-singleton">
+  <html>
+    <head>
+      <xsl:apply-templates select="environment | hero | villain" mode="image" />
+    </head>
+    <body>
+      <xsl:for-each select="/*/card">
+        <xsl:apply-templates select="." mode="front"/>
+      </xsl:for-each>
+
+      <xsl:call-template name="card-quantity-card" />
+    </body>
+  </html>
+</xsl:template>
+
+<xsl:template name="back-singleton">
+  <html>
+    <head>
+      <xsl:apply-templates select="environment | hero | villain" mode="image" />
+    </head>
+    <body>
+      <xsl:for-each select="/*/card[1]">
+        <xsl:apply-templates select="." mode="back" />
+      </xsl:for-each>
+    </body>
+  </html>
+</xsl:template>
+
+<xsl:template name="front-singleton-unique">
+  <html>
+    <head>
+      <xsl:apply-templates select="environment | hero | villain" mode="image" />
+    </head>
+    <body>
+      <xsl:for-each select="/*/*/front">
+          <xsl:apply-templates select="." mode="front"/>
+      </xsl:for-each>
+    </body>
+  </html>
+</xsl:template>
+
+<xsl:template name="back-singleton-unique">
+  <html>
+    <head>
+      <xsl:apply-templates select="environment | hero | villain" mode="image" />
+    </head>
+    <body>
+      <xsl:for-each select="/*/*/back">
+        <xsl:apply-templates select="." mode="back" />
+      </xsl:for-each>
+    </body>
+  </html>
+</xsl:template>
+
+<xsl:template name="card-quantity-card">
+  <div class="carddiv">
+    <div class="cardinner">
+      <div class="titlediv inbox">
+        <span class="cardname">
+          Card Counts
+        </span>
+      </div>
+      
+      <div class="textdiv inbox">
+        <xsl:for-each select="/*/card">
+          <p>
+            <strong>
+              <xsl:value-of select="./name" />
+            </strong>:
+            <xsl:value-of select="./quantity" />
+          </p>
+        </xsl:for-each>
+      </div>
+    </div>
+  </div>
 </xsl:template>
 
 </xsl:stylesheet>

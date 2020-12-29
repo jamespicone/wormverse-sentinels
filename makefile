@@ -12,8 +12,9 @@ include osdep.mk
 
 cards : environments_cards heroes_cards villains_cards
 tts : environments_tts heroes_tts villains_tts
+tts_singleton : environments_tts_singleton heroes_tts_singleton villains_tts_singleton
 
-all : cards tts
+all : cards tts tts_singleton
 
 environments_cards :
 	$(MAKE) cards -C Environments -I ..
@@ -32,6 +33,15 @@ heroes_tts :
 	
 villains_tts:
 	$(MAKE) tts -C Villains -I ..
+
+environments_tts_singleton :
+	$(MAKE) tts_singleton -C Environments -I ..
+	
+heroes_tts_singleton :
+	$(MAKE) tts_singleton -C Heroes -I ..
+	
+villains_tts_singleton:
+	$(MAKE) tts_singleton -C Villains -I ..
 	
 environments:
 	$(MAKE) -C Environments -I ..

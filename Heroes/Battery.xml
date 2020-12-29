@@ -9,7 +9,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
 	<name>Battery</name>
-	<version>2.0.0</version>
+	<version>2.2.0</version>
 	<logo>nul</logo>
 	<author>James Picone</author>
 	<textcolour>black</textcolour>
@@ -21,11 +21,16 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<hp>26</hp>
 			<power>
 				<name>Charge</name>
-				<text><p>You may not use this power if Battery is charged</p><p>Tilt your character card, indicating Battery is charged.</p><p>Draw a card.</p></text>
+				<text>
+          <p>If you don't have a charge token, draw a card.</p>
+          <p>Gain a charge token</p>
+        </text>
 			</power>
 			<power>
 				<name>Discharge</name>
-				<text><p>You may not use this power if Battery isn't charged</p><p>Un-tilt your character card.</p><p>You may play a card.</p></text>
+				<text>
+          <p>If you have a charge token, lose it, then you may play a card</p>
+        </text>
 			</power>
 		</front>
 		<back>
@@ -50,7 +55,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<power>
 				<name>Discharge</name>
 				<text>
-					<p>Until the start of your next turn, Battery is charged.</p>
+          <p>Gain a charge token. At the start of your next turn lose it.</p>
 					<p>Reveal all face-down cards in front of Battery. Put them into play in any order</p>
 				</text>
 			</power>
@@ -69,7 +74,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Strength</name>
-		<text>Deal 3 melee damage to a target. If Battery is charged, deal 2 melee damage to the same target</text>
+		<text>Deal 3 melee damage to a target. If you have a charge token, deal 2 melee damage to the same target</text>
 		<quote>
 			<text>She went from fighting like an ordinary individual to moving at high speeds and throwing crushing punches, then back again.</text>
 			<source>Prey 14.9</source>
@@ -79,7 +84,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Knock 'em Down</name>
-		<text>Deal 2 melee damage to a non-hero target. If Battery is charged, deal 2 melee damage to all non-hero targets</text>
+		<text>Deal 2 melee damage to a non-hero target. If you have a charge token, deal 2 melee damage to all non-hero targets</text>
 		<quote>
 			<text>She threw the table like an oversize frisbee, and I pushed Tattletale in one direction as I flung myself in the other. The table edge caught the weapon in Tattletale's hands and knocked it from her grip with enough force to make Tattletale roll as she hit the ground.</text>
 			<source>Tangle 6.5</source>
@@ -89,7 +94,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<quantity>4</quantity>
 		<class>One-Shot</class>
 		<name>Shock and Awe</name>
-		<text>Deal 2 lightning damage to a target. If Battery is charged, deal 3 lightning damage to up to 3 additional targets</text>
+		<text>Deal 2 lightning damage to a target. If you have a charge token, deal 3 lightning damage to up to 3 additional targets</text>
 		<quote>
 			<text>"I hit pretty hard myself,"</text>
 			<source>Battery, Interlude 12.5</source>
@@ -99,7 +104,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Knockout Punch</name>
-		<text>Deal 2 lightning damage to a target. If Battery is charged, you deal damage in this way, and the target is not a character card, treat that target as if it had no card text until your next turn</text>
+		<text>Deal 2 lightning damage to a target. If you have a charge token, you deal damage in this way, and the target is not a character card, treat that target as if it had no card text until your next turn</text>
 		<quote>
 			<text>She didn't bolt straight for us, though. Instead, she leaped to one side, kicked Assault square in the middle of the chest with both feet, and then careened off in the opposite direction.</text>
 			<source>Tangle 6.5</source>
@@ -109,7 +114,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Pushing the Limits</name>
-		<text><p>If Battery is charged, you may play 2 cards.</p><p>If Battery is not charged, draw 3 cards.</p></text>
+		<text><p>If you have a charge token, you may play 2 cards.</p><p>If you don't have a charge token, draw 3 cards.</p></text>
 		<quote>
 			<text>"I want to stop him. And not just him. I want to help things make sense again, even if it means playing unfair because they're playing unfair. Crime should have consequences."</text>
 			<source>Battery, Interlude 12.5</source>
@@ -129,7 +134,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Pow!</name>
-		<text>Select a non-hero target. If Battery is charged and the target is not a character card, put it on top of its deck and then deal 3 melee damage to a non-hero target. Otherwise, deal 2 melee damage to that target</text>
+		<text>Select a non-hero target. If you have a charge token and the target is not a character card, put it on top of its deck and then deal 3 melee damage to a non-hero target. Otherwise, deal 2 melee damage to that target</text>
 		<quote>
 			<text>Battery used up her charge and swept it aside before it could strike home and finish off the heroine.</text>
 			<source>Prey 14.6</source>
@@ -139,8 +144,10 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Cool Toys</name>
-		<text>If Battery is charged, deal X lightning damage to a target, where X = the number of equipment and device cards in play.</text>
-		<text>Un-tilt your character card</text>
+		<text>
+      <p>If you have a charge token, deal X lightning damage to a target, where X = the number of equipment and device cards in play.</p>
+      <p>Lose a charge token</p>
+    </text>
 		<quote>
 			<text>"You have access to our channel," Battery growled, interrupting Tattletale's spiel of numbers.</text>
 			<source>Prey 14.4</source>
@@ -150,7 +157,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<quantity>3</quantity>
 		<class>One-Shot</class>
 		<name>Rapid Recon</name>
-		<text><p>If Battery is not charged, all heroes may draw a card.</p><p>Draw a card. You may play a card</p></text>
+		<text><p>If you don't have a charge token, all heroes may draw a card.</p><p>Draw a card. You may play a card</p></text>
 		<quote>
 			<text>"So I'm going by the book, and I'm walking away. But I'll be keeping an eye on you, on this, and the moment you go too far, we're coming after you, no holds barred."</text>
 			<source>Battery, Infestation 11.2</source>
@@ -170,7 +177,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<quantity>3</quantity>
 		<class>Ongoing</class>
 		<name>Magnetism</name>
-		<power><p>If Battery is charged, destroy an equipment or device card.</p><p>If Battery is not charged, choose an equipment card from a player's trash and put it into play</p></power>
+		<power><p>If you have a charge token, destroy an equipment or device card.</p><p>If you don't have a charge token, choose an equipment card from a player's trash and put it into play</p></power>
 		<quote>
 			<text>But she didn't give him the opportunity to do either. Instead, she spent the rest of her accumulated power in a single burst, pulling at the metal of a nearby chair. It fell over, sliding into Madcap's path.</text>
 			<source>Interlude 12.5</source>

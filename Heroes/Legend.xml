@@ -9,7 +9,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.jamespicone.name/parahumans"
 xs:noNamespaceSchemaLocation="../hero.xsd">
 	<name>Legend</name>
-	<version>2.0.0</version>
+	<version>2.2.0</version>
 	<logo>nul</logo>
 	<author>James Picone</author>
 	<textcolour>black</textcolour>
@@ -21,12 +21,8 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 			<hp>28</hp>
 			<power>
 				<name>Coruscation</name>
-				<text>Select a Shape to determine targets. Apply the Effect to each target.</text>
+				<text>Select a target, then apply an Effect to it</text>
 			</power>
-			<ability>
-				<title>Shape</title>
-				<text>Select a target</text>
-			</ability>
 			<ability>
 				<title>Effect</title>
 				<text>Deal 2 energy damage</text>
@@ -48,10 +44,12 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<class>Ongoing</class>
 		<type>Laser</type>
 		<quantity>2</quantity>
-		<ability>
-			<title>Shape</title>
-			<text>Select a target. Your Effect may damage that target even if it's immune to damage. If your effect does damage, the damage is irreducible</text>
-		</ability>
+		<power>
+			<text>
+        <p>Your Effects may damage targets even if they are immune to damage. If your Effects do damage, the damage is irreducible.</p>
+        <p>Select a target, then apply an Effect to it</p>
+      </text>
+		</power>
 	</card>
 	
 	<card>
@@ -59,10 +57,9 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<class>Ongoing</class>
 		<type>Laser</type>
 		<quantity>2</quantity>
-		<ability>
-			<title>Shape</title>
-			<text>Select up to 3 targets</text>
-		</ability>
+		<power>
+			<text>Select up to 3 targets, then apply an Effect to them</text>
+		</power>
 	</card>
 
 	<card>
@@ -70,10 +67,9 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<class>Ongoing</class>
 		<type>Laser</type>
 		<quantity>2</quantity>
-		<ability>
-			<title>Shape</title>
-			<text>Select all targets except Legend</text>
-		</ability>
+		<power>
+			<text>Apply an Effect to all targets except Legend</text>
+		</power>
 	</card>
 
 	<card>
@@ -113,18 +109,17 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<quantity>2</quantity>
 		<class>One-Shot</class>
 		<name>Burst</name>
-		<text>This turn, when you select Effects, you may select any number of Effects</text>
+		<text>This turn, when you would choose an Effect, you may choose any number of Effects instead</text>
 	</card>
 
 	<card>
 		<quantity>2</quantity>
 		<class>Ongoing</class>
 		<name>Fill the Sky</name>
-		<text>At the end of your turn, destroy this card</text>
-		<ability>
-			<title>Shape</title>
-			<text>Select any number of targets</text>
-		</ability>
+		<power>
+			<text>Select any number of targets, then apply an Effect to them</text>
+      <text>Destroy this card</text>
+		</power>
 	</card>
 
 	<card>
@@ -132,7 +127,7 @@ xs:noNamespaceSchemaLocation="../hero.xsd">
 		<class>Ongoing</class>
 		<class>Limited</class>
 		<name>Bounce Back</name>
-		<text><p>Whenever Legend takes damage, place a Charged token on this card.</p><p>Whenever Legend deals damage, you may remove a Charged token from this card to increase the damage by 1</p></text>
+		<text><p>Whenever Legend takes damage, place a charge token on this card.</p><p>Whenever Legend deals damage, you may remove a charge token from this card to increase the damage by 1</p></text>
 	</card>
 
 	<card>

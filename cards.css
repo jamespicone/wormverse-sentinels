@@ -95,7 +95,7 @@ ul, ol {
 .title {}
 
 .textdiv, .gameplaydiv, .setupdiv, .advanceddiv {
-	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .cardname {
